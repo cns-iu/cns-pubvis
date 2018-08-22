@@ -3,10 +3,10 @@ import { CommonModule } from '@angular/common';
 
 import { NouisliderModule } from 'ng2-nouislider';
 
-import { DinoDatatableModule } from '@ngx-dino/datatable';
-import { DinoForceNetworkModule } from '@ngx-dino/force-network';
-import { DinoScienceMapModule } from '@ngx-dino/science-map';
-import { DinoScienceMapLegendModule } from '@ngx-dino/science-map-legend';
+import { DatatableModule } from '@ngx-dino/datatable';
+import { ForceNetworkModule } from '@ngx-dino/force-network';
+import { ScienceMapModule } from '@ngx-dino/science-map';
+import { LegendModule } from '@ngx-dino/legend';
 
 import { FilterComponent } from './filter/filter.component';
 
@@ -25,31 +25,25 @@ import { ScienceMapLegendComponent } from './science-map-legend/science-map-lege
 @NgModule({
   imports: [
     CommonModule,
-
     NouisliderModule,
-
-    DinoDatatableModule,
-    DinoForceNetworkModule,
-    DinoScienceMapModule,
-    DinoScienceMapLegendModule
+    DatatableModule,
+    ForceNetworkModule,
+    ScienceMapModule,
+    LegendModule
   ],
   exports: [
     FilterComponent,
-
     CoauthorNetworkComponent,
     ScienceMapComponent,
     StatisticsComponent,
-
     CoauthorNetworkLegendComponent,
     ScienceMapLegendComponent
   ],
   declarations: [
     FilterComponent,
-
     CoauthorNetworkComponent,
     ScienceMapComponent,
     StatisticsComponent,
-
     CoauthorNetworkLegendComponent,
     ScienceMapLegendComponent
   ],

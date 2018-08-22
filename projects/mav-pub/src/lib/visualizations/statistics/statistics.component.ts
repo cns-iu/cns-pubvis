@@ -3,6 +3,7 @@ import {
   OnInit, OnChanges,
   SimpleChanges, ViewEncapsulation
 } from '@angular/core';
+import { BoundField } from '@ngx-dino/core';
 
 import { Filter } from '../shared/filter';
 import { Statistics } from '../shared/statistics/statistics';
@@ -11,7 +12,7 @@ import { StatisticsService } from '../shared/statistics/statistics.service';
 
 
 @Component({
-  selector: 'app-statistics',
+  selector: 'mav-pub-statistics',
   templateUrl: './statistics.component.html',
   styleUrls: ['./statistics.component.sass'],
   encapsulation: ViewEncapsulation.None
@@ -21,12 +22,12 @@ export class StatisticsComponent implements OnInit, OnChanges {
 
   statistics: Statistics = {} as Statistics;
 
-  nAuthorsByYearFields = [
+  nAuthorsByYearFields: BoundField<any>[] = [
     AuthorsByYearFields.yearField.getBoundField('default'),
     AuthorsByYearFields.authorCountField.getBoundField('default')
   ];
 
-  nPublicationsByYearFields = [
+  nPublicationsByYearFields: BoundField<any>[] = [
     PublicationsByYearFields.yearField.getBoundField('default'),
     PublicationsByYearFields.publicationCountField.getBoundField('default')
   ];

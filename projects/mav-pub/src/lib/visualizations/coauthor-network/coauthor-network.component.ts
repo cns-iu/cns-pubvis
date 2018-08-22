@@ -8,7 +8,7 @@ import {
   EventEmitter
 } from '@angular/core';
 
-import { BoundField } from '@ngx-dino/core';
+import { BoundField, ChangeSet, RawChangeSet } from '@ngx-dino/core';
 
 import { Observable } from 'rxjs';
 
@@ -22,12 +22,11 @@ import {
   nodeIdField,
   nodeColorField,
   nodeLabelField,
-
   edgeSizeField
 } from '../shared/coauthor-network/coauthor-network-fields';
 
 @Component({
-  selector: 'app-coauthor-network',
+  selector: 'mav-pub-coauthor-network',
   templateUrl: './coauthor-network.component.html',
   styleUrls: ['./coauthor-network.component.sass']
 })
@@ -38,7 +37,8 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
   @Input() height: number;
   @Output() filterUpdateComplete = new EventEmitter<boolean>();
 
-  graph: Observable<CoAuthorGraph>;
+  nodeStream: Observable<RawChangeSet>;
+  edgeStream: Observable<RawChangeSet>;
 
   nodeSize: BoundField<number>;
   nodeId: BoundField<string>;
@@ -50,8 +50,9 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
 
   visChargeStrength = -40;
 
-  constructor(private dataService: CoauthorNetworkDataService) { 
-    this.graph = this.dataService.filteredGraph.asObservable();
+  constructor(private dataService: CoauthorNetworkDataService) {
+    this.nodeStream = this.dataService.nodeStream;
+    this.nodeStream = this.dataService.edgeStream;
   }
 
   ngOnInit() {
@@ -65,7 +66,7 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    if(('filter' in changes) && this.filter) {
+    if (('filter' in changes) && this.filter) {
       const filter: Partial<Filter> = Object.assign({}, this.filter, {limit: this.numCoAuthors});
       this.dataService.fetchData(filter).subscribe(undefined, undefined, () => {
         this.filterUpdateComplete.emit(true);

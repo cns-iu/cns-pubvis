@@ -1,11 +1,23 @@
-<science-map-color-legend>
-  </science-map-color-legend>
+<dino-color-legend 
+    [colorMapping]="nodeLabelToColor"
 
-  <science-map-size-legend
-    [dataStream]="filteredSubdisciplines | async"
-    [sizeField]="subdisciplineSize"
-    [title]="nodeSizeEncoding">
-  </science-map-size-legend>
+    [encoding]="nodeColorEncoding"
 
-  <div class="title"># Not Science-Mapped</div>
-  <div class="value">{{(unmappedSubdisciplines | async)?.weight | number}} Publications</div>
+    [legendType]="'qualitative'"
+
+    [margin]="'0 0 10px 8px'"> 
+</dino-color-legend>
+
+<dino-node-size-legend
+    [dataStream]="filteredSubdisciplines"
+
+    [nodeSizeField]="subdisciplineSize"
+    [nodeIdField]="subdisciplineId" 
+
+    [encoding]="nodeSizeEncoding"
+
+    [margin]="'0 0 10px 8px'">
+</dino-node-size-legend>
+
+<div class="title"># Not Science-Mapped</div>
+<div class="value">{{(unmappedSubdisciplines | async)?.weight | number}} Publications</div>

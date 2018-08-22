@@ -14,12 +14,12 @@ export class PhiDatabase {
 
   constructor() {
     const id2pub: any = {};
-    this.publications.forEach((p) => {
-      id2pub[p.id] = p;
-      if (!p.subdisciplines || p.subdisciplines.length === 0) {
-        p.subdisciplines = NOT_SCIMAPPED;
-      }
-    });
+    // this.publications.forEach((p) => {
+    //   id2pub[p.id] = p;
+    //   if (!p.subdisciplines || p.subdisciplines.length === 0) {
+    //     p.subdisciplines = NOT_SCIMAPPED;
+    //   }
+    // });
 
     this.coauthorNetwork = new CoAuthorNetwork(rawDatabase.publications, rawDatabase.authorMetadata || {});
     this.authors = this.coauthorNetwork.authors;

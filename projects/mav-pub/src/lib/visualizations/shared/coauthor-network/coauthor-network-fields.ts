@@ -1,37 +1,36 @@
-import { Operator, simpleField } from '@ngx-dino/core';
-import '@ngx-dino/core/src/v2/operators/add/common';
+import { Field, access, simpleField } from '@ngx-dino/core';
 
-export const nodeSizeField = simpleField<number>({
+export const nodeSizeField: Field<number> = simpleField<number>({
   bfieldId: 'size',
   label: 'Node Size',
 
-  operator: Operator.access('paperCount')
+  operator: access('paperCount')
 });
 
-export const nodeIdField = simpleField<string>({
+export const nodeIdField: Field<string> = simpleField<string>({
   bfieldId: 'id',
   label: 'Node ID',
 
-  operator: Operator.access('id')
+  operator: access('id')
 });
 
-export const nodeColorField = simpleField<number>({
+export const nodeColorField: Field<number> = simpleField<number>({
   bfieldId: 'color',
   label: 'Node Color',
 
-  operator: Operator.access('coauthorCount')
+  operator: access('coauthorCount')
 });
 
-export const nodeLabelField = simpleField<string>({
+export const nodeLabelField: Field<string> = simpleField<string>({
   bfieldId: 'label',
   label: 'Node Label',
 
-  operator: Operator.access('id')
+  operator: access('id')
 });
 
-export const edgeSizeField = simpleField<number>({
+export const edgeSizeField: Field<number> = simpleField<number>({
   bfieldId: 'edgeSize',
   label: 'Edge size',
 
-  operator: Operator.access('count')
+  operator: access('count')
 });

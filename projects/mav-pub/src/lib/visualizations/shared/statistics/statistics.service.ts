@@ -1,16 +1,11 @@
 import { Injectable, EventEmitter } from '@angular/core';
-
-import { Observable } from 'rxjs';
-import { Subscription } from 'rxjs';
-import 'rxjs/add/observable/combineLatest';
-
+import { combineLatest, Subscription } from 'rxjs';
 import { Map, Set } from 'immutable';
 
 import { Filter } from '../filter';
 import { Author, CoAuthorEdge } from '../author';
 import { Publication } from '../publication';
 import { DatabaseService } from '../database.service';
-
 import { Statistics } from './statistics';
 
 
@@ -32,7 +27,7 @@ export class StatisticsService {
     dataObservables.push(this.service.getPublications(filter));
 
     this.subscriptions.push(
-      Observable.combineLatest(dataObservables, (graph, pubs) => {
+      combineLatest(dataObservables, (graph, pubs) => {
         return [graph.authors, graph.coauthorEdges, pubs];
       }).subscribe((data: DataTuple) => {
         this.statistics.emit(this.collectStatistics(data));

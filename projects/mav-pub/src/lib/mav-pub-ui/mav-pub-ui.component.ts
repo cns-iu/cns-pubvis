@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, Input, OnInit, ViewChild } from '@angular/core';
 
 import { Filter } from '../visualizations/shared/filter';
 
@@ -8,6 +8,7 @@ import { Filter } from '../visualizations/shared/filter';
   styleUrls: ['./mav-pub-ui.component.scss']
 })
 export class MavPubUiComponent implements OnInit {
+  @Input() theme = 'light-theme';
   @ViewChild('tabs') tabs: any;
 
   filter: Partial<Filter> = {};

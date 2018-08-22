@@ -1,45 +1,40 @@
-import { Operator, prePostMultiField } from '@ngx-dino/core';
-import '@ngx-dino/core/src/operators/add/static/access';
-import '@ngx-dino/core/src/operators/add/static/constant';
-import '@ngx-dino/core/src/operators/add/static/map';
-import '@ngx-dino/core/src/operators/add/method/map';
-
+import { Operator, Field, access, map, chain, prePostMultiField } from '@ngx-dino/core';
 
 // Utility
-const textDataOp = Operator.map((text) => ({type: 'text', content: text}));
-const textDataOp2 = textDataOp.map((data) => {
+const textDataOp: Operator<string, {type: string, content: string }> = map((text) => ({type: 'text', content: text}));
+const textDataOp2: Operator<string, {type: string, content: string }> = chain(textDataOp, map((data) => {
   data.content = data.content.toLocaleString();
   return data;
-});
+}));
 
 // Common fields
-const commonYearField = prePostMultiField({
+const commonYearField: Field<any> = prePostMultiField({
   id: 'year',
   label: 'Year',
 
-  pre: Operator.access('year'),
+  pre: access('year'),
   mapping: {default: textDataOp}
 });
 
 
 export namespace AuthorsByYearFields {
   export const yearField = commonYearField;
-  export const authorCountField = prePostMultiField({
+  export const authorCountField: Field<any> = prePostMultiField({
     id: 'acount',
     label: '# Authors',
 
-    pre: Operator.access('count'),
+    pre: access('count'),
     mapping: {default: textDataOp2}
   });
 }
 
 export namespace PublicationsByYearFields {
   export const yearField = commonYearField;
-  export const publicationCountField = prePostMultiField({
+  export const publicationCountField: Field<any> = prePostMultiField({
     id: 'pcount',
     label: '# Publications',
 
-    pre: Operator.access('count'),
+    pre: access('count'),
     mapping: {default: textDataOp2}
   });
 }

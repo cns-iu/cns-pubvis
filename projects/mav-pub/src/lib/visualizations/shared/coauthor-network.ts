@@ -5,8 +5,8 @@ export class CoAuthorNetwork {
   readonly authors: Author[] = [];
   readonly coauthorEdges: CoAuthorEdge[] = [];
 
-  private id2author: { [id: string] : Author } = {};
-  private id2edge: { [id: string] : CoAuthorEdge } = {};
+  private id2author: { [id: string]: Author } = {};
+  private id2edge: { [id: string]: CoAuthorEdge } = {};
 
   constructor(private publications: Publication[], private authorMetadata: { [id: string]: any } = {}) {
     this.buildGraph();
@@ -37,8 +37,10 @@ export class CoAuthorNetwork {
     this.authors.sort((a, b) => b.paperCount - a.paperCount);
     for (const author of this.authors) {
       author.coauthorCount = 0;
-      for (const authorId in author.coauthors) {
-        author.coauthorCount++;
+      for (const _ in author.coauthors) {
+        if (true) {
+          author.coauthorCount++;
+        }
       }
     }
   }

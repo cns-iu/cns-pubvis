@@ -1,13 +1,13 @@
 <dino-force-network
   [nodeSizeField]="nodeSize"
-  [nodeIDField]="nodeId"
+  [nodeIdField]="nodeId"
   [nodeColorField]="nodeColor"
   [nodeLabelField]="nodeLabel"
 
   [linkSizeField]="edgeSize"
 
-  [dataNodes]="(graph | async)?.authors"
-  [dataEdges]="(graph | async)?.coauthorEdges"
+  [nodeStream]="nodeStream"
+  [linkStream]="edgeStream"
 
   [nodeColorRange]="nodeColorRange"
 

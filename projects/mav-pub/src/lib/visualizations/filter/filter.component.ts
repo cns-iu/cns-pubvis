@@ -4,6 +4,7 @@ import {
   ViewEncapsulation, EventEmitter
 } from '@angular/core';
 import { assign, clone } from 'lodash';
+import { map } from 'rxjs/operators';
 
 import { NouisliderComponent } from 'ng2-nouislider';
 
@@ -12,7 +13,7 @@ import { DatabaseService } from '../shared/database.service';
 
 
 @Component({
-  selector: 'app-filter',
+  selector: 'mav-pub-filter',
   templateUrl: './filter.component.html',
   styleUrls: ['./filter.component.sass'],
   encapsulation: ViewEncapsulation.None
@@ -40,12 +41,12 @@ export class FilterComponent implements OnInit {
   };
 
   constructor(service: DatabaseService) {
-    service.getDistinct('year').map((years: string[]) => {
+    service.getDistinct('year').pipe(map((years: string[]) => {
       const sortedYears = years.map(Number)
         .filter((year) => year !== 0)
         .sort((y1, y2) => y1 - y2);
       return [sortedYears[0], sortedYears[sortedYears.length - 1]];
-    }).subscribe(([min, max]) => {
+    })).subscribe(([min, max]) => {
       const config = {start: [min, max], range: {min, max}};
 
       if (this.yearSlider && this.yearSlider.slider) {

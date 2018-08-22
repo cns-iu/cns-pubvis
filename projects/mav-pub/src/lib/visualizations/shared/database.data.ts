@@ -1,3 +1,4 @@
+// tslint:disable
 export const rawDatabase: any = {
   "authorMetadata": {
     "Tang, Hx": {
@@ -69313,4 +69314,4 @@ export const rawDatabase: any = {
       ]
     }
   ]
-}
+};

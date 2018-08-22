@@ -1,8 +1,7 @@
 import { Injectable } from '@angular/core';
 
-import { Observable } from 'rxjs';
-import { Subscription } from 'rxjs';
-import { BehaviorSubject } from 'rxjs';
+import { Observable, Subscription, BehaviorSubject } from 'rxjs';
+import { RawChangeSet } from '@ngx-dino/core';
 
 import { Filter } from '../filter';
 
@@ -19,6 +18,12 @@ export class CoauthorNetworkDataService {
   filteredAuthors = new BehaviorSubject<Author[]>([]);
   filteredCoauthors = new BehaviorSubject<CoAuthorEdge[]>([]);
 
+  private nodesChange = new BehaviorSubject<RawChangeSet<Author>>(new RawChangeSet());
+  public nodeStream = this.nodesChange.asObservable();
+
+  private edgesChange = new BehaviorSubject<RawChangeSet<CoAuthorEdge>>(new RawChangeSet());
+  public edgeStream = this.edgesChange.asObservable();
+
   // defaults
   nodeColorRange = ['#FDD3A1', '#E9583D', '#7F0000'];
   colorLegendEncoding = '# Co-Authors';
@@ -34,10 +39,12 @@ export class CoauthorNetworkDataService {
     }
 
     const graph = this.databaseService.getCoAuthorGraph(filter);
-    this.dataSubscription = graph.subscribe((graph) => {
-        this.filteredGraph.next(graph);
-        this.filteredAuthors.next(graph.authors);
-        this.filteredCoauthors.next(graph.coauthorEdges);
+    this.dataSubscription = graph.subscribe((g) => {
+        this.filteredGraph.next(g);
+        this.filteredAuthors.next(g.authors);
+        this.filteredCoauthors.next(g.coauthorEdges);
+        this.nodesChange.next(RawChangeSet.fromArray(g.authors));
+        this.edgesChange.next(RawChangeSet.fromArray(g.coauthorEdges));
       }
     );
     return graph;

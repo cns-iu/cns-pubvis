@@ -1,9 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
-
-import 'rxjs/add/observable/of';
-import 'rxjs/add/operator/delay';
-import 'rxjs/add/operator/map';
+import { Observable, of } from 'rxjs';
+import { map, delay } from 'rxjs/operators';
 
 import { Filter } from '../shared/filter';
 import { Publication } from '../shared/publication';
@@ -12,7 +9,7 @@ import { SubdisciplineWeight } from '../shared/subdiscipline-weight';
 
 import { database } from './database';
 
-function sumAgg<T>(items: T[], itemKeyField: string, keyField: string, valueField: string): Promise<{[key: string]: number}> {
+function sumAgg<T>(items: T[], itemKeyField: string, keyField: string, valueField: string): {[key: string]: number} {
   const acc: any = {};
   for (const innerItem of items) {
     for (const item of innerItem[itemKeyField]) {
@@ -35,15 +32,15 @@ export class DatabaseService {
   constructor() { }
 
   getAuthors(filter: Partial<Filter> = {}): Observable<Author[]> {
-    return Observable.of(this.db.authors).map((authors) => {
+    return of(this.db.authors).pipe(map((authors) => {
       return this.filterAuthors(filter);
-    }).delay(1);
+    }), delay(1));
   }
   private filterAuthors(filter: Partial<Filter> = {}): Author[] {
-    filter = Object.assign({year: {start:2000, end: 2018}}, filter);
+    filter = Object.assign({year: {start: 2000, end: 2018}}, filter);
     let filtered = this.db.authors;
     if (filter.year) {
-      const years = [];
+      let years = [];
       for (let yr = filter.year.start; yr <= filter.year.end; yr++) {
         years.push(yr);
       }
@@ -51,7 +48,7 @@ export class DatabaseService {
         return years.filter((y) => a.paperCountsByYear[y]).length > 0;
       });
       if (filter.year) {
-        const years = [];
+        years = [];
         for (let yr = filter.year.start; yr <= filter.year.end; yr++) {
           years.push(yr);
         }
@@ -61,18 +58,20 @@ export class DatabaseService {
             const coauthors = {};
             years.forEach((yr) => {
               for (const authorId in (a.coauthorsByYear || {})) {
-                coauthors[authorId] = true;
+                if (true) {
+                  coauthors[authorId] = true;
+                }
               }
             });
             let coauthorCount = 0;
-            for (const a in coauthors) { coauthorCount++; }
+            for (const _ in coauthors) { if (true) { coauthorCount++; } }
             return Object.assign(a, {paperCount, coauthorCount});
           } else {
             return null;
           }
         }).filter((a) => !!a);
       }
-      filtered.sort((a,b) => b.paperCount - a.paperCount);
+      filtered.sort((a, b) => b.paperCount - a.paperCount);
     }
     if (filter.limit && filter.limit > 0) {
       filtered = filtered.slice(0, filter.limit);
@@ -81,7 +80,7 @@ export class DatabaseService {
   }
 
   getCoAuthorEdges(filter: Partial<Filter> = {}): Observable<CoAuthorEdge[]> {
-    return this.getCoAuthorGraph(filter).map((graph) => graph.coauthorEdges);
+    return this.getCoAuthorGraph(filter).pipe(map((graph) => graph.coauthorEdges));
   }
 
   getCoAuthorGraph(filter: Partial<Filter> = {}): Observable<CoAuthorGraph> {
@@ -89,7 +88,7 @@ export class DatabaseService {
       authors: this.db.authors,
       coauthorEdges: this.db.coauthorEdges
     };
-    return Observable.of(all).map((a) => {
+    return of(all).pipe(map((a) => {
         const authors = this.filterAuthors(filter);
         if (authors.length === a.authors.length) {
           return a;
@@ -109,33 +108,39 @@ export class DatabaseService {
               }
             }).filter((e) => !!e);
           }
-          edges.sort((a,b) => b.count - a.count);
+          edges.sort((a1, a2) => a2.count - a1.count);
           // edges = edges.filter(e => e.count > 1);
           return {authors, coauthorEdges: edges};
         }
-      }).delay(1);
+      }), delay(1));
   }
 
   getPublications(filter: Partial<Filter> = {}): Observable<Publication[]> {
-    if(filter.year) {
+    if (filter.year) {
       const filteredPublications = this.db.publications.filter((pubs: any) => {
-        return (pubs.year >= filter.year.start && pubs.year <= filter.year.end)? pubs: null;
+        return (pubs.year >= filter.year.start && pubs.year <= filter.year.end) ? pubs : null;
       });
-      return Observable.of(filteredPublications);
+      return of(filteredPublications);
     } else {
-      return Observable.of(this.db.publications);
+      return of(this.db.publications);
     }
   }
 
   getSubdisciplines(filter: Partial<Filter> = {}): Observable<SubdisciplineWeight[]> {
-    return this.getPublications(filter).map((publications) => {
+    return this.getPublications(filter).pipe(map((publications) => {
       const weights = sumAgg<Publication>(publications, 'subdisciplines', 'subd_id', 'weight');
-      return Object.entries(weights).map(([k, v]) => <SubdisciplineWeight>{subd_id: <number>(<any>k), weight: v});
-    }).delay(1);
+      const results: SubdisciplineWeight[] = [];
+      for (const subd_id in weights) {
+        if (weights.hasOwnProperty(subd_id)) {
+          results.push({subd_id: <number>(<any>subd_id), weight: weights[subd_id]});
+        }
+      }
+      return results;
+    }), delay(1));
   }
 
   getDistinct(fieldName: string, filter: Partial<Filter> = {}): Observable<string[]> {
-    return this.getPublications(filter).map((publications) => {
+    return this.getPublications(filter).pipe(map((publications) => {
       const seen: any = {};
       const values: string[] = [];
       for (const pub of publications) {
@@ -146,6 +151,6 @@ export class DatabaseService {
         }
       }
       return values;
-    });
+    }));
   }
 }

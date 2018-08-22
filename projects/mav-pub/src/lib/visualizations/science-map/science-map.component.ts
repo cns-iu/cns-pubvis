@@ -8,7 +8,7 @@ import {
   EventEmitter
 } from '@angular/core';
 
-import { BoundField } from '@ngx-dino/core';
+import { BoundField, RawChangeSet } from '@ngx-dino/core';
 
 import { Observable } from 'rxjs';
 
@@ -16,10 +16,10 @@ import { ScienceMapDataService } from '../shared/science-map/science-map-data.se
 
 import { Filter } from '../shared/filter';
 import { SubdisciplineWeight } from '../shared/subdiscipline-weight';
-import { subdisciplineSizeField, subdisciplineIDField } from '../shared/science-map/science-map-fields';
+import { subdisciplineSizeField, subdisciplineIdField } from '../shared/science-map/science-map-fields';
 
 @Component({
-  selector: 'app-science-map',
+  selector: 'mav-pub-science-map',
   templateUrl: './science-map.component.html',
   styleUrls: ['./science-map.component.sass']
 })
@@ -31,16 +31,16 @@ export class ScienceMapComponent implements OnInit, OnChanges {
 
   subdisciplineSize: BoundField<number>;
   subdisciplineID: BoundField<number|string>;
-  filteredSubdisciplines: Observable<SubdisciplineWeight[]>;
+  filteredSubdisciplines: Observable<RawChangeSet<SubdisciplineWeight>>;
 
-  constructor(private dataService: ScienceMapDataService) { 
+  constructor(private dataService: ScienceMapDataService) {
     this.filteredSubdisciplines = this.dataService.filteredSubdisciplines.asObservable();
   }
 
-  ngOnInit() { 
+  ngOnInit() {
      // not user facing
      this.subdisciplineSize = subdisciplineSizeField.getBoundField('size');
-     this.subdisciplineID = subdisciplineIDField.getBoundField('id');
+     this.subdisciplineID = subdisciplineIdField.getBoundField('id');
   }
 
   ngOnChanges(changes: SimpleChanges) {

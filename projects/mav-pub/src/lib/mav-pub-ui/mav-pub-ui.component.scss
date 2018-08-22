@@ -3,13 +3,13 @@
   padding-right: 10px;
 }
 
-#logo {
+.cnsLogo {
+  position: absolute;
+  right: 54px;
+  top: 5px;
   height: 54px;
 }
-
-#cnsLogo {
-  position: absolute;
-  right: 5px;
+.cnsLogo img {
   height: 54px;
 }
 

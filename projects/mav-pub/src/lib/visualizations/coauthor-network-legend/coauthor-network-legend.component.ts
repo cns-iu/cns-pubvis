@@ -23,7 +23,7 @@ import { CoauthorNetworkDataService } from '../shared/coauthor-network/coauthor-
 import { nodeSizeField, edgeSizeField, nodeColorField} from '../shared/coauthor-network/coauthor-network-fields';
 
 @Component({
-  selector: 'app-coauthor-network-legend',
+  selector: 'mav-pub-coauthor-network-legend',
   templateUrl: './coauthor-network-legend.component.html',
   styleUrls: ['./coauthor-network-legend.component.sass']
 })
