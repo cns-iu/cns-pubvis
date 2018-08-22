@@ -1,0 +1,18 @@
+<dino-force-network
+  [nodeSizeField]="nodeSize"
+  [nodeIDField]="nodeId"
+  [nodeColorField]="nodeColor"
+  [nodeLabelField]="nodeLabel"
+
+  [linkSizeField]="edgeSize"
+
+  [dataNodes]="(graph | async)?.authors"
+  [dataEdges]="(graph | async)?.coauthorEdges"
+
+  [nodeColorRange]="nodeColorRange"
+
+  [width]="width"
+  [height]="height"
+  
+  [chargeStrength]="visChargeStrength">
+</dino-force-network>

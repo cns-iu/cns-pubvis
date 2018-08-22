@@ -1,0 +1,71 @@
+<mat-toolbar class="toolbar z-depth-1-half">
+  <mat-icon class="hamburger" (click)="sidenav.toggle()">menu</mat-icon>
+  <span>Precision Health Initiative (PHI) Grand Challenge</span>
+  <img id="cnsLogo" src="assets/cns-logo.png" title="Cyberinfrastructure for Network Science Center">
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav #sidenav
+    class="sidenav"
+    mode="side"
+    [(opened)]="openState">
+    <mat-chip-list class="mat-chip-list-stacked">
+      <mat-chip selected="true" [style.background]="warningChip.color">
+        {{warningChip.label}}
+      </mat-chip>
+    </mat-chip-list>
+    <br>
+    <p class="sidenavTitle">Filters</p>
+    <hr>
+    <app-filter (filterChange)="filter = $event"></app-filter>
+
+    <div [hidden]="tabIndex === 2" class="sidenavLegend">
+      <p class="sidenavTitle">Legend</p>
+      <hr>
+      <app-coauthor-network-legend *ngIf="tabIndex === 0" [filter]="filter">
+      </app-coauthor-network-legend>
+      <app-science-map-legend *ngIf="tabIndex === 1" [filter]="filter">
+      </app-science-map-legend>
+    </div>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <!-- Fork me on GitHub Banner -->
+    <a href="https://github.com/cns-iu/phi"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 1000" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
+    <!-- /Fork me on GitHub Banner -->
+
+    <mat-tab-group #tabs>
+      <mat-tab label="Co-Author Network">
+          <app-coauthor-network *ngIf="openState"
+          [width]="narrowWidth"
+          [height]="height"
+          [filter]="filter">
+        </app-coauthor-network>
+        <app-coauthor-network *ngIf="!openState"
+          [width]="wideWidth"
+          [height]="height"
+          [filter]="filter">
+        </app-coauthor-network>
+      </mat-tab>
+
+      <mat-tab label="Science Map">
+          <app-science-map *ngIf="openState"
+          [width]="narrowWidth"
+          [height]="height"
+          [filter]="filter"
+          (filterUpdateComplete)="filtersUpdating = false">
+        </app-science-map>
+        <app-science-map *ngIf="!openState"
+          [width]="wideWidth"
+          [height]="height"
+          [filter]="filter"
+          (filterUpdateComplete)="filtersUpdating = false">
+        </app-science-map>
+      </mat-tab>
+
+      <mat-tab label="Statistics">
+        <app-statistics [filter]="filter"></app-statistics>
+      </mat-tab>
+    </mat-tab-group>
+  </mat-sidenav-content>
+</mat-sidenav-container>

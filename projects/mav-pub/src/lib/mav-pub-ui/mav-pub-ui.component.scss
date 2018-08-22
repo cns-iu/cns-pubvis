@@ -1,0 +1,32 @@
+.hamburger {
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+#logo {
+  height: 54px;
+}
+
+#cnsLogo {
+  position: absolute;
+  right: 5px;
+  height: 54px;
+}
+
+.sidenav {
+  width: 340px;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+.sidenavTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+}
+
+.sidenavLegend {
+  margin-top: 30px;
+}

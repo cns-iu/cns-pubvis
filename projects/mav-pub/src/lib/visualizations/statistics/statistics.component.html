@@ -1,0 +1,65 @@
+<div class="container">
+  <div class="general">
+    <div class="title">General Statistics</div>
+    <hr />
+    <div class="value-container">
+      <div class="value-group">
+        <div class="subtitle"># Publications</div>
+        <div class="value">{{statistics.nPublications | number}}</div>
+      </div>
+
+      <div class="value-group">
+        <div class="subtitle"># Authors</div>
+        <div class="value">{{statistics.nAuthors | number}}</div>
+      </div>
+
+      <div class="value-group">
+        <div class="subtitle">Average # Authors per Publication</div>
+        <div class="value">
+          {{statistics.avgAuthorsPerPublication | number:'.2-2'}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="network">
+    <div class="title">Co-Author Network Statistics</div>
+    <hr>
+    <div class="value-container">
+      <div class="value-group">
+        <div class="subtitle">Average # of Co-Authors</div>
+        <div class="value">{{statistics.avgDegree | number:'.2-2'}}</div>
+      </div>
+
+      <div class="value-group">
+        <div class="subtitle">Max # of Co-Authors</div>
+        <div class="value">{{statistics.maxDegree | number}}</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="other">
+    <div class="title">Other Statistics</div>
+    <hr>
+
+    <div class="value-container">
+      <div class="value-group">
+        <div class="subtitle"># Publications by Year</div>
+        <div class="table-container">
+          <dino-datatable class="value" [data]="statistics.nPublicationsByYear" [fields]="nPublicationsByYearFields">
+          </dino-datatable>
+        </div>
+      </div>
+
+      <div class="filler"></div>
+
+      <div class="value-group">
+        <div class="subtitle"># Authors by Year</div>
+        <div class="table-container">
+          <dino-datatable class="value" [data]="statistics.nAuthorsByYear" [fields]="nAuthorsByYearFields">
+          </dino-datatable>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
