@@ -22,6 +22,9 @@ import {
   nodeIdField,
   nodeColorField,
   nodeLabelField,
+  edgeIdField,
+  edgeSourceField,
+  edgeTargetField,
   edgeSizeField
 } from '../shared/coauthor-network/coauthor-network-fields';
 
@@ -40,10 +43,14 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
   nodeStream: Observable<RawChangeSet>;
   edgeStream: Observable<RawChangeSet>;
 
-  nodeSize: BoundField<number>;
   nodeId: BoundField<string>;
+  nodeSize: BoundField<number>;
   nodeColor: BoundField<number>;
   nodeLabel: BoundField<string>;
+
+  edgeId: BoundField<string>;
+  edgeSource: BoundField<string>;
+  edgeTarget: BoundField<string>;
   edgeSize: BoundField<number>;
 
   nodeColorRange: string[];
@@ -52,16 +59,19 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
 
   constructor(private dataService: CoauthorNetworkDataService) {
     this.nodeStream = this.dataService.nodeStream;
-    this.nodeStream = this.dataService.edgeStream;
+    this.edgeStream = this.dataService.edgeStream;
   }
 
   ngOnInit() {
-    this.nodeSize = nodeSizeField.getBoundField('size');
     this.nodeId = nodeIdField.getBoundField('id');
+    this.nodeSize = nodeSizeField.getBoundField('size');
     this.nodeColor = nodeColorField.getBoundField('color');
     this.nodeLabel = nodeLabelField.getBoundField('label');
     this.nodeColorRange = this.dataService.nodeColorRange;
 
+    this.edgeId = edgeIdField.getBoundField('id');
+    this.edgeSource = edgeSourceField.getBoundField('source');
+    this.edgeTarget = edgeTargetField.getBoundField('target');
     this.edgeSize = edgeSizeField.getBoundField('edgeSize');
   }
 
