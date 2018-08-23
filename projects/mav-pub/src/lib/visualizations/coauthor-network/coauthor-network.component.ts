@@ -49,7 +49,7 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
 
   nodeColorRange: string[];
 
-  visChargeStrength = -40;
+  visChargeStrength = -400;
 
   constructor(private dataService: CoauthorNetworkDataService) {
     this.dataService.nodeStream.subscribe((changes) => {
