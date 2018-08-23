@@ -12,24 +12,27 @@
   [margin]="'10px 0 10px 8px'"> 
 </dino-color-legend>
 
+<div class="title">Node Size</div>
+<div class="value"># Publications</div>
+
 <dino-node-size-legend
   [dataStream]="nodeStream"
   [nodeIdField]="nodeId"
   [nodeSizeField]="nodeSize"
+  [nodeSizeRange]="[3, 12]"
   [encoding]="'# Publications'"
   [title]="'Node Size'"
-  [margin]="'10px 0 10px 8px'">
+  [margin]="'-26px 0 10px 8px'">
 </dino-node-size-legend>
+
+<div class="title">Edge Size</div>
+<div class="value">{{ edgeLegendEncoding }}</div>
 
 <dino-edge-size-legend
   [dataStream]="edgeStream"
-
   [edgeIdField]="edgeId"
   [edgeSizeField]="edgeSize"
-
   [encoding]="edgeLegendEncoding"
-  
   [edgeSizeRange]="edgeSizeRange"
-  
-  [margin]="'10px 0 10px 8px'">
+  [margin]="'-26px 0 10px 8px'">
 </dino-edge-size-legend>

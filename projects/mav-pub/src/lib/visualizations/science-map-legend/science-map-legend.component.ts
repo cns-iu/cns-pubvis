@@ -13,7 +13,7 @@ import { SubdisciplineWeight } from '../../shared/subdiscipline-weight';
 @Component({
   selector: 'mav-pub-science-map-legend',
   templateUrl: './science-map-legend.component.html',
-  styleUrls: ['./science-map-legend.component.sass'],
+  styleUrls: ['./science-map-legend.component.scss'],
   providers: [ScienceMapDataService]
 })
 export class ScienceMapLegendComponent implements OnInit, OnChanges {

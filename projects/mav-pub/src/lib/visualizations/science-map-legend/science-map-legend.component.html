@@ -2,15 +2,19 @@
     [colorMapping]="nodeLabelToColor"
     [encoding]="nodeColorEncoding"
     [legendType]="'qualitative'"
-    [margin]="'0 0 10px 8px'"> 
+    [margin]="'10px 0 10px 8px'"> 
 </dino-color-legend>
+
+<div class="title">Node Size</div>
+<div class="value">{{ nodeSizeEncoding }}</div>
 
 <dino-node-size-legend
     [dataStream]="filteredSubdisciplines"
     [nodeSizeField]="subdisciplineSize"
+    [nodeSizeRange]="[3, 12]"
     [nodeIdField]="subdisciplineId" 
     [encoding]="nodeSizeEncoding"
-    [margin]="'0 0 10px 8px'">
+    [margin]="'-26px 0 10px 8px'">
 </dino-node-size-legend>
 
 <div class="title"># Not Science-Mapped</div>

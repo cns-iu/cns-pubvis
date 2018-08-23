@@ -1,4 +1,4 @@
-import { Field, access, simpleField } from '@ngx-dino/core';
+import { Field, access, map, simpleField } from '@ngx-dino/core';
 
 
 export const subdisciplineSizeField: Field<number> = simpleField<number>({
@@ -12,5 +12,6 @@ export const subdisciplineIdField: Field<number|string> = simpleField<number|str
   bfieldId: 'id',
   label: 'Subdiscipline Id',
 
-  operator: access('subd_id')
+  // operator: access('subd_id')
+  operator: map(n => parseInt('' + n.subd_id) || undefined)
 });

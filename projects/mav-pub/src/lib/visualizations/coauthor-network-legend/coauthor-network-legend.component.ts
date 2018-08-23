@@ -32,7 +32,7 @@ import {
 @Component({
   selector: 'mav-pub-coauthor-network-legend',
   templateUrl: './coauthor-network-legend.component.html',
-  styleUrls: ['./coauthor-network-legend.component.sass']
+  styleUrls: ['./coauthor-network-legend.component.scss']
 })
 export class CoauthorNetworkLegendComponent implements OnInit, OnChanges {
   @Input() filter: Partial<Filter> = {};
