@@ -22,18 +22,20 @@ export class StatisticsComponent implements OnInit, OnChanges {
 
   statistics: Statistics = {} as Statistics;
 
+  nAuthorsByYearIdField = AuthorsByYearFields.yearField.getBoundField('default');
   nAuthorsByYearFields: BoundField<any>[] = [
     AuthorsByYearFields.yearField.getBoundField('default'),
     AuthorsByYearFields.authorCountField.getBoundField('default')
   ];
 
+  nPublicationsByYearIdField = PublicationsByYearFields.yearField.getBoundField('default');
   nPublicationsByYearFields: BoundField<any>[] = [
     PublicationsByYearFields.yearField.getBoundField('default'),
     PublicationsByYearFields.publicationCountField.getBoundField('default')
   ];
 
   constructor(private service: StatisticsService) {
-    service.statistics.subscribe((s) => (this.statistics = s));
+    service.statistics.subscribe((s) => console.log(this.statistics = s));
   }
 
   ngOnInit() {
