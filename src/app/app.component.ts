@@ -8,6 +8,7 @@ import { MavPubDatabase, DatabaseService } from 'mav-pub';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
+  title = 'Make-A-Vis for Publications';
   public dataLoaded = false;
   constructor(private databaseService: DatabaseService) { }
 
