@@ -4,11 +4,11 @@ import { Observable } from 'rxjs';
 
 import { BoundField, RawChangeSet } from '@ngx-dino/core';
 
-import { Filter } from '../shared/filter';
+import { Filter } from '../../shared/filter';
 
 import { subdisciplineIdField, subdisciplineSizeField } from '../shared/science-map/science-map-fields';
 import { ScienceMapDataService } from '../shared/science-map/science-map-data.service';
-import { SubdisciplineWeight } from '../shared/subdiscipline-weight';
+import { SubdisciplineWeight } from '../../shared/subdiscipline-weight';
 
 @Component({
   selector: 'mav-pub-science-map-legend',

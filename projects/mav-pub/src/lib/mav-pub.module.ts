@@ -13,17 +13,12 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
 import { MatChipsModule } from '@angular/material/chips';
 
-import { MavPubComponent } from './mav-pub.component';
-import { MavPubUiComponent } from './mav-pub-ui/mav-pub-ui.component';
-import { LightThemeComponent } from './light-theme/light-theme.component';
-
 import { VisualizationsModule } from './visualizations/visualizations.module';
 
-const COMPONENTS: any[] = [
-  MavPubComponent,
-  MavPubUiComponent,
-  LightThemeComponent
-];
+import { MavPubUiComponent } from './mav-pub-ui/mav-pub-ui.component';
+import { LightThemeComponent } from './light-theme/light-theme.component';
+import { DatabaseService } from './shared/database.service';
+
 
 @NgModule({
   imports: [
@@ -41,7 +36,8 @@ const COMPONENTS: any[] = [
     MatChipsModule,
     VisualizationsModule
   ],
-  declarations: COMPONENTS,
-  exports: COMPONENTS
+  declarations: [MavPubUiComponent, LightThemeComponent],
+  exports: [MavPubUiComponent],
+  providers: [ DatabaseService ]
 })
 export class MavPubModule { }

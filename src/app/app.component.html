@@ -1,1 +1,2 @@
-<mav-pub-ui></mav-pub-ui>
+<img class="loading" *ngIf="!dataLoaded" src="assets/loading.png" />
+<mav-pub-ui *ngIf="dataLoaded"></mav-pub-ui>

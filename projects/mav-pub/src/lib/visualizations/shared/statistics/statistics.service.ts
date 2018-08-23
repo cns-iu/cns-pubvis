@@ -2,10 +2,10 @@ import { Injectable, EventEmitter } from '@angular/core';
 import { combineLatest, Subscription } from 'rxjs';
 import { Map, Set } from 'immutable';
 
-import { Filter } from '../filter';
-import { Author, CoAuthorEdge } from '../author';
-import { Publication } from '../publication';
-import { DatabaseService } from '../database.service';
+import { Filter } from '../../../shared/filter';
+import { Author, CoAuthorEdge } from '../../../shared/author';
+import { Publication } from '../../../shared/publication';
+import { DatabaseService } from '../../../shared/database.service';
 import { Statistics } from './statistics';
 
 

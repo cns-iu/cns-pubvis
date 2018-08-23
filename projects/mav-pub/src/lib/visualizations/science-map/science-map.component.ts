@@ -1,21 +1,10 @@
-import {
-  Component,
-  OnInit,
-  OnChanges,
-  SimpleChanges,
-  Input,
-  Output,
-  EventEmitter
-} from '@angular/core';
-
+import { Component, OnInit, OnChanges, SimpleChanges, Input, Output, ViewChild, EventEmitter } from '@angular/core';
+import { Observable, of } from 'rxjs';
 import { BoundField, RawChangeSet } from '@ngx-dino/core';
 
-import { Observable } from 'rxjs';
-
 import { ScienceMapDataService } from '../shared/science-map/science-map-data.service';
-
-import { Filter } from '../shared/filter';
-import { SubdisciplineWeight } from '../shared/subdiscipline-weight';
+import { Filter } from '../../shared/filter';
+import { SubdisciplineWeight } from '../../shared/subdiscipline-weight';
 import { subdisciplineSizeField, subdisciplineIdField } from '../shared/science-map/science-map-fields';
 
 @Component({
@@ -25,16 +14,19 @@ import { subdisciplineSizeField, subdisciplineIdField } from '../shared/science-
 })
 export class ScienceMapComponent implements OnInit, OnChanges {
   @Input() filter: Partial<Filter> = {};
-  @Input() width: number;
-  @Input() height: number;
+  @Input() width = 0;
+  @Input() height = 0;
   @Output() filterUpdateComplete = new EventEmitter<boolean>();
+  @ViewChild('scienceMap') scienceMap: any;
 
   subdisciplineSize: BoundField<number>;
   subdisciplineID: BoundField<number|string>;
   filteredSubdisciplines: Observable<RawChangeSet<SubdisciplineWeight>>;
 
   constructor(private dataService: ScienceMapDataService) {
-    this.filteredSubdisciplines = this.dataService.filteredSubdisciplines.asObservable();
+    this.dataService.filteredSubdisciplines.asObservable().subscribe((changes) => {
+      this.filteredSubdisciplines = of(changes);
+    });
   }
 
   ngOnInit() {
@@ -52,4 +44,7 @@ export class ScienceMapComponent implements OnInit, OnChanges {
     }
   }
 
+  activate(): void {
+    this.scienceMap.resizeSelf();
+  }
 }

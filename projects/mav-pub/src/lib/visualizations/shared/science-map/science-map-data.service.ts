@@ -3,9 +3,9 @@ import { Observable, BehaviorSubject, Subscription } from 'rxjs';
 
 import { RawChangeSet } from '@ngx-dino/core';
 
-import { Filter } from '../filter';
-import { SubdisciplineWeight } from '../subdiscipline-weight';
-import { DatabaseService } from '../database.service';
+import { Filter } from '../../../shared/filter';
+import { SubdisciplineWeight } from '../../../shared/subdiscipline-weight';
+import { DatabaseService } from '../../../shared/database.service';
 
 
 export const DEFAULT_FILTER: Partial<Filter> = {year: {start: 2002, end: 2017}};

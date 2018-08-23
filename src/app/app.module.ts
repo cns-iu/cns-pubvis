@@ -16,4 +16,4 @@ import { MavPubModule } from 'mav-pub';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

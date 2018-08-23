@@ -16,8 +16,8 @@ import { scaleLinear } from 'd3-scale';
 
 import { BoundField } from '@ngx-dino/core';
 
-import { Author, CoAuthorEdge } from '../shared/author';
-import { Filter } from '../shared/filter';
+import { Author, CoAuthorEdge } from '../../shared/author';
+import { Filter } from '../../shared/filter';
 
 import { CoauthorNetworkDataService } from '../shared/coauthor-network/coauthor-network-data.service';
 import { nodeSizeField, edgeSizeField, nodeColorField} from '../shared/coauthor-network/coauthor-network-fields';

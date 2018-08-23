@@ -5,7 +5,7 @@ import {
 } from '@angular/core';
 import { BoundField } from '@ngx-dino/core';
 
-import { Filter } from '../shared/filter';
+import { Filter } from '../../shared/filter';
 import { Statistics } from '../shared/statistics/statistics';
 import { AuthorsByYearFields, PublicationsByYearFields } from '../shared/statistics/statistics-fields';
 import { StatisticsService } from '../shared/statistics/statistics.service';

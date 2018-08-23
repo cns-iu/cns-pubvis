@@ -2,12 +2,12 @@ import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { map, delay } from 'rxjs/operators';
 
-import { Filter } from '../shared/filter';
-import { Publication } from '../shared/publication';
-import { Author, CoAuthorEdge, CoAuthorGraph } from '../shared/author';
-import { SubdisciplineWeight } from '../shared/subdiscipline-weight';
+import { Filter } from './filter';
+import { Publication } from './publication';
+import { Author, CoAuthorEdge, CoAuthorGraph } from './author';
+import { SubdisciplineWeight } from './subdiscipline-weight';
 
-import { database } from './database';
+import { MavPubDatabase } from './mavpub-database';
 
 function sumAgg<T>(items: T[], itemKeyField: string, keyField: string, valueField: string): {[key: string]: number} {
   const acc: any = {};
@@ -27,9 +27,13 @@ function sumAgg<T>(items: T[], itemKeyField: string, keyField: string, valueFiel
 
 @Injectable()
 export class DatabaseService {
-  private db = database;
+  private db: MavPubDatabase;
 
   constructor() { }
+
+  setDatabase(database: MavPubDatabase) {
+    this.db = database;
+  }
 
   getAuthors(filter: Partial<Filter> = {}): Observable<Author[]> {
     return of(this.db.authors).pipe(map((authors) => {

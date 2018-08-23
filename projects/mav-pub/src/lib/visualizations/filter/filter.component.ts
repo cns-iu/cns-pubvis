@@ -8,8 +8,8 @@ import { map } from 'rxjs/operators';
 
 import { NouisliderComponent } from 'ng2-nouislider';
 
-import { Filter } from '../shared/filter';
-import { DatabaseService } from '../shared/database.service';
+import { Filter } from '../../shared/filter';
+import { DatabaseService } from '../../shared/database.service';
 
 
 @Component({
@@ -40,8 +40,10 @@ export class FilterComponent implements OnInit {
     }
   };
 
-  constructor(service: DatabaseService) {
-    service.getDistinct('year').pipe(map((years: string[]) => {
+  constructor(private service: DatabaseService) {}
+
+  ngOnInit() {
+    this.service.getDistinct('year').pipe(map((years: string[]) => {
       const sortedYears = years.map(Number)
         .filter((year) => year !== 0)
         .sort((y1, y2) => y1 - y2);
@@ -55,9 +57,6 @@ export class FilterComponent implements OnInit {
         Object.assign(this.yearSliderConfig, config);
       }
     });
-  }
-
-  ngOnInit() {
   }
 
   onYearChange([start, end]: [number, number]): void {

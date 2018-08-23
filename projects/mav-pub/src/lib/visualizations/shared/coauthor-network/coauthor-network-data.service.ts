@@ -3,10 +3,10 @@ import { Injectable } from '@angular/core';
 import { Observable, Subscription, BehaviorSubject } from 'rxjs';
 import { RawChangeSet } from '@ngx-dino/core';
 
-import { Filter } from '../filter';
+import { Filter } from '../../../shared/filter';
 
-import { Author, CoAuthorEdge, CoAuthorGraph } from '../author';
-import { DatabaseService } from '../database.service';
+import { Author, CoAuthorEdge, CoAuthorGraph } from '../../../shared/author';
+import { DatabaseService } from '../../../shared/database.service';
 
 export const DEFAULT_FILTER: Partial<Filter> = {year: {start: 2002, end: 2017}};
 

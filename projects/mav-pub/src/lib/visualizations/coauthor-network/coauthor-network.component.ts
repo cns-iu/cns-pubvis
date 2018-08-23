@@ -1,21 +1,10 @@
-import {
-  Component,
-  OnInit,
-  Input,
-  OnChanges,
-  SimpleChanges,
-  Output,
-  EventEmitter
-} from '@angular/core';
-
-import { BoundField, ChangeSet, RawChangeSet } from '@ngx-dino/core';
-
-import { Observable } from 'rxjs';
+import { Component, OnInit, Input, OnChanges, SimpleChanges, ViewChild, Output, EventEmitter } from '@angular/core';
+import { Observable, of } from 'rxjs';
+import { BoundField, RawChangeSet } from '@ngx-dino/core';
 
 import { CoauthorNetworkDataService } from '../shared/coauthor-network/coauthor-network-data.service';
+import { Filter } from '../../shared/filter';
 
-import { Filter } from '../shared/filter';
-import { CoAuthorGraph } from '../shared/author';
 
 import {
   nodeSizeField,
@@ -36,9 +25,10 @@ import {
 export class CoauthorNetworkComponent implements OnInit, OnChanges {
   @Input() filter: Partial<Filter> = {};
   @Input() numCoAuthors = 50;
-  @Input() width: number;
-  @Input() height: number;
+  @Input() width = 0;
+  @Input() height = 0;
   @Output() filterUpdateComplete = new EventEmitter<boolean>();
+  @ViewChild('forceNetwork') forceNetwork: any;
 
   nodeStream: Observable<RawChangeSet>;
   edgeStream: Observable<RawChangeSet>;
@@ -58,8 +48,12 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
   visChargeStrength = -40;
 
   constructor(private dataService: CoauthorNetworkDataService) {
-    this.nodeStream = this.dataService.nodeStream;
-    this.edgeStream = this.dataService.edgeStream;
+    this.dataService.nodeStream.subscribe((changes) => {
+      this.nodeStream = of(changes);
+    });
+    this.dataService.edgeStream.subscribe((changes) => {
+      this.edgeStream = of(changes);
+    });
   }
 
   ngOnInit() {
@@ -84,4 +78,7 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
     }
   }
 
+  activate(): void {
+    this.forceNetwork.resizeSelf();
+  }
 }
