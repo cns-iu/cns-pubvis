@@ -1,4 +1,4 @@
-import { Field, access, simpleField } from '@ngx-dino/core';
+import { Field, access, constant, map, simpleField } from '@ngx-dino/core';
 
 export const nodeSizeField: Field<number> = simpleField<number>({
   bfieldId: 'size',
@@ -26,6 +26,22 @@ export const nodeLabelField: Field<string> = simpleField<string>({
   label: 'Node Label',
 
   operator: access('id')
+});
+
+export const nodeFixedXField: Field<number> = simpleField<number>({
+  bfieldId: 'fixedX',
+  label: 'Node Fixed X',
+
+  // operator: map((n) => (n.xpos || 0) + 100)
+  operator: constant(undefined)
+});
+
+export const nodeFixedYField: Field<number> = simpleField<number>({
+  bfieldId: 'fixedY',
+  label: 'Node Fixed Y',
+
+  // operator: map((n) => (n.ypos || 0) + 100)
+  operator: constant(undefined)
 });
 
 export const edgeIdField: Field<string> = simpleField<string>({

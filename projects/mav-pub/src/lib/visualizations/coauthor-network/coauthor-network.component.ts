@@ -11,6 +11,8 @@ import {
   nodeIdField,
   nodeColorField,
   nodeLabelField,
+  nodeFixedXField,
+  nodeFixedYField,
   edgeIdField,
   edgeSourceField,
   edgeTargetField,
@@ -37,6 +39,8 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
   nodeSize: BoundField<number>;
   nodeColor: BoundField<number>;
   nodeLabel: BoundField<string>;
+  nodeFixedX: BoundField<number>;
+  nodeFixedY: BoundField<number>;
 
   edgeId: BoundField<string>;
   edgeSource: BoundField<string>;
@@ -62,6 +66,8 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
     this.nodeColor = nodeColorField.getBoundField('color');
     this.nodeLabel = nodeLabelField.getBoundField('label');
     this.nodeColorRange = this.dataService.nodeColorRange;
+    this.nodeFixedX = nodeFixedXField.getBoundField('fixedX');
+    this.nodeFixedY = nodeFixedYField.getBoundField('fixedY');
 
     this.edgeId = edgeIdField.getBoundField('id');
     this.edgeSource = edgeSourceField.getBoundField('source');
