@@ -46,7 +46,7 @@
             <div class="value-group">
                 <div class="subtitle"># Publications by Year</div>
                 <div class="table-container">
-                    <dino-datatable class="value" [dataStream]="statistics.nPublicationsByYear" [idField]="nPublicationsByYearIdField" [fields]="nPublicationsByYearFields">
+                    <dino-datatable class="value" [dataStream]="statistics.nPublicationsByYear" [idField]="nPublicationsByYearIdField" [fields]="nPublicationsByYearFields" [sort]="sort">
                     </dino-datatable>
                 </div>
             </div>
@@ -56,7 +56,7 @@
             <div class="value-group">
                 <div class="subtitle"># Authors by Year</div>
                 <div class="table-container">
-                    <dino-datatable class="value" [dataStream]="statistics.nAuthorsByYear" [idField]="nAuthorsByYearIdField" [fields]="nAuthorsByYearFields">
+                    <dino-datatable class="value" [dataStream]="statistics.nAuthorsByYear" [idField]="nAuthorsByYearIdField" [fields]="nAuthorsByYearFields" [sort]="sort">
                     </dino-datatable>
                 </div>
             </div>

@@ -34,8 +34,10 @@ export class StatisticsComponent implements OnInit, OnChanges {
     PublicationsByYearFields.publicationCountField.getBoundField('default')
   ];
 
+  sort = (a: any, b: any) => Number(b.content) - Number(a.content);
+
   constructor(private service: StatisticsService) {
-    service.statistics.subscribe((s) => console.log(this.statistics = s));
+    service.statistics.subscribe((s) => this.statistics = s);
   }
 
   ngOnInit() {
