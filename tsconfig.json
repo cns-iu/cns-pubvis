@@ -18,11 +18,11 @@
       "dom"
     ],
     "paths": {
-      "mav-pub": [
-        "dist/mav-pub"
+      "cns-pubvis": [
+        "dist/cns-pubvis"
       ],
-      "mav-pub/*": [
-        "dist/mav-pub/*"
+      "cns-pubvis/*": [
+        "dist/cns-pubvis/*"
       ]
     }
   }
