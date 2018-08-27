@@ -1,0 +1,60 @@
+language: node_js
+
+node_js:
+  - "10"
+
+sudo: required
+
+addons:
+  chrome: stable
+
+cache:
+  directories:
+    - "node_modules"
+
+branches:
+  only:
+    - master
+    - develop
+    - /^v\d+\.\d+(\.\d+)?(-\S*)?$/
+
+script: skip
+
+jobs:
+  include:
+    - stage: test
+      name: "Run Tests"
+      script:
+        - npm run lint
+        - npm run build:prod cns-pubvis
+        # - npm test
+    - stage: deploy
+      name: "Deploy demo to GitHub Pages"
+      if: branch = master
+      script:
+        - npm run build:prod cns-pubvis
+        - npm run build:release
+      deploy:
+        provider: pages
+        skip-cleanup: true
+        github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+        keep-history: false
+        local-dir: dist/cns-pubvis-demo
+        on:
+          branch: master
+    - stage: deploy
+      name: "Build and publish cns-pubvis"
+      if: tag IS present
+      script: npm run build:prod cns-pubvis
+      before_deploy:
+        - cd dist/cns-pubvis
+      after_deploy:
+        - cd ../../
+      deploy: &npm
+        provider: npm
+        skip-cleanup: true
+        email: $NPM_EMAIL
+        api_key: $NPM_TOKEN
+        on:
+          tags: true
+          repo: cns-iu/cns-pubvis

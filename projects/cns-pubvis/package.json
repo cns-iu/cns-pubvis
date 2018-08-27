@@ -1,6 +1,29 @@
 {
   "name": "cns-pubvis",
-  "version": "0.0.1",
+  "version": "0.5.0",
+    "description": "CNS Publications Visualizer",
+    "homepage": "https://github.com/cns-iu/cns-puvis",
+    "bugs": "https://github.com/cns-iu/cns-puvis/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cns-iu/cns-pubvis.git"
+    },
+    "license": "MIT",
+    "keywords": [
+        "angular",
+        "visualization",
+        "typescript",
+        "d3",
+        "vega",
+        "publications",
+        "wos"
+    ],
+    "author": "Cyberinfrastructure for Network Science Center at Indiana University (http://cns.iu.edu/)",
+    "contributors": [
+        "Bruce W. Herr II <bherr@indiana.edu> (https://github.com/bherr2)",
+        "Daniel Bolin <axbolin@iu.edu> (https://github.com/axdanbol)",
+        "Gagandeep Singh <singhgag@indiana.edu> (https://github.com/GagsdName)"
+    ],
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
     "@angular/core": "^6.0.0-rc.0 || ^6.0.0"

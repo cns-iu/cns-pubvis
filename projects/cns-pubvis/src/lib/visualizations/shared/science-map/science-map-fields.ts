@@ -13,5 +13,5 @@ export const subdisciplineIdField: Field<number|string> = simpleField<number|str
   label: 'Subdiscipline Id',
 
   // operator: access('subd_id')
-  operator: map(n => parseInt('' + n.subd_id) || undefined)
+  operator: map(n => parseInt('' + n.subd_id, 10) || undefined)
 });

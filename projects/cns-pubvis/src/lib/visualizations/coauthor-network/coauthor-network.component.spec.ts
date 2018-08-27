@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ForceNetworkComponent } from './force-network.component';
+import { CoauthorNetworkComponent } from './coauthor-network.component';
 
-describe('ForceNetworkComponent', () => {
-  let component: ForceNetworkComponent;
-  let fixture: ComponentFixture<ForceNetworkComponent>;
+describe('CoauthorNetworkComponent', () => {
+  let component: CoauthorNetworkComponent;
+  let fixture: ComponentFixture<CoauthorNetworkComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ForceNetworkComponent ]
+      declarations: [ CoauthorNetworkComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ForceNetworkComponent);
+    fixture = TestBed.createComponent(CoauthorNetworkComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

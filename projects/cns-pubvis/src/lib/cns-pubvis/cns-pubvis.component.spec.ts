@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MavPubUiComponent } from './cns-pubvis-ui.component';
+import { CNSPubVisComponent } from './cns-pubvis.component';
 
-describe('MavPubUiComponent', () => {
-  let component: MavPubUiComponent;
-  let fixture: ComponentFixture<MavPubUiComponent>;
+describe('CNSPubVisComponent', () => {
+  let component: CNSPubVisComponent;
+  let fixture: ComponentFixture<CNSPubVisComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MavPubUiComponent ]
+      declarations: [ CNSPubVisComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MavPubUiComponent);
+    fixture = TestBed.createComponent(CNSPubVisComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

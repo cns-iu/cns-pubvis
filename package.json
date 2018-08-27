@@ -5,7 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build-release": "ng build --prod --output-hashing=none --base-href=./",
+    "build:prod": "ng build --prod",
+    "build:release": "ng build --prod --output-hashing=none --base-href=./",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -28,7 +29,7 @@
     "@ngx-dino/force-network": "^0.6.1",
     "@ngx-dino/legend": "^0.6.0",
     "@ngx-dino/science-map": "^0.6.1",
-    "cns-pubvis": "^0.0.1",
+    "cns-pubvis": "^0.5.0",
     "core-js": "^2.5.4",
     "d3-array": "^1.2.1",
     "d3-force": "^1.1.0",

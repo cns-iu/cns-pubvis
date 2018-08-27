@@ -82,7 +82,8 @@
             "assets": [
               "src/favicon.ico",
               "src/assets"
-            ]
+            ],
+            "watch": false
           }
         },
         "lint": {
@@ -149,7 +150,8 @@
           "options": {
             "main": "projects/cns-pubvis/src/test.ts",
             "tsConfig": "projects/cns-pubvis/tsconfig.spec.json",
-            "karmaConfig": "projects/cns-pubvis/karma.conf.js"
+            "karmaConfig": "projects/cns-pubvis/karma.conf.js",
+            "watch": false
           }
         },
         "lint": {

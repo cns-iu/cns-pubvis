@@ -1,7 +1,7 @@
 @import '~@angular/material/theming';
-@import '~typeface-lato';
+// @import '~typeface-lato';
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
-// @import url('https://fonts.googleapis.com/css?family=Lato');
 $lato: 'Lato', sans-serif;
 
 $headline: mat-typography-level(32px, 48px, 700);
