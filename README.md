@@ -1,4 +1,4 @@
-# Make-A-Vis for Publications
+# CNS Publications Visualizer
 
 [![NPM Version](https://img.shields.io/npm/v/mav-pub.svg)](https://www.npmjs.com/package/mav-pub)
 [![Shipping faster with ZenHub](https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png)](https://app.zenhub.com/workspace/o/cns-iu/mav-pub)

@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import { MavPubModule } from 'mav-pub';
+import { CNSPubVisModule } from 'cns-pubvis';
 
 @NgModule({
   declarations: [
@@ -11,7 +11,7 @@ import { MavPubModule } from 'mav-pub';
   ],
   imports: [
     BrowserModule,
-    MavPubModule
+    CNSPubVisModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { MavPubDatabase, DatabaseService } from 'mav-pub';
+import { MavPubDatabase, DatabaseService } from 'cns-pubvis';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +8,7 @@ import { MavPubDatabase, DatabaseService } from 'mav-pub';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'Make-A-Vis for Publications';
+  title = 'CNS Publications Visualizer';
   public dataLoaded = false;
   constructor(private databaseService: DatabaseService) { }
 
