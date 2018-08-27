@@ -17,7 +17,7 @@ See the [ChangeLog](https://github.com/cns-iu/cns-pubvis/blob/master/CHANGELOG.m
 
 ## Usage
 
-// TODO
+TODO
 
 See the demo app in the [src directory](https://github.com/cns-iu/cns-pubvis/tree/develop/src/app).
 

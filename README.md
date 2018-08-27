@@ -1,19 +1,19 @@
 # CNS Publications Visualizer
 
-[![NPM Version](https://img.shields.io/npm/v/mav-pub.svg)](https://www.npmjs.com/package/mav-pub)
-[![Shipping faster with ZenHub](https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png)](https://app.zenhub.com/workspace/o/cns-iu/mav-pub)
-[![Build Status](https://travis-ci.com/cns-iu/mav-pub.svg?branch=master)](https://travis-ci.com/cns-iu/mav-pub)
-[![GitHub last commit](https://img.shields.io/github/last-commit/cns-iu/mav-pub.svg)](https://github.com/cns-iu/mav-pub/commits/master)
+[![NPM Version](https://img.shields.io/npm/v/cns-pubvis.svg)](https://www.npmjs.com/package/cns-pubvis)
+[![Shipping faster with ZenHub](https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png)](https://app.zenhub.com/workspace/o/cns-iu/cns-pubvis)
+[![Build Status](https://travis-ci.com/cns-iu/cns-pubvis.svg?branch=master)](https://travis-ci.com/cns-iu/cns-pubvis)
+[![GitHub last commit](https://img.shields.io/github/last-commit/cns-iu/cns-pubvis.svg)](https://github.com/cns-iu/cns-pubvis/commits/master)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
-[![View Demo](https://img.shields.io/badge/demo-online-brightgreen.svg)](https://cns-iu.github.io/mav-pub)
+[![View Demo](https://img.shields.io/badge/demo-online-brightgreen.svg)](https://cns-iu.github.io/cns-pubvis)
 
-cns-pubvis is a visualization framework and library for Angular 6+
+cns-pubvis is a full-page UI component for visualizing publications in Angular 6+
 
-For information on how to develop / contribute to mav-pub, see [DEVELOPMENT.md](DEVELOPMENT.md)
+For information on how to develop / contribute to cns-pubvis, see [DEVELOPMENT.md](DEVELOPMENT.md)
 
 ## Demo site
 
-<https://cns-iu.github.io/mav-pub/>
+<https://cns-iu.github.io/cns-pubvis/>
 
 ## Change Log
 
@@ -22,6 +22,8 @@ See the [ChangeLog](CHANGELOG.md) for the latest developments.
 ## Usage
 
 TODO
+
+See the demo app in the [src directory](https://github.com/cns-iu/cns-pubvis/tree/develop/src/app).
 
 ## Credits
 
