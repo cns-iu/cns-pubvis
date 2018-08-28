@@ -18,8 +18,8 @@ export const ISI_TAGS = {
 
   'UT': { string: true, separator: ' ', remap: 'wosId'},
   'TI': { string: true, separator: ' ', remap: 'title' },
-  'SN': { list: true, remap: 'issn' },
-  'EI': { list: true, remap: 'eissn' },
+  'SN': { string: true, separator: ' ', remap: 'issn' },
+  'EI': { string: true, separator: ' ', remap: 'eissn' },
   'J9': { string: true, separator: ' ', remap: 'journalName' },
   'JI': { string: true, separator: ' ', remap: 'journalFullname' },
   'AU': { list: true, remap: 'authors' },

@@ -1,5 +1,6 @@
 const path = require('path');
 const shell = require('shelljs');
+const nodeExternals = require('webpack-node-externals');
 
 module.exports = {
   target: 'node',
@@ -22,6 +23,7 @@ module.exports = {
   resolve: {
     extensions: [ '.tsx', '.ts', '.js' ]
   },
+  externals: [nodeExternals()],
   output: {
     filename: 'cns-pubvis-loader.js',
     path: path.resolve('dist', 'cns-pubvis')

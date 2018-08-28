@@ -29,6 +29,7 @@ function NumberOrUndefined(value: string): number {
 function n(field: string): Operator<any, number> {
   return chain(a(field), map(NumberOrUndefined));
 }
+const toString = map((x) => '' + x);
 
 const pubs: any[] = parseRISRecords(readFile(PUBS), ISI_TAGS);
 
@@ -39,7 +40,8 @@ let journal2weights: any = {};
 let journal2journ_id: any = {};
 pubs.forEach((pub) => {
   const journal = journalReplacements[pub.journalName] || pub.journalName || pub.journalFullname;
-  const isbn = (`${pub.issn} ${pub.eissn}`).trim().split(/\s+/g).map(s => chain(issnLookup, access('id')).get(s)).filter(s => !!s);
+  const isbn = (`${pub.issn} ${pub.eissn}`).trim().split(/\s+/g)
+    .map(s => chain(issnLookup, access('id'), toString).get(s)).filter(s => !!s);
   if (!pub.journ_id) {
     if (isbn.length > 0) {
       pub.journ_id = isbn[0];
@@ -50,7 +52,7 @@ pubs.forEach((pub) => {
   }
   if (!pub.journ_id) {
     if (!journal2journ_id.hasOwnProperty(journal)) {
-      pub.journ_id = journal2journ_id[journal] = chain(journalNameLookup, access('id')).get(journal);
+      pub.journ_id = journal2journ_id[journal] = chain(journalNameLookup, access('id'), toString).get(journal);
       if (pub.journ_id) {
         journal2weights[pub.journ_id] = journalIdSubdLookup.get(pub.journ_id);
       } else {
@@ -145,7 +147,8 @@ if (PRINT_INFO) {
 }
 
 const db: any = {
-  authorMetadata,
+  // authorMetadata,
+  pubs,
   publications
 };
 

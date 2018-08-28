@@ -30,7 +30,7 @@
     "@ngx-dino/datatable": "^0.6.1",
     "@ngx-dino/force-network": "^0.6.1",
     "@ngx-dino/legend": "^0.6.0",
-    "@ngx-dino/science-map": "^0.6.1",
+    "@ngx-dino/science-map": "^0.6.2",
     "core-js": "^2.5.4",
     "d3-array": "^1.2.1",
     "d3-force": "^1.1.0",
@@ -74,6 +74,7 @@
     "tslint": "~5.9.1",
     "typescript": "~2.7.2",
     "webpack": "^4.17.1",
-    "webpack-cli": "^3.1.0"
+    "webpack-cli": "^3.1.0",
+    "webpack-node-externals": "^1.7.2"
   }
 }
