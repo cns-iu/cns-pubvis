@@ -36,6 +36,7 @@ module.exports = {
           .cat(path.resolve(dist, 'cns-pubvis-loader.js'))
           .to(path.resolve(dist, 'cns-pubvis-loader'));
         shell.chmod(755, path.resolve(dist, 'cns-pubvis-loader'));
+        shell.rm(path.resolve(dist, 'cns-pubvis-loader.js'));
       })
     },
   ]
