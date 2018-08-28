@@ -47,7 +47,9 @@ jobs:
     - stage: deploy
       name: "Build and publish cns-pubvis"
       if: tag IS present
-      script: npm run build:lib
+      script:
+        - npm run build:lib
+        - npm run build:loader
       before_deploy:
         - cd dist/cns-pubvis
       after_deploy:
