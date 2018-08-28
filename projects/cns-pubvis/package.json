@@ -1,6 +1,6 @@
 {
-  "name": "cns-pubvis",
-  "version": "0.5.0",
+    "name": "cns-pubvis",
+    "version": "0.5.1",
     "description": "CNS Publications Visualizer",
     "homepage": "https://github.com/cns-iu/cns-puvis",
     "bugs": "https://github.com/cns-iu/cns-puvis/issues",
@@ -24,8 +24,11 @@
         "Daniel Bolin <axbolin@iu.edu> (https://github.com/axdanbol)",
         "Gagandeep Singh <singhgag@indiana.edu> (https://github.com/GagsdName)"
     ],
-  "peerDependencies": {
-    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
-    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
-  }
+    "bin": {
+        "cns-pubvis-loader": "./cns-pubvis-loader"
+    },
+    "peerDependencies": {
+        "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+        "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+    }
 }

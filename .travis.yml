@@ -26,14 +26,16 @@ jobs:
       name: "Run Tests"
       script:
         - npm run lint
-        - npm run build:prod cns-pubvis
+        - npm run build:lib
+        - npm run build:loader
         # - npm test
     - stage: deploy
       name: "Deploy demo to GitHub Pages"
       if: branch = master
       script:
-        - npm run build:prod cns-pubvis
-        - npm run build:release
+        - npm run build:lib
+        - npm run build:loader
+        - npm run build:demo
       deploy:
         provider: pages
         skip-cleanup: true
@@ -45,7 +47,7 @@ jobs:
     - stage: deploy
       name: "Build and publish cns-pubvis"
       if: tag IS present
-      script: npm run build:prod cns-pubvis
+      script: npm run build:lib
       before_deploy:
         - cd dist/cns-pubvis
       after_deploy:
