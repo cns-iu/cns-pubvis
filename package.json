@@ -30,6 +30,7 @@
     "@ngx-dino/datatable": "^0.6.1",
     "@ngx-dino/force-network": "^0.6.2",
     "@ngx-dino/legend": "^0.6.0",
+    "@ngx-dino/network": "^0.6.1",
     "@ngx-dino/science-map": "^0.6.3",
     "core-js": "^2.5.4",
     "d3-array": "^1.2.1",
@@ -43,7 +44,7 @@
     "material-design-icons": "^3.0.1",
     "ng2-nouislider": "^1.7.12",
     "nouislider": "^11.1.0",
-    "rxjs": "^6.0.0",
+    "rxjs": "^6.3.2",
     "typeface-lato": "0.0.54",
     "typescript-logging": "^0.6.2",
     "zone.js": "~0.8.26"
