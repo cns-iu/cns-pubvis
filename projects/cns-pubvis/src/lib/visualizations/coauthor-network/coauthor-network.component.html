@@ -1,8 +1,8 @@
-<dino-force-network #forceNetwork
+<!-- <dino-force-network #forceNetwork
   [nodeStream]="nodeStream"
   [linkStream]="edgeStream"
 
-  [nodeIdField]="nodeId"  
+  [nodeIdField]="nodeId"
   [nodeSizeField]="nodeSize"
   [nodeColorField]="nodeColor"
   [nodeLabelField]="nodeLabel"
@@ -17,10 +17,13 @@
   [linkSizeField]="edgeSize"
 
   [tooltipTextField]="nodeLabel"
-  
+
   [width]="width"
   [height]="height"
   [autoresize]="true"
   [runSimulation]="true"
   [chargeStrength]="visChargeStrength">
-</dino-force-network>
+</dino-force-network> -->
+<dino-network [autoresize]="true" [nodeStream]="nodeStream" [edgeStream]="edgeStream" [nodeIdField]="nodeId" [nodePositionField]="nodePosition" [nodeSymbolField]="nodeSymbol" [nodeColorField]="nodeColor" [nodeSizeField]="nodeSize" [edgeIdField]="edgeId"
+    [edgeSourceField]="edgeSource" [edgeTargetField]="edgeTarget" [edgeStrokeField]="edgeStroke" [edgeStrokeWidthField]="edgeStrokeWidth">
+</dino-network>

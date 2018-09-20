@@ -1,4 +1,4 @@
-import { Component, OnInit, OnChanges, SimpleChanges, Input, Output, ViewChild, EventEmitter } from '@angular/core';
+import { Component, OnInit, OnChanges, SimpleChanges, Input, Output, EventEmitter } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { BoundField, RawChangeSet } from '@ngx-dino/core';
 
@@ -17,7 +17,6 @@ export class ScienceMapComponent implements OnInit, OnChanges {
   @Input() width = 0;
   @Input() height = 0;
   @Output() filterUpdateComplete = new EventEmitter<boolean>();
-  @ViewChild('scienceMap') scienceMap: any;
 
   subdisciplineSize: BoundField<number>;
   subdisciplineID: BoundField<number|string>;
@@ -42,9 +41,5 @@ export class ScienceMapComponent implements OnInit, OnChanges {
         this.filterUpdateComplete.emit(true);
       });
     }
-  }
-
-  activate(): void {
-    this.scienceMap.resizeSelf();
   }
 }

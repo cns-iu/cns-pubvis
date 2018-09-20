@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, OnChanges, SimpleChanges, ViewChild, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, OnChanges, SimpleChanges, Output, EventEmitter } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { BoundField, RawChangeSet } from '@ngx-dino/core';
 
@@ -9,14 +9,15 @@ import { Filter } from '../../shared/filter';
 import {
   nodeSizeField,
   nodeIdField,
-  nodeColorField,
-  nodeLabelField,
-  nodeFixedXField,
-  nodeFixedYField,
+  nodeColor2Field,
+  nodePositionField,
+  nodeSymbolField,
   edgeIdField,
   edgeSourceField,
   edgeTargetField,
-  edgeSizeField
+  edgeSizeField,
+  edgeStroke,
+  edgeStrokeWidth
 } from '../shared/coauthor-network/coauthor-network-fields';
 
 @Component({
@@ -30,22 +31,22 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
   @Input() width = 0;
   @Input() height = 0;
   @Output() filterUpdateComplete = new EventEmitter<boolean>();
-  @ViewChild('forceNetwork') forceNetwork: any;
 
   nodeStream: Observable<RawChangeSet>;
   edgeStream: Observable<RawChangeSet>;
 
   nodeId: BoundField<string>;
   nodeSize: BoundField<number>;
-  nodeColor: BoundField<number>;
-  nodeLabel: BoundField<string>;
-  nodeFixedX: BoundField<number>;
-  nodeFixedY: BoundField<number>;
+  nodeColor: BoundField<string>;
+  nodePosition: BoundField<[number, number]>;
+  nodeSymbol: BoundField<string>;
 
   edgeId: BoundField<string>;
-  edgeSource: BoundField<string>;
-  edgeTarget: BoundField<string>;
+  edgeSource: BoundField<[number, number]>;
+  edgeTarget: BoundField<[number, number]>;
   edgeSize: BoundField<number>;
+  edgeStroke: BoundField<string>;
+  edgeStrokeWidth: BoundField<string>;
 
   nodeColorRange: string[];
 
@@ -63,16 +64,17 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
   ngOnInit() {
     this.nodeId = nodeIdField.getBoundField('id');
     this.nodeSize = nodeSizeField.getBoundField('size');
-    this.nodeColor = nodeColorField.getBoundField('color');
-    this.nodeLabel = nodeLabelField.getBoundField('label');
+    this.nodeColor = nodeColor2Field.getBoundField('color');
     this.nodeColorRange = this.dataService.nodeColorRange;
-    this.nodeFixedX = nodeFixedXField.getBoundField('fixedX');
-    this.nodeFixedY = nodeFixedYField.getBoundField('fixedY');
+    this.nodePosition = nodePositionField.getBoundField('position');
+    this.nodeSymbol = nodeSymbolField.getBoundField('symbol');
 
     this.edgeId = edgeIdField.getBoundField('id');
     this.edgeSource = edgeSourceField.getBoundField('source');
     this.edgeTarget = edgeTargetField.getBoundField('target');
     this.edgeSize = edgeSizeField.getBoundField('edgeSize');
+    this.edgeStroke = edgeStroke.getBoundField('stroke');
+    this.edgeStrokeWidth = edgeStrokeWidth.getBoundField('stroke-width');
   }
 
   ngOnChanges(changes: SimpleChanges) {
@@ -82,9 +84,5 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
         this.filterUpdateComplete.emit(true);
       });
     }
-  }
-
-  activate(): void {
-    this.forceNetwork.resizeSelf();
   }
 }

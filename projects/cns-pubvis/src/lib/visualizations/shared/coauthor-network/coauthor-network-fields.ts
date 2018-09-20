@@ -1,4 +1,4 @@
-import { Field, access, constant, map, simpleField } from '@ngx-dino/core';
+import { Field, access, constant, combine, map, simpleField, chain } from '@ngx-dino/core';
 
 export const nodeSizeField: Field<number> = simpleField<number>({
   bfieldId: 'size',
@@ -21,27 +21,28 @@ export const nodeColorField: Field<number> = simpleField<number>({
   operator: access('coauthorCount')
 });
 
-export const nodeLabelField: Field<string> = simpleField<string>({
-  bfieldId: 'label',
-  label: 'Node Label',
+export const nodeColor2Field: Field<string> = simpleField<string>({
+  bfieldId: 'color',
+  label: 'Node Color',
 
-  operator: access('id')
+  operator: constant('black')
 });
 
-export const nodeFixedXField: Field<number> = simpleField<number>({
-  bfieldId: 'fixedX',
-  label: 'Node Fixed X',
+export const nodePositionField: Field<[number, number]> = simpleField<[number, number]>({
+  bfieldId: 'position',
+  label: 'Node Position',
 
-  // operator: map((n) => (n.xpos || 0) + 100)
-  operator: constant(undefined)
+  operator: combine([
+    map((n: any) => (n.xpos || 0) + 100),
+    map((n: any) => (n.ypos || 0) + 100)
+  ])
 });
 
-export const nodeFixedYField: Field<number> = simpleField<number>({
-  bfieldId: 'fixedY',
-  label: 'Node Fixed Y',
+export const nodeSymbolField: Field<string> = simpleField<string>({
+  bfieldId: 'symbol',
+  label: 'Node Symbol',
 
-  // operator: map((n) => (n.ypos || 0) + 100)
-  operator: constant(undefined)
+  operator: constant('circle')
 });
 
 export const edgeIdField: Field<string> = simpleField<string>({
@@ -51,18 +52,30 @@ export const edgeIdField: Field<string> = simpleField<string>({
   operator: access('id')
 });
 
-export const edgeSourceField: Field<string> = simpleField<string>({
+export const edgeSourceField: Field<[number, number]> = simpleField<[number, number]>({
   bfieldId: 'source',
   label: 'Edge Source',
 
-  operator: access('source')
+  operator: chain(
+    access('author1'),
+    combine([
+      map((n: any) => (n.xpos || 0) + 100),
+      map((n: any) => (n.ypos || 0) + 100)
+    ])
+  )
 });
 
-export const edgeTargetField: Field<string> = simpleField<string>({
+export const edgeTargetField: Field<[number, number]> = simpleField<[number, number]>({
   bfieldId: 'target',
   label: 'Edge Target',
 
-  operator: access('target')
+  operator: chain(
+    access('author2'),
+    combine([
+      map((n: any) => (n.xpos || 0) + 100),
+      map((n: any) => (n.ypos || 0) + 100)
+    ])
+  )
 });
 
 export const edgeSizeField: Field<number> = simpleField<number>({
@@ -70,4 +83,21 @@ export const edgeSizeField: Field<number> = simpleField<number>({
   label: 'Edge size',
 
   operator: access('count')
+});
+
+export const edgeStroke: Field<string> = simpleField<string>({
+  bfieldId: 'stroke',
+  label: 'Edge Stroke Color',
+
+  operator: constant('black')
+});
+
+export const edgeStrokeWidth: Field<string> = simpleField<string>({
+  bfieldId: 'stroke-width',
+  label: 'Edge Stroke Width',
+
+  operator: chain(
+    access('count'),
+    map(count => '' + count)
+  )
 });

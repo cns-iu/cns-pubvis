@@ -5,6 +5,7 @@ import { NouisliderModule } from 'ng2-nouislider';
 
 import { DatatableModule } from '@ngx-dino/datatable';
 import { ForceNetworkModule } from '@ngx-dino/force-network';
+import { NetworkModule } from '@ngx-dino/network';
 import { ScienceMapModule } from '@ngx-dino/science-map';
 import { LegendModule } from '@ngx-dino/legend';
 
@@ -27,6 +28,7 @@ import { ScienceMapLegendComponent } from './science-map-legend/science-map-lege
     NouisliderModule,
     DatatableModule,
     ForceNetworkModule,
+    NetworkModule,
     ScienceMapModule,
     LegendModule
   ],

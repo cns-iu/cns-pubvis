@@ -1,5 +1,5 @@
-import { Component, Input, OnInit, ViewChild } from '@angular/core';
-
+import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
+import { AutoResizeResetEvent } from '@ngx-dino/core';
 import { Filter } from '../shared/filter';
 
 @Component({
@@ -24,7 +24,7 @@ export class CNSPubVisComponent implements OnInit {
   wideWidth = window.innerWidth;
   height = window.innerHeight - 130;
 
-  constructor() { }
+  constructor(private element: ElementRef) { }
 
   ngOnInit() {
     this.activate(0);
@@ -32,20 +32,9 @@ export class CNSPubVisComponent implements OnInit {
   }
 
   private activate(index: number): void {
-    const component = this.getComponentForIndex(index);
-    if (component && typeof component.activate === 'function') {
-      setTimeout(() => component.activate(), 0);
-    }
-  }
-
-  private getComponentForIndex(index: number): any {
-    switch (index) {
-      case 0:
-        return this.coauthorNetwork;
-      case 1:
-        return this.scienceMap;
-      default:
-        return undefined;
+    const target = this.element.nativeElement as EventTarget;
+    if (target.dispatchEvent) {
+      target.dispatchEvent(new AutoResizeResetEvent());
     }
   }
 }
