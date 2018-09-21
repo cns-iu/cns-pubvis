@@ -4,7 +4,10 @@ export const nodeSizeField: Field<number> = simpleField<number>({
   bfieldId: 'size',
   label: 'Node Size',
 
-  operator: access('paperCount')
+  operator: chain(
+    access('paperCount'),
+    map((s: number) => 5 * s)
+  )
 });
 
 export const nodeIdField: Field<string> = simpleField<string>({
@@ -21,20 +24,13 @@ export const nodeColorField: Field<number> = simpleField<number>({
   operator: access('coauthorCount')
 });
 
-export const nodeColor2Field: Field<string> = simpleField<string>({
-  bfieldId: 'color',
-  label: 'Node Color',
-
-  operator: constant('black')
-});
-
 export const nodePositionField: Field<[number, number]> = simpleField<[number, number]>({
   bfieldId: 'position',
   label: 'Node Position',
 
   operator: combine([
-    map((n: any) => (n.xpos || 0) + 100),
-    map((n: any) => (n.ypos || 0) + 100)
+    access('xpos'),
+    access('ypos')
   ])
 });
 
@@ -59,8 +55,8 @@ export const edgeSourceField: Field<[number, number]> = simpleField<[number, num
   operator: chain(
     access('author1'),
     combine([
-      map((n: any) => (n.xpos || 0) + 100),
-      map((n: any) => (n.ypos || 0) + 100)
+      access('xpos'),
+      access('ypos')
     ])
   )
 });
@@ -72,8 +68,8 @@ export const edgeTargetField: Field<[number, number]> = simpleField<[number, num
   operator: chain(
     access('author2'),
     combine([
-      map((n: any) => (n.xpos || 0) + 100),
-      map((n: any) => (n.ypos || 0) + 100)
+      access('xpos'),
+      access('ypos')
     ])
   )
 });
@@ -92,12 +88,9 @@ export const edgeStroke: Field<string> = simpleField<string>({
   operator: constant('black')
 });
 
-export const edgeStrokeWidth: Field<string> = simpleField<string>({
+export const edgeStrokeWidth: Field<number> = simpleField<number>({
   bfieldId: 'stroke-width',
   label: 'Edge Stroke Width',
 
-  operator: chain(
-    access('count'),
-    map(count => '' + count)
-  )
+  operator: access('count')
 });

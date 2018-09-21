@@ -30,7 +30,7 @@
         "@ngx-dino/datatable": "^0.6.1",
         "@ngx-dino/force-network": "^0.6.2",
         "@ngx-dino/legend": "^0.6.0",
-        "@ngx-dino/network": "^0.6.2",
+        "@ngx-dino/network": "^0.6.3",
         "@ngx-dino/science-map": "^0.6.3",
         "core-js": "^2.5.4",
         "d3-array": "^1.2.1",

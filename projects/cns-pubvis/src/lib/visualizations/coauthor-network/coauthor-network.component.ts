@@ -9,7 +9,7 @@ import { Filter } from '../../shared/filter';
 import {
   nodeSizeField,
   nodeIdField,
-  nodeColor2Field,
+  nodeColorField,
   nodePositionField,
   nodeSymbolField,
   edgeIdField,
@@ -37,7 +37,7 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
 
   nodeId: BoundField<string>;
   nodeSize: BoundField<number>;
-  nodeColor: BoundField<string>;
+  nodeColor: BoundField<number>;
   nodePosition: BoundField<[number, number]>;
   nodeSymbol: BoundField<string>;
 
@@ -46,7 +46,7 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
   edgeTarget: BoundField<[number, number]>;
   edgeSize: BoundField<number>;
   edgeStroke: BoundField<string>;
-  edgeStrokeWidth: BoundField<string>;
+  edgeStrokeWidth: BoundField<number>;
 
   nodeColorRange: string[];
 
@@ -64,10 +64,11 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
   ngOnInit() {
     this.nodeId = nodeIdField.getBoundField('id');
     this.nodeSize = nodeSizeField.getBoundField('size');
-    this.nodeColor = nodeColor2Field.getBoundField('color');
+    this.nodeColor = nodeColorField.getBoundField('color');
     this.nodeColorRange = this.dataService.nodeColorRange;
     this.nodePosition = nodePositionField.getBoundField('position');
     this.nodeSymbol = nodeSymbolField.getBoundField('symbol');
+    this.nodeColorRange = this.dataService.nodeColorRange;
 
     this.edgeId = edgeIdField.getBoundField('id');
     this.edgeSource = edgeSourceField.getBoundField('source');
