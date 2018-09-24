@@ -24,6 +24,13 @@ export const nodeColorField: Field<number> = simpleField<number>({
   operator: access('coauthorCount')
 });
 
+export const nodeColor2Field: Field<string> = simpleField<string>({
+  bfieldId: 'color',
+  label: 'Node Color',
+
+  operator: constant('black')
+});
+
 export const nodePositionField: Field<[number, number]> = simpleField<[number, number]>({
   bfieldId: 'position',
   label: 'Node Position',
