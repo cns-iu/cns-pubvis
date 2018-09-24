@@ -48,6 +48,20 @@ export const nodeSymbolField: Field<string> = simpleField<string>({
   operator: constant('circle')
 });
 
+export const nodeStrokeField: Field<string> = simpleField<string>({
+  bfieldId: 'stroke',
+  label: 'Node Stroke',
+
+  operator: constant('black')
+});
+
+export const nodeStrokeWidthField: Field<number> = simpleField<number>({
+  bfieldId: 'stroke-width',
+  label: 'Node Stroke Width',
+
+  operator: constant(0)
+});
+
 export const edgeIdField: Field<string> = simpleField<string>({
   bfieldId: 'id',
   label: 'Edge ID',
