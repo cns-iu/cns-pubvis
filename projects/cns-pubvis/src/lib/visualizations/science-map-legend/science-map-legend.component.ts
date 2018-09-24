@@ -21,7 +21,7 @@ export class ScienceMapLegendComponent implements OnInit, OnChanges {
   @Output() filterUpdateComplete = new EventEmitter<boolean>();
 
   filteredSubdisciplines: Observable<RawChangeSet<any>>;
-  unmappedSubdisciplines: Observable<SubdisciplineWeight>;
+  unmappedSubdisciplines: SubdisciplineWeight;
   subdisciplineSize: BoundField<number>;
   subdisciplineId: BoundField<number | string>;
 
@@ -33,7 +33,7 @@ export class ScienceMapLegendComponent implements OnInit, OnChanges {
 
   constructor(private dataService: ScienceMapDataService) {
     this.filteredSubdisciplines = dataService.filteredSubdisciplines;
-    this.unmappedSubdisciplines = dataService.unmappedSubdisciplines;
+    dataService.unmappedSubdisciplines.asObservable().subscribe(s => this.unmappedSubdisciplines = s);
   }
 
   ngOnInit() {

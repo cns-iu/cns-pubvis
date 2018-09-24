@@ -2,7 +2,7 @@
     "name": "cns-pubvis",
     "version": "0.5.3",
     "description": "CNS Publications Visualizer",
-    "homepage": "https://github.com/cns-iu/cns-puvis",
+    "homepage": "https://github.com/cns-iu/cns-pubvis",
     "bugs": "https://github.com/cns-iu/cns-puvis/issues",
     "repository": {
         "type": "git",

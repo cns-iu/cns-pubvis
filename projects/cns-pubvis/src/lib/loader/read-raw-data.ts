@@ -148,7 +148,6 @@ if (PRINT_INFO) {
 
 const db: any = {
   // authorMetadata,
-  pubs,
   publications
 };
 
