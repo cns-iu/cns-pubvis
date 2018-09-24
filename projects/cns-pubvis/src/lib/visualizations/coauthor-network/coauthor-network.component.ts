@@ -9,7 +9,7 @@ import { Filter } from '../../shared/filter';
 import {
   nodeSizeField,
   nodeIdField,
-  nodeColorField,
+  nodeColor2Field,
   nodePositionField,
   nodeSymbolField,
   edgeIdField,
@@ -37,7 +37,7 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
 
   nodeId: BoundField<string>;
   nodeSize: BoundField<number>;
-  nodeColor: BoundField<number>;
+  nodeColor: BoundField<string>;
   nodePosition: BoundField<[number, number]>;
   nodeSymbol: BoundField<string>;
 
@@ -62,11 +62,9 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
     
     this.nodeId = nodeIdField.getBoundField('id');
     this.nodeSize = nodeSizeField.getBoundField('size');
-    this.nodeColor = nodeColorField.getBoundField('color');
-    this.nodeColorRange = this.dataService.nodeColorRange;
+    this.nodeColor = nodeColor2Field.getBoundField('color');
     this.nodePosition = nodePositionField.getBoundField('position');
     this.nodeSymbol = nodeSymbolField.getBoundField('symbol');
-    this.nodeColorRange = this.dataService.nodeColorRange;
 
     this.edgeId = edgeIdField.getBoundField('id');
     this.edgeSource = edgeSourceField.getBoundField('source');
