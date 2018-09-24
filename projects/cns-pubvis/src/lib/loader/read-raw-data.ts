@@ -98,7 +98,7 @@ nwbGraph[1].split(/\t/).forEach((field, index) => {
   nwbNodeHeader[field.split(/\*/)[0]] = index;
 });
 
-const authorMetadata = {};
+const authorMetadata = [];
 for (const line of nwbGraph.slice(2)) {
   if (line.startsWith('*UndirectedEdges')) {
     break;
@@ -115,18 +115,19 @@ for (const line of nwbGraph.slice(2)) {
         value = undefined;
       }
       if (key === 'label') {
+        author['id'] = value;
         if (value !== undefined) {
-          authorMetadata[value] = author;
+          authorMetadata.push(author);
         }
       } else if (key !== 'id') {
         author[key] = value;
       }
-      author['xpos'] = parseFloat(author['xpos'] || 0) || undefined;
-      author['ypos'] = parseFloat(author['ypos'] || 0) || undefined;
-      author['number_of_authored_works'] = parseInt(author['number_of_authored_works'] || 0, 10) || undefined;
-      author['times_cited'] = parseInt(author['times_cited'] || 0, 10) || undefined;
     }
   }
+  author['xpos'] = parseFloat(author['xpos'] || 0) || undefined;
+  author['ypos'] = parseFloat(author['ypos'] || 0) || undefined;
+  author['number_of_authored_works'] = parseInt(author['number_of_authored_works'] || 0, 10) || undefined;
+  author['times_cited'] = parseInt(author['times_cited'] || 0, 10) || undefined;
 }
 
 const graph = new CoAuthorNetwork(publications);
@@ -147,8 +148,7 @@ if (PRINT_INFO) {
 }
 
 const db: any = {
-  // authorMetadata,
-  pubs,
+  authorMetadata,
   publications
 };
 
