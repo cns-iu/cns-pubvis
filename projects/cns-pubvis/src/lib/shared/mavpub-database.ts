@@ -11,7 +11,7 @@ export class MavPubDatabase {
   readonly authors: Author[];
   readonly coauthorEdges: CoAuthorEdge[];
 
-  constructor(rawDatabase: {publications: Publication[], authorMetadata: any}) {
+  constructor(rawDatabase: {publications: Publication[], authorMetadata: any[]}) {
     this.publications = rawDatabase.publications;
     const id2pub: any = {};
     this.publications.forEach((p) => {
@@ -21,7 +21,10 @@ export class MavPubDatabase {
       }
     });
 
-    this.coauthorNetwork = new CoAuthorNetwork(rawDatabase.publications, rawDatabase.authorMetadata || {});
+    const authorMetadata: any = {};
+    rawDatabase.authorMetadata.forEach(a => authorMetadata[a.id] = a);
+
+    this.coauthorNetwork = new CoAuthorNetwork(rawDatabase.publications, authorMetadata);
     this.authors = this.coauthorNetwork.authors;
     this.coauthorEdges = this.coauthorNetwork.coauthorEdges;
   }
