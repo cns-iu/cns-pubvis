@@ -27,7 +27,7 @@ import {
 })
 export class CoauthorNetworkComponent implements OnInit, OnChanges {
   @Input() filter: Partial<Filter> = {};
-  @Input() numCoAuthors = 50;
+  @Input() numCoAuthors = 0;
   @Input() width = 0;
   @Input() height = 0;
   @Output() filterUpdateComplete = new EventEmitter<boolean>();
@@ -53,15 +53,13 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
   visChargeStrength = -400;
 
   constructor(private dataService: CoauthorNetworkDataService) {
-    this.dataService.nodeStream.subscribe((changes) => {
-      this.nodeStream = of(changes);
-    });
-    this.dataService.edgeStream.subscribe((changes) => {
-      this.edgeStream = of(changes);
-    });
+    this.nodeStream = this.dataService.nodeStream;
+    this.edgeStream = this.dataService.edgeStream;
   }
 
   ngOnInit() {
+    this.dataService.fetchInitialData();
+    
     this.nodeId = nodeIdField.getBoundField('id');
     this.nodeSize = nodeSizeField.getBoundField('size');
     this.nodeColor = nodeColorField.getBoundField('color');

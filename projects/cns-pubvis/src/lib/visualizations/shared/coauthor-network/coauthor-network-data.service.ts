@@ -14,10 +14,6 @@ export const DEFAULT_FILTER: Partial<Filter> = {year: {start: 2002, end: 2017}};
 export class CoauthorNetworkDataService {
   private dataSubscription: Subscription;
 
-  filteredGraph = new BehaviorSubject<CoAuthorGraph>({authors: [], coauthorEdges: []});
-  filteredAuthors = new BehaviorSubject<Author[]>([]);
-  filteredCoauthors = new BehaviorSubject<CoAuthorEdge[]>([]);
-
   private nodesChange = new BehaviorSubject<RawChangeSet<Author>>(new RawChangeSet());
   public nodeStream = this.nodesChange.asObservable();
 
@@ -33,6 +29,13 @@ export class CoauthorNetworkDataService {
   constructor(private databaseService: DatabaseService) {
   }
 
+  fetchInitialData() {
+    this.databaseService.getCoAuthorGraph().subscribe(g => {
+      this.nodesChange.next(RawChangeSet.fromArray(g.authors));
+      this.edgesChange.next(RawChangeSet.fromArray(g.coauthorEdges));
+    });
+  }
+
   fetchData(filter: Partial<Filter> = {}): Observable<CoAuthorGraph> {
     if (this.dataSubscription) {
       this.dataSubscription.unsubscribe();
@@ -40,11 +43,8 @@ export class CoauthorNetworkDataService {
 
     const graph = this.databaseService.getCoAuthorGraph(filter);
     this.dataSubscription = graph.subscribe((g) => {
-        this.filteredGraph.next(g);
-        this.filteredAuthors.next(g.authors);
-        this.filteredCoauthors.next(g.coauthorEdges);
-        this.nodesChange.next(RawChangeSet.fromArray(g.authors));
-        this.edgesChange.next(RawChangeSet.fromArray(g.coauthorEdges));
+        this.nodesChange.next(new RawChangeSet([], [], [], <any>g.authors.map(i => [i.id, i])));
+        this.edgesChange.next(new RawChangeSet([], [], [], <any>g.coauthorEdges.map(i => [i.id, i])));
       }
     );
     return graph;

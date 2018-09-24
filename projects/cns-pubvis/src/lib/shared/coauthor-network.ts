@@ -8,7 +8,8 @@ export class CoAuthorNetwork {
   private id2author: { [id: string]: Author } = {};
   private id2edge: { [id: string]: CoAuthorEdge } = {};
 
-  constructor(private publications: Publication[], private authorMetadata: { [id: string]: any } = {}) {
+  constructor(private publications: Publication[], private authorMetadata: { [id: string]: any } = {}, 
+      private edgeMetadata: { [id: string]: Partial<CoAuthorEdge> } = null) {
     this.buildGraph();
   }
 
@@ -83,12 +84,24 @@ export class CoAuthorNetwork {
         }
       });
     });
-    return edges;
+    return edges.filter(e => !!e);
   }
   private getEdge(author1: Author, author2: Author): CoAuthorEdge {
     const id = this.getEdgeId(author1, author2);
     let edge: CoAuthorEdge = this.id2edge[id];
-    if (!edge) {
+    if (!edge && this.edgeMetadata && this.edgeMetadata.hasOwnProperty(id)) {
+      edge = this.id2edge[id] = <CoAuthorEdge>Object.assign({},
+        this.edgeMetadata[id],
+        {
+          author1,
+          author2,
+
+          count: 0,
+          countsByYear: {}
+        }
+      );
+      this.coauthorEdges.push(edge);
+    } else if (!edge && !this.edgeMetadata) {
       edge = this.id2edge[id] = <CoAuthorEdge>{
         id,
         source: author1.id,

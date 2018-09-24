@@ -1,5 +1,6 @@
 const fs = require('fs');
 
+import gexf from 'gexf';
 import { Operator, access, chain, combine, map } from '@ngx-dino/core';
 import { issnLookup, journalNameLookup, journalIdSubdLookup } from '@ngx-dino/science-map';
 import { CoAuthorNetwork } from '../shared/coauthor-network';
@@ -7,7 +8,7 @@ import { parseRISRecords, ISI_TAGS } from './ris-reader';
 
 const args = process.argv.slice(2);
 const PUBS = args[0];
-const COAUTH_NWB = args[1];
+const COAUTH_GEXF = args[1];
 const DB_JSON = args[2];
 
 // const COAUTH_JSON = '../../raw-data/coauthor-network.json';
@@ -16,7 +17,10 @@ function readFile(inputFile: string): string {
   return fs.readFileSync(inputFile, 'utf8');
 }
 function writeJSON(outputFile: string, obj: any) {
-  fs.writeFileSync(outputFile, JSON.stringify(obj, null, 0), 'utf8');
+  fs.writeFileSync(outputFile, JSON.stringify(obj, null, 2), 'utf8');
+}
+function readGexfFile(gexfFile: string): any {
+  return gexf.parse(readFile(gexfFile));
 }
 
 function a(field: string): Operator<any, any> {
@@ -91,44 +95,26 @@ const pubsDBProcessor = combine({
 });
 const publications: any[] = pubs.map(pubsDBProcessor.getter);
 
-
-const nwbGraph = readFile(COAUTH_NWB).split(/[\r\n]+/);
-const nwbNodeHeader = {};
-nwbGraph[1].split(/\t/).forEach((field, index) => {
-  nwbNodeHeader[field.split(/\*/)[0]] = index;
+const coauthorGraph = readGexfFile(COAUTH_GEXF);
+const gexfAuthLabel = {};
+const authorMetadata = coauthorGraph.nodes.map((data) => {
+  gexfAuthLabel[data.id] = data.label;
+  return Object.assign({
+    id: data.label,
+    xpos: data.viz.position.x,
+    ypos: 0 - data.viz.position.y
+  }, data.attributes);
 });
-
-const authorMetadata = [];
-for (const line of nwbGraph.slice(2)) {
-  if (line.startsWith('*UndirectedEdges')) {
-    break;
-  }
-  const row = line.split(/\t/);
-  const author = {};
-  for (const key in nwbNodeHeader) {
-    if (nwbNodeHeader.hasOwnProperty(key)) {
-      let value = row[nwbNodeHeader[key]];
-      if (value.startsWith('"') && value.endsWith('"')) {
-        value = value.slice(1, -1);
-      }
-      if (value === '*') {
-        value = undefined;
-      }
-      if (key === 'label') {
-        author['id'] = value;
-        if (value !== undefined) {
-          authorMetadata.push(author);
-        }
-      } else if (key !== 'id') {
-        author[key] = value;
-      }
-    }
-  }
-  author['xpos'] = parseFloat(author['xpos'] || 0) || undefined;
-  author['ypos'] = parseFloat(author['ypos'] || 0) || undefined;
-  author['number_of_authored_works'] = parseInt(author['number_of_authored_works'] || 0, 10) || undefined;
-  author['times_cited'] = parseInt(author['times_cited'] || 0, 10) || undefined;
-}
+const coauthorEdges = coauthorGraph.edges.map((data) => {
+  const ids = [gexfAuthLabel[data.source], gexfAuthLabel[data.target]];
+  ids.sort();
+  return Object.assign({
+    id: `${ids[0]}|${ids[1]}`,
+    source: ids[0],
+    target: ids[1],
+    weight: data.weight,
+  }, data.attributes);
+});
 
 const graph = new CoAuthorNetwork(publications);
 graph.coauthorEdges.forEach((e) => {
@@ -149,6 +135,7 @@ if (PRINT_INFO) {
 
 const db: any = {
   authorMetadata,
+  coauthorEdges,
   publications
 };
 

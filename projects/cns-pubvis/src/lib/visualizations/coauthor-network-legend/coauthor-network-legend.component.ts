@@ -36,7 +36,7 @@ import {
 })
 export class CoauthorNetworkLegendComponent implements OnInit, OnChanges {
   @Input() filter: Partial<Filter> = {};
-  @Input() numCoAuthors = 50;
+  @Input() numCoAuthors = 0;
   @Input() edgeSizeRange: number[];
   @Output() filterUpdateComplete = new EventEmitter<boolean>();
 
@@ -78,11 +78,11 @@ export class CoauthorNetworkLegendComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    if (('filter' in changes) && this.filter) {
-      const filter: Partial<Filter> = Object.assign({}, this.filter, {limit: this.numCoAuthors});
-      this.dataService.fetchData(filter).subscribe(undefined, undefined, () => {
-        this.filterUpdateComplete.emit(true);
-      });
-    }
+    // if (('filter' in changes) && this.filter) {
+    //   const filter: Partial<Filter> = Object.assign({}, this.filter, {limit: this.numCoAuthors});
+    //   this.dataService.fetchData(filter).subscribe(undefined, undefined, () => {
+    //     this.filterUpdateComplete.emit(true);
+    //   });
+    // }
   }
 }
