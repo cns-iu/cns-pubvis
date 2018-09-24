@@ -54,7 +54,7 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
 
   constructor(private dataService: CoauthorNetworkDataService) {
     this.nodeStream = this.dataService.nodeStream;
-    this.edgeStream = this.dataService.edgeStream;
+    this.dataService.edgeStream.subscribe(e => this.edgeStream = of(e));
   }
 
   ngOnInit() {
