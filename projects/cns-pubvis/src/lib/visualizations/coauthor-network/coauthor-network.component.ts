@@ -12,6 +12,8 @@ import {
   nodeColor2Field,
   nodePositionField,
   nodeSymbolField,
+  nodeStrokeField,
+  nodeStrokeWidthField,
   edgeIdField,
   edgeSourceField,
   edgeTargetField,
@@ -40,6 +42,8 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
   nodeColor: BoundField<string>;
   nodePosition: BoundField<[number, number]>;
   nodeSymbol: BoundField<string>;
+  nodeStroke: BoundField<string>;
+  nodeStrokeWidth: BoundField<number>;
 
   edgeId: BoundField<string>;
   edgeSource: BoundField<[number, number]>;
@@ -59,12 +63,14 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
 
   ngOnInit() {
     this.dataService.fetchInitialData();
-    
+
     this.nodeId = nodeIdField.getBoundField('id');
     this.nodeSize = nodeSizeField.getBoundField('size');
     this.nodeColor = nodeColor2Field.getBoundField('color');
     this.nodePosition = nodePositionField.getBoundField('position');
     this.nodeSymbol = nodeSymbolField.getBoundField('symbol');
+    this.nodeStroke = nodeStrokeField.getBoundField('stroke');
+    this.nodeStrokeWidth = nodeStrokeWidthField.getBoundField('stroke-width');
 
     this.edgeId = edgeIdField.getBoundField('id');
     this.edgeSource = edgeSourceField.getBoundField('source');
