@@ -23,6 +23,30 @@
       ],
       "cns-pubvis/*": [
         "dist/cns-pubvis/*"
+      ],
+      "@ngx-dino/network": [
+        "node_modules/@ngx-dino/network"
+      ],
+      "@ngx-dino/network/*": [
+        "node_modules/@ngx-dino/network/*"
+      ],
+      "@ngx-dino/core": [
+        "node_modules/@ngx-dino/core"
+      ],
+      "@ngx-dino/core/*": [
+        "node_modules/@ngx-dino/core/*"
+      ],
+      "@angular": [
+        "node_modules/@angular"
+      ],
+      "@angular/*": [
+        "node_modules/@angular/*"
+      ],
+      "rxjs": [
+        "node_modules/rxjs"
+      ],
+      "rxjs/*": [
+        "node_modules/rxjs/*"
       ]
     }
   }
