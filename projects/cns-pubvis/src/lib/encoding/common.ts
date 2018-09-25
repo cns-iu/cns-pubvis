@@ -20,9 +20,9 @@ export function norm0to100(field: string, maxField: string, minField?: string): 
 export const formatNumber = map<number, string>(x => x.toLocaleString());
 export const formatYear = map<number, string>(x => '' + x);
 
-export const colorScale = new ColorScale('#bdbdbd', '#000000', '#ffffff', -51);
-export const colorScaleNormQuantitative = colorScale.quantitative([0, 19]);
-export const colorScaleNormQuantitativeStroke = colorScale.quantitativeStrokeColor([0, 19]);
+export const colorScale = new ColorScale('#FDD3A1', '#7F0000', '#ffffff', -51);
+export const colorScaleNormQuantitative = colorScale.quantitative([0, 101]);
+export const colorScaleNormQuantitativeStroke = colorScale.quantitativeStrokeColor([0, 101]);
 
 export const areaSizeRange = [100, 500];
 export const areaSizeScale = new SizeScale(areaSizeRange[0], areaSizeRange[1], 5, 'linear'); // TBD TODO
