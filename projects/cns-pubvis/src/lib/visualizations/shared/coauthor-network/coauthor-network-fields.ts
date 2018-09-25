@@ -7,7 +7,14 @@ export const nodeSizeField: Field<number> = simpleField<number>({
   bfieldId: 'size',
   label: 'Node Size',
 
+<<<<<<< HEAD
   operator: nodeSizeOperator
+=======
+  operator: chain(
+    access('paperCount'),
+    map((s: number) => 5 * s + 1)
+  )
+>>>>>>> e664c61f90cd8ec4a24ae5c15077c42d2a7405c8
 });
 
 export const nodeIdField: Field<string> = simpleField<string>({

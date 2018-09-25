@@ -43,8 +43,10 @@ export class CoauthorNetworkDataService {
 
     const graph = this.databaseService.getCoAuthorGraph(filter);
     this.dataSubscription = graph.subscribe((g) => {
-        this.nodesChange.next(new RawChangeSet(g.authors, [], [], <any>g.authors.map(i => [i.id, i])));
-        this.edgesChange.next(new RawChangeSet(g.coauthorEdges, [], [], <any>g.coauthorEdges.map(i => [i.id, i])));
+        this.databaseService.getAuthors().subscribe(authors => {
+          this.nodesChange.next(RawChangeSet.fromArray(authors));
+          this.edgesChange.next(RawChangeSet.fromArray(g.coauthorEdges));
+        });
       }
     );
     return graph;

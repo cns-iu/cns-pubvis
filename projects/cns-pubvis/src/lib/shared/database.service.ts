@@ -41,43 +41,33 @@ export class DatabaseService {
     }), delay(1));
   }
   private filterAuthors(filter: Partial<Filter> = {}): Author[] {
-    filter = Object.assign({year: {start: 1900, end: 2018}}, filter);
     let filtered = this.db.authors;
     if (filter.year) {
-      let years = [];
+      const years = [];
       for (let yr = filter.year.start; yr <= filter.year.end; yr++) {
         years.push(yr);
       }
-      filtered = filtered.filter((a) => {
-        return years.filter((y) => a.paperCountsByYear[y]).length > 0;
-      });
-      if (filter.year) {
-        years = [];
-        for (let yr = filter.year.start; yr <= filter.year.end; yr++) {
-          years.push(yr);
-        }
-        filtered = filtered.map((a) => {
-          const paperCount = years.reduce((acc, y) => (a.paperCountsByYear[y] || 0) + acc, 0);
-          if (paperCount > 0) {
-            const coauthors = {};
-            years.forEach((yr) => {
-              for (const authorId in (a.coauthorsByYear || {})) {
-                if (true) {
-                  coauthors[authorId] = true;
-                }
+      filtered.forEach((a) => {
+        const paperCount = years.reduce((acc, y) => (a.paperCountsByYear[y] || 0) + acc, 0);
+        let coauthorCount = 0;
+        if (paperCount > 0) {
+          const coauthors = {};
+          for (const yr of years) {
+            for (const authorId in (a.coauthorsByYear || {})) {
+              if (!coauthors.hasOwnProperty(authorId)) {
+                coauthors[authorId] = true;
+                coauthorCount++;
               }
-            });
-            let coauthorCount = 0;
-            for (const _ in coauthors) { if (true) { coauthorCount++; } }
-            return Object.assign(a, {paperCount, coauthorCount});
-          } else {
-            return null;
+            }
           }
-        }).filter((a) => !!a);
-      }
-      filtered.sort((a, b) => b.paperCount - a.paperCount);
+        }
+        a.paperCount = paperCount;
+        a.coauthorCount = coauthorCount;
+      });
+      filtered = filtered.filter(a => a.paperCount > 0);
     }
     if (filter.limit && filter.limit > 0) {
+      filtered.sort((a, b) => b.paperCount - a.paperCount);
       filtered = filtered.slice(0, filter.limit);
     }
     return filtered;
@@ -103,17 +93,12 @@ export class DatabaseService {
             for (let yr = filter.year.start; yr <= filter.year.end; yr++) {
               years.push(yr);
             }
-            edges = edges.map((e) => {
-              const count = years.reduce((acc, y) => (e.countsByYear[y] || 0) + acc, 0);
-              if (count > 0) {
-                return Object.assign({}, e, {count});
-              } else {
-                return null;
-              }
-            }).filter((e) => !!e);
+            edges.forEach((e) => {
+              e.count = years.reduce((acc, y) => (e.countsByYear[y] || 0) + acc, 0);
+            });
           }
-          edges.sort((a1, a2) => a2.count - a1.count);
-          // edges = edges.filter(e => e.count > 1);
+          // edges.sort((a1, a2) => a2.count - a1.count);
+          edges = edges.filter(e => e.count > 0);
           return {authors, coauthorEdges: edges};
         }
       }), delay(1));
