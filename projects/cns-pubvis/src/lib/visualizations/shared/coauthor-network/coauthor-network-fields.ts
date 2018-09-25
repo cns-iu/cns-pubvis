@@ -59,7 +59,12 @@ export const nodeStrokeWidthField: Field<number> = simpleField<number>({
   bfieldId: 'stroke-width',
   label: 'Node Stroke Width',
 
-  operator: constant(0)
+  operator: chain(
+    access<number>('paperCount'),
+    map(c => 5 * c),
+    map(s => Math.sqrt(s) / 2),
+    map(r => 0.1 * r)
+  )
 });
 
 export const nodeTooltipField: Field<string> = simpleField<string>({
