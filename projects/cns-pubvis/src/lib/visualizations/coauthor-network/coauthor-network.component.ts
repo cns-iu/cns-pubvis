@@ -59,7 +59,7 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
   visChargeStrength = -400;
 
   constructor(private dataService: CoauthorNetworkDataService) {
-    this.nodeStream = this.dataService.nodeStream;
+    this.dataService.nodeStream.subscribe(e => this.nodeStream = of(e));
     this.dataService.edgeStream.subscribe(e => this.edgeStream = of(e));
   }
 

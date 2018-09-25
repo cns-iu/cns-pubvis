@@ -6,7 +6,7 @@ export const nodeSizeField: Field<number> = simpleField<number>({
 
   operator: chain(
     access('paperCount'),
-    map((s: number) => 5 * s)
+    map((s: number) => 5 * s + 1)
   )
 });
 
