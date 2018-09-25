@@ -32,6 +32,7 @@
         "@ngx-dino/legend": "^0.6.0",
         "@ngx-dino/network": "^0.6.3",
         "@ngx-dino/science-map": "^0.6.3",
+        "@types/d3-scale": "^2.0.1",
         "core-js": "^2.5.4",
         "d3-array": "^1.2.1",
         "d3-force": "^1.1.0",
