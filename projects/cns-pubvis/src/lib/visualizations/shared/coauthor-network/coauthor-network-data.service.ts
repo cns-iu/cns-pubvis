@@ -4,6 +4,7 @@ import { Observable, Subscription, BehaviorSubject } from 'rxjs';
 import { RawChangeSet } from '@ngx-dino/core';
 
 import { Filter } from '../../../shared/filter';
+import { colorRange } from '../../../encoding';
 
 import { Author, CoAuthorEdge, CoAuthorGraph } from '../../../shared/author';
 import { DatabaseService } from '../../../shared/database.service';
@@ -21,7 +22,7 @@ export class CoauthorNetworkDataService {
   public edgeStream = this.edgesChange.asObservable();
 
   // defaults
-  nodeColorRange = ['#FDD3A1', '#E9583D', '#7F0000'];
+  nodeColorRange = colorRange;
   colorLegendEncoding = '# Co-Authors';
   edgeLegendEncoding = '# Co-Authored Publications';
   edgeSizeRange = [1, 8];
@@ -43,7 +44,7 @@ export class CoauthorNetworkDataService {
 
     const graph = this.databaseService.getCoAuthorGraph(filter);
     this.dataSubscription = graph.subscribe((g) => {
-        this.databaseService.getAuthors().subscribe(authors => {
+        this.databaseService.getAuthors({year: null}).subscribe(authors => {
           this.nodesChange.next(RawChangeSet.fromArray(authors));
           this.edgesChange.next(RawChangeSet.fromArray(g.coauthorEdges));
         });

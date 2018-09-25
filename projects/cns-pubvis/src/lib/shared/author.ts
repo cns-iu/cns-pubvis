@@ -1,5 +1,23 @@
+import { Operand, chain, access } from '@ngx-dino/core';
+import {
+  areaSizeScaleNormQuantitative, strokeSizeScaleNormQuantitative, fontSizeScaleNormQuantitative,
+  greyScaleNormQuantitative, greyScaleNormQuantitativeStroke,
+  colorScaleNormQuantitative, colorScaleNormQuantitativeStroke,
+  norm0to100, formatNumber, formatYear
+} from '../encoding';
 
-export interface Author {
+export class AuthorStats {
+  paperCountMax = 0;
+  coauthorCountMax = 0;
+
+  count(item: Author) {
+    this.paperCountMax = Math.max(this.paperCountMax, item.paperCount);
+    this.coauthorCountMax = Math.max(this.coauthorCountMax, item.coauthorCount);
+  }
+}
+
+// @dynamic
+export class Author {
   id: string;
   paperCount: number;
   paperCountsByYear: { [year: number]: number };
@@ -10,9 +28,51 @@ export interface Author {
 
   xpos?: number;
   ypos?: number;
+
+  globalStats: AuthorStats;
+
+  constructor(data: any) {
+    Object.assign(this, data);
+  }
+
+  @Operand<number>(norm0to100('paperCount', 'globalStats.paperCountMax'), false)
+  paperCountNorm: number;
+  @Operand<string>(chain(access('paperCount'), formatNumber), false)
+  paperCountLabel: string;
+  @Operand<number>(chain(access('paperCountNorm'), areaSizeScaleNormQuantitative), false)
+  paperCountAreaSize: number;
+  @Operand<number>(chain(access('paperCountNorm'), fontSizeScaleNormQuantitative), false)
+  paperCountFontSize: number;
+  @Operand<string>(chain(access('paperCountNorm'), colorScaleNormQuantitative), false)
+  paperCountColor: string;
+  @Operand<string>(chain(access('paperCountNorm'), colorScaleNormQuantitativeStroke), false)
+  paperCountStrokeColor: string;
+
+  @Operand<number>(norm0to100('coauthorCount', 'globalStats.coauthorCountMax'), false)
+  coauthorCountNorm: number;
+  @Operand<string>(chain(access('coauthorCount'), formatNumber), false)
+  coauthorCountLabel: string;
+  @Operand<number>(chain(access('coauthorCountNorm'), areaSizeScaleNormQuantitative), false)
+  coauthorCountAreaSize: number;
+  @Operand<number>(chain(access('coauthorCountNorm'), fontSizeScaleNormQuantitative), false)
+  coauthorCountFontSize: number;
+  @Operand<string>(chain(access('coauthorCountNorm'), colorScaleNormQuantitative), false)
+  coauthorCountColor: string;
+  @Operand<string>(chain(access('coauthorCountNorm'), colorScaleNormQuantitativeStroke), false)
+  coauthorCountStrokeColor: string;
 }
 
-export interface CoAuthorEdge {
+export class CoAuthorEdgeStats {
+  countMax = 0;
+
+  count(item: CoAuthorEdge) {
+    this.countMax = Math.max(this.countMax, item.count);
+  }
+}
+
+
+// @dynamic
+export class CoAuthorEdge {
   id: string;
   source: string;
   target: string;
@@ -22,6 +82,27 @@ export interface CoAuthorEdge {
 
   count: number;
   countsByYear: { [year: number]: number };
+
+  globalStats: CoAuthorEdgeStats;
+
+  constructor(data: any) {
+    Object.assign(this, data);
+  }
+
+  @Operand<number>(norm0to100('count', 'globalStats.countMax'), false)
+  countNorm: number;
+  @Operand<string>(chain(access('count'), formatNumber), false)
+  countLabel: string;
+  @Operand<number>(chain(access('countNorm'), areaSizeScaleNormQuantitative), false)
+  countAreaSize: number;
+  @Operand<number>(chain(access('countNorm'), strokeSizeScaleNormQuantitative), false)
+  countStrokeSize: number;
+  @Operand<number>(chain(access('countNorm'), fontSizeScaleNormQuantitative), false)
+  countFontSize: number;
+  @Operand<string>(chain(access('countNorm'), greyScaleNormQuantitative), false)
+  countColor: string;
+  @Operand<string>(chain(access('countNorm'), greyScaleNormQuantitativeStroke), false)
+  countStrokeColor: string;
 }
 
 export interface CoAuthorGraph {

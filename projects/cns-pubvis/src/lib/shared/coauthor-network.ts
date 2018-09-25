@@ -1,4 +1,4 @@
-import { Author, CoAuthorEdge } from './author';
+import { Author, AuthorStats, CoAuthorEdge, CoAuthorEdgeStats } from './author';
 import { Publication } from './publication';
 
 export class CoAuthorNetwork {
@@ -7,6 +7,8 @@ export class CoAuthorNetwork {
 
   private id2author: { [id: string]: Author } = {};
   private id2edge: { [id: string]: CoAuthorEdge } = {};
+  readonly authorStats = new AuthorStats();
+  readonly coauthorEdgeStats = new CoAuthorEdgeStats();
 
   constructor(private publications: Publication[], private authorMetadata: { [id: string]: any } = {},
       private edgeMetadata: { [id: string]: Partial<CoAuthorEdge> } = null) {
@@ -44,6 +46,9 @@ export class CoAuthorNetwork {
         }
       }
     }
+
+    this.authors.forEach(a => this.authorStats.count(a));
+    this.coauthorEdges.forEach(e => this.coauthorEdgeStats.count(e));
   }
 
   getEdges(authors: Author[]): CoAuthorEdge[] {
@@ -54,7 +59,7 @@ export class CoAuthorNetwork {
   getAuthor(id: string): Author {
     let author: Author = this.id2author[id];
     if (!author) {
-      author = this.id2author[id] = <Author>Object.assign({
+      author = this.id2author[id] = new Author(Object.assign({
         id,
         paperCount: 0,
         paperCountsByYear: {},
@@ -62,7 +67,9 @@ export class CoAuthorNetwork {
         coauthorCount: 0,
         coauthors: {},
         coauthorsByYear: {},
-      }, this.authorMetadata[id]);
+
+        globalStats: this.authorStats
+      }, this.authorMetadata[id]));
       this.authors.push(author);
     }
     return author;
@@ -90,19 +97,21 @@ export class CoAuthorNetwork {
     const id = this.getEdgeId(author1, author2);
     let edge: CoAuthorEdge = this.id2edge[id];
     if (!edge && this.edgeMetadata && this.edgeMetadata.hasOwnProperty(id)) {
-      edge = this.id2edge[id] = <CoAuthorEdge>Object.assign({},
+      edge = this.id2edge[id] = new CoAuthorEdge(Object.assign({},
         this.edgeMetadata[id],
         {
           author1,
           author2,
 
           count: 0,
-          countsByYear: {}
+          countsByYear: {},
+
+          globalStats: this.coauthorEdgeStats
         }
-      );
+      ));
       this.coauthorEdges.push(edge);
     } else if (!edge && !this.edgeMetadata) {
-      edge = this.id2edge[id] = <CoAuthorEdge>{
+      edge = this.id2edge[id] = new CoAuthorEdge({
         id,
         source: author1.id,
         target: author2.id,
@@ -110,8 +119,10 @@ export class CoAuthorNetwork {
         author2,
 
         count: 0,
-        countsByYear: {}
-      };
+        countsByYear: {},
+
+        globalStats: this.coauthorEdgeStats
+      });
       this.coauthorEdges.push(edge);
     }
     return edge;
