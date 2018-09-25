@@ -28,7 +28,7 @@ export const nodeColor2Field: Field<string> = simpleField<string>({
   bfieldId: 'color',
   label: 'Node Color',
 
-  operator: constant('black')
+  operator: constant('red')
 });
 
 export const nodePositionField: Field<[number, number]> = simpleField<[number, number]>({
@@ -60,6 +60,13 @@ export const nodeStrokeWidthField: Field<number> = simpleField<number>({
   label: 'Node Stroke Width',
 
   operator: constant(0)
+});
+
+export const nodeTooltipField: Field<string> = simpleField<string>({
+  bfieldId: 'tooltip',
+  label: 'Node Tooltip',
+
+  operator: access('id')
 });
 
 export const edgeIdField: Field<string> = simpleField<string>({

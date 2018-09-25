@@ -14,6 +14,7 @@ import {
   nodeSymbolField,
   nodeStrokeField,
   nodeStrokeWidthField,
+  nodeTooltipField,
   edgeIdField,
   edgeSourceField,
   edgeTargetField,
@@ -44,6 +45,7 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
   nodeSymbol: BoundField<string>;
   nodeStroke: BoundField<string>;
   nodeStrokeWidth: BoundField<number>;
+  nodeTooltip: BoundField<string>;
 
   edgeId: BoundField<string>;
   edgeSource: BoundField<[number, number]>;
@@ -71,6 +73,7 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
     this.nodeSymbol = nodeSymbolField.getBoundField('symbol');
     this.nodeStroke = nodeStrokeField.getBoundField('stroke');
     this.nodeStrokeWidth = nodeStrokeWidthField.getBoundField('stroke-width');
+    this.nodeTooltip = nodeTooltipField.getBoundField('tooltip');
 
     this.edgeId = edgeIdField.getBoundField('id');
     this.edgeSource = edgeSourceField.getBoundField('source');
