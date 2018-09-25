@@ -117,7 +117,7 @@ export const edgeStroke: Field<string> = simpleField<string>({
   bfieldId: 'stroke',
   label: 'Edge Stroke Color',
 
-  operator: constant('#9b9b9b')
+  operator: constant('#d7d7d7')
 });
 
 export const edgeStrokeWidth: Field<number> = simpleField<number>({
