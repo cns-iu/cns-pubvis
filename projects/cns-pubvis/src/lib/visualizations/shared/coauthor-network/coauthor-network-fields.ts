@@ -1,13 +1,13 @@
 import { Field, access, constant, combine, map, simpleField, chain } from '@ngx-dino/core';
+import { colorScaleNormQuantitative } from '../../../encoding';
+
+const nodeSizeOperator = chain(access<number>('paperCount'), map(c => 5 * c));
 
 export const nodeSizeField: Field<number> = simpleField<number>({
   bfieldId: 'size',
   label: 'Node Size',
 
-  operator: chain(
-    access('paperCount'),
-    map((s: number) => 5 * s)
-  )
+  operator: nodeSizeOperator
 });
 
 export const nodeIdField: Field<string> = simpleField<string>({
@@ -28,7 +28,10 @@ export const nodeColor2Field: Field<string> = simpleField<string>({
   bfieldId: 'color',
   label: 'Node Color',
 
-  operator: constant('red')
+  operator: chain(
+    access<number>('paperCount', 0),
+    colorScaleNormQuantitative
+  )
 });
 
 export const nodePositionField: Field<[number, number]> = simpleField<[number, number]>({
@@ -60,8 +63,7 @@ export const nodeStrokeWidthField: Field<number> = simpleField<number>({
   label: 'Node Stroke Width',
 
   operator: chain(
-    access<number>('paperCount'),
-    map(c => 5 * c),
+    nodeSizeOperator,
     map(s => Math.sqrt(s) / 2),
     map(r => 0.1 * r)
   )
@@ -118,7 +120,7 @@ export const edgeStroke: Field<string> = simpleField<string>({
   bfieldId: 'stroke',
   label: 'Edge Stroke Color',
 
-  operator: constant('black')
+  operator: constant('#cafda0')
 });
 
 export const edgeStrokeWidth: Field<number> = simpleField<number>({
