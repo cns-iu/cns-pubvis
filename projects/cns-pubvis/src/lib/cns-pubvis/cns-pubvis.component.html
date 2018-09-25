@@ -37,7 +37,7 @@
         </mat-tab>
 
         <mat-tab label="Science Map">
-          <cns-pubvis-science-map #scienceMap [filter]="filter"
+          <cns-pubvis-science-map #scienceMap *ngIf="tabIndex === 1" [filter]="filter"
             [width]="openState ? narrowWidth : wideWidth" [height]="height"
             (filterUpdateComplete)="filtersUpdating = false">
           </cns-pubvis-science-map>

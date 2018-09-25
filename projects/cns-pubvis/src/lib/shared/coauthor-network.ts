@@ -8,7 +8,7 @@ export class CoAuthorNetwork {
   private id2author: { [id: string]: Author } = {};
   private id2edge: { [id: string]: CoAuthorEdge } = {};
 
-  constructor(private publications: Publication[], private authorMetadata: { [id: string]: any } = {}, 
+  constructor(private publications: Publication[], private authorMetadata: { [id: string]: any } = {},
       private edgeMetadata: { [id: string]: Partial<CoAuthorEdge> } = null) {
     this.buildGraph();
   }
