@@ -49,6 +49,7 @@ export class CoAuthorNetwork {
 
     this.authors.forEach(a => this.authorStats.count(a));
     this.coauthorEdges.forEach(e => this.coauthorEdgeStats.count(e));
+    console.log(this);
   }
 
   getEdges(authors: Author[]): CoAuthorEdge[] {

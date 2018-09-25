@@ -1,5 +1,20 @@
-<dino-network [autoresize]="true" [nodeStream]="nodeStream" [edgeStream]="edgeStream" [nodeIdField]="nodeId"
-    [nodePositionField]="nodePosition" [nodeSymbolField]="nodeSymbol" [nodeColorField]="nodeColor" [nodeSizeField]="nodeSize"
-    [nodeStrokeField]="nodeStroke" [nodeStrokeWidthField]="nodeStrokeWidth" [nodeTooltipField]="nodeTooltip" [edgeIdField]="edgeId"
-    [edgeSourceField]="edgeSource" [edgeTargetField]="edgeTarget" [edgeStrokeField]="edgeStroke" [edgeStrokeWidthField]="edgeStrokeWidth">
-</dino-network>
+<dino-network 
+    [autoresize]="true"
+
+    [nodeStream]="nodeStream"
+    [nodeIdField]="accessor('id')"
+    [nodePositionField]="accessor('position')"
+    [nodeSymbolField]="accessor('symbol')"
+    [nodeColorField]="accessor('color')"
+    [nodeSizeField]="accessor('areaSize')"
+    [nodeStrokeField]="accessor('strokeColor')"
+    [nodeStrokeWidthField]="accessor('strokeWidth')"
+    [nodeTooltipField]="accessor('tooltip')"
+    
+    [edgeStream]="edgeStream"
+    [edgeIdField]="accessor('id')"
+    [edgeSourceField]="accessor('sourcePosition')"
+    [edgeTargetField]="accessor('targetPosition')"
+    [edgeStrokeField]="accessor('color')"
+    [edgeStrokeWidthField]="accessor('strokeWidth')"
+></dino-network>

@@ -1,8 +1,8 @@
 <dino-color-legend 
   [dataStream]="nodeStream"
 
-  [idField]="nodeId"
-  [colorField]="nodeColor"
+  [idField]="accessor('id')"
+  [colorField]="accessor('coauthorCount')"
 
   [encoding]="colorLegendEncoding"
   [legendType]="'quantitative'"
@@ -17,8 +17,8 @@
 
 <dino-node-size-legend
   [dataStream]="nodeStream"
-  [nodeIdField]="nodeId"
-  [nodeSizeField]="nodeSize"
+  [nodeIdField]="accessor('id')"
+  [nodeSizeField]="accessor('paperCount')"
   [nodeSizeRange]="[3, 12]"
   [encoding]="'# Publications'"
   [title]="'Node Size'"
@@ -30,8 +30,8 @@
 
 <dino-edge-size-legend
   [dataStream]="edgeStream"
-  [edgeIdField]="edgeId"
-  [edgeSizeField]="edgeSize"
+  [edgeIdField]="accessor('id')"
+  [edgeSizeField]="accessor('count')"
   [encoding]="edgeLegendEncoding"
   [edgeSizeRange]="edgeSizeRange"
   [margin]="'-26px 0 10px 8px'">

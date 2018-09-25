@@ -1,4 +1,4 @@
-import { Operand, chain, access } from '@ngx-dino/core';
+import { Operand, chain, combine, constant, map, access } from '@ngx-dino/core';
 import {
   areaSizeScaleNormQuantitative, strokeSizeScaleNormQuantitative, fontSizeScaleNormQuantitative,
   greyScaleNormQuantitative, greyScaleNormQuantitativeStroke,
@@ -34,6 +34,25 @@ export class Author {
   constructor(data: any) {
     Object.assign(this, data);
   }
+
+  @Operand<number>(access('paperCountAreaSize'), false)
+  areaSize: number;
+  @Operand<string>(access('coauthorCountColor'), false)
+  color: string;
+  @Operand<string>(access('coauthorCountStrokeColor'), false)
+  strokeColor: string;
+  @Operand<[number, number]>(combine([access('xpos'),access('ypos')]), true)
+  position: [number, number];
+  @Operand<string>(constant('circle'), true)
+  symbol: string;
+  @Operand<number>(chain(
+    access<number>('areaSize'),
+    map(s => Math.sqrt(s) / 2),
+    map(r => 0.1 * r)
+  ), false)
+  strokeWidth: number;
+  @Operand<string>(access('id'), true)
+  tooltip: string;
 
   @Operand<number>(norm0to100('paperCount', 'globalStats.paperCountMax'), false)
   paperCountNorm: number;
@@ -88,6 +107,22 @@ export class CoAuthorEdge {
   constructor(data: any) {
     Object.assign(this, data);
   }
+
+  @Operand<[number,number]>(chain(
+    access('author1'),
+    combine([access('xpos'),access('ypos')])
+  ), true)
+  sourcePosition: [number, number];
+  @Operand<[number,number]>(chain(
+    access('author2'),
+    combine([access('xpos'),access('ypos')])
+  ), true)
+  targetPosition: [number, number];
+  @Operand<string>(constant('#d7d7d7'), true)
+  color: string;
+  @Operand<number>(access('countStrokeSize'), false)
+  strokeWidth: number;
+
 
   @Operand<number>(norm0to100('count', 'globalStats.countMax'), false)
   countNorm: number;

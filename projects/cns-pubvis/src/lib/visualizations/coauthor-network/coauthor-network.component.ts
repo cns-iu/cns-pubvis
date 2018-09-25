@@ -1,27 +1,10 @@
 import { Component, OnInit, Input, OnChanges, SimpleChanges, Output, EventEmitter } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { BoundField, RawChangeSet } from '@ngx-dino/core';
+import { BoundField, RawChangeSet, access, simpleField } from '@ngx-dino/core';
 
 import { CoauthorNetworkDataService } from '../shared/coauthor-network/coauthor-network-data.service';
 import { Filter } from '../../shared/filter';
 
-
-import {
-  nodeSizeField,
-  nodeIdField,
-  nodeColor2Field,
-  nodePositionField,
-  nodeSymbolField,
-  nodeStrokeField,
-  nodeStrokeWidthField,
-  nodeTooltipField,
-  edgeIdField,
-  edgeSourceField,
-  edgeTargetField,
-  edgeSizeField,
-  edgeStroke,
-  edgeStrokeWidth
-} from '../shared/coauthor-network/coauthor-network-fields';
 
 @Component({
   selector: 'cns-pubvis-coauthor-network',
@@ -38,49 +21,19 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
   nodeStream: Observable<RawChangeSet>;
   edgeStream: Observable<RawChangeSet>;
 
-  nodeId: BoundField<string>;
-  nodeSize: BoundField<number>;
-  nodeColor: BoundField<string>;
-  nodePosition: BoundField<[number, number]>;
-  nodeSymbol: BoundField<string>;
-  nodeStroke: BoundField<string>;
-  nodeStrokeWidth: BoundField<number>;
-  nodeTooltip: BoundField<string>;
-
-  edgeId: BoundField<string>;
-  edgeSource: BoundField<[number, number]>;
-  edgeTarget: BoundField<[number, number]>;
-  edgeSize: BoundField<number>;
-  edgeStroke: BoundField<string>;
-  edgeStrokeWidth: BoundField<number>;
-
-  nodeColorRange: string[];
-
-  visChargeStrength = -400;
-
   constructor(private dataService: CoauthorNetworkDataService) {
     this.dataService.nodeStream.subscribe(e => this.nodeStream = of(e));
     this.dataService.edgeStream.subscribe(e => this.edgeStream = of(e));
   }
 
+  accessor<T = any>(field: string): BoundField<T> {
+    return simpleField<T>({
+      bfieldId: field, label: field, operator: access(field)
+    }).getBoundField(field);
+  }
+
   ngOnInit() {
     this.dataService.fetchInitialData();
-
-    this.nodeId = nodeIdField.getBoundField('id');
-    this.nodeSize = nodeSizeField.getBoundField('size');
-    this.nodeColor = nodeColor2Field.getBoundField('color');
-    this.nodePosition = nodePositionField.getBoundField('position');
-    this.nodeSymbol = nodeSymbolField.getBoundField('symbol');
-    this.nodeStroke = nodeStrokeField.getBoundField('stroke');
-    this.nodeStrokeWidth = nodeStrokeWidthField.getBoundField('stroke-width');
-    this.nodeTooltip = nodeTooltipField.getBoundField('tooltip');
-
-    this.edgeId = edgeIdField.getBoundField('id');
-    this.edgeSource = edgeSourceField.getBoundField('source');
-    this.edgeTarget = edgeTargetField.getBoundField('target');
-    this.edgeSize = edgeSizeField.getBoundField('edgeSize');
-    this.edgeStroke = edgeStroke.getBoundField('stroke');
-    this.edgeStrokeWidth = edgeStrokeWidth.getBoundField('stroke-width');
   }
 
   ngOnChanges(changes: SimpleChanges) {

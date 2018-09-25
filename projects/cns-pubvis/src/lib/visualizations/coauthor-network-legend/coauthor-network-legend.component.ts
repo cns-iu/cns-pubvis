@@ -1,33 +1,16 @@
-import {
-  Component,
-  EventEmitter,
-  Input,
-  OnInit,
-  OnChanges,
-  SimpleChanges,
-  Output
-} from '@angular/core';
-
-import { Observable } from 'rxjs';
+import { Component, EventEmitter, Input, OnInit, OnChanges, SimpleChanges, Output } from '@angular/core';
+import { Observable, of } from 'rxjs';
 
 import * as d3Selection from 'd3-selection';
 import * as d3Array from 'd3-array';
 import { scaleLinear } from 'd3-scale';
 
-import { BoundField, RawChangeSet } from '@ngx-dino/core';
+import { BoundField, RawChangeSet, access, simpleField } from '@ngx-dino/core';
 
 import { Author, CoAuthorEdge } from '../../shared/author';
 import { Filter } from '../../shared/filter';
 
 import { CoauthorNetworkDataService } from '../shared/coauthor-network/coauthor-network-data.service';
-import {
-  nodeIdField,
-  nodeSizeField,
-  nodeColorField,
-
-  edgeIdField,
-  edgeSizeField,
-} from '../shared/coauthor-network/coauthor-network-fields';
 
 @Component({
   selector: 'cns-pubvis-coauthor-network-legend',
@@ -43,37 +26,27 @@ export class CoauthorNetworkLegendComponent implements OnInit, OnChanges {
   nodeStream: Observable<RawChangeSet<any>>;
   edgeStream: Observable<RawChangeSet<any>>;
 
-  nodeId: BoundField<string>;
-  nodeSize: BoundField<number>;
-  nodeColor: BoundField<number>;
-
-  edgeId: BoundField<string>;
-  edgeSize: BoundField<number>;
-
   colorLegendEncoding: string;
   edgeLegendEncoding: string;
 
   gradient: string;
 
   constructor(private dataService: CoauthorNetworkDataService) {
-    this.nodeStream = this.dataService.nodeStream;
-    this.edgeStream = this.dataService.edgeStream;
+    this.dataService.nodeStream.subscribe(e => this.nodeStream = of(e));
+    this.dataService.edgeStream.subscribe(e => this.edgeStream = of(e));
 
     this.edgeSizeRange = this.dataService.edgeSizeRange;
+  }
+
+  accessor<T = any>(field: string): BoundField<T> {
+    return simpleField<T>({
+      bfieldId: field, label: field, operator: access(field)
+    }).getBoundField(field);
   }
 
   ngOnInit() {
     this.colorLegendEncoding = this.dataService.colorLegendEncoding;
     this.edgeLegendEncoding = this.dataService.edgeLegendEncoding;
-
-    // not user facing
-    this.nodeId = nodeIdField.getBoundField('id');
-    this.nodeSize = nodeSizeField.getBoundField('size');
-    this.nodeColor = nodeColorField.getBoundField('color');
-
-    this.edgeId = edgeIdField.getBoundField('id');
-    this.edgeSize = edgeSizeField.getBoundField('edgeSize');
-
     this.gradient = this.dataService.nodeColorRange.toString();
   }
 
