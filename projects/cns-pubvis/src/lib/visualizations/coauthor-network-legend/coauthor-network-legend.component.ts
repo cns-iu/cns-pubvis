@@ -31,11 +31,17 @@ export class CoauthorNetworkLegendComponent implements OnInit, OnChanges {
 
   gradient: string;
 
+  readonly nodeFields: any = {};
+  readonly edgeFields: any = {};
+
   constructor(private dataService: CoauthorNetworkDataService) {
     this.dataService.nodeStream.subscribe(e => this.nodeStream = of(e));
     this.dataService.edgeStream.subscribe(e => this.edgeStream = of(e));
 
     this.edgeSizeRange = this.dataService.edgeSizeRange;
+
+    ['id', 'coauthorCount', 'paperCount'].forEach(path => this.nodeFields[path] = this.accessor(path));
+    ['id', 'count'].forEach(path => this.edgeFields[path] = this.accessor(path));
   }
 
   accessor<T = any>(field: string): BoundField<T> {
@@ -51,11 +57,11 @@ export class CoauthorNetworkLegendComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    // if (('filter' in changes) && this.filter) {
-    //   const filter: Partial<Filter> = Object.assign({}, this.filter, {limit: this.numCoAuthors});
-    //   this.dataService.fetchData(filter).subscribe(undefined, undefined, () => {
-    //     this.filterUpdateComplete.emit(true);
-    //   });
-    // }
+    if (('filter' in changes) && this.filter) {
+      const filter: Partial<Filter> = Object.assign({}, this.filter, {limit: this.numCoAuthors});
+      this.dataService.fetchData(filter).subscribe(undefined, undefined, () => {
+        this.filterUpdateComplete.emit(true);
+      });
+    }
   }
 }

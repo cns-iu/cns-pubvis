@@ -1,20 +1,3 @@
-<dino-network 
-    [autoresize]="true"
-
-    [nodeStream]="nodeStream"
-    [nodeIdField]="accessor('id')"
-    [nodePositionField]="accessor('position')"
-    [nodeSymbolField]="accessor('symbol')"
-    [nodeColorField]="accessor('color')"
-    [nodeSizeField]="accessor('areaSize')"
-    [nodeStrokeField]="accessor('strokeColor')"
-    [nodeStrokeWidthField]="accessor('strokeWidth')"
-    [nodeTooltipField]="accessor('tooltip')"
-    
-    [edgeStream]="edgeStream"
-    [edgeIdField]="accessor('id')"
-    [edgeSourceField]="accessor('sourcePosition')"
-    [edgeTargetField]="accessor('targetPosition')"
-    [edgeStrokeField]="accessor('color')"
-    [edgeStrokeWidthField]="accessor('strokeWidth')"
-></dino-network>
+<dino-network [autoresize]="true" [nodeStream]="nodeStream" [nodeIdField]="nodeFields.id" [nodePositionField]="nodeFields.position" [nodeSymbolField]="nodeFields.symbol" [nodeColorField]="nodeFields.color" [nodeSizeField]="nodeFields.areaSize" [nodeStrokeField]="nodeFields.strokeColor"
+    [nodeStrokeWidthField]="nodeFields.strokeWidth" [nodeTooltipField]="nodeFields.tooltip" [edgeStream]="edgeStream" [edgeIdField]="edgeFields.id" [edgeSourceField]="edgeFields.sourcePosition" [edgeTargetField]="edgeFields.targetPosition" [edgeStrokeField]="edgeFields.color"
+    [edgeStrokeWidthField]="edgeFields.strokeWidth"></dino-network>

@@ -21,9 +21,20 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
   nodeStream: Observable<RawChangeSet>;
   edgeStream: Observable<RawChangeSet>;
 
+  readonly nodeFields: any = {};
+  readonly edgeFields: any = {};
+
   constructor(private dataService: CoauthorNetworkDataService) {
     this.dataService.nodeStream.subscribe(e => this.nodeStream = of(e));
     this.dataService.edgeStream.subscribe(e => this.edgeStream = of(e));
+
+    [
+      'id', 'position', 'symbol', 'color',
+      'areaSize', 'strokeColor', 'strokeWidth', 'tooltip'
+    ].forEach(path => this.nodeFields[path] = this.accessor(path));
+    [
+      'id', 'sourcePosition', 'targetPosition', 'color', 'strokeWidth'
+    ].forEach(path => this.edgeFields[path] = this.accessor(path));
   }
 
   accessor<T = any>(field: string): BoundField<T> {
