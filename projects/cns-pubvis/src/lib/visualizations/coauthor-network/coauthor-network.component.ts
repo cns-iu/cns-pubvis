@@ -29,8 +29,8 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
     this.dataService.edgeStream.subscribe(e => this.edgeStream = of(e));
 
     [
-      'id', 'position', 'symbol', 'color',
-      'areaSize', 'strokeColor', 'strokeWidth', 'tooltip'
+      'id', 'position', 'symbol', 'color', 'areaSize', 'strokeColor',
+      'strokeWidth', 'tooltip', 'label', 'labelPosition'
     ].forEach(path => this.nodeFields[path] = this.accessor(path));
     [
       'id', 'sourcePosition', 'targetPosition', 'color', 'strokeWidth'
