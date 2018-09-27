@@ -20,7 +20,7 @@ export function norm0to100(field: string, maxField: string, minField?: string): 
 export const formatNumber = map<number, string>(x => x.toLocaleString());
 export const formatYear = map<number, string>(x => '' + x);
 
-export const colorRange = ['#ee1c1c', '#b71c1c'];
+export const colorRange = ['#EB5757', '#b71c1c'];
 export const colorScale = new ColorScale(colorRange[0], colorRange[1], '#b3b3b3', -51);
 export const colorScaleNormQuantitative = colorScale.quantitative([1, 100]);
 export const colorScaleNormQuantitativeStroke = colorScale.quantitativeStrokeColor([1, 100]);

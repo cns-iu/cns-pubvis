@@ -41,7 +41,7 @@ export class Author {
   color: string;
   @Operand<string>(access('coauthorCountStrokeColor'), false)
   strokeColor: string;
-  @Operand<[number, number]>(combine([access('xpos'),access('ypos')]), true)
+  @Operand<[number, number]>(combine([access('xpos'), access('ypos')]), true)
   position: [number, number];
   @Operand<string>(constant('circle'), true)
   symbol: string;
@@ -108,14 +108,14 @@ export class CoAuthorEdge {
     Object.assign(this, data);
   }
 
-  @Operand<[number,number]>(chain(
+  @Operand<[number, number]>(chain(
     access('author1'),
-    combine([access('xpos'),access('ypos')])
+    combine([access('xpos'), access('ypos')])
   ), true)
   sourcePosition: [number, number];
-  @Operand<[number,number]>(chain(
+  @Operand<[number, number]>(chain(
     access('author2'),
-    combine([access('xpos'),access('ypos')])
+    combine([access('xpos'), access('ypos')])
   ), true)
   targetPosition: [number, number];
   @Operand<string>(constant('#d7d7d7'), true)

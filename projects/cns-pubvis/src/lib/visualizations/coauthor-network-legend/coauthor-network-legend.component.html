@@ -1,14 +1,40 @@
-<dino-color-legend [dataStream]="nodeStream" [idField]="nodeFields.id" [colorField]="nodeFields.coauthorCount" [encoding]="colorLegendEncoding" [legendType]="'quantitative'" [colorRange]="gradient" [margin]="'10px 0 10px 8px'">
+<dino-color-legend
+  [dataStream]="nodeStream"
+  
+  [idField]="nodeFields.id"
+  [colorField]="nodeFields.coauthorCount"
+  
+  [encoding]="colorLegendEncoding"
+  [legendType]="'quantitative'"
+  [colorRange]="gradient"
+  [margin]="'10px 0 10px 8px'">
 </dino-color-legend>
 
 <div class="title">Node Size</div>
 <div class="value"># Publications</div>
 
-<dino-node-size-legend [dataStream]="nodeStream" [nodeIdField]="nodeFields.id" [nodeSizeField]="nodeFields.paperCount" [nodeSizeRange]="[3, 12]" [encoding]="'# Publications'" [title]="'Node Size'" [margin]="'-26px 0 10px 8px'">
+<dino-node-size-legend
+  [dataStream]="nodeStream"
+
+  [nodeIdField]="nodeFields.id"
+  [nodeSizeField]="nodeFields.paperCount"
+  
+  [nodeSizeRange]="[1.5, 15]"
+  [encoding]="'# Publications'"
+  [title]="'Node Size'"
+  [margin]="'-26px 0 10px 8px'">
 </dino-node-size-legend>
 
 <div class="title">Edge Size</div>
 <div class="value">{{ edgeLegendEncoding }}</div>
 
-<dino-edge-size-legend [dataStream]="edgeStream" [edgeIdField]="edgeFields.id" [edgeSizeField]="edgeFields.count" [encoding]="edgeLegendEncoding" [edgeSizeRange]="edgeSizeRange" [margin]="'-26px 0 10px 8px'">
+<dino-edge-size-legend
+  [dataStream]="edgeStream"
+
+  [edgeIdField]="edgeFields.id"
+  [edgeSizeField]="edgeFields.count"
+
+  [encoding]="edgeLegendEncoding"
+  [edgeSizeRange]="edgeSizeRange"
+  [margin]="'-26px 0 10px 8px'">
 </dino-edge-size-legend>

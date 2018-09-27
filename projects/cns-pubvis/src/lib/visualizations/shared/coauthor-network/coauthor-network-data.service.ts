@@ -44,6 +44,12 @@ export class CoauthorNetworkDataService {
 
     const graph = this.databaseService.getCoAuthorGraph(filter);
     this.dataSubscription = graph.subscribe((g) => {
+        // An apology and explanation: Sorry.
+        // We call getAuthors after getCoAuthorGraph, because the filter mutates
+        // _all_ authors to have paperCount/coauthorCount based on that filter.
+        // the normal getCoAuthorGraph function just returns the matched authors.
+        // this shows all authors even if they have a zero count.
+        // FIXME: This code/method should be replaced with something much cleaner.
         this.databaseService.getAuthors({year: null}).subscribe(authors => {
           this.nodesChange.next(RawChangeSet.fromArray(authors));
           this.edgesChange.next(RawChangeSet.fromArray(g.coauthorEdges));
