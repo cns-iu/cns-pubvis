@@ -21,12 +21,6 @@ export class CoauthorNetworkDataService {
   private edgesChange = new BehaviorSubject<RawChangeSet<CoAuthorEdge>>(new RawChangeSet());
   public edgeStream = this.edgesChange.asObservable();
 
-  // defaults
-  nodeColorRange = colorRange;
-  colorLegendEncoding = '# Co-Authors';
-  edgeLegendEncoding = '# Co-Authored Publications';
-  edgeSizeRange = [1, 8];
-
   constructor(private databaseService: DatabaseService) {
   }
 

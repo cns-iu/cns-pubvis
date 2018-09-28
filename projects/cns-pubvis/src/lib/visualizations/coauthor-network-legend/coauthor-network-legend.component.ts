@@ -1,16 +1,12 @@
 import { Component, EventEmitter, Input, OnInit, OnChanges, SimpleChanges, Output } from '@angular/core';
 import { Observable, of } from 'rxjs';
 
-import * as d3Selection from 'd3-selection';
-import * as d3Array from 'd3-array';
-import { scaleLinear } from 'd3-scale';
-
 import { BoundField, RawChangeSet, access, simpleField } from '@ngx-dino/core';
 
-import { Author, CoAuthorEdge } from '../../shared/author';
 import { Filter } from '../../shared/filter';
 
 import { CoauthorNetworkDataService } from '../shared/coauthor-network/coauthor-network-data.service';
+import { colorRange, strokeSizeRange, radiusSizeRange } from '../../encoding';
 
 @Component({
   selector: 'cns-pubvis-coauthor-network-legend',
@@ -20,16 +16,14 @@ import { CoauthorNetworkDataService } from '../shared/coauthor-network/coauthor-
 export class CoauthorNetworkLegendComponent implements OnInit, OnChanges {
   @Input() filter: Partial<Filter> = {};
   @Input() numCoAuthors = 0;
-  @Input() edgeSizeRange: number[];
   @Output() filterUpdateComplete = new EventEmitter<boolean>();
 
   nodeStream: Observable<RawChangeSet<any>>;
   edgeStream: Observable<RawChangeSet<any>>;
 
-  colorLegendEncoding: string;
-  edgeLegendEncoding: string;
-
-  gradient: string;
+  edgeSizeRange: number[] = strokeSizeRange;
+  nodeColorRange = colorRange;
+  nodeSizeRange = radiusSizeRange;
 
   readonly nodeFields: any = {};
   readonly edgeFields: any = {};
@@ -37,8 +31,6 @@ export class CoauthorNetworkLegendComponent implements OnInit, OnChanges {
   constructor(private dataService: CoauthorNetworkDataService) {
     this.dataService.nodeStream.subscribe(e => this.nodeStream = of(e));
     this.dataService.edgeStream.subscribe(e => this.edgeStream = of(e));
-
-    this.edgeSizeRange = this.dataService.edgeSizeRange;
 
     ['id', 'coauthorCount', 'paperCount'].forEach(path => this.nodeFields[path] = this.accessor(path));
     ['id', 'count'].forEach(path => this.edgeFields[path] = this.accessor(path));
@@ -50,11 +42,7 @@ export class CoauthorNetworkLegendComponent implements OnInit, OnChanges {
     }).getBoundField(field);
   }
 
-  ngOnInit() {
-    this.colorLegendEncoding = this.dataService.colorLegendEncoding;
-    this.edgeLegendEncoding = this.dataService.edgeLegendEncoding;
-    this.gradient = this.dataService.nodeColorRange.toString();
-  }
+  ngOnInit() {}
 
   ngOnChanges(changes: SimpleChanges) {
     if (('filter' in changes) && this.filter) {

@@ -31,6 +31,7 @@ export const greyScaleNormQuantitative = greyScale.quantitative([1, 100]);
 export const greyScaleNormQuantitativeStroke = greyScale.quantitativeStrokeColor([1, 100]);
 
 export const areaSizeRange = [8, 550];
+export const radiusSizeRange = areaSizeRange.map(a => Math.ceil(Math.sqrt(a) / 2));
 export const areaSizeScale = new SizeScale(areaSizeRange[0], areaSizeRange[1], 3, 'linear'); // TBD TODO
 export const areaSizeScaleNormQuantitative = areaSizeScale.quantitative([1, 100]);
 
