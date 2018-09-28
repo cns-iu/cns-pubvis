@@ -16,6 +16,14 @@ export class CoAuthorNetwork {
   }
 
   private buildGraph() {
+    // Pre-populate nodes/edges from metadata
+    Object.keys(this.authorMetadata || {}).forEach(a => this.getAuthor(a));
+    Object.keys(this.edgeMetadata || {}).forEach((edgeId) => {
+      const edge = this.edgeMetadata[edgeId];
+      const a1 = this.getAuthor(edge.source), a2 = this.getAuthor(edge.target);
+      this.getEdge(a1, a2);
+    });
+
     for (const pub of this.publications) {
       const year = pub.year;
       const authors: Author[] = (pub.authors || []).map((a) => this.getAuthor(a));
