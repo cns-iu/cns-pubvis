@@ -53,6 +53,10 @@ export class Author {
   strokeWidth: number;
   @Operand<string>(access('id'), true)
   tooltip: string;
+  @Operand<string>(access('id'), true)
+  label: string;
+  @Operand<string>(map<any, string>(s => s.show_label ? 'right' : undefined), true)
+  labelPosition: string;
 
   @Operand<number>(norm0to100('paperCount', 'globalStats.paperCountMax'), false)
   paperCountNorm: number;

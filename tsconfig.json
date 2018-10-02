@@ -30,6 +30,12 @@
       "@angular/*": [
         "node_modules/@angular/*"
       ],
+      "@ngx-dino": [
+        "node_modules/@ngx-dino"
+      ],
+      "@ngx-dino/*": [
+        "node_modules/@ngx-dino/*"
+      ],
       "rxjs": [
         "node_modules/rxjs"
       ],

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
-  <meta lastmodifieddate="2018-09-24">
+  <meta lastmodifieddate="2018-10-02">
     <creator>Gephi 0.9</creator>
     <description></description>
   </meta>
@@ -8,6 +8,7 @@
     <attributes class="node" mode="static">
       <attribute id="number_of_authored_works" title="number_of_authored_works" type="integer"></attribute>
       <attribute id="times_cited" title="times_cited" type="integer"></attribute>
+      <attribute id="show_label" title="show_label" type="boolean"></attribute>
     </attributes>
     <attributes class="edge" mode="static">
       <attribute id="number_of_coauthored_works" title="number_of_coauthored_works" type="integer"></attribute>
@@ -17,2025 +18,2250 @@
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-260.63693" y="182.24713"></viz:position>
+        <viz:position x="24.668537" y="25.405622"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n1" label="Staudt, J">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-145.17198" y="328.73233"></viz:position>
+        <viz:position x="140.13348" y="171.89082"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n2" label="Yu, Hf">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-59.344414" y="217.456"></viz:position>
+        <viz:position x="225.96106" y="60.614487"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n3" label="Light, Rp">
         <attvalues>
           <attvalue for="number_of_authored_works" value="8"></attvalue>
           <attvalue for="times_cited" value="87"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-132.0619" y="75.47309"></viz:position>
+        <viz:position x="153.24356" y="-81.368416"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n4" label="Marschke, G">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-283.80176" y="151.23012"></viz:position>
+        <viz:position x="1.5037118" y="-5.6113906"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n5" label="Borner, K">
         <attvalues>
           <attvalue for="number_of_authored_works" value="101"></attvalue>
           <attvalue for="times_cited" value="2687"></attvalue>
+          <attvalue for="show_label" value="true"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-390.31702" y="269.39816"></viz:position>
+        <viz:position x="-105.01154" y="112.556656"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n6" label="Stigler, Sm">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="1"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-285.33618" y="178.11755"></viz:position>
+        <viz:position x="-0.030712008" y="21.276045"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n7" label="Shiffrin, Rm">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="107"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-296.39838" y="330.6294"></viz:position>
+        <viz:position x="-11.092907" y="173.78789"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n8" label="Barabasi, Al">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="3"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-437.2545" y="98.43865"></viz:position>
+        <viz:position x="-151.94902" y="-58.402855"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n9" label="Fortunato, S">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="3"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-516.87445" y="132.6155"></viz:position>
+        <viz:position x="-231.56898" y="-24.226015"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n10" label="Bergstrom, Ct">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="3"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-531.411" y="187.62213"></viz:position>
+        <viz:position x="-246.10555" y="30.780622"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n11" label="Evans, Ja">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="3"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-630.9657" y="63.965645"></viz:position>
+        <viz:position x="-345.66022" y="-92.87586"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n12" label="Helbing, D">
         <attvalues>
           <attvalue for="number_of_authored_works" value="3"></attvalue>
           <attvalue for="times_cited" value="23"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-459.0586" y="269.39218"></viz:position>
+        <viz:position x="-173.75313" y="112.550674"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n13" label="Milojevic, S">
         <attvalues>
           <attvalue for="number_of_authored_works" value="4"></attvalue>
           <attvalue for="times_cited" value="23"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-365.12634" y="260.7119"></viz:position>
+        <viz:position x="-79.82087" y="103.87041"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n14" label="Petersen, Am">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="3"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-586.6598" y="56.405167"></viz:position>
+        <viz:position x="-301.3543" y="-100.43634"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n15" label="Radicchi, F">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="3"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-630.4501" y="244.09253"></viz:position>
+        <viz:position x="-345.1446" y="87.25102"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n16" label="Sinatra, R">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="3"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-550.8799" y="72.26398"></viz:position>
+        <viz:position x="-265.5744" y="-84.57753"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n17" label="Uzzi, B">
         <attvalues>
           <attvalue for="number_of_authored_works" value="3"></attvalue>
           <attvalue for="times_cited" value="132"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-549.87585" y="576.86395"></viz:position>
+        <viz:position x="-264.57037" y="420.02243"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n18" label="Vespignani, A">
         <attvalues>
           <attvalue for="number_of_authored_works" value="3"></attvalue>
           <attvalue for="times_cited" value="216"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-373.3131" y="298.611"></viz:position>
+        <viz:position x="-88.00764" y="141.76949"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n19" label="Waltman, L">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="3"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-520.74915" y="35.53193"></viz:position>
+        <viz:position x="-235.44368" y="-121.30958"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n20" label="Wang, Ds">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="3"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-609.0493" y="194.56073"></viz:position>
+        <viz:position x="-323.74384" y="37.719223"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n21" label="Goldstone, Rl">
         <attvalues>
           <attvalue for="number_of_authored_works" value="3"></attvalue>
           <attvalue for="times_cited" value="145"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-434.11835" y="144.31093"></viz:position>
+        <viz:position x="-148.81288" y="-12.53058"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n22" label="Simpson, Ah">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="1"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-298.92044" y="276.6999"></viz:position>
+        <viz:position x="-13.614971" y="119.85838"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n23" label="Bueckle, A">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="1"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-321.46423" y="274.93454"></viz:position>
+        <viz:position x="-36.158764" y="118.09303"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n24" label="Shen, L">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-484.69284" y="-131.40031"></viz:position>
+        <viz:position x="-199.38737" y="-288.24182"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n25" label="Yao, Xh">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-404.7568" y="-124.03855"></viz:position>
+        <viz:position x="-119.45133" y="-280.88007"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n26" label="Yan, Jw">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-325.1154" y="-84.345535"></viz:position>
+        <viz:position x="-39.809917" y="-241.18704"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n27" label="Ginda, M">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-365.76868" y="-3.9536073"></viz:position>
+        <viz:position x="-80.4632" y="-160.79512"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n28" label="Saykin, Aj">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-564.49744" y="-145.99236"></viz:position>
+        <viz:position x="-279.19196" y="-302.83386"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n29" label="Carpenter, Js">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="1"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-226.72585" y="-21.523502"></viz:position>
+        <viz:position x="58.579624" y="-178.365"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n30" label="Laine, T">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="1"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-234.36215" y="-175.96436"></viz:position>
+        <viz:position x="50.943317" y="-332.80588"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n31" label="Harrison, B">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="1"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-164.92789" y="-112.244995"></viz:position>
+        <viz:position x="120.37759" y="-269.08652"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n32" label="Lepage, M">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="1"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-164.93929" y="-23.543716"></viz:position>
+        <viz:position x="120.36619" y="-180.38522"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n33" label="Pierce, T">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="1"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-213.71107" y="22.501507"></viz:position>
+        <viz:position x="71.5944" y="-134.34"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n34" label="Hoteling, N">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="1"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-163.56418" y="35.085064"></viz:position>
+        <viz:position x="121.741295" y="-121.75645"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n35" label="Emmons, Sr">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="1"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-330.03848" y="163.33661"></viz:position>
+        <viz:position x="-44.733013" y="6.4951005"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n36" label="Reed, C">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-369.44196" y="-179.2932"></viz:position>
+        <viz:position x="-84.13648" y="-336.1347"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n37" label="Murdock, J">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-380.8225" y="-198.80852"></viz:position>
+        <viz:position x="-95.51704" y="-355.65002"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n38" label="Allen, C">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-321.86224" y="-191.20665"></viz:position>
+        <viz:position x="-36.556774" y="-348.04816"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n39" label="Light, R">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-365.32443" y="-160.63597"></viz:position>
+        <viz:position x="-80.01896" y="-317.47748"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n40" label="Mcalister, S">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-365.94254" y="-181.4993"></viz:position>
+        <viz:position x="-80.63706" y="-338.34082"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n41" label="Ravenscroft, A">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-384.33856" y="-178.26508"></viz:position>
+        <viz:position x="-99.03309" y="-335.1066"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n42" label="Rose, R">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-366.19473" y="-178.85553"></viz:position>
+        <viz:position x="-80.88926" y="-335.69705"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n43" label="Rose, D">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-387.52988" y="-177.30751"></viz:position>
+        <viz:position x="-102.2244" y="-334.14902"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n44" label="Otsuka, J">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-365.80884" y="-183.81003"></viz:position>
+        <viz:position x="-80.503365" y="-340.65155"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n45" label="Bourget, D">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-369.36945" y="-188.26624"></viz:position>
+        <viz:position x="-84.06397" y="-345.10776"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n46" label="Lawrence, J">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-370.61285" y="-181.23604"></viz:position>
+        <viz:position x="-85.30738" y="-338.07755"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n47" label="Osili, Uo">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="1"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-281.84894" y="129.88493"></viz:position>
+        <viz:position x="3.4565315" y="-26.956575"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n48" label="Ackerman, J">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="1"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-396.18292" y="233.15355"></viz:position>
+        <viz:position x="-110.87745" y="76.31204"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n49" label="Kong, Ch">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="1"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-317.88455" y="147.19669"></viz:position>
+        <viz:position x="-32.579082" y="-9.644822"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n50" label="Scharnhorst, A">
         <attvalues>
           <attvalue for="number_of_authored_works" value="7"></attvalue>
           <attvalue for="times_cited" value="55"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-390.3583" y="269.99435"></viz:position>
+        <viz:position x="-105.05283" y="113.15285"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n51" label="Edmonds, B">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="2"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-496.4301" y="188.64743"></viz:position>
+        <viz:position x="-211.12465" y="31.805922"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n52" label="Bollen, J">
         <attvalues>
           <attvalue for="number_of_authored_works" value="3"></attvalue>
           <attvalue for="times_cited" value="18"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-605.4335" y="-90.33349"></viz:position>
+        <viz:position x="-320.128" y="-247.175"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n53" label="Crandall, D">
         <attvalues>
           <attvalue for="number_of_authored_works" value="3"></attvalue>
           <attvalue for="times_cited" value="18"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-490.55142" y="124.159096"></viz:position>
+        <viz:position x="-205.24596" y="-32.68241"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n54" label="Junk, D">
         <attvalues>
           <attvalue for="number_of_authored_works" value="3"></attvalue>
           <attvalue for="times_cited" value="18"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-552.2294" y="128.68869"></viz:position>
+        <viz:position x="-266.9239" y="-28.152819"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n55" label="Ding, Y">
         <attvalues>
           <attvalue for="number_of_authored_works" value="4"></attvalue>
           <attvalue for="times_cited" value="23"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-444.89914" y="23.337984"></viz:position>
+        <viz:position x="-159.59367" y="-133.50352"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n56" label="Emmons, S">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="15"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-347.30084" y="396.19635"></viz:position>
+        <viz:position x="-61.995373" y="239.35484"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n57" label="Kobourov, S">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="24"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-380.35498" y="23.776445"></viz:position>
+        <viz:position x="-95.04951" y="-133.06506"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n58" label="Gallant, M">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="15"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-267.71582" y="189.50995"></viz:position>
+        <viz:position x="17.58965" y="32.66844"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n59" label="Heimlich, J">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="5"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-119.1272" y="394.7729"></viz:position>
+        <viz:position x="166.17827" y="237.93138"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n60" label="Maltese, A">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="5"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-362.88477" y="276.57193"></viz:position>
+        <viz:position x="-77.57929" y="119.73042"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n61" label="Balliet, Rn">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="5"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-391.7185" y="395.6738"></viz:position>
+        <viz:position x="-106.41303" y="238.83229"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n62" label="Knepper, R">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-266.62494" y="323.80786"></viz:position>
+        <viz:position x="18.68053" y="166.96635"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n63" label="Pestilli, F">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="5"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-427.09045" y="228.7056"></viz:position>
+        <viz:position x="-141.78499" y="71.86409"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n64" label="Saket, B">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="14"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-304.42712" y="208.87943"></viz:position>
+        <viz:position x="-19.121655" y="52.037918"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n65" label="Scheidegger, C">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="5"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-355.25812" y="189.8288"></viz:position>
+        <viz:position x="-69.952644" y="32.98729"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n66" label="Kobourov, Sg">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="5"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-301.88135" y="129.24727"></viz:position>
+        <viz:position x="-16.575878" y="-27.59424"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n67" label="Lariviere, V">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="70"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-399.3901" y="343.7959"></viz:position>
+        <viz:position x="-114.08463" y="186.95439"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n68" label="Haustein, S">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="12"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-336.68927" y="247.20651"></viz:position>
+        <viz:position x="-51.3838" y="90.365005"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n69" label="Patel, K">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-209.09074" y="279.46997"></viz:position>
+        <viz:position x="76.21473" y="122.62846"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n70" label="Govoni, S">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-213.33456" y="353.53265"></viz:position>
+        <viz:position x="71.97091" y="196.69115"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n71" label="Athavale, A">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-385.81506" y="140.53247"></viz:position>
+        <viz:position x="-100.50959" y="-16.309038"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n72" label="Jibu, M">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-467.92853" y="251.7911"></viz:position>
+        <viz:position x="-182.62306" y="94.9496"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n73" label="Osabe, Y">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-443.81512" y="176.72652"></viz:position>
+        <viz:position x="-158.50966" y="19.885008"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n74" label="Simonetto, P">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="9"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-258.15924" y="116.25818"></viz:position>
+        <viz:position x="27.146229" y="-40.58333"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n75" label="Reijnhoudt, L">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="10"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-385.97366" y="193.37476"></viz:position>
+        <viz:position x="-100.66819" y="36.53325"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n76" label="Costas, R">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="10"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-350.23083" y="213.26682"></viz:position>
+        <viz:position x="-64.92536" y="56.42531"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n77" label="Noyons, E">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="10"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-382.19464" y="188.86697"></viz:position>
+        <viz:position x="-96.88917" y="32.025467"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n78" label="Polley, De">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="13"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-271.75992" y="191.6872"></viz:position>
+        <viz:position x="13.545551" y="34.845688"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n79" label="Zeckzer, D">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="2"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-274.6796" y="358.00967"></viz:position>
+        <viz:position x="10.625874" y="201.16817"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n80" label="Schreiber, F">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="2"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-316.63324" y="424.70523"></viz:position>
+        <viz:position x="-31.32777" y="267.8637"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n81" label="Kerren, A">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="2"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-275.98203" y="362.17535"></viz:position>
+        <viz:position x="9.323444" y="205.33385"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n82" label="Hagen, H">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="2"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-219.52658" y="326.4252"></viz:position>
+        <viz:position x="65.77889" y="169.5837"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n83" label="Fang, S">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="14"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-231.73935" y="222.99612"></viz:position>
+        <viz:position x="53.56612" y="66.15462"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n84" label="Chen, Yw">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="14"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-456.62714" y="295.8622"></viz:position>
+        <viz:position x="-171.32167" y="139.0207"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n85" label="Skupin, A">
         <attvalues>
           <attvalue for="number_of_authored_works" value="3"></attvalue>
           <attvalue for="times_cited" value="99"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-516.94543" y="314.94598"></viz:position>
+        <viz:position x="-231.63997" y="158.10448"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n86" label="Biberstine, Jr">
         <attvalues>
           <attvalue for="number_of_authored_works" value="3"></attvalue>
           <attvalue for="times_cited" value="155"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-447.93137" y="258.43723"></viz:position>
+        <viz:position x="-162.6259" y="101.59572"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n87" label="Mazloumian, A">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="14"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-407.79657" y="283.48026"></viz:position>
+        <viz:position x="-122.4911" y="126.63875"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n88" label="Lozano, S">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="14"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-245.04012" y="308.36572"></viz:position>
+        <viz:position x="40.265354" y="151.52422"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n89" label="Van Harmelen, F">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="6"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="43.381535" y="64.89961"></viz:position>
+        <viz:position x="328.687" y="-91.941895"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n90" label="Kampis, G">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="6"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-76.05357" y="74.79379"></viz:position>
+        <viz:position x="209.25189" y="-82.047714"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n91" label="Van Den Besselaar, P">
         <attvalues>
           <attvalue for="number_of_authored_works" value="4"></attvalue>
           <attvalue for="times_cited" value="16"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-469.81714" y="326.50882"></viz:position>
+        <viz:position x="-184.51167" y="169.66731"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n92" label="Schultes, E">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="6"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-79.90267" y="-92.19113"></viz:position>
+        <viz:position x="205.4028" y="-249.03264"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n93" label="Goble, C">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="6"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="85.165665" y="-31.129124"></viz:position>
+        <viz:position x="370.47113" y="-187.97063"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n94" label="Groth, P">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="6"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-102.68421" y="18.77187"></viz:position>
+        <viz:position x="182.62126" y="-138.06964"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n95" label="Mons, B">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="92"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="434.4026" y="-412.33636"></viz:position>
+        <viz:position x="719.70807" y="-569.17786"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n96" label="Anderson, S">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="6"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="21.219826" y="163.76917"></viz:position>
+        <viz:position x="306.5253" y="6.9276567"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n97" label="Decker, S">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="6"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-61.962982" y="115.121346"></viz:position>
+        <viz:position x="223.34248" y="-41.72016"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n98" label="Hayes, C">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="6"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-17.33831" y="-2.1140656"></viz:position>
+        <viz:position x="267.96716" y="-158.95557"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n99" label="Buecheler, T">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="6"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-129.69565" y="-172.26021"></viz:position>
+        <viz:position x="155.60982" y="-329.1017"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n100" label="Boyack, Kw">
         <attvalues>
           <attvalue for="number_of_authored_works" value="9"></attvalue>
           <attvalue for="times_cited" value="1244"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-390.97473" y="269.14197"></viz:position>
+        <viz:position x="-105.66926" y="112.30046"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n101" label="Klavans, R">
         <attvalues>
           <attvalue for="number_of_authored_works" value="5"></attvalue>
           <attvalue for="times_cited" value="552"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-390.81744" y="267.84558"></viz:position>
+        <viz:position x="-105.51197" y="111.004074"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n102" label="Patek, M">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="133"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-462.10883" y="193.89922"></viz:position>
+        <viz:position x="-176.80336" y="37.05771"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n103" label="Zoss, Am">
         <attvalues>
           <attvalue for="number_of_authored_works" value="6"></attvalue>
           <attvalue for="times_cited" value="79"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-396.84796" y="308.94983"></viz:position>
+        <viz:position x="-111.54249" y="152.10832"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n104" label="Morris, S">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="13"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-357.98877" y="95.148254"></viz:position>
+        <viz:position x="-72.6833" y="-61.693253"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n105" label="Glanzel, W">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="6"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-299.5266" y="158.76926"></viz:position>
+        <viz:position x="-14.221142" y="1.9277484"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n106" label="Guo, Hn">
         <attvalues>
           <attvalue for="number_of_authored_works" value="3"></attvalue>
           <attvalue for="times_cited" value="45"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-252.94754" y="296.71835"></viz:position>
+        <viz:position x="32.35793" y="139.87685"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n107" label="Weingart, S">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="28"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-238.95575" y="327.98492"></viz:position>
+        <viz:position x="46.34972" y="171.14342"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n108" label="Newman, D">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="75"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-365.4984" y="339.0381"></viz:position>
+        <viz:position x="-80.19294" y="182.19658"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n109" label="Duhon, Rj">
         <attvalues>
           <attvalue for="number_of_authored_works" value="5"></attvalue>
           <attvalue for="times_cited" value="98"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-390.94632" y="269.76343"></viz:position>
+        <viz:position x="-105.64085" y="112.92192"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n110" label="Schijvenaars, B">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="75"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-470.18256" y="347.83078"></viz:position>
+        <viz:position x="-184.87709" y="190.98927"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n111" label="Ma, Nal">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="75"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-448.5446" y="241.28995"></viz:position>
+        <viz:position x="-163.23912" y="84.44844"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n112" label="Wagner, Cs">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="196"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-473.42957" y="376.74634"></viz:position>
+        <viz:position x="-188.1241" y="219.90483"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n113" label="Roessner, Jd">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="196"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-686.53125" y="307.21933"></viz:position>
+        <viz:position x="-401.22577" y="150.37782"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n114" label="Bobb, K">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="196"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-640.8031" y="274.91153"></viz:position>
+        <viz:position x="-355.49762" y="118.07002"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n115" label="Klein, Jt">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="196"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-458.77856" y="475.33447"></viz:position>
+        <viz:position x="-173.4731" y="318.49295"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n116" label="Keyton, J">
         <attvalues>
           <attvalue for="number_of_authored_works" value="3"></attvalue>
           <attvalue for="times_cited" value="325"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-603.47705" y="324.30142"></viz:position>
+        <viz:position x="-318.17157" y="167.45992"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n117" label="Rafols, I">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="196"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-568.227" y="314.24478"></viz:position>
+        <viz:position x="-282.9215" y="157.40327"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n118" label="Falk-krzesinski, Hj">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="129"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-760.0107" y="355.31308"></viz:position>
+        <viz:position x="-474.7052" y="198.47157"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n119" label="Contractor, N">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="129"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-524.75586" y="508.01028"></viz:position>
+        <viz:position x="-239.4504" y="351.16876"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n120" label="Fiore, Sm">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="129"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-489.10797" y="436.6234"></viz:position>
+        <viz:position x="-203.8025" y="279.7819"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n121" label="Hall, Kl">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="129"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-615.37036" y="367.45575"></viz:position>
+        <viz:position x="-330.06488" y="210.61424"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n122" label="Spring, B">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="129"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-575.53406" y="376.0272"></viz:position>
+        <viz:position x="-290.22858" y="219.18568"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n123" label="Stokols, D">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="129"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-648.1566" y="500.90466"></viz:position>
+        <viz:position x="-362.85114" y="344.06314"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n124" label="Trochim, W">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="129"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-602.4299" y="422.46857"></viz:position>
+        <viz:position x="-317.1244" y="265.62704"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n125" label="Price, Ma">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="17"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-318.33337" y="313.67715"></viz:position>
+        <viz:position x="-33.027905" y="156.83565"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n126" label="Huang, Wx">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="24"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-256.53143" y="266.97513"></viz:position>
+        <viz:position x="28.774036" y="110.13362"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n127" label="Linnemeier, M">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="17"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-214.75389" y="397.40887"></viz:position>
+        <viz:position x="70.55158" y="240.56737"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n128" label="Phillips, P">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="17"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-270.68616" y="312.68475"></viz:position>
+        <viz:position x="14.619312" y="155.84325"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n129" label="Ma, Nl">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="17"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-256.7371" y="242.6036"></viz:position>
+        <viz:position x="28.568378" y="85.7621"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n130" label="Toma, I">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="5"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-686.7118" y="-78.298096"></viz:position>
+        <viz:position x="-401.4063" y="-235.1396"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n131" label="Sun, Yy">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="5"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-568.5089" y="32.499958"></viz:position>
+        <viz:position x="-283.20343" y="-124.34155"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n132" label="Chen, B">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="5"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-644.24536" y="34.82776"></viz:position>
+        <viz:position x="-358.93988" y="-122.01375"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n133" label="Ding, L">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="5"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-611.81586" y="47.904823"></viz:position>
+        <viz:position x="-326.51038" y="-108.93668"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n134" label="Wild, D">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="5"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-619.39" y="46.287575"></viz:position>
+        <viz:position x="-334.08453" y="-110.55393"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n135" label="Wu, M">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="5"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-791.40985" y="154.33073"></viz:position>
+        <viz:position x="-506.10437" y="-2.510774"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n136" label="Difranzo, D">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="5"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-738.6643" y="205.8828"></viz:position>
+        <viz:position x="-453.35883" y="49.04129"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n137" label="Fuenzalida, Ag">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="5"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-476.72717" y="2.1211123"></viz:position>
+        <viz:position x="-191.4217" y="-154.7204"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n138" label="Li, Df">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="5"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-553.97253" y="-11.6533165"></viz:position>
+        <viz:position x="-268.66705" y="-168.49483"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n139" label="Chen, Ss">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="5"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-598.2165" y="25.861477"></viz:position>
+        <viz:position x="-312.911" y="-130.98003"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n140" label="Sankaranarayanan, M">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="5"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-738.35455" y="34.96125"></viz:position>
+        <viz:position x="-453.04907" y="-121.88026"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n141" label="Conover, M">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-411.133" y="182.74231"></viz:position>
+        <viz:position x="-125.82752" y="25.9008"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n142" label="Larowe, G">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="17"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-226.83775" y="178.45819"></viz:position>
+        <viz:position x="58.467716" y="21.616682"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n143" label="Ambre, S">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="17"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-120.83648" y="141.16875"></viz:position>
+        <viz:position x="164.469" y="-15.672761"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n144" label="Burgoon, J">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="17"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-185.23251" y="136.05107"></viz:position>
+        <viz:position x="100.07296" y="-20.790438"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n145" label="Ke, W">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="17"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-169.70146" y="110.7785"></viz:position>
+        <viz:position x="115.60401" y="-46.063004"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n146" label="Huang, Bn">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-284.81564" y="393.99722"></viz:position>
+        <viz:position x="0.48982632" y="237.15572"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n147" label="Ma, Nnl">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-282.39346" y="318.46338"></viz:position>
+        <viz:position x="2.9120064" y="161.62187"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n148" label="Zoss, A">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-336.57336" y="308.14334"></viz:position>
+        <viz:position x="-51.267895" y="151.30183"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n149" label="Bairoch, A">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="354.75934" y="-177.13693"></viz:position>
+        <viz:position x="640.0648" y="-333.97845"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n150" label="Ashburner, M">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="541.27435" y="-147.4959"></viz:position>
+        <viz:position x="826.57983" y="-304.3374"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n151" label="Chichester, C">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="504.9371" y="-141.16492"></viz:position>
+        <viz:position x="790.24255" y="-298.00644"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n152" label="Van Mulligen, E">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="258.4394" y="-272.05212"></viz:position>
+        <viz:position x="543.7449" y="-428.89365"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n153" label="Weeber, M">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="654.1297" y="-207.41498"></viz:position>
+        <viz:position x="939.4352" y="-364.2565"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n154" label="Den Dunnen, J">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="514.7572" y="-239.97414"></viz:position>
+        <viz:position x="800.0627" y="-396.81564"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n155" label="Van Ommen, Gj">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="405.35858" y="-210.74608"></viz:position>
+        <viz:position x="690.66406" y="-367.5876"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n156" label="Musen, M">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="598.5896" y="-84.39459"></viz:position>
+        <viz:position x="883.8951" y="-241.2361"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n157" label="Cockerill, M">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="288.69205" y="-111.36292"></viz:position>
+        <viz:position x="573.9975" y="-268.20444"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n158" label="Hermjakob, H">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="603.7379" y="-385.2085"></viz:position>
+        <viz:position x="889.0434" y="-542.05"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n159" label="Mons, A">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="514.9877" y="-334.54404"></viz:position>
+        <viz:position x="800.29315" y="-491.38556"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n160" label="Packer, A">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="517.15784" y="-40.514305"></viz:position>
+        <viz:position x="802.4633" y="-197.35582"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n161" label="Pacheco, R">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="434.92877" y="-285.27606"></viz:position>
+        <viz:position x="720.23425" y="-442.11758"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n162" label="Lewis, S">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="420.06177" y="-32.20593"></viz:position>
+        <viz:position x="705.36725" y="-189.04744"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n163" label="Berkeley, A">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="409.15704" y="-160.48967"></viz:position>
+        <viz:position x="694.4625" y="-317.33118"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n164" label="Melton, W">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="606.07874" y="-264.38754"></viz:position>
+        <viz:position x="891.3842" y="-421.22906"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n165" label="Barris, N">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="400.96777" y="-119.28329"></viz:position>
+        <viz:position x="686.27325" y="-276.1248"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n166" label="Wales, J">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="595.1499" y="-203.71011"></viz:position>
+        <viz:position x="880.4554" y="-360.55164"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n167" label="Meijssen, G">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="349.5086" y="-372.804"></viz:position>
+        <viz:position x="634.8141" y="-529.6455"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n168" label="Moeller, E">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="684.7144" y="-124.808586"></viz:position>
+        <viz:position x="970.0199" y="-281.6501"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n169" label="Roes, Pj">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="474.36542" y="-227.74559"></viz:position>
+        <viz:position x="759.6709" y="-384.5871"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n170" label="Penumarthy, S">
         <attvalues>
           <attvalue for="number_of_authored_works" value="6"></attvalue>
           <attvalue for="times_cited" value="47"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-365.96674" y="311.30298"></viz:position>
+        <viz:position x="-80.66126" y="154.46147"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n171" label="Herr, Bw">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="13"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-272.57184" y="354.99393"></viz:position>
+        <viz:position x="12.733631" y="198.15242"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n172" label="Hardy, Ef">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="6"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-311.95197" y="162.58731"></viz:position>
+        <viz:position x="-26.646496" y="5.7458024"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n173" label="Paley, Wb">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="3"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-171.92493" y="220.22478"></viz:position>
+        <viz:position x="113.38055" y="63.38327"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n174" label="Hardy, E">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="3"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-202.7105" y="122.12784"></viz:position>
+        <viz:position x="82.59498" y="-34.71367"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n175" label="Herr, B">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="3"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-246.14458" y="130.13976"></viz:position>
+        <viz:position x="39.160892" y="-26.701754"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n176" label="Holloway, T">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="53"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-482.89325" y="120.77574"></viz:position>
+        <viz:position x="-197.58778" y="-36.065765"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n177" label="Neirynck, T">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="4"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-532.8961" y="250.6243"></viz:position>
+        <viz:position x="-247.59065" y="93.78279"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n178" label="Sanyal, S">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="127"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-684.79376" y="180.36292"></viz:position>
+        <viz:position x="-399.48828" y="23.521406"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n179" label="Mane, Kk">
         <attvalues>
           <attvalue for="number_of_authored_works" value="4"></attvalue>
           <attvalue for="times_cited" value="98"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-310.75137" y="241.37433"></viz:position>
+        <viz:position x="-25.445904" y="84.53282"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n180" label="Bozicevic, M">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="50"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-365.24387" y="434.84286"></viz:position>
+        <viz:position x="-79.93839" y="278.00134"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n181" label="Ke, Wm">
         <attvalues>
           <attvalue for="number_of_authored_works" value="4"></attvalue>
           <attvalue for="times_cited" value="311"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-366.6826" y="236.54291"></viz:position>
+        <viz:position x="-81.37711" y="79.7014"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n182" label="Meiss, M">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="33"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-315.32205" y="273.46066"></viz:position>
+        <viz:position x="-30.016582" y="116.619156"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n183" label="Janssen, Ma">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="189"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-536.7494" y="384.65863"></viz:position>
+        <viz:position x="-251.44392" y="227.81712"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n184" label="Schoon, Ml">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="189"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-305.33856" y="288.92764"></viz:position>
+        <viz:position x="-20.033092" y="132.08614"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n185" label="Murray, C">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="3"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-492.36545" y="282.83463"></viz:position>
+        <viz:position x="-207.05998" y="125.99312"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n186" label="Ragg, S">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-207.41655" y="594.4822"></viz:position>
+        <viz:position x="77.88892" y="437.64066"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n187" label="Rosenman, Mb">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-242.3426" y="436.74362"></viz:position>
+        <viz:position x="42.962864" y="279.9021"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n188" label="Doucette, Em">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-324.94073" y="488.1505"></viz:position>
+        <viz:position x="-39.635265" y="331.309"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n189" label="Yan, Z">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-108.57841" y="470.69034"></viz:position>
+        <viz:position x="176.72707" y="313.84882"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n190" label="Haydon, Jc">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-238.48892" y="665.896"></viz:position>
+        <viz:position x="46.816547" y="509.05447"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n191" label="Paine, Jh">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-285.06628" y="526.4573"></viz:position>
+        <viz:position x="0.23918545" y="369.61575"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n192" label="Lee, Nd">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-482.94568" y="601.9701"></viz:position>
+        <viz:position x="-197.64021" y="445.12857"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n193" label="Vik, T">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-379.67053" y="475.21887"></viz:position>
+        <viz:position x="-94.36506" y="318.37735"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n194" label="Mane, K">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-365.01187" y="565.08704"></viz:position>
+        <viz:position x="-79.7064" y="408.2455"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n195" label="Ord, Tj">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="16"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-439.78094" y="314.49033"></viz:position>
+        <viz:position x="-154.47548" y="157.64882"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n196" label="Martins, Ep">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="16"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-469.8847" y="221.20038"></viz:position>
+        <viz:position x="-184.57924" y="64.35887"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n197" label="Thakur, S">
         <attvalues>
           <attvalue for="number_of_authored_works" value="2"></attvalue>
           <attvalue for="times_cited" value="16"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-326.3649" y="274.757"></viz:position>
+        <viz:position x="-41.05943" y="117.91548"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n198" label="Dall'asta, L">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="86"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-602.8618" y="245.54764"></viz:position>
+        <viz:position x="-317.55634" y="88.70613"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n199" label="Navarro-prieto, R">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-321.23633" y="274.74133"></viz:position>
+        <viz:position x="-35.93086" y="117.899826"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n200" label="Chen, Cm">
         <attvalues>
           <attvalue for="number_of_authored_works" value="4"></attvalue>
           <attvalue for="times_cited" value="436"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-456.09015" y="266.16223"></viz:position>
+        <viz:position x="-170.78468" y="109.320724"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n201" label="Fletcher, Ghl">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="10"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-251.12123" y="155.62396"></viz:position>
+        <viz:position x="34.18424" y="-1.2175457"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n202" label="Sheth, Ha">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="10"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-405.01398" y="30.917418"></viz:position>
+        <viz:position x="-119.7085" y="-125.92409"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n203" label="Mahoui, M">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-324.7141" y="-5.3394012"></viz:position>
+        <viz:position x="-39.40864" y="-162.18091"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n204" label="Kulkarni, H">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-243.44083" y="76.09801"></viz:position>
+        <viz:position x="41.864643" y="-80.7435"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n205" label="Li, Nh">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-270.52588" y="-5.8975434"></viz:position>
+        <viz:position x="14.779591" y="-162.73904"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n206" label="Ben-miled, Z">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-360.84445" y="43.26989"></viz:position>
+        <viz:position x="-75.53898" y="-113.57162"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n207" label="Kerney, C">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-270.3273" y="68.121796"></viz:position>
+        <viz:position x="14.9781685" y="-88.71971"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n208" label="Devarco, Bj">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-246.98135" y="274.13876"></viz:position>
+        <viz:position x="38.324116" y="117.29726"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n209" label="Maru, Jt">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="139"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-451.2997" y="377.0364"></viz:position>
+        <viz:position x="-165.99425" y="220.1949"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n210" label="Jones, Rj">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="1"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-366.90067" y="312.62894"></viz:position>
+        <viz:position x="-81.59519" y="155.78743"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n211" label="Lee, Gj">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="1"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-371.3299" y="333.2215"></viz:position>
+        <viz:position x="-86.02442" y="176.37999"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n212" label="Ord, T">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-429.08502" y="297.39288"></viz:position>
+        <viz:position x="-143.77956" y="140.55138"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n213" label="Martins, E">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-40.474747" y="381.18604"></viz:position>
+        <viz:position x="244.83072" y="224.34453"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n214" label="Mostafa, J">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-408.86264" y="116.2202"></viz:position>
+        <viz:position x="-123.55717" y="-40.621307"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n215" label="Mccain, Kw">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-284.30737" y="287.32736"></viz:position>
+        <viz:position x="0.9980966" y="130.48586"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n216" label="Rasmussen, E">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-286.31454" y="252.43277"></viz:position>
+        <viz:position x="-1.009075" y="95.59126"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n217" label="Atkins, Hb">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-59.141827" y="287.34113"></viz:position>
+        <viz:position x="226.16365" y="130.49962"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n218" label="Lin, Sm">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="3"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-484.08752" y="319.48868"></viz:position>
+        <viz:position x="-198.78206" y="162.64717"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n219" label="Hazlewood, Wr">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="3"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-564.6594" y="274.7798"></viz:position>
+        <viz:position x="-279.35394" y="117.93828"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n220" label="Feng, Y">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="2"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-357.09656" y="157.57022"></viz:position>
+        <viz:position x="-71.791084" y="0.7287128"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n221" label="Lin, Yc">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="0"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-177.6571" y="283.55862"></viz:position>
+        <viz:position x="107.64837" y="126.71712"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n222" label="Zhou, Yz">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="6"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-484.96234" y="157.31096"></viz:position>
+        <viz:position x="-199.65688" y="0.4694507"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n223" label="Dolinsky, M">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="5"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-324.22552" y="183.26099"></viz:position>
+        <viz:position x="-38.920055" y="26.419477"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
       <node id="n224" label="Dillon, A">
         <attvalues>
           <attvalue for="number_of_authored_works" value="1"></attvalue>
           <attvalue for="times_cited" value="5"></attvalue>
+          <attvalue for="show_label" value="false"></attvalue>
         </attvalues>
         <viz:size value="4.0"></viz:size>
-        <viz:position x="-462.23077" y="266.69342"></viz:position>
+        <viz:position x="-176.92531" y="109.85191"></viz:position>
         <viz:color r="192" g="192" b="192"></viz:color>
       </node>
     </nodes>

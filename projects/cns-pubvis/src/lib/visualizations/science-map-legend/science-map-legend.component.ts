@@ -24,12 +24,7 @@ export class ScienceMapLegendComponent implements OnInit, OnChanges {
   unmappedSubdisciplines: SubdisciplineWeight;
   subdisciplineSize: BoundField<number>;
   subdisciplineId: BoundField<number | string>;
-
   nodeLabelToColor: any;
-
-  nodeSizeEncoding = '# Fractionally Assigned Papers';
-  nodeColorEncoding = 'Disciplines';
-  nodeShape = 'Node';
 
   constructor(private dataService: ScienceMapDataService) {
     this.filteredSubdisciplines = dataService.filteredSubdisciplines;

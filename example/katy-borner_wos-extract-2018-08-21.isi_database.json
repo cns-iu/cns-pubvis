@@ -2,1578 +2,1803 @@
   "authorMetadata": [
     {
       "id": "Weinberg, Ba",
-      "xpos": -260.63693,
-      "ypos": -182.24713,
+      "xpos": 24.668537,
+      "ypos": -25.405622,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Staudt, J",
-      "xpos": -145.17198,
-      "ypos": -328.73233,
+      "xpos": 140.13348,
+      "ypos": -171.89082,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Yu, Hf",
-      "xpos": -59.344414,
-      "ypos": -217.456,
+      "xpos": 225.96106,
+      "ypos": -60.614487,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Light, Rp",
-      "xpos": -132.0619,
-      "ypos": -75.47309,
+      "xpos": 153.24356,
+      "ypos": 81.368416,
       "number_of_authored_works": 8,
-      "times_cited": 87
+      "times_cited": 87,
+      "show_label": false
     },
     {
       "id": "Marschke, G",
-      "xpos": -283.80176,
-      "ypos": -151.23012,
+      "xpos": 1.5037118,
+      "ypos": 5.6113906,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Borner, K",
-      "xpos": -390.31702,
-      "ypos": -269.39816,
+      "xpos": -105.01154,
+      "ypos": -112.556656,
       "number_of_authored_works": 101,
-      "times_cited": 2687
+      "times_cited": 2687,
+      "show_label": true
     },
     {
       "id": "Stigler, Sm",
-      "xpos": -285.33618,
-      "ypos": -178.11755,
+      "xpos": -0.030712008,
+      "ypos": -21.276045,
       "number_of_authored_works": 1,
-      "times_cited": 1
+      "times_cited": 1,
+      "show_label": false
     },
     {
       "id": "Shiffrin, Rm",
-      "xpos": -296.39838,
-      "ypos": -330.6294,
+      "xpos": -11.092907,
+      "ypos": -173.78789,
       "number_of_authored_works": 2,
-      "times_cited": 107
+      "times_cited": 107,
+      "show_label": false
     },
     {
       "id": "Barabasi, Al",
-      "xpos": -437.2545,
-      "ypos": -98.43865,
+      "xpos": -151.94902,
+      "ypos": 58.402855,
       "number_of_authored_works": 1,
-      "times_cited": 3
+      "times_cited": 3,
+      "show_label": false
     },
     {
       "id": "Fortunato, S",
-      "xpos": -516.87445,
-      "ypos": -132.6155,
+      "xpos": -231.56898,
+      "ypos": 24.226015,
       "number_of_authored_works": 1,
-      "times_cited": 3
+      "times_cited": 3,
+      "show_label": false
     },
     {
       "id": "Bergstrom, Ct",
-      "xpos": -531.411,
-      "ypos": -187.62213,
+      "xpos": -246.10555,
+      "ypos": -30.780622,
       "number_of_authored_works": 1,
-      "times_cited": 3
+      "times_cited": 3,
+      "show_label": false
     },
     {
       "id": "Evans, Ja",
-      "xpos": -630.9657,
-      "ypos": -63.965645,
+      "xpos": -345.66022,
+      "ypos": 92.87586,
       "number_of_authored_works": 1,
-      "times_cited": 3
+      "times_cited": 3,
+      "show_label": false
     },
     {
       "id": "Helbing, D",
-      "xpos": -459.0586,
-      "ypos": -269.39218,
+      "xpos": -173.75313,
+      "ypos": -112.550674,
       "number_of_authored_works": 3,
-      "times_cited": 23
+      "times_cited": 23,
+      "show_label": false
     },
     {
       "id": "Milojevic, S",
-      "xpos": -365.12634,
-      "ypos": -260.7119,
+      "xpos": -79.82087,
+      "ypos": -103.87041,
       "number_of_authored_works": 4,
-      "times_cited": 23
+      "times_cited": 23,
+      "show_label": false
     },
     {
       "id": "Petersen, Am",
-      "xpos": -586.6598,
-      "ypos": -56.405167,
+      "xpos": -301.3543,
+      "ypos": 100.43634,
       "number_of_authored_works": 1,
-      "times_cited": 3
+      "times_cited": 3,
+      "show_label": false
     },
     {
       "id": "Radicchi, F",
-      "xpos": -630.4501,
-      "ypos": -244.09253,
+      "xpos": -345.1446,
+      "ypos": -87.25102,
       "number_of_authored_works": 1,
-      "times_cited": 3
+      "times_cited": 3,
+      "show_label": false
     },
     {
       "id": "Sinatra, R",
-      "xpos": -550.8799,
-      "ypos": -72.26398,
+      "xpos": -265.5744,
+      "ypos": 84.57753,
       "number_of_authored_works": 1,
-      "times_cited": 3
+      "times_cited": 3,
+      "show_label": false
     },
     {
       "id": "Uzzi, B",
-      "xpos": -549.87585,
-      "ypos": -576.86395,
+      "xpos": -264.57037,
+      "ypos": -420.02243,
       "number_of_authored_works": 3,
-      "times_cited": 132
+      "times_cited": 132,
+      "show_label": false
     },
     {
       "id": "Vespignani, A",
-      "xpos": -373.3131,
-      "ypos": -298.611,
+      "xpos": -88.00764,
+      "ypos": -141.76949,
       "number_of_authored_works": 3,
-      "times_cited": 216
+      "times_cited": 216,
+      "show_label": false
     },
     {
       "id": "Waltman, L",
-      "xpos": -520.74915,
-      "ypos": -35.53193,
+      "xpos": -235.44368,
+      "ypos": 121.30958,
       "number_of_authored_works": 1,
-      "times_cited": 3
+      "times_cited": 3,
+      "show_label": false
     },
     {
       "id": "Wang, Ds",
-      "xpos": -609.0493,
-      "ypos": -194.56073,
+      "xpos": -323.74384,
+      "ypos": -37.719223,
       "number_of_authored_works": 1,
-      "times_cited": 3
+      "times_cited": 3,
+      "show_label": false
     },
     {
       "id": "Goldstone, Rl",
-      "xpos": -434.11835,
-      "ypos": -144.31093,
+      "xpos": -148.81288,
+      "ypos": 12.53058,
       "number_of_authored_works": 3,
-      "times_cited": 145
+      "times_cited": 145,
+      "show_label": false
     },
     {
       "id": "Simpson, Ah",
-      "xpos": -298.92044,
-      "ypos": -276.6999,
+      "xpos": -13.614971,
+      "ypos": -119.85838,
       "number_of_authored_works": 1,
-      "times_cited": 1
+      "times_cited": 1,
+      "show_label": false
     },
     {
       "id": "Bueckle, A",
-      "xpos": -321.46423,
-      "ypos": -274.93454,
+      "xpos": -36.158764,
+      "ypos": -118.09303,
       "number_of_authored_works": 1,
-      "times_cited": 1
+      "times_cited": 1,
+      "show_label": false
     },
     {
       "id": "Shen, L",
-      "xpos": -484.69284,
-      "ypos": 131.40031,
+      "xpos": -199.38737,
+      "ypos": 288.24182,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Yao, Xh",
-      "xpos": -404.7568,
-      "ypos": 124.03855,
+      "xpos": -119.45133,
+      "ypos": 280.88007,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Yan, Jw",
-      "xpos": -325.1154,
-      "ypos": 84.345535,
+      "xpos": -39.809917,
+      "ypos": 241.18704,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Ginda, M",
-      "xpos": -365.76868,
-      "ypos": 3.9536073,
+      "xpos": -80.4632,
+      "ypos": 160.79512,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Saykin, Aj",
-      "xpos": -564.49744,
-      "ypos": 145.99236,
+      "xpos": -279.19196,
+      "ypos": 302.83386,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Carpenter, Js",
-      "xpos": -226.72585,
-      "ypos": 21.523502,
+      "xpos": 58.579624,
+      "ypos": 178.365,
       "number_of_authored_works": 1,
-      "times_cited": 1
+      "times_cited": 1,
+      "show_label": false
     },
     {
       "id": "Laine, T",
-      "xpos": -234.36215,
-      "ypos": 175.96436,
+      "xpos": 50.943317,
+      "ypos": 332.80588,
       "number_of_authored_works": 1,
-      "times_cited": 1
+      "times_cited": 1,
+      "show_label": false
     },
     {
       "id": "Harrison, B",
-      "xpos": -164.92789,
-      "ypos": 112.244995,
+      "xpos": 120.37759,
+      "ypos": 269.08652,
       "number_of_authored_works": 1,
-      "times_cited": 1
+      "times_cited": 1,
+      "show_label": false
     },
     {
       "id": "Lepage, M",
-      "xpos": -164.93929,
-      "ypos": 23.543716,
+      "xpos": 120.36619,
+      "ypos": 180.38522,
       "number_of_authored_works": 1,
-      "times_cited": 1
+      "times_cited": 1,
+      "show_label": false
     },
     {
       "id": "Pierce, T",
-      "xpos": -213.71107,
-      "ypos": -22.501507,
+      "xpos": 71.5944,
+      "ypos": 134.34,
       "number_of_authored_works": 1,
-      "times_cited": 1
+      "times_cited": 1,
+      "show_label": false
     },
     {
       "id": "Hoteling, N",
-      "xpos": -163.56418,
-      "ypos": -35.085064,
+      "xpos": 121.741295,
+      "ypos": 121.75645,
       "number_of_authored_works": 1,
-      "times_cited": 1
+      "times_cited": 1,
+      "show_label": false
     },
     {
       "id": "Emmons, Sr",
-      "xpos": -330.03848,
-      "ypos": -163.33661,
+      "xpos": -44.733013,
+      "ypos": -6.4951005,
       "number_of_authored_works": 1,
-      "times_cited": 1
+      "times_cited": 1,
+      "show_label": false
     },
     {
       "id": "Reed, C",
-      "xpos": -369.44196,
-      "ypos": 179.2932,
+      "xpos": -84.13648,
+      "ypos": 336.1347,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Murdock, J",
-      "xpos": -380.8225,
-      "ypos": 198.80852,
+      "xpos": -95.51704,
+      "ypos": 355.65002,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Allen, C",
-      "xpos": -321.86224,
-      "ypos": 191.20665,
+      "xpos": -36.556774,
+      "ypos": 348.04816,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Light, R",
-      "xpos": -365.32443,
-      "ypos": 160.63597,
+      "xpos": -80.01896,
+      "ypos": 317.47748,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Mcalister, S",
-      "xpos": -365.94254,
-      "ypos": 181.4993,
+      "xpos": -80.63706,
+      "ypos": 338.34082,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Ravenscroft, A",
-      "xpos": -384.33856,
-      "ypos": 178.26508,
+      "xpos": -99.03309,
+      "ypos": 335.1066,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Rose, R",
-      "xpos": -366.19473,
-      "ypos": 178.85553,
+      "xpos": -80.88926,
+      "ypos": 335.69705,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Rose, D",
-      "xpos": -387.52988,
-      "ypos": 177.30751,
+      "xpos": -102.2244,
+      "ypos": 334.14902,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Otsuka, J",
-      "xpos": -365.80884,
-      "ypos": 183.81003,
+      "xpos": -80.503365,
+      "ypos": 340.65155,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Bourget, D",
-      "xpos": -369.36945,
-      "ypos": 188.26624,
+      "xpos": -84.06397,
+      "ypos": 345.10776,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Lawrence, J",
-      "xpos": -370.61285,
-      "ypos": 181.23604,
+      "xpos": -85.30738,
+      "ypos": 338.07755,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Osili, Uo",
-      "xpos": -281.84894,
-      "ypos": -129.88493,
+      "xpos": 3.4565315,
+      "ypos": 26.956575,
       "number_of_authored_works": 1,
-      "times_cited": 1
+      "times_cited": 1,
+      "show_label": false
     },
     {
       "id": "Ackerman, J",
-      "xpos": -396.18292,
-      "ypos": -233.15355,
+      "xpos": -110.87745,
+      "ypos": -76.31204,
       "number_of_authored_works": 1,
-      "times_cited": 1
+      "times_cited": 1,
+      "show_label": false
     },
     {
       "id": "Kong, Ch",
-      "xpos": -317.88455,
-      "ypos": -147.19669,
+      "xpos": -32.579082,
+      "ypos": 9.644822,
       "number_of_authored_works": 1,
-      "times_cited": 1
+      "times_cited": 1,
+      "show_label": false
     },
     {
       "id": "Scharnhorst, A",
-      "xpos": -390.3583,
-      "ypos": -269.99435,
+      "xpos": -105.05283,
+      "ypos": -113.15285,
       "number_of_authored_works": 7,
-      "times_cited": 55
+      "times_cited": 55,
+      "show_label": false
     },
     {
       "id": "Edmonds, B",
-      "xpos": -496.4301,
-      "ypos": -188.64743,
+      "xpos": -211.12465,
+      "ypos": -31.805922,
       "number_of_authored_works": 1,
-      "times_cited": 2
+      "times_cited": 2,
+      "show_label": false
     },
     {
       "id": "Bollen, J",
-      "xpos": -605.4335,
-      "ypos": 90.33349,
+      "xpos": -320.128,
+      "ypos": 247.175,
       "number_of_authored_works": 3,
-      "times_cited": 18
+      "times_cited": 18,
+      "show_label": false
     },
     {
       "id": "Crandall, D",
-      "xpos": -490.55142,
-      "ypos": -124.159096,
+      "xpos": -205.24596,
+      "ypos": 32.68241,
       "number_of_authored_works": 3,
-      "times_cited": 18
+      "times_cited": 18,
+      "show_label": false
     },
     {
       "id": "Junk, D",
-      "xpos": -552.2294,
-      "ypos": -128.68869,
+      "xpos": -266.9239,
+      "ypos": 28.152819,
       "number_of_authored_works": 3,
-      "times_cited": 18
+      "times_cited": 18,
+      "show_label": false
     },
     {
       "id": "Ding, Y",
-      "xpos": -444.89914,
-      "ypos": -23.337984,
+      "xpos": -159.59367,
+      "ypos": 133.50352,
       "number_of_authored_works": 4,
-      "times_cited": 23
+      "times_cited": 23,
+      "show_label": false
     },
     {
       "id": "Emmons, S",
-      "xpos": -347.30084,
-      "ypos": -396.19635,
+      "xpos": -61.995373,
+      "ypos": -239.35484,
       "number_of_authored_works": 1,
-      "times_cited": 15
+      "times_cited": 15,
+      "show_label": false
     },
     {
       "id": "Kobourov, S",
-      "xpos": -380.35498,
-      "ypos": -23.776445,
+      "xpos": -95.04951,
+      "ypos": 133.06506,
       "number_of_authored_works": 2,
-      "times_cited": 24
+      "times_cited": 24,
+      "show_label": false
     },
     {
       "id": "Gallant, M",
-      "xpos": -267.71582,
-      "ypos": -189.50995,
+      "xpos": 17.58965,
+      "ypos": -32.66844,
       "number_of_authored_works": 1,
-      "times_cited": 15
+      "times_cited": 15,
+      "show_label": false
     },
     {
       "id": "Heimlich, J",
-      "xpos": -119.1272,
-      "ypos": -394.7729,
+      "xpos": 166.17827,
+      "ypos": -237.93138,
       "number_of_authored_works": 1,
-      "times_cited": 5
+      "times_cited": 5,
+      "show_label": false
     },
     {
       "id": "Maltese, A",
-      "xpos": -362.88477,
-      "ypos": -276.57193,
+      "xpos": -77.57929,
+      "ypos": -119.73042,
       "number_of_authored_works": 1,
-      "times_cited": 5
+      "times_cited": 5,
+      "show_label": false
     },
     {
       "id": "Balliet, Rn",
-      "xpos": -391.7185,
-      "ypos": -395.6738,
+      "xpos": -106.41303,
+      "ypos": -238.83229,
       "number_of_authored_works": 1,
-      "times_cited": 5
+      "times_cited": 5,
+      "show_label": false
     },
     {
       "id": "Knepper, R",
-      "xpos": -266.62494,
-      "ypos": -323.80786,
+      "xpos": 18.68053,
+      "ypos": -166.96635,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Pestilli, F",
-      "xpos": -427.09045,
-      "ypos": -228.7056,
+      "xpos": -141.78499,
+      "ypos": -71.86409,
       "number_of_authored_works": 1,
-      "times_cited": 5
+      "times_cited": 5,
+      "show_label": false
     },
     {
       "id": "Saket, B",
-      "xpos": -304.42712,
-      "ypos": -208.87943,
+      "xpos": -19.121655,
+      "ypos": -52.037918,
       "number_of_authored_works": 2,
-      "times_cited": 14
+      "times_cited": 14,
+      "show_label": false
     },
     {
       "id": "Scheidegger, C",
-      "xpos": -355.25812,
-      "ypos": -189.8288,
+      "xpos": -69.952644,
+      "ypos": -32.98729,
       "number_of_authored_works": 1,
-      "times_cited": 5
+      "times_cited": 5,
+      "show_label": false
     },
     {
       "id": "Kobourov, Sg",
-      "xpos": -301.88135,
-      "ypos": -129.24727,
+      "xpos": -16.575878,
+      "ypos": 27.59424,
       "number_of_authored_works": 1,
-      "times_cited": 5
+      "times_cited": 5,
+      "show_label": false
     },
     {
       "id": "Lariviere, V",
-      "xpos": -399.3901,
-      "ypos": -343.7959,
+      "xpos": -114.08463,
+      "ypos": -186.95439,
       "number_of_authored_works": 2,
-      "times_cited": 70
+      "times_cited": 70,
+      "show_label": false
     },
     {
       "id": "Haustein, S",
-      "xpos": -336.68927,
-      "ypos": -247.20651,
+      "xpos": -51.3838,
+      "ypos": -90.365005,
       "number_of_authored_works": 1,
-      "times_cited": 12
+      "times_cited": 12,
+      "show_label": false
     },
     {
       "id": "Patel, K",
-      "xpos": -209.09074,
-      "ypos": -279.46997,
+      "xpos": 76.21473,
+      "ypos": -122.62846,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Govoni, S",
-      "xpos": -213.33456,
-      "ypos": -353.53265,
+      "xpos": 71.97091,
+      "ypos": -196.69115,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Athavale, A",
-      "xpos": -385.81506,
-      "ypos": -140.53247,
+      "xpos": -100.50959,
+      "ypos": 16.309038,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Jibu, M",
-      "xpos": -467.92853,
-      "ypos": -251.7911,
+      "xpos": -182.62306,
+      "ypos": -94.9496,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Osabe, Y",
-      "xpos": -443.81512,
-      "ypos": -176.72652,
+      "xpos": -158.50966,
+      "ypos": -19.885008,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Simonetto, P",
-      "xpos": -258.15924,
-      "ypos": -116.25818,
+      "xpos": 27.146229,
+      "ypos": 40.58333,
       "number_of_authored_works": 1,
-      "times_cited": 9
+      "times_cited": 9,
+      "show_label": false
     },
     {
       "id": "Reijnhoudt, L",
-      "xpos": -385.97366,
-      "ypos": -193.37476,
+      "xpos": -100.66819,
+      "ypos": -36.53325,
       "number_of_authored_works": 2,
-      "times_cited": 10
+      "times_cited": 10,
+      "show_label": false
     },
     {
       "id": "Costas, R",
-      "xpos": -350.23083,
-      "ypos": -213.26682,
+      "xpos": -64.92536,
+      "ypos": -56.42531,
       "number_of_authored_works": 2,
-      "times_cited": 10
+      "times_cited": 10,
+      "show_label": false
     },
     {
       "id": "Noyons, E",
-      "xpos": -382.19464,
-      "ypos": -188.86697,
+      "xpos": -96.88917,
+      "ypos": -32.025467,
       "number_of_authored_works": 2,
-      "times_cited": 10
+      "times_cited": 10,
+      "show_label": false
     },
     {
       "id": "Polley, De",
-      "xpos": -271.75992,
-      "ypos": -191.6872,
+      "xpos": 13.545551,
+      "ypos": -34.845688,
       "number_of_authored_works": 2,
-      "times_cited": 13
+      "times_cited": 13,
+      "show_label": false
     },
     {
       "id": "Zeckzer, D",
-      "xpos": -274.6796,
-      "ypos": -358.00967,
+      "xpos": 10.625874,
+      "ypos": -201.16817,
       "number_of_authored_works": 1,
-      "times_cited": 2
+      "times_cited": 2,
+      "show_label": false
     },
     {
       "id": "Schreiber, F",
-      "xpos": -316.63324,
-      "ypos": -424.70523,
+      "xpos": -31.32777,
+      "ypos": -267.8637,
       "number_of_authored_works": 1,
-      "times_cited": 2
+      "times_cited": 2,
+      "show_label": false
     },
     {
       "id": "Kerren, A",
-      "xpos": -275.98203,
-      "ypos": -362.17535,
+      "xpos": 9.323444,
+      "ypos": -205.33385,
       "number_of_authored_works": 1,
-      "times_cited": 2
+      "times_cited": 2,
+      "show_label": false
     },
     {
       "id": "Hagen, H",
-      "xpos": -219.52658,
-      "ypos": -326.4252,
+      "xpos": 65.77889,
+      "ypos": -169.5837,
       "number_of_authored_works": 1,
-      "times_cited": 2
+      "times_cited": 2,
+      "show_label": false
     },
     {
       "id": "Fang, S",
-      "xpos": -231.73935,
-      "ypos": -222.99612,
+      "xpos": 53.56612,
+      "ypos": -66.15462,
       "number_of_authored_works": 1,
-      "times_cited": 14
+      "times_cited": 14,
+      "show_label": false
     },
     {
       "id": "Chen, Yw",
-      "xpos": -456.62714,
-      "ypos": -295.8622,
+      "xpos": -171.32167,
+      "ypos": -139.0207,
       "number_of_authored_works": 1,
-      "times_cited": 14
+      "times_cited": 14,
+      "show_label": false
     },
     {
       "id": "Skupin, A",
-      "xpos": -516.94543,
-      "ypos": -314.94598,
+      "xpos": -231.63997,
+      "ypos": -158.10448,
       "number_of_authored_works": 3,
-      "times_cited": 99
+      "times_cited": 99,
+      "show_label": false
     },
     {
       "id": "Biberstine, Jr",
-      "xpos": -447.93137,
-      "ypos": -258.43723,
+      "xpos": -162.6259,
+      "ypos": -101.59572,
       "number_of_authored_works": 3,
-      "times_cited": 155
+      "times_cited": 155,
+      "show_label": false
     },
     {
       "id": "Mazloumian, A",
-      "xpos": -407.79657,
-      "ypos": -283.48026,
+      "xpos": -122.4911,
+      "ypos": -126.63875,
       "number_of_authored_works": 1,
-      "times_cited": 14
+      "times_cited": 14,
+      "show_label": false
     },
     {
       "id": "Lozano, S",
-      "xpos": -245.04012,
-      "ypos": -308.36572,
+      "xpos": 40.265354,
+      "ypos": -151.52422,
       "number_of_authored_works": 1,
-      "times_cited": 14
+      "times_cited": 14,
+      "show_label": false
     },
     {
       "id": "Van Harmelen, F",
-      "xpos": 43.381535,
-      "ypos": -64.89961,
+      "xpos": 328.687,
+      "ypos": 91.941895,
       "number_of_authored_works": 1,
-      "times_cited": 6
+      "times_cited": 6,
+      "show_label": false
     },
     {
       "id": "Kampis, G",
-      "xpos": -76.05357,
-      "ypos": -74.79379,
+      "xpos": 209.25189,
+      "ypos": 82.047714,
       "number_of_authored_works": 1,
-      "times_cited": 6
+      "times_cited": 6,
+      "show_label": false
     },
     {
       "id": "Van Den Besselaar, P",
-      "xpos": -469.81714,
-      "ypos": -326.50882,
+      "xpos": -184.51167,
+      "ypos": -169.66731,
       "number_of_authored_works": 4,
-      "times_cited": 16
+      "times_cited": 16,
+      "show_label": false
     },
     {
       "id": "Schultes, E",
-      "xpos": -79.90267,
-      "ypos": 92.19113,
+      "xpos": 205.4028,
+      "ypos": 249.03264,
       "number_of_authored_works": 1,
-      "times_cited": 6
+      "times_cited": 6,
+      "show_label": false
     },
     {
       "id": "Goble, C",
-      "xpos": 85.165665,
-      "ypos": 31.129124,
+      "xpos": 370.47113,
+      "ypos": 187.97063,
       "number_of_authored_works": 1,
-      "times_cited": 6
+      "times_cited": 6,
+      "show_label": false
     },
     {
       "id": "Groth, P",
-      "xpos": -102.68421,
-      "ypos": -18.77187,
+      "xpos": 182.62126,
+      "ypos": 138.06964,
       "number_of_authored_works": 1,
-      "times_cited": 6
+      "times_cited": 6,
+      "show_label": false
     },
     {
       "id": "Mons, B",
-      "xpos": 434.4026,
-      "ypos": 412.33636,
+      "xpos": 719.70807,
+      "ypos": 569.17786,
       "number_of_authored_works": 2,
-      "times_cited": 92
+      "times_cited": 92,
+      "show_label": false
     },
     {
       "id": "Anderson, S",
-      "xpos": 21.219826,
-      "ypos": -163.76917,
+      "xpos": 306.5253,
+      "ypos": -6.9276567,
       "number_of_authored_works": 1,
-      "times_cited": 6
+      "times_cited": 6,
+      "show_label": false
     },
     {
       "id": "Decker, S",
-      "xpos": -61.962982,
-      "ypos": -115.121346,
+      "xpos": 223.34248,
+      "ypos": 41.72016,
       "number_of_authored_works": 1,
-      "times_cited": 6
+      "times_cited": 6,
+      "show_label": false
     },
     {
       "id": "Hayes, C",
-      "xpos": -17.33831,
-      "ypos": 2.1140656,
+      "xpos": 267.96716,
+      "ypos": 158.95557,
       "number_of_authored_works": 1,
-      "times_cited": 6
+      "times_cited": 6,
+      "show_label": false
     },
     {
       "id": "Buecheler, T",
-      "xpos": -129.69565,
-      "ypos": 172.26021,
+      "xpos": 155.60982,
+      "ypos": 329.1017,
       "number_of_authored_works": 1,
-      "times_cited": 6
+      "times_cited": 6,
+      "show_label": false
     },
     {
       "id": "Boyack, Kw",
-      "xpos": -390.97473,
-      "ypos": -269.14197,
+      "xpos": -105.66926,
+      "ypos": -112.30046,
       "number_of_authored_works": 9,
-      "times_cited": 1244
+      "times_cited": 1244,
+      "show_label": false
     },
     {
       "id": "Klavans, R",
-      "xpos": -390.81744,
-      "ypos": -267.84558,
+      "xpos": -105.51197,
+      "ypos": -111.004074,
       "number_of_authored_works": 5,
-      "times_cited": 552
+      "times_cited": 552,
+      "show_label": false
     },
     {
       "id": "Patek, M",
-      "xpos": -462.10883,
-      "ypos": -193.89922,
+      "xpos": -176.80336,
+      "ypos": -37.05771,
       "number_of_authored_works": 2,
-      "times_cited": 133
+      "times_cited": 133,
+      "show_label": false
     },
     {
       "id": "Zoss, Am",
-      "xpos": -396.84796,
-      "ypos": -308.94983,
+      "xpos": -111.54249,
+      "ypos": -152.10832,
       "number_of_authored_works": 6,
-      "times_cited": 79
+      "times_cited": 79,
+      "show_label": false
     },
     {
       "id": "Morris, S",
-      "xpos": -357.98877,
-      "ypos": -95.148254,
+      "xpos": -72.6833,
+      "ypos": 61.693253,
       "number_of_authored_works": 1,
-      "times_cited": 13
+      "times_cited": 13,
+      "show_label": false
     },
     {
       "id": "Glanzel, W",
-      "xpos": -299.5266,
-      "ypos": -158.76926,
+      "xpos": -14.221142,
+      "ypos": -1.9277484,
       "number_of_authored_works": 1,
-      "times_cited": 6
+      "times_cited": 6,
+      "show_label": false
     },
     {
       "id": "Guo, Hn",
-      "xpos": -252.94754,
-      "ypos": -296.71835,
+      "xpos": 32.35793,
+      "ypos": -139.87685,
       "number_of_authored_works": 3,
-      "times_cited": 45
+      "times_cited": 45,
+      "show_label": false
     },
     {
       "id": "Weingart, S",
-      "xpos": -238.95575,
-      "ypos": -327.98492,
+      "xpos": 46.34972,
+      "ypos": -171.14342,
       "number_of_authored_works": 1,
-      "times_cited": 28
+      "times_cited": 28,
+      "show_label": false
     },
     {
       "id": "Newman, D",
-      "xpos": -365.4984,
-      "ypos": -339.0381,
+      "xpos": -80.19294,
+      "ypos": -182.19658,
       "number_of_authored_works": 1,
-      "times_cited": 75
+      "times_cited": 75,
+      "show_label": false
     },
     {
       "id": "Duhon, Rj",
-      "xpos": -390.94632,
-      "ypos": -269.76343,
+      "xpos": -105.64085,
+      "ypos": -112.92192,
       "number_of_authored_works": 5,
-      "times_cited": 98
+      "times_cited": 98,
+      "show_label": false
     },
     {
       "id": "Schijvenaars, B",
-      "xpos": -470.18256,
-      "ypos": -347.83078,
+      "xpos": -184.87709,
+      "ypos": -190.98927,
       "number_of_authored_works": 1,
-      "times_cited": 75
+      "times_cited": 75,
+      "show_label": false
     },
     {
       "id": "Ma, Nal",
-      "xpos": -448.5446,
-      "ypos": -241.28995,
+      "xpos": -163.23912,
+      "ypos": -84.44844,
       "number_of_authored_works": 1,
-      "times_cited": 75
+      "times_cited": 75,
+      "show_label": false
     },
     {
       "id": "Wagner, Cs",
-      "xpos": -473.42957,
-      "ypos": -376.74634,
+      "xpos": -188.1241,
+      "ypos": -219.90483,
       "number_of_authored_works": 1,
-      "times_cited": 196
+      "times_cited": 196,
+      "show_label": false
     },
     {
       "id": "Roessner, Jd",
-      "xpos": -686.53125,
-      "ypos": -307.21933,
+      "xpos": -401.22577,
+      "ypos": -150.37782,
       "number_of_authored_works": 1,
-      "times_cited": 196
+      "times_cited": 196,
+      "show_label": false
     },
     {
       "id": "Bobb, K",
-      "xpos": -640.8031,
-      "ypos": -274.91153,
+      "xpos": -355.49762,
+      "ypos": -118.07002,
       "number_of_authored_works": 1,
-      "times_cited": 196
+      "times_cited": 196,
+      "show_label": false
     },
     {
       "id": "Klein, Jt",
-      "xpos": -458.77856,
-      "ypos": -475.33447,
+      "xpos": -173.4731,
+      "ypos": -318.49295,
       "number_of_authored_works": 1,
-      "times_cited": 196
+      "times_cited": 196,
+      "show_label": false
     },
     {
       "id": "Keyton, J",
-      "xpos": -603.47705,
-      "ypos": -324.30142,
+      "xpos": -318.17157,
+      "ypos": -167.45992,
       "number_of_authored_works": 3,
-      "times_cited": 325
+      "times_cited": 325,
+      "show_label": false
     },
     {
       "id": "Rafols, I",
-      "xpos": -568.227,
-      "ypos": -314.24478,
+      "xpos": -282.9215,
+      "ypos": -157.40327,
       "number_of_authored_works": 1,
-      "times_cited": 196
+      "times_cited": 196,
+      "show_label": false
     },
     {
       "id": "Falk-krzesinski, Hj",
-      "xpos": -760.0107,
-      "ypos": -355.31308,
+      "xpos": -474.7052,
+      "ypos": -198.47157,
       "number_of_authored_works": 2,
-      "times_cited": 129
+      "times_cited": 129,
+      "show_label": false
     },
     {
       "id": "Contractor, N",
-      "xpos": -524.75586,
-      "ypos": -508.01028,
+      "xpos": -239.4504,
+      "ypos": -351.16876,
       "number_of_authored_works": 2,
-      "times_cited": 129
+      "times_cited": 129,
+      "show_label": false
     },
     {
       "id": "Fiore, Sm",
-      "xpos": -489.10797,
-      "ypos": -436.6234,
+      "xpos": -203.8025,
+      "ypos": -279.7819,
       "number_of_authored_works": 2,
-      "times_cited": 129
+      "times_cited": 129,
+      "show_label": false
     },
     {
       "id": "Hall, Kl",
-      "xpos": -615.37036,
-      "ypos": -367.45575,
+      "xpos": -330.06488,
+      "ypos": -210.61424,
       "number_of_authored_works": 2,
-      "times_cited": 129
+      "times_cited": 129,
+      "show_label": false
     },
     {
       "id": "Spring, B",
-      "xpos": -575.53406,
-      "ypos": -376.0272,
+      "xpos": -290.22858,
+      "ypos": -219.18568,
       "number_of_authored_works": 2,
-      "times_cited": 129
+      "times_cited": 129,
+      "show_label": false
     },
     {
       "id": "Stokols, D",
-      "xpos": -648.1566,
-      "ypos": -500.90466,
+      "xpos": -362.85114,
+      "ypos": -344.06314,
       "number_of_authored_works": 2,
-      "times_cited": 129
+      "times_cited": 129,
+      "show_label": false
     },
     {
       "id": "Trochim, W",
-      "xpos": -602.4299,
-      "ypos": -422.46857,
+      "xpos": -317.1244,
+      "ypos": -265.62704,
       "number_of_authored_works": 2,
-      "times_cited": 129
+      "times_cited": 129,
+      "show_label": false
     },
     {
       "id": "Price, Ma",
-      "xpos": -318.33337,
-      "ypos": -313.67715,
+      "xpos": -33.027905,
+      "ypos": -156.83565,
       "number_of_authored_works": 2,
-      "times_cited": 17
+      "times_cited": 17,
+      "show_label": false
     },
     {
       "id": "Huang, Wx",
-      "xpos": -256.53143,
-      "ypos": -266.97513,
+      "xpos": 28.774036,
+      "ypos": -110.13362,
       "number_of_authored_works": 2,
-      "times_cited": 24
+      "times_cited": 24,
+      "show_label": false
     },
     {
       "id": "Linnemeier, M",
-      "xpos": -214.75389,
-      "ypos": -397.40887,
+      "xpos": 70.55158,
+      "ypos": -240.56737,
       "number_of_authored_works": 2,
-      "times_cited": 17
+      "times_cited": 17,
+      "show_label": false
     },
     {
       "id": "Phillips, P",
-      "xpos": -270.68616,
-      "ypos": -312.68475,
+      "xpos": 14.619312,
+      "ypos": -155.84325,
       "number_of_authored_works": 2,
-      "times_cited": 17
+      "times_cited": 17,
+      "show_label": false
     },
     {
       "id": "Ma, Nl",
-      "xpos": -256.7371,
-      "ypos": -242.6036,
+      "xpos": 28.568378,
+      "ypos": -85.7621,
       "number_of_authored_works": 2,
-      "times_cited": 17
+      "times_cited": 17,
+      "show_label": false
     },
     {
       "id": "Toma, I",
-      "xpos": -686.7118,
-      "ypos": 78.298096,
+      "xpos": -401.4063,
+      "ypos": 235.1396,
       "number_of_authored_works": 1,
-      "times_cited": 5
+      "times_cited": 5,
+      "show_label": false
     },
     {
       "id": "Sun, Yy",
-      "xpos": -568.5089,
-      "ypos": -32.499958,
+      "xpos": -283.20343,
+      "ypos": 124.34155,
       "number_of_authored_works": 1,
-      "times_cited": 5
+      "times_cited": 5,
+      "show_label": false
     },
     {
       "id": "Chen, B",
-      "xpos": -644.24536,
-      "ypos": -34.82776,
+      "xpos": -358.93988,
+      "ypos": 122.01375,
       "number_of_authored_works": 1,
-      "times_cited": 5
+      "times_cited": 5,
+      "show_label": false
     },
     {
       "id": "Ding, L",
-      "xpos": -611.81586,
-      "ypos": -47.904823,
+      "xpos": -326.51038,
+      "ypos": 108.93668,
       "number_of_authored_works": 1,
-      "times_cited": 5
+      "times_cited": 5,
+      "show_label": false
     },
     {
       "id": "Wild, D",
-      "xpos": -619.39,
-      "ypos": -46.287575,
+      "xpos": -334.08453,
+      "ypos": 110.55393,
       "number_of_authored_works": 1,
-      "times_cited": 5
+      "times_cited": 5,
+      "show_label": false
     },
     {
       "id": "Wu, M",
-      "xpos": -791.40985,
-      "ypos": -154.33073,
+      "xpos": -506.10437,
+      "ypos": 2.510774,
       "number_of_authored_works": 1,
-      "times_cited": 5
+      "times_cited": 5,
+      "show_label": false
     },
     {
       "id": "Difranzo, D",
-      "xpos": -738.6643,
-      "ypos": -205.8828,
+      "xpos": -453.35883,
+      "ypos": -49.04129,
       "number_of_authored_works": 1,
-      "times_cited": 5
+      "times_cited": 5,
+      "show_label": false
     },
     {
       "id": "Fuenzalida, Ag",
-      "xpos": -476.72717,
-      "ypos": -2.1211123,
+      "xpos": -191.4217,
+      "ypos": 154.7204,
       "number_of_authored_works": 1,
-      "times_cited": 5
+      "times_cited": 5,
+      "show_label": false
     },
     {
       "id": "Li, Df",
-      "xpos": -553.97253,
-      "ypos": 11.6533165,
+      "xpos": -268.66705,
+      "ypos": 168.49483,
       "number_of_authored_works": 1,
-      "times_cited": 5
+      "times_cited": 5,
+      "show_label": false
     },
     {
       "id": "Chen, Ss",
-      "xpos": -598.2165,
-      "ypos": -25.861477,
+      "xpos": -312.911,
+      "ypos": 130.98003,
       "number_of_authored_works": 1,
-      "times_cited": 5
+      "times_cited": 5,
+      "show_label": false
     },
     {
       "id": "Sankaranarayanan, M",
-      "xpos": -738.35455,
-      "ypos": -34.96125,
+      "xpos": -453.04907,
+      "ypos": 121.88026,
       "number_of_authored_works": 1,
-      "times_cited": 5
+      "times_cited": 5,
+      "show_label": false
     },
     {
       "id": "Conover, M",
-      "xpos": -411.133,
-      "ypos": -182.74231,
+      "xpos": -125.82752,
+      "ypos": -25.9008,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Larowe, G",
-      "xpos": -226.83775,
-      "ypos": -178.45819,
+      "xpos": 58.467716,
+      "ypos": -21.616682,
       "number_of_authored_works": 2,
-      "times_cited": 17
+      "times_cited": 17,
+      "show_label": false
     },
     {
       "id": "Ambre, S",
-      "xpos": -120.83648,
-      "ypos": -141.16875,
+      "xpos": 164.469,
+      "ypos": 15.672761,
       "number_of_authored_works": 2,
-      "times_cited": 17
+      "times_cited": 17,
+      "show_label": false
     },
     {
       "id": "Burgoon, J",
-      "xpos": -185.23251,
-      "ypos": -136.05107,
+      "xpos": 100.07296,
+      "ypos": 20.790438,
       "number_of_authored_works": 2,
-      "times_cited": 17
+      "times_cited": 17,
+      "show_label": false
     },
     {
       "id": "Ke, W",
-      "xpos": -169.70146,
-      "ypos": -110.7785,
+      "xpos": 115.60401,
+      "ypos": 46.063004,
       "number_of_authored_works": 2,
-      "times_cited": 17
+      "times_cited": 17,
+      "show_label": false
     },
     {
       "id": "Huang, Bn",
-      "xpos": -284.81564,
-      "ypos": -393.99722,
+      "xpos": 0.48982632,
+      "ypos": -237.15572,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Ma, Nnl",
-      "xpos": -282.39346,
-      "ypos": -318.46338,
+      "xpos": 2.9120064,
+      "ypos": -161.62187,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Zoss, A",
-      "xpos": -336.57336,
-      "ypos": -308.14334,
+      "xpos": -51.267895,
+      "ypos": -151.30183,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Bairoch, A",
-      "xpos": 354.75934,
-      "ypos": 177.13693,
+      "xpos": 640.0648,
+      "ypos": 333.97845,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Ashburner, M",
-      "xpos": 541.27435,
-      "ypos": 147.4959,
+      "xpos": 826.57983,
+      "ypos": 304.3374,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Chichester, C",
-      "xpos": 504.9371,
-      "ypos": 141.16492,
+      "xpos": 790.24255,
+      "ypos": 298.00644,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Van Mulligen, E",
-      "xpos": 258.4394,
-      "ypos": 272.05212,
+      "xpos": 543.7449,
+      "ypos": 428.89365,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Weeber, M",
-      "xpos": 654.1297,
-      "ypos": 207.41498,
+      "xpos": 939.4352,
+      "ypos": 364.2565,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Den Dunnen, J",
-      "xpos": 514.7572,
-      "ypos": 239.97414,
+      "xpos": 800.0627,
+      "ypos": 396.81564,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Van Ommen, Gj",
-      "xpos": 405.35858,
-      "ypos": 210.74608,
+      "xpos": 690.66406,
+      "ypos": 367.5876,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Musen, M",
-      "xpos": 598.5896,
-      "ypos": 84.39459,
+      "xpos": 883.8951,
+      "ypos": 241.2361,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Cockerill, M",
-      "xpos": 288.69205,
-      "ypos": 111.36292,
+      "xpos": 573.9975,
+      "ypos": 268.20444,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Hermjakob, H",
-      "xpos": 603.7379,
-      "ypos": 385.2085,
+      "xpos": 889.0434,
+      "ypos": 542.05,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Mons, A",
-      "xpos": 514.9877,
-      "ypos": 334.54404,
+      "xpos": 800.29315,
+      "ypos": 491.38556,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Packer, A",
-      "xpos": 517.15784,
-      "ypos": 40.514305,
+      "xpos": 802.4633,
+      "ypos": 197.35582,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Pacheco, R",
-      "xpos": 434.92877,
-      "ypos": 285.27606,
+      "xpos": 720.23425,
+      "ypos": 442.11758,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Lewis, S",
-      "xpos": 420.06177,
-      "ypos": 32.20593,
+      "xpos": 705.36725,
+      "ypos": 189.04744,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Berkeley, A",
-      "xpos": 409.15704,
-      "ypos": 160.48967,
+      "xpos": 694.4625,
+      "ypos": 317.33118,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Melton, W",
-      "xpos": 606.07874,
-      "ypos": 264.38754,
+      "xpos": 891.3842,
+      "ypos": 421.22906,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Barris, N",
-      "xpos": 400.96777,
-      "ypos": 119.28329,
+      "xpos": 686.27325,
+      "ypos": 276.1248,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Wales, J",
-      "xpos": 595.1499,
-      "ypos": 203.71011,
+      "xpos": 880.4554,
+      "ypos": 360.55164,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Meijssen, G",
-      "xpos": 349.5086,
-      "ypos": 372.804,
+      "xpos": 634.8141,
+      "ypos": 529.6455,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Moeller, E",
-      "xpos": 684.7144,
-      "ypos": 124.808586,
+      "xpos": 970.0199,
+      "ypos": 281.6501,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Roes, Pj",
-      "xpos": 474.36542,
-      "ypos": 227.74559,
+      "xpos": 759.6709,
+      "ypos": 384.5871,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Penumarthy, S",
-      "xpos": -365.96674,
-      "ypos": -311.30298,
+      "xpos": -80.66126,
+      "ypos": -154.46147,
       "number_of_authored_works": 6,
-      "times_cited": 47
+      "times_cited": 47,
+      "show_label": false
     },
     {
       "id": "Herr, Bw",
-      "xpos": -272.57184,
-      "ypos": -354.99393,
+      "xpos": 12.733631,
+      "ypos": -198.15242,
       "number_of_authored_works": 2,
-      "times_cited": 13
+      "times_cited": 13,
+      "show_label": false
     },
     {
       "id": "Hardy, Ef",
-      "xpos": -311.95197,
-      "ypos": -162.58731,
+      "xpos": -26.646496,
+      "ypos": -5.7458024,
       "number_of_authored_works": 1,
-      "times_cited": 6
+      "times_cited": 6,
+      "show_label": false
     },
     {
       "id": "Paley, Wb",
-      "xpos": -171.92493,
-      "ypos": -220.22478,
+      "xpos": 113.38055,
+      "ypos": -63.38327,
       "number_of_authored_works": 1,
-      "times_cited": 3
+      "times_cited": 3,
+      "show_label": false
     },
     {
       "id": "Hardy, E",
-      "xpos": -202.7105,
-      "ypos": -122.12784,
+      "xpos": 82.59498,
+      "ypos": 34.71367,
       "number_of_authored_works": 1,
-      "times_cited": 3
+      "times_cited": 3,
+      "show_label": false
     },
     {
       "id": "Herr, B",
-      "xpos": -246.14458,
-      "ypos": -130.13976,
+      "xpos": 39.160892,
+      "ypos": 26.701754,
       "number_of_authored_works": 1,
-      "times_cited": 3
+      "times_cited": 3,
+      "show_label": false
     },
     {
       "id": "Holloway, T",
-      "xpos": -482.89325,
-      "ypos": -120.77574,
+      "xpos": -197.58778,
+      "ypos": 36.065765,
       "number_of_authored_works": 2,
-      "times_cited": 53
+      "times_cited": 53,
+      "show_label": false
     },
     {
       "id": "Neirynck, T",
-      "xpos": -532.8961,
-      "ypos": -250.6243,
+      "xpos": -247.59065,
+      "ypos": -93.78279,
       "number_of_authored_works": 1,
-      "times_cited": 4
+      "times_cited": 4,
+      "show_label": false
     },
     {
       "id": "Sanyal, S",
-      "xpos": -684.79376,
-      "ypos": -180.36292,
+      "xpos": -399.48828,
+      "ypos": -23.521406,
       "number_of_authored_works": 1,
-      "times_cited": 127
+      "times_cited": 127,
+      "show_label": false
     },
     {
       "id": "Mane, Kk",
-      "xpos": -310.75137,
-      "ypos": -241.37433,
+      "xpos": -25.445904,
+      "ypos": -84.53282,
       "number_of_authored_works": 4,
-      "times_cited": 98
+      "times_cited": 98,
+      "show_label": false
     },
     {
       "id": "Bozicevic, M",
-      "xpos": -365.24387,
-      "ypos": -434.84286,
+      "xpos": -79.93839,
+      "ypos": -278.00134,
       "number_of_authored_works": 1,
-      "times_cited": 50
+      "times_cited": 50,
+      "show_label": false
     },
     {
       "id": "Ke, Wm",
-      "xpos": -366.6826,
-      "ypos": -236.54291,
+      "xpos": -81.37711,
+      "ypos": -79.7014,
       "number_of_authored_works": 4,
-      "times_cited": 311
+      "times_cited": 311,
+      "show_label": false
     },
     {
       "id": "Meiss, M",
-      "xpos": -315.32205,
-      "ypos": -273.46066,
+      "xpos": -30.016582,
+      "ypos": -116.619156,
       "number_of_authored_works": 1,
-      "times_cited": 33
+      "times_cited": 33,
+      "show_label": false
     },
     {
       "id": "Janssen, Ma",
-      "xpos": -536.7494,
-      "ypos": -384.65863,
+      "xpos": -251.44392,
+      "ypos": -227.81712,
       "number_of_authored_works": 1,
-      "times_cited": 189
+      "times_cited": 189,
+      "show_label": false
     },
     {
       "id": "Schoon, Ml",
-      "xpos": -305.33856,
-      "ypos": -288.92764,
+      "xpos": -20.033092,
+      "ypos": -132.08614,
       "number_of_authored_works": 1,
-      "times_cited": 189
+      "times_cited": 189,
+      "show_label": false
     },
     {
       "id": "Murray, C",
-      "xpos": -492.36545,
-      "ypos": -282.83463,
+      "xpos": -207.05998,
+      "ypos": -125.99312,
       "number_of_authored_works": 1,
-      "times_cited": 3
+      "times_cited": 3,
+      "show_label": false
     },
     {
       "id": "Ragg, S",
-      "xpos": -207.41655,
-      "ypos": -594.4822,
+      "xpos": 77.88892,
+      "ypos": -437.64066,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Rosenman, Mb",
-      "xpos": -242.3426,
-      "ypos": -436.74362,
+      "xpos": 42.962864,
+      "ypos": -279.9021,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Doucette, Em",
-      "xpos": -324.94073,
-      "ypos": -488.1505,
+      "xpos": -39.635265,
+      "ypos": -331.309,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Yan, Z",
-      "xpos": -108.57841,
-      "ypos": -470.69034,
+      "xpos": 176.72707,
+      "ypos": -313.84882,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Haydon, Jc",
-      "xpos": -238.48892,
-      "ypos": -665.896,
+      "xpos": 46.816547,
+      "ypos": -509.05447,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Paine, Jh",
-      "xpos": -285.06628,
-      "ypos": -526.4573,
+      "xpos": 0.23918545,
+      "ypos": -369.61575,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Lee, Nd",
-      "xpos": -482.94568,
-      "ypos": -601.9701,
+      "xpos": -197.64021,
+      "ypos": -445.12857,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Vik, T",
-      "xpos": -379.67053,
-      "ypos": -475.21887,
+      "xpos": -94.36506,
+      "ypos": -318.37735,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Mane, K",
-      "xpos": -365.01187,
-      "ypos": -565.08704,
+      "xpos": -79.7064,
+      "ypos": -408.2455,
       "number_of_authored_works": 2,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Ord, Tj",
-      "xpos": -439.78094,
-      "ypos": -314.49033,
+      "xpos": -154.47548,
+      "ypos": -157.64882,
       "number_of_authored_works": 1,
-      "times_cited": 16
+      "times_cited": 16,
+      "show_label": false
     },
     {
       "id": "Martins, Ep",
-      "xpos": -469.8847,
-      "ypos": -221.20038,
+      "xpos": -184.57924,
+      "ypos": -64.35887,
       "number_of_authored_works": 1,
-      "times_cited": 16
+      "times_cited": 16,
+      "show_label": false
     },
     {
       "id": "Thakur, S",
-      "xpos": -326.3649,
-      "ypos": -274.757,
+      "xpos": -41.05943,
+      "ypos": -117.91548,
       "number_of_authored_works": 2,
-      "times_cited": 16
+      "times_cited": 16,
+      "show_label": false
     },
     {
       "id": "Dall'asta, L",
-      "xpos": -602.8618,
-      "ypos": -245.54764,
+      "xpos": -317.55634,
+      "ypos": -88.70613,
       "number_of_authored_works": 1,
-      "times_cited": 86
+      "times_cited": 86,
+      "show_label": false
     },
     {
       "id": "Navarro-prieto, R",
-      "xpos": -321.23633,
-      "ypos": -274.74133,
+      "xpos": -35.93086,
+      "ypos": -117.899826,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Chen, Cm",
-      "xpos": -456.09015,
-      "ypos": -266.16223,
+      "xpos": -170.78468,
+      "ypos": -109.320724,
       "number_of_authored_works": 4,
-      "times_cited": 436
+      "times_cited": 436,
+      "show_label": false
     },
     {
       "id": "Fletcher, Ghl",
-      "xpos": -251.12123,
-      "ypos": -155.62396,
+      "xpos": 34.18424,
+      "ypos": 1.2175457,
       "number_of_authored_works": 1,
-      "times_cited": 10
+      "times_cited": 10,
+      "show_label": false
     },
     {
       "id": "Sheth, Ha",
-      "xpos": -405.01398,
-      "ypos": -30.917418,
+      "xpos": -119.7085,
+      "ypos": 125.92409,
       "number_of_authored_works": 1,
-      "times_cited": 10
+      "times_cited": 10,
+      "show_label": false
     },
     {
       "id": "Mahoui, M",
-      "xpos": -324.7141,
-      "ypos": 5.3394012,
+      "xpos": -39.40864,
+      "ypos": 162.18091,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Kulkarni, H",
-      "xpos": -243.44083,
-      "ypos": -76.09801,
+      "xpos": 41.864643,
+      "ypos": 80.7435,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Li, Nh",
-      "xpos": -270.52588,
-      "ypos": 5.8975434,
+      "xpos": 14.779591,
+      "ypos": 162.73904,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Ben-miled, Z",
-      "xpos": -360.84445,
-      "ypos": -43.26989,
+      "xpos": -75.53898,
+      "ypos": 113.57162,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Kerney, C",
-      "xpos": -270.3273,
-      "ypos": -68.121796,
+      "xpos": 14.9781685,
+      "ypos": 88.71971,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Devarco, Bj",
-      "xpos": -246.98135,
-      "ypos": -274.13876,
+      "xpos": 38.324116,
+      "ypos": -117.29726,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Maru, Jt",
-      "xpos": -451.2997,
-      "ypos": -377.0364,
+      "xpos": -165.99425,
+      "ypos": -220.1949,
       "number_of_authored_works": 1,
-      "times_cited": 139
+      "times_cited": 139,
+      "show_label": false
     },
     {
       "id": "Jones, Rj",
-      "xpos": -366.90067,
-      "ypos": -312.62894,
+      "xpos": -81.59519,
+      "ypos": -155.78743,
       "number_of_authored_works": 1,
-      "times_cited": 1
+      "times_cited": 1,
+      "show_label": false
     },
     {
       "id": "Lee, Gj",
-      "xpos": -371.3299,
-      "ypos": -333.2215,
+      "xpos": -86.02442,
+      "ypos": -176.37999,
       "number_of_authored_works": 1,
-      "times_cited": 1
+      "times_cited": 1,
+      "show_label": false
     },
     {
       "id": "Ord, T",
-      "xpos": -429.08502,
-      "ypos": -297.39288,
+      "xpos": -143.77956,
+      "ypos": -140.55138,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Martins, E",
-      "xpos": -40.474747,
-      "ypos": -381.18604,
+      "xpos": 244.83072,
+      "ypos": -224.34453,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Mostafa, J",
-      "xpos": -408.86264,
-      "ypos": -116.2202,
+      "xpos": -123.55717,
+      "ypos": 40.621307,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Mccain, Kw",
-      "xpos": -284.30737,
-      "ypos": -287.32736,
+      "xpos": 0.9980966,
+      "ypos": -130.48586,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Rasmussen, E",
-      "xpos": -286.31454,
-      "ypos": -252.43277,
+      "xpos": -1.009075,
+      "ypos": -95.59126,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Atkins, Hb",
-      "xpos": -59.141827,
-      "ypos": -287.34113,
+      "xpos": 226.16365,
+      "ypos": -130.49962,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Lin, Sm",
-      "xpos": -484.08752,
-      "ypos": -319.48868,
+      "xpos": -198.78206,
+      "ypos": -162.64717,
       "number_of_authored_works": 1,
-      "times_cited": 3
+      "times_cited": 3,
+      "show_label": false
     },
     {
       "id": "Hazlewood, Wr",
-      "xpos": -564.6594,
-      "ypos": -274.7798,
+      "xpos": -279.35394,
+      "ypos": -117.93828,
       "number_of_authored_works": 1,
-      "times_cited": 3
+      "times_cited": 3,
+      "show_label": false
     },
     {
       "id": "Feng, Y",
-      "xpos": -357.09656,
-      "ypos": -157.57022,
+      "xpos": -71.791084,
+      "ypos": -0.7287128,
       "number_of_authored_works": 1,
-      "times_cited": 2
+      "times_cited": 2,
+      "show_label": false
     },
     {
       "id": "Lin, Yc",
-      "xpos": -177.6571,
-      "ypos": -283.55862,
+      "xpos": 107.64837,
+      "ypos": -126.71712,
       "number_of_authored_works": 1,
-      "times_cited": 0
+      "times_cited": 0,
+      "show_label": false
     },
     {
       "id": "Zhou, Yz",
-      "xpos": -484.96234,
-      "ypos": -157.31096,
+      "xpos": -199.65688,
+      "ypos": -0.4694507,
       "number_of_authored_works": 1,
-      "times_cited": 6
+      "times_cited": 6,
+      "show_label": false
     },
     {
       "id": "Dolinsky, M",
-      "xpos": -324.22552,
-      "ypos": -183.26099,
+      "xpos": -38.920055,
+      "ypos": -26.419477,
       "number_of_authored_works": 1,
-      "times_cited": 5
+      "times_cited": 5,
+      "show_label": false
     },
     {
       "id": "Dillon, A",
-      "xpos": -462.23077,
-      "ypos": -266.69342,
+      "xpos": -176.92531,
+      "ypos": -109.85191,
       "number_of_authored_works": 1,
-      "times_cited": 5
+      "times_cited": 5,
+      "show_label": false
     }
   ],
   "coauthorEdges": [

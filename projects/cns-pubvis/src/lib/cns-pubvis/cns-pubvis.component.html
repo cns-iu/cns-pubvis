@@ -31,7 +31,7 @@
     <mat-sidenav-content>
       <mat-tab-group #tabs>
         <mat-tab label="Co-Author Network">
-          <cns-pubvis-coauthor-network #coauthorNetwork [filter]="filter"
+          <cns-pubvis-coauthor-network #coauthorNetwork [filter]="filter" *ngIf="tabIndex === 0"
             [width]="openState ? narrowWidth : wideWidth" [height]="height">
           </cns-pubvis-coauthor-network>
         </mat-tab>
@@ -44,7 +44,7 @@
         </mat-tab>
 
         <mat-tab label="Statistics">
-          <cns-pubvis-statistics [filter]="filter"></cns-pubvis-statistics>
+          <cns-pubvis-statistics [filter]="filter" *ngIf="tabIndex === 2"></cns-pubvis-statistics>
         </mat-tab>
       </mat-tab-group>
     </mat-sidenav-content>
