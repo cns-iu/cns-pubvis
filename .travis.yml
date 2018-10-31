@@ -1,64 +1,59 @@
 language: node_js
-
 node_js:
-  - "10"
-
+- '10'
 sudo: required
-
 addons:
   chrome: stable
-
 cache:
   directories:
-    - "node_modules"
-
+  - node_modules
 branches:
   only:
-    - master
-    - develop
-    - /^v\d+\.\d+(\.\d+)?(-\S*)?$/
-
+  - master
+  - develop
+  - "/^v\\d+\\.\\d+(\\.\\d+)?(-\\S*)?$/"
 script: skip
-
 jobs:
   include:
-    - stage: test
-      name: "Run Tests"
-      script:
-        - npm run lint
-        - npm run build:lib
-        - npm run build:cli
-        # - npm test
-    - stage: deploy
-      name: "Deploy demo to GitHub Pages"
-      if: branch = master
-      script:
-        - npm run build:lib
-        - npm run build:cli
-        - npm run build:demo
-      deploy:
-        provider: pages
-        skip-cleanup: true
-        github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-        keep-history: false
-        local-dir: dist/cns-pubvis-demo
-        on:
-          branch: master
-    - stage: deploy
-      name: "Build and publish cns-pubvis"
-      if: tag IS present
-      script:
-        - npm run build:lib
-        - npm run build:cli
-      before_deploy:
-        - cd dist/cns-pubvis
-      after_deploy:
-        - cd ../../
-      deploy: &npm
-        provider: npm
-        skip-cleanup: true
-        email: $NPM_EMAIL
-        api_key: $NPM_TOKEN
-        on:
-          tags: true
-          repo: cns-iu/cns-pubvis
+  - stage: test
+    name: Run Tests
+    script:
+    - npm run lint
+    - npm run build:lib
+    - npm run build:cli
+  - stage: deploy
+    name: Deploy demo to GitHub Pages
+    if: branch = master
+    script:
+    - npm run build:lib
+    - npm run build:cli
+    - npm run build:demo
+    deploy:
+      provider: pages
+      skip-cleanup: true
+      github-token: "$GITHUB_TOKEN"
+      keep-history: false
+      local-dir: dist/cns-pubvis-demo
+      on:
+        branch: master
+  - stage: deploy
+    name: Build and publish cns-pubvis
+    if: tag IS present
+    script:
+    - npm run build:lib
+    - npm run build:cli
+    before_deploy:
+    - cd dist/cns-pubvis
+    after_deploy:
+    - cd ../../
+    deploy:
+      provider: npm
+      skip-cleanup: true
+      email: "$NPM_EMAIL"
+      api_key: "$NPM_TOKEN"
+      on:
+        tags: true
+        repo: cns-iu/cns-pubvis
+notifications:
+  slack:
+    secure: U0aP2xZaVHtfmTZJ5R4t9IdGWspgY533PlR0Z8tSBpcMUFkyVwClBatAbjVXyQxHUpdwVODbhs254IKhMRjlSCwf5fQFj34rf/ehnxYCG9H0N2wh8c7XtGaZ76+RjTSxoDKEvNOINVQX5S2/bA55UR2UNLH0bem7O48zb8Z8c67mE6KO2DQ7eWs3VAB50XNi8N8z8ze5zOuh7FJfMe/btJnfgryaYMfzeq3dzj06Tj/JIbAJQYK81XxVFRW6RnNjmqUM1h1CNfinuS1xUznS5M5oaBtsZstJEXTP1C8C/slutPJuimWKFXQOcc3y9J5fM4VRF2ZD17MGlnD49DC//CccCRWn9oGAxduouoFJeBzJ9JlKQRz9pN6BKmE1hHcn9hsKPfpczLcl9GXW1D3HTzmLDlR14yXW4excSaV/4rAKWeLDmeYZbcV8LCWdvqal22L6hmoFNDy04RsxyeMwGgdG80xgX/fJV2qlQna9zaYjKbff9gjekVr9PUNWqAS5mxT45LHXo/CawExWsJK7ATnWro9zA5lqiWQ1cbxXTYBl9Zh8gyl3TAfAirpHe5ZvXOFNosunl/Tambth/IMVPHK/7ne36dESmo3/0/iaBK6wiyF92uOZjOLipKEBZhQBUkyg+/WFfgL5G7gvO3nrMDqzqfFgYZ79TBQ9cPihNuY=
