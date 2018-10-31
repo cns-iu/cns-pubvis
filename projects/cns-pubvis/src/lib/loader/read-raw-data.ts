@@ -1,15 +1,25 @@
 const fs = require('fs');
 
 import gexf from 'gexf';
+import { parse } from 'papaparse';
 import { Operator, access, chain, combine, map } from '@ngx-dino/core';
 import { issnLookup, journalNameLookup, journalIdSubdLookup } from '@ngx-dino/science-map';
+
 import { CoAuthorNetwork } from '../shared/coauthor-network';
 import { parseRISRecords, ISI_TAGS } from './ris-reader';
 
+// FIXME: use a cmd line argument parser to make this cleaner
 const args = process.argv.slice(2);
+if (args.length === 0) {
+  console.log(`${process.argv[1]}: isiFile [disambiguationCSV] coauthGexf outputJson`);
+  process.exit();
+}
+const disambiguate = args.length === 4;
+
 const PUBS = args[0];
-const COAUTH_GEXF = args[1];
-const DB_JSON = args[2];
+const AUTH_DISAMBIGUATION = disambiguate ? args[1] : 'none';
+const COAUTH_GEXF = disambiguate ? args[2] : args[1];
+const DB_JSON = disambiguate ? args[3] : args[2];
 
 // const COAUTH_JSON = '../../raw-data/coauthor-network.json';
 
@@ -21,6 +31,9 @@ function writeJSON(outputFile: string, obj: any) {
 }
 function readGexfFile(gexfFile: string): any {
   return gexf.parse(readFile(gexfFile));
+}
+function readCSVFile(csvFile: string): any[] {
+  return parse(readFile(csvFile), {header: true}).data;
 }
 
 function a(field: string): Operator<any, any> {
@@ -83,10 +96,24 @@ if (WRITE_BAD_JOURNALS) {
   fs.writeFileSync('/tmp/bad.csv', badJournals.map(t => `"${t[0]}", ${t[1]}`).join('\n'), 'utf8');
 }
 
+const authorRemaps = {};
+if (fs.existsSync(AUTH_DISAMBIGUATION)) {
+  for (const record of readCSVFile(AUTH_DISAMBIGUATION)) {
+    if (record.id && record['name-revised'] && record['name'] !== record['name-revised']) {
+      const remap = authorRemaps[record.id] = authorRemaps[record.id] || {};
+      remap[record.name] = record['name-revised'];
+    }
+  }
+}
+const getAuthorsOp = map<any, string[]>(record => {
+  const remap = authorRemaps[record.wosId] || {};
+  return (record.authors || []).map(au => remap[au] || au);
+});
+
 const pubsDBProcessor = combine({
   'id': a('wosId'),
   'title': a('title'),
-  'authors': a('authors'),
+  'authors': getAuthorsOp,
   'year': n('publicationYear'),
 
   'journalName': a('journalName'),
