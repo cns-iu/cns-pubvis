@@ -47,6 +47,10 @@ function n(field: string): Operator<any, number> {
   return chain(a(field), map(NumberOrUndefined));
 }
 const toString = map((x) => '' + x);
+const normalizeAuthor = map<string, string>(author => {
+  const a1 = (author || '').split(',');
+  return a1.slice(0, -1).join(',') + ',' + a1[a1.length - 1].toUpperCase();
+});
 
 const pubs: any[] = parseRISRecords(readFile(PUBS), ISI_TAGS);
 
@@ -98,16 +102,17 @@ if (WRITE_BAD_JOURNALS) {
 
 const authorRemaps = {};
 if (fs.existsSync(AUTH_DISAMBIGUATION)) {
+  const na = normalizeAuthor.getter;
   for (const record of readCSVFile(AUTH_DISAMBIGUATION)) {
     if (record.id && record['name-revised'] && record['name'] !== record['name-revised']) {
       const remap = authorRemaps[record.id] = authorRemaps[record.id] || {};
-      remap[record.name] = record['name-revised'];
+      remap[na(record.name)] = na(record['name-revised']);
     }
   }
 }
 const getAuthorsOp = map<any, string[]>(record => {
   const remap = authorRemaps[record.wosId] || {};
-  return (record.authors || []).map(au => remap[au] || au);
+  return (record.authors || []).map(au => normalizeAuthor.get(remap[au] || au));
 });
 
 const pubsDBProcessor = combine({
@@ -123,11 +128,12 @@ const pubsDBProcessor = combine({
 const publications: any[] = pubs.map(pubsDBProcessor.getter);
 
 const coauthorGraph = readGexfFile(COAUTH_GEXF);
+writeJSON('/tmp/temp.json', coauthorGraph);
 const gexfAuthLabel = {};
 const authorMetadata = coauthorGraph.nodes.map((data) => {
-  gexfAuthLabel[data.id] = data.label;
+  gexfAuthLabel[data.id] = normalizeAuthor.get(data.label);
   return Object.assign({
-    id: data.label,
+    id: gexfAuthLabel[data.id],
     xpos: data.viz.position.x,
     ypos: 0 - data.viz.position.y
   }, data.attributes);

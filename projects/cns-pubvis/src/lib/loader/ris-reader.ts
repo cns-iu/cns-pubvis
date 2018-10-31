@@ -1,4 +1,18 @@
-export const DEFAULT_TAGS = {
+export interface Tag {
+  endrecord?: boolean;
+  ignored?: boolean;
+  list?: boolean;
+  number?: boolean;
+  string?: boolean;
+  remap?: string;
+  separator?: string;
+}
+
+export interface TagMapping {
+  [id: string]: Tag;
+}
+
+export const DEFAULT_TAGS: TagMapping = {
   'FN': { ignored: true },
   'VR': { ignored: true },
   'AU': { list: true },
@@ -35,12 +49,12 @@ const LINE_PATTERN = new RegExp(/^([A-Z ][A-Z0-9 ]) *\-* *(.*)$/);
 function parseRISString(data: string): any {
   return data.split(/[\r\n]+/).map((s) => s.match(LINE_PATTERN)).filter(s => !!s).map(s => s.slice(1));
 }
-export function parseRISRecords(data: string, tagDefinitions = DEFAULT_TAGS): any[] {
+export function parseRISRecords(data: string, tagDefinitions: TagMapping = DEFAULT_TAGS): any[] {
   const records: any[] = [];
   let record: any = {}, lastTag = null, lastField = null;
   for (const [tag, value] of parseRISString(data)) {
     let flags = tagDefinitions[tag] || tagDefinitions['default'] || { ignored: true };
-    if (flags.ignored) {
+    if (flags.ignored && tag !== '  ') {
       continue;
     } else if (flags.endrecord) {
       records.push(record);
@@ -54,6 +68,8 @@ export function parseRISRecords(data: string, tagDefinitions = DEFAULT_TAGS): an
         record[lastField].push(value);
       } else if (flags.string) {
         record[lastField] += (tag.separator || ' ') + value;
+      } else if (flags.number) {
+        record[lastField] = Number(value);
       } else {
         record[lastField] = value;
       }
@@ -64,6 +80,8 @@ export function parseRISRecords(data: string, tagDefinitions = DEFAULT_TAGS): an
         record[lastField] = [value];
       } else if (record.hasOwnProperty(lastField)) {
         throw new Error(`Duplicate tag found: ${lastField}, Old Value: ${record[lastField]}, New Value: ${value}`);
+      } else if (flags.number) {
+        record[lastField] = Number(value);
       } else {
         record[lastField] = value;
       }
