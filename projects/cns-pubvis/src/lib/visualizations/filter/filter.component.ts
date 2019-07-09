@@ -22,7 +22,7 @@ export class FilterComponent implements OnInit {
   private filter: Partial<Filter> = {year: {start: 2002, end: 2017}};
   @Output() filterChange = new EventEmitter<Partial<Filter>>();
 
-  @ViewChild(NouisliderComponent) yearSlider: NouisliderComponent;
+  @ViewChild(NouisliderComponent, { static: true }) yearSlider: NouisliderComponent;
   yearSliderConfig = {
     start: [2002, 2017],
     margin: 0,

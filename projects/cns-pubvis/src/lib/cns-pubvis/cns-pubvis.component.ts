@@ -10,9 +10,9 @@ import { Filter } from '../shared/filter';
 export class CNSPubVisComponent implements OnInit {
   @Input() title = 'CNS Publications Visualizer';
   @Input() theme = 'light-theme';
-  @ViewChild('tabs') tabs: any;
-  @ViewChild('coauthorNetwork') coauthorNetwork: any;
-  @ViewChild('scienceMap') scienceMap: any;
+  @ViewChild('tabs', { static: true }) tabs: any;
+  @ViewChild('coauthorNetwork', { static: false }) coauthorNetwork: any;
+  @ViewChild('scienceMap', { static: false }) scienceMap: any;
 
   filter: Partial<Filter> = {};
   filtersUpdating = false;
