@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, OnChanges, SimpleChanges, Output, EventEmitter } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { BoundField, RawChangeSet, access, simpleField } from '@ngx-dino/core';
+import { BoundField, RawChangeSet, access, constant, simpleField } from '@ngx-dino/core';
 
 import { CoauthorNetworkDataService } from '../shared/coauthor-network/coauthor-network-data.service';
 import { Filter } from '../../shared/filter';
@@ -35,12 +35,23 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
     [
       'id', 'sourcePosition', 'targetPosition', 'color', 'strokeWidth'
     ].forEach(path => this.edgeFields[path] = this.accessor(path));
+
+    [
+      ['transparency', 0], ['strokeTransparency', 0], ['pulse', false]
+    ].forEach(([label, value]: [string, any]) => this.nodeFields[label] = this.makeConstant(label, value));
+    [
+      ['transparency', 0]
+    ].forEach(([label, value]: [string, any]) => this.edgeFields[label] = this.makeConstant(label, value));
   }
 
   accessor<T = any>(field: string): BoundField<T> {
     return simpleField<T>({
       bfieldId: field, label: field, operator: access(field)
     }).getBoundField(field);
+  }
+
+  makeConstant<T>(label: string, value: T): BoundField<T> {
+    return simpleField<T>({ bfieldId: label, label, operator: constant(value) }).getBoundField(label);
   }
 
   ngOnInit() {

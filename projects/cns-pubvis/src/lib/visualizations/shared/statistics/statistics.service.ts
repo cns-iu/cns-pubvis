@@ -27,7 +27,7 @@ export class StatisticsService {
     dataObservables.push(this.service.getPublications(filter));
 
     this.subscriptions.push(
-      combineLatest(dataObservables, (graph, pubs) => {
+      combineLatest(dataObservables, (graph: any, pubs) => {
         return [graph.authors, graph.coauthorEdges, pubs];
       }).subscribe((data: DataTuple) => {
         this.statistics.emit(this.collectStatistics(data));
