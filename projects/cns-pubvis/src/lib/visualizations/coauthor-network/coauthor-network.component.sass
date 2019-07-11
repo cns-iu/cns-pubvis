@@ -3,3 +3,9 @@
   bottom: 0
   left: 0.5rem
   right: 0.5rem
+
+// FIXME: Temporary fix for bug which is causing some versions of
+// Firefox to have erratic behavior when viewing the co-author network. 
+// It appears to be constantly resizing.
+::ng-deep dino-pure-network > svg
+  margin: -5px
