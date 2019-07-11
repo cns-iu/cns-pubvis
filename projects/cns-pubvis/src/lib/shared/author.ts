@@ -55,7 +55,7 @@ export class Author {
   tooltip: string;
   @Operand<string>(access('id'), true)
   label: string;
-  @Operand<string>(map<any, string>(s => s.show_label ? 'right' : undefined), true)
+  @Operand<string>(map<any, string>(s => s.show_label ? 'right' : 'hidden'), true)
   labelPosition: string;
 
   @Operand<number>(norm0to100('paperCount', 'globalStats.paperCountMax'), false)
