@@ -23,7 +23,7 @@
     [edgeStrokeField]="edgeFields.color"
     [edgeStrokeWidthField]="edgeFields.strokeWidth"
     [edgeTransparencyField]="edgeFields.transparency"
-    >
+    (nodeClick)="setTableData($event.data); table.open()">
 </dino-network>
 <cns-pubvis-bottom-sheet-table class="table" [data]="tableData" [idField]="tableFields[2]" [fields]="tableFields" [sort]="sort" #table>
 </cns-pubvis-bottom-sheet-table>

@@ -148,6 +148,6 @@ export class DatabaseService {
   }
 
   findPublicationsForSubdiscipline(subdiscipline: SubdisciplineWeight): Publication[] {
-    return this.db.publications.filter(pub => pub.subdisciplines.find(sub => sub.subd_id === subdiscipline.subd_id));
+    return this.db.publications.filter(pub => pub.subdisciplines.find(sub => sub.subd_id === Number(subdiscipline.subd_id)));
   }
 }

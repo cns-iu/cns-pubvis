@@ -7,7 +7,8 @@
   [width]="width"
   [height]="height"
   [autoresize]="true"
-  [enableTooltip]="true">
+  [enableTooltip]="true"
+  (nodeClick)="setTableData($event.data); table.open()">
 </dino-science-map>
-<cns-pubvis-bottom-sheet-table class="table" [data]="tableData" [idField]="tableFields[1]" [fields]="tableFields" [sort]="sort">
+<cns-pubvis-bottom-sheet-table class="table" [data]="tableData" [idField]="tableFields[1]" [fields]="tableFields" [sort]="sort" #table>
 </cns-pubvis-bottom-sheet-table>
