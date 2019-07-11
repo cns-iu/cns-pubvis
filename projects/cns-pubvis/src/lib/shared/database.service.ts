@@ -142,4 +142,12 @@ export class DatabaseService {
       return values;
     }));
   }
+
+  findPublicationsForAuthor(author: Author): Publication[] {
+    return this.db.publications.filter(pub => pub.authors.indexOf(author.id) >= 0);
+  }
+
+  findPublicationsForSubdiscipline(subdiscipline: SubdisciplineWeight): Publication[] {
+    return this.db.publications.filter(pub => pub.subdisciplines.find(sub => sub.subd_id === subdiscipline.subd_id));
+  }
 }

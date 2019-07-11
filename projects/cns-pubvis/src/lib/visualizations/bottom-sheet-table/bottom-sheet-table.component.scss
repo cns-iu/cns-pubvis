@@ -1,0 +1,11 @@
+.wrapper {
+  .container {
+    .title {
+      display: flex;
+
+      .filler {
+        flex: 1 1 auto;
+      }
+    }
+  }
+}

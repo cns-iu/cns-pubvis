@@ -1,34 +1,37 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { NouisliderModule } from 'ng2-nouislider';
-
+import { NgModule } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
 import { DatatableModule } from '@ngx-dino/datatable';
+import { LegendModule } from '@ngx-dino/legend';
 import { NetworkModule } from '@ngx-dino/network';
 import { ScienceMapModule } from '@ngx-dino/science-map';
-import { LegendModule } from '@ngx-dino/legend';
+import { NouisliderModule } from 'ng2-nouislider';
 
-import { FilterComponent } from './filter/filter.component';
-
+import { BottomSheetTableComponent } from './bottom-sheet-table/bottom-sheet-table.component';
+import { CoauthorNetworkLegendComponent } from './coauthor-network-legend/coauthor-network-legend.component';
 import { CoauthorNetworkComponent } from './coauthor-network/coauthor-network.component';
+import { FilterComponent } from './filter/filter.component';
+import { ScienceMapLegendComponent } from './science-map-legend/science-map-legend.component';
 import { ScienceMapComponent } from './science-map/science-map.component';
-import { StatisticsComponent } from './statistics/statistics.component';
-
 import { CoauthorNetworkDataService } from './shared/coauthor-network/coauthor-network-data.service';
 import { ScienceMapDataService } from './shared/science-map/science-map-data.service';
 import { StatisticsService } from './shared/statistics/statistics.service';
-import { CoauthorNetworkLegendComponent } from './coauthor-network-legend/coauthor-network-legend.component';
-import { ScienceMapLegendComponent } from './science-map-legend/science-map-legend.component';
+import { StatisticsComponent } from './statistics/statistics.component';
 
 
 @NgModule({
   imports: [
     CommonModule,
+    MatCardModule,
+    MatButtonModule,
+    MatIconModule,
     NouisliderModule,
     DatatableModule,
     NetworkModule,
     ScienceMapModule,
-    LegendModule
+    LegendModule,
   ],
   exports: [
     FilterComponent,
@@ -44,7 +47,8 @@ import { ScienceMapLegendComponent } from './science-map-legend/science-map-lege
     ScienceMapComponent,
     StatisticsComponent,
     CoauthorNetworkLegendComponent,
-    ScienceMapLegendComponent
+    ScienceMapLegendComponent,
+    BottomSheetTableComponent
   ],
   providers: [
     CoauthorNetworkDataService,

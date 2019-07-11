@@ -1,9 +1,12 @@
-import { Component, OnInit, Input, OnChanges, SimpleChanges, Output, EventEmitter } from '@angular/core';
+import { Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges } from '@angular/core';
+import { access, BoundField, chain, constant, map, RawChangeSet, simpleField } from '@ngx-dino/core';
 import { Observable, of } from 'rxjs';
-import { BoundField, RawChangeSet, access, constant, simpleField } from '@ngx-dino/core';
 
-import { CoauthorNetworkDataService } from '../shared/coauthor-network/coauthor-network-data.service';
+import { Author } from '../../shared/author';
+import { DatabaseService } from '../../shared/database.service';
 import { Filter } from '../../shared/filter';
+import { Publication } from '../../shared/publication';
+import { CoauthorNetworkDataService } from '../shared/coauthor-network/coauthor-network-data.service';
 
 
 @Component({
@@ -20,11 +23,19 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
 
   nodeStream: Observable<RawChangeSet>;
   edgeStream: Observable<RawChangeSet>;
+  fullTableData: Publication[] = [];
+  tableData: Publication[] = [];
 
   readonly nodeFields: any = {};
   readonly edgeFields: any = {};
+  readonly tableFields: any = [];
 
-  constructor(private dataService: CoauthorNetworkDataService) {
+  sort = (a: any, b: any) => Number(b.content) - Number(a.content);
+
+  constructor(
+    private database: DatabaseService,
+    private dataService: CoauthorNetworkDataService
+  ) {
     this.dataService.nodeStream.subscribe(e => this.nodeStream = of(e));
     this.dataService.edgeStream.subscribe(e => this.edgeStream = of(e));
 
@@ -42,6 +53,15 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
     [
       ['transparency', 0]
     ].forEach(([label, value]: [string, any]) => this.edgeFields[label] = this.makeConstant(label, value));
+
+    ([
+      ['Authors', 'authors', chain(
+        access('authors'),
+        map((a: string[]) => a.join('; ')),
+        map(s => ({ type: 'text', content: s }))
+      )],
+      ['Title', 'title'], ['Publication year', 'year'], ['Journal', 'journalName']
+    ] as const).forEach(([label, path, op]) => this.tableFields.push(this.makeTableAccessor(label, path, op)));
   }
 
   accessor<T = any>(field: string): BoundField<T> {
@@ -54,6 +74,13 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
     return simpleField<T>({ bfieldId: label, label, operator: constant(value) }).getBoundField(label);
   }
 
+  makeTableAccessor(label: string, path: string, op?: any): BoundField<any> {
+    return simpleField({
+      bfieldId: label, label,
+      operator: op || chain(access(path), map(s => ({ type: 'text', content: s })))
+    }).getBoundField();
+  }
+
   ngOnInit() {
     this.dataService.fetchInitialData();
   }
@@ -64,6 +91,22 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
       this.dataService.fetchData(filter).subscribe(undefined, undefined, () => {
         this.filterUpdateComplete.emit(true);
       });
+      this.filterTableData();
     }
+  }
+
+  setTableData(author: Author): void {
+    this.fullTableData = this.database.findPublicationsForAuthor(author);
+    this.filterTableData();
+  }
+
+  filterTableData(): void {
+    let data = this.fullTableData;
+    if (this.filter.year) {
+      const { start, end } = this.filter.year;
+      data = data.filter(pub => start <= pub.year && pub.year <= end);
+    }
+
+    this.tableData = data;
   }
 }

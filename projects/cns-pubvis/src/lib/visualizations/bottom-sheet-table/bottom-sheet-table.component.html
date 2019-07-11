@@ -1,0 +1,16 @@
+<div *ngIf="isOpen" class="wrapper">
+  <mat-card class="container">
+    <mat-card-title class="title">
+      {{ title }}
+
+      <div class="filler"></div>
+
+      <button mat-icon-button class="close-button" aria-label="Close table" (click)="close()">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-card-title>
+
+    <dino-datatable [dataStream]="data" [idField]="idField || (fields && fields[0])" [fields]="fields" [sort]="sort">
+    </dino-datatable>
+  </mat-card>
+</div>

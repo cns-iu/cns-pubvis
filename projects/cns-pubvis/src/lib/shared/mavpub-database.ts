@@ -1,7 +1,6 @@
-import { Publication } from './publication';
 import { Author, CoAuthorEdge } from './author';
-
 import { CoAuthorNetwork } from './coauthor-network';
+import { Publication } from './publication';
 
 const NOT_SCIMAPPED = [{subd_id: -1, weight: 1}];
 
