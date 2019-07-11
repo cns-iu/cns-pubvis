@@ -1,6 +1,7 @@
 const fs = require('fs');
 
 import gexf from 'gexf';
+import { orderBy, zip } from 'lodash';
 import { parse } from 'papaparse';
 import { Operator, access, chain, combine, map } from '@ngx-dino/core';
 import { issnLookup, journalNameLookup, journalIdSubdLookup } from '@ngx-dino/science-map';
@@ -101,6 +102,7 @@ if (WRITE_BAD_JOURNALS) {
 }
 
 const authorRemaps = {};
+const fullnameRemaps = {};
 if (fs.existsSync(AUTH_DISAMBIGUATION)) {
   const na = normalizeAuthor.getter;
   for (const record of readCSVFile(AUTH_DISAMBIGUATION)) {
@@ -108,17 +110,26 @@ if (fs.existsSync(AUTH_DISAMBIGUATION)) {
       const remap = authorRemaps[record.id] = authorRemaps[record.id] || {};
       remap[na(record.name)] = na(record['name-revised']);
     }
+    if (record.id && record['fullname-revised'] && record['fullname'] !== record['fullname-revised']) {
+      const remap = fullnameRemaps[record.id] = fullnameRemaps[record.id] || {};
+      remap[na(record.fullname)] = na(record['fullname-revised']);
+    }
   }
 }
 const getAuthorsOp = map<any, string[]>(record => {
   const remap = authorRemaps[record.wosId] || {};
   return (record.authors || []).map(au => normalizeAuthor.get(remap[au] || au));
 });
+const getAuthorsFullnameOp = map<any, string[]>(record => {
+  const remap = fullnameRemaps[record.wosId] || {};
+  return (record.authorsFullname || []).map(au => remap[au] || au);
+});
 
 const pubsDBProcessor = combine({
   'id': a('wosId'),
   'title': a('title'),
   'authors': getAuthorsOp,
+  'authorsFullname': getAuthorsFullnameOp,
   'year': n('publicationYear'),
 
   'journalName': a('journalName'),
@@ -127,13 +138,23 @@ const pubsDBProcessor = combine({
 });
 const publications: any[] = pubs.map(pubsDBProcessor.getter);
 
+const author2fullname = {};
+orderBy(publications, 'year', 'desc').forEach(pub => {
+  for (const [author, fullname] of zip(pub.authors, pub.authorsFullname)) {
+    if (!author2fullname.hasOwnProperty(author)) {
+      author2fullname[author] = fullname;
+    }
+  }
+});
+
 const coauthorGraph = readGexfFile(COAUTH_GEXF);
 writeJSON('/tmp/temp.json', coauthorGraph);
 const gexfAuthLabel = {};
 const authorMetadata = coauthorGraph.nodes.map((data) => {
-  gexfAuthLabel[data.id] = normalizeAuthor.get(data.label);
+  const id = gexfAuthLabel[data.id] = normalizeAuthor.get(data.label);
   return Object.assign({
-    id: gexfAuthLabel[data.id],
+    id,
+    fullname: author2fullname[id] || id,
     xpos: data.viz.position.x,
     ypos: 0 - data.viz.position.y
   }, data.attributes);

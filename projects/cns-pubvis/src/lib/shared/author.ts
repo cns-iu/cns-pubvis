@@ -3,7 +3,7 @@ import {
   areaSizeScaleNormQuantitative, strokeSizeScaleNormQuantitative, fontSizeScaleNormQuantitative,
   greyScaleNormQuantitative, greyScaleNormQuantitativeStroke,
   colorScaleNormQuantitative, colorScaleNormQuantitativeStroke,
-  norm0to100, formatNumber, formatYear
+  norm0to100, formatNumber, formatYear, formatFullname
 } from '../encoding';
 
 export class AuthorStats {
@@ -19,6 +19,7 @@ export class AuthorStats {
 // @dynamic
 export class Author {
   id: string;
+  fullname: string;
   paperCount: number;
   paperCountsByYear: { [year: number]: number };
 
@@ -51,9 +52,12 @@ export class Author {
     map(r => 0.1 * r)
   ), false)
   strokeWidth: number;
-  @Operand<string>(access('id'), true)
+  @Operand<string>(access('label'), true)
   tooltip: string;
-  @Operand<string>(access('id'), true)
+  @Operand<string>(chain(
+    map<any, string>(s => s.fullname || s.id || ''),
+    formatFullname
+  ), true)
   label: string;
   @Operand<string>(map<any, string>(s => s.show_label ? 'right' : ''), true)
   labelPosition: string;

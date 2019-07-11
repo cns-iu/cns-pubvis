@@ -1,4 +1,5 @@
 import { Operator, access, chain, combine, map } from '@ngx-dino/core';
+import { startCase, lowerCase } from 'lodash';
 
 import { SizeScale } from './size-scale';
 import { ColorScale } from './color-scale';
@@ -19,6 +20,15 @@ export function norm0to100(field: string, maxField: string, minField?: string): 
 
 export const formatNumber = map<number, string>(x => x.toLocaleString());
 export const formatYear = map<number, string>(x => '' + x);
+export const formatFullname = map<string, string>(s => {
+  const parts = s.split(',');
+  // Check if its lastname, firstname. If so, change it to firstname lastname.
+  if (parts.length == 2) {
+    s = [parts[1].trim(),parts[0].trim()].join(' ');
+  }
+  s = s.split(/\s+/).map(i => i.length > 2 ? startCase(lowerCase(i)) : i).join(' ');
+  return s;
+});
 
 export const colorRange = ['#EB5757', '#b71c1c'];
 export const colorScale = new ColorScale(colorRange[0], colorRange[1], '#b3b3b3', -51);

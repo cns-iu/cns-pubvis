@@ -1,7 +1,8 @@
 {
   "authorMetadata": [
     {
-      "id": "Weinberg, Ba",
+      "id": "Weinberg, BA",
+      "fullname": "Weinberg, Bruce A.",
       "xpos": 24.668537,
       "ypos": -25.405622,
       "number_of_authored_works": 1,
@@ -10,6 +11,7 @@
     },
     {
       "id": "Staudt, J",
+      "fullname": "Staudt, Joseph",
       "xpos": 140.13348,
       "ypos": -171.89082,
       "number_of_authored_works": 1,
@@ -17,7 +19,8 @@
       "show_label": false
     },
     {
-      "id": "Yu, Hf",
+      "id": "Yu, HF",
+      "fullname": "Yu, Huifeng",
       "xpos": 225.96106,
       "ypos": -60.614487,
       "number_of_authored_works": 1,
@@ -25,7 +28,8 @@
       "show_label": false
     },
     {
-      "id": "Light, Rp",
+      "id": "Light, RP",
+      "fullname": "Light, Robert P.",
       "xpos": 153.24356,
       "ypos": 81.368416,
       "number_of_authored_works": 8,
@@ -34,6 +38,7 @@
     },
     {
       "id": "Marschke, G",
+      "fullname": "Marschke, Gerald",
       "xpos": 1.5037118,
       "ypos": 5.6113906,
       "number_of_authored_works": 1,
@@ -42,6 +47,7 @@
     },
     {
       "id": "Borner, K",
+      "fullname": "Borner, Katy",
       "xpos": -105.01154,
       "ypos": -112.556656,
       "number_of_authored_works": 101,
@@ -49,7 +55,8 @@
       "show_label": true
     },
     {
-      "id": "Stigler, Sm",
+      "id": "Stigler, SM",
+      "fullname": "Stigler, Stephen M.",
       "xpos": -0.030712008,
       "ypos": -21.276045,
       "number_of_authored_works": 1,
@@ -57,7 +64,8 @@
       "show_label": false
     },
     {
-      "id": "Shiffrin, Rm",
+      "id": "Shiffrin, RM",
+      "fullname": "Shiffrin, Richard M.",
       "xpos": -11.092907,
       "ypos": -173.78789,
       "number_of_authored_works": 2,
@@ -65,7 +73,8 @@
       "show_label": false
     },
     {
-      "id": "Barabasi, Al",
+      "id": "Barabasi, AL",
+      "fullname": "Barabasi, Albert-Laszlo",
       "xpos": -151.94902,
       "ypos": 58.402855,
       "number_of_authored_works": 1,
@@ -74,6 +83,7 @@
     },
     {
       "id": "Fortunato, S",
+      "fullname": "Fortunato, Santo",
       "xpos": -231.56898,
       "ypos": 24.226015,
       "number_of_authored_works": 1,
@@ -81,7 +91,8 @@
       "show_label": false
     },
     {
-      "id": "Bergstrom, Ct",
+      "id": "Bergstrom, CT",
+      "fullname": "Bergstrom, Carl T.",
       "xpos": -246.10555,
       "ypos": -30.780622,
       "number_of_authored_works": 1,
@@ -89,7 +100,8 @@
       "show_label": false
     },
     {
-      "id": "Evans, Ja",
+      "id": "Evans, JA",
+      "fullname": "Evans, James A.",
       "xpos": -345.66022,
       "ypos": 92.87586,
       "number_of_authored_works": 1,
@@ -98,6 +110,7 @@
     },
     {
       "id": "Helbing, D",
+      "fullname": "Helbing, Dirk",
       "xpos": -173.75313,
       "ypos": -112.550674,
       "number_of_authored_works": 3,
@@ -106,6 +119,7 @@
     },
     {
       "id": "Milojevic, S",
+      "fullname": "Milojevic, Stasa",
       "xpos": -79.82087,
       "ypos": -103.87041,
       "number_of_authored_works": 4,
@@ -113,7 +127,8 @@
       "show_label": false
     },
     {
-      "id": "Petersen, Am",
+      "id": "Petersen, AM",
+      "fullname": "Petersen, Alexander M.",
       "xpos": -301.3543,
       "ypos": 100.43634,
       "number_of_authored_works": 1,
@@ -122,6 +137,7 @@
     },
     {
       "id": "Radicchi, F",
+      "fullname": "Radicchi, Filippo",
       "xpos": -345.1446,
       "ypos": -87.25102,
       "number_of_authored_works": 1,
@@ -130,6 +146,7 @@
     },
     {
       "id": "Sinatra, R",
+      "fullname": "Sinatra, Roberta",
       "xpos": -265.5744,
       "ypos": 84.57753,
       "number_of_authored_works": 1,
@@ -138,6 +155,7 @@
     },
     {
       "id": "Uzzi, B",
+      "fullname": "Uzzi, Brian",
       "xpos": -264.57037,
       "ypos": -420.02243,
       "number_of_authored_works": 3,
@@ -146,6 +164,7 @@
     },
     {
       "id": "Vespignani, A",
+      "fullname": "Vespignani, Alessandro",
       "xpos": -88.00764,
       "ypos": -141.76949,
       "number_of_authored_works": 3,
@@ -154,6 +173,7 @@
     },
     {
       "id": "Waltman, L",
+      "fullname": "Waltman, Ludo",
       "xpos": -235.44368,
       "ypos": 121.30958,
       "number_of_authored_works": 1,
@@ -161,7 +181,8 @@
       "show_label": false
     },
     {
-      "id": "Wang, Ds",
+      "id": "Wang, DS",
+      "fullname": "Wang, Dashun",
       "xpos": -323.74384,
       "ypos": -37.719223,
       "number_of_authored_works": 1,
@@ -169,7 +190,8 @@
       "show_label": false
     },
     {
-      "id": "Goldstone, Rl",
+      "id": "Goldstone, RL",
+      "fullname": "Goldstone, Robert L.",
       "xpos": -148.81288,
       "ypos": 12.53058,
       "number_of_authored_works": 3,
@@ -177,7 +199,8 @@
       "show_label": false
     },
     {
-      "id": "Simpson, Ah",
+      "id": "Simpson, AH",
+      "fullname": "Simpson, Adam H.",
       "xpos": -13.614971,
       "ypos": -119.85838,
       "number_of_authored_works": 1,
@@ -186,6 +209,7 @@
     },
     {
       "id": "Bueckle, A",
+      "fullname": "Bueckle, Andreas",
       "xpos": -36.158764,
       "ypos": -118.09303,
       "number_of_authored_works": 1,
@@ -194,6 +218,7 @@
     },
     {
       "id": "Shen, L",
+      "fullname": "Shen, Li",
       "xpos": -199.38737,
       "ypos": 288.24182,
       "number_of_authored_works": 1,
@@ -201,7 +226,8 @@
       "show_label": false
     },
     {
-      "id": "Yao, Xh",
+      "id": "Yao, XH",
+      "fullname": "Yao, Xiaohui",
       "xpos": -119.45133,
       "ypos": 280.88007,
       "number_of_authored_works": 1,
@@ -209,7 +235,8 @@
       "show_label": false
     },
     {
-      "id": "Yan, Jw",
+      "id": "Yan, JW",
+      "fullname": "Yan, Jingwen",
       "xpos": -39.809917,
       "ypos": 241.18704,
       "number_of_authored_works": 1,
@@ -218,6 +245,7 @@
     },
     {
       "id": "Ginda, M",
+      "fullname": "Ginda, Michael",
       "xpos": -80.4632,
       "ypos": 160.79512,
       "number_of_authored_works": 1,
@@ -225,7 +253,8 @@
       "show_label": false
     },
     {
-      "id": "Saykin, Aj",
+      "id": "Saykin, AJ",
+      "fullname": "Saykin, Andrew J.",
       "xpos": -279.19196,
       "ypos": 302.83386,
       "number_of_authored_works": 1,
@@ -233,7 +262,8 @@
       "show_label": false
     },
     {
-      "id": "Carpenter, Js",
+      "id": "Carpenter, JS",
+      "fullname": "Carpenter, Janet S.",
       "xpos": 58.579624,
       "ypos": 178.365,
       "number_of_authored_works": 1,
@@ -242,6 +272,7 @@
     },
     {
       "id": "Laine, T",
+      "fullname": "Laine, Tei",
       "xpos": 50.943317,
       "ypos": 332.80588,
       "number_of_authored_works": 1,
@@ -250,6 +281,7 @@
     },
     {
       "id": "Harrison, B",
+      "fullname": "Harrison, Blake",
       "xpos": 120.37759,
       "ypos": 269.08652,
       "number_of_authored_works": 1,
@@ -258,6 +290,7 @@
     },
     {
       "id": "Lepage, M",
+      "fullname": "Lepage, M",
       "xpos": 120.36619,
       "ypos": 180.38522,
       "number_of_authored_works": 1,
@@ -266,6 +299,7 @@
     },
     {
       "id": "Pierce, T",
+      "fullname": "Pierce, Taran",
       "xpos": 71.5944,
       "ypos": 134.34,
       "number_of_authored_works": 1,
@@ -274,6 +308,7 @@
     },
     {
       "id": "Hoteling, N",
+      "fullname": "Hoteling, Nathan",
       "xpos": 121.741295,
       "ypos": 121.75645,
       "number_of_authored_works": 1,
@@ -281,7 +316,8 @@
       "show_label": false
     },
     {
-      "id": "Emmons, Sr",
+      "id": "Emmons, SR",
+      "fullname": "Emmons, Scott R.",
       "xpos": -44.733013,
       "ypos": -6.4951005,
       "number_of_authored_works": 1,
@@ -290,6 +326,7 @@
     },
     {
       "id": "Reed, C",
+      "fullname": "Reed, Chris",
       "xpos": -84.13648,
       "ypos": 336.1347,
       "number_of_authored_works": 1,
@@ -298,6 +335,7 @@
     },
     {
       "id": "Murdock, J",
+      "fullname": "Murdock, Jaimie",
       "xpos": -95.51704,
       "ypos": 355.65002,
       "number_of_authored_works": 1,
@@ -306,6 +344,7 @@
     },
     {
       "id": "Allen, C",
+      "fullname": "Allen, Colin",
       "xpos": -36.556774,
       "ypos": 348.04816,
       "number_of_authored_works": 1,
@@ -314,6 +353,7 @@
     },
     {
       "id": "Light, R",
+      "fullname": "Light, Robert",
       "xpos": -80.01896,
       "ypos": 317.47748,
       "number_of_authored_works": 1,
@@ -322,6 +362,7 @@
     },
     {
       "id": "Mcalister, S",
+      "fullname": "Mcalister, S",
       "xpos": -80.63706,
       "ypos": 338.34082,
       "number_of_authored_works": 1,
@@ -330,6 +371,7 @@
     },
     {
       "id": "Ravenscroft, A",
+      "fullname": "Ravenscroft, Andrew",
       "xpos": -99.03309,
       "ypos": 335.1066,
       "number_of_authored_works": 1,
@@ -338,6 +380,7 @@
     },
     {
       "id": "Rose, R",
+      "fullname": "Rose, Robert",
       "xpos": -80.88926,
       "ypos": 335.69705,
       "number_of_authored_works": 1,
@@ -346,6 +389,7 @@
     },
     {
       "id": "Rose, D",
+      "fullname": "Rose, Doori",
       "xpos": -102.2244,
       "ypos": 334.14902,
       "number_of_authored_works": 1,
@@ -354,6 +398,7 @@
     },
     {
       "id": "Otsuka, J",
+      "fullname": "Otsuka, Jun",
       "xpos": -80.503365,
       "ypos": 340.65155,
       "number_of_authored_works": 1,
@@ -362,6 +407,7 @@
     },
     {
       "id": "Bourget, D",
+      "fullname": "Bourget, David",
       "xpos": -84.06397,
       "ypos": 345.10776,
       "number_of_authored_works": 1,
@@ -370,6 +416,7 @@
     },
     {
       "id": "Lawrence, J",
+      "fullname": "Lawrence, John",
       "xpos": -85.30738,
       "ypos": 338.07755,
       "number_of_authored_works": 1,
@@ -377,7 +424,8 @@
       "show_label": false
     },
     {
-      "id": "Osili, Uo",
+      "id": "Osili, UO",
+      "fullname": "Osili, Una O.",
       "xpos": 3.4565315,
       "ypos": 26.956575,
       "number_of_authored_works": 1,
@@ -386,6 +434,7 @@
     },
     {
       "id": "Ackerman, J",
+      "fullname": "Ackerman, Jacqueline",
       "xpos": -110.87745,
       "ypos": -76.31204,
       "number_of_authored_works": 1,
@@ -393,7 +442,8 @@
       "show_label": false
     },
     {
-      "id": "Kong, Ch",
+      "id": "Kong, CH",
+      "fullname": "Kong, Chin Hua",
       "xpos": -32.579082,
       "ypos": 9.644822,
       "number_of_authored_works": 1,
@@ -402,6 +452,7 @@
     },
     {
       "id": "Scharnhorst, A",
+      "fullname": "Scharnhorst, Andrea",
       "xpos": -105.05283,
       "ypos": -113.15285,
       "number_of_authored_works": 7,
@@ -410,6 +461,7 @@
     },
     {
       "id": "Edmonds, B",
+      "fullname": "Edmonds, Bruce",
       "xpos": -211.12465,
       "ypos": -31.805922,
       "number_of_authored_works": 1,
@@ -418,6 +470,7 @@
     },
     {
       "id": "Bollen, J",
+      "fullname": "Bollen, Johan",
       "xpos": -320.128,
       "ypos": 247.175,
       "number_of_authored_works": 3,
@@ -426,6 +479,7 @@
     },
     {
       "id": "Crandall, D",
+      "fullname": "Crandall, David",
       "xpos": -205.24596,
       "ypos": 32.68241,
       "number_of_authored_works": 3,
@@ -434,6 +488,7 @@
     },
     {
       "id": "Junk, D",
+      "fullname": "Junk, Damion",
       "xpos": -266.9239,
       "ypos": 28.152819,
       "number_of_authored_works": 3,
@@ -442,6 +497,7 @@
     },
     {
       "id": "Ding, Y",
+      "fullname": "Ding, Ying",
       "xpos": -159.59367,
       "ypos": 133.50352,
       "number_of_authored_works": 4,
@@ -450,6 +506,7 @@
     },
     {
       "id": "Emmons, S",
+      "fullname": "Emmons, Scott",
       "xpos": -61.995373,
       "ypos": -239.35484,
       "number_of_authored_works": 1,
@@ -458,6 +515,7 @@
     },
     {
       "id": "Kobourov, S",
+      "fullname": "Kobourov, Stephen",
       "xpos": -95.04951,
       "ypos": 133.06506,
       "number_of_authored_works": 2,
@@ -466,6 +524,7 @@
     },
     {
       "id": "Gallant, M",
+      "fullname": "Gallant, Mike",
       "xpos": 17.58965,
       "ypos": -32.66844,
       "number_of_authored_works": 1,
@@ -474,6 +533,7 @@
     },
     {
       "id": "Heimlich, J",
+      "fullname": "Heimlich, Joe",
       "xpos": 166.17827,
       "ypos": -237.93138,
       "number_of_authored_works": 1,
@@ -482,6 +542,7 @@
     },
     {
       "id": "Maltese, A",
+      "fullname": "Maltese, Adam",
       "xpos": -77.57929,
       "ypos": -119.73042,
       "number_of_authored_works": 1,
@@ -489,7 +550,8 @@
       "show_label": false
     },
     {
-      "id": "Balliet, Rn",
+      "id": "Balliet, RN",
+      "fullname": "Balliet, Russell Nelson",
       "xpos": -106.41303,
       "ypos": -238.83229,
       "number_of_authored_works": 1,
@@ -498,6 +560,7 @@
     },
     {
       "id": "Knepper, R",
+      "fullname": "Knepper, Richard",
       "xpos": 18.68053,
       "ypos": -166.96635,
       "number_of_authored_works": 1,
@@ -506,6 +569,7 @@
     },
     {
       "id": "Pestilli, F",
+      "fullname": "Pestilli, Franco",
       "xpos": -141.78499,
       "ypos": -71.86409,
       "number_of_authored_works": 1,
@@ -514,6 +578,7 @@
     },
     {
       "id": "Saket, B",
+      "fullname": "Saket, Bahador",
       "xpos": -19.121655,
       "ypos": -52.037918,
       "number_of_authored_works": 2,
@@ -522,6 +587,7 @@
     },
     {
       "id": "Scheidegger, C",
+      "fullname": "Scheidegger, Carlos",
       "xpos": -69.952644,
       "ypos": -32.98729,
       "number_of_authored_works": 1,
@@ -529,7 +595,8 @@
       "show_label": false
     },
     {
-      "id": "Kobourov, Sg",
+      "id": "Kobourov, SG",
+      "fullname": "Kobourov, Stephen G.",
       "xpos": -16.575878,
       "ypos": 27.59424,
       "number_of_authored_works": 1,
@@ -538,6 +605,7 @@
     },
     {
       "id": "Lariviere, V",
+      "fullname": "Lariviere, Vincent",
       "xpos": -114.08463,
       "ypos": -186.95439,
       "number_of_authored_works": 2,
@@ -546,6 +614,7 @@
     },
     {
       "id": "Haustein, S",
+      "fullname": "Haustein, Stefanie",
       "xpos": -51.3838,
       "ypos": -90.365005,
       "number_of_authored_works": 1,
@@ -554,6 +623,7 @@
     },
     {
       "id": "Patel, K",
+      "fullname": "Patel, Kishor",
       "xpos": 76.21473,
       "ypos": -122.62846,
       "number_of_authored_works": 1,
@@ -562,6 +632,7 @@
     },
     {
       "id": "Govoni, S",
+      "fullname": "Govoni, Sergio",
       "xpos": 71.97091,
       "ypos": -196.69115,
       "number_of_authored_works": 1,
@@ -570,6 +641,7 @@
     },
     {
       "id": "Athavale, A",
+      "fullname": "Athavale, Ashwini",
       "xpos": -100.50959,
       "ypos": 16.309038,
       "number_of_authored_works": 1,
@@ -578,6 +650,7 @@
     },
     {
       "id": "Jibu, M",
+      "fullname": "Jibu, Mari",
       "xpos": -182.62306,
       "ypos": -94.9496,
       "number_of_authored_works": 1,
@@ -586,6 +659,7 @@
     },
     {
       "id": "Osabe, Y",
+      "fullname": "Osabe, Yoshiyuki",
       "xpos": -158.50966,
       "ypos": -19.885008,
       "number_of_authored_works": 1,
@@ -594,6 +668,7 @@
     },
     {
       "id": "Simonetto, P",
+      "fullname": "Simonetto, Paolo",
       "xpos": 27.146229,
       "ypos": 40.58333,
       "number_of_authored_works": 1,
@@ -602,6 +677,7 @@
     },
     {
       "id": "Reijnhoudt, L",
+      "fullname": "Reijnhoudt, Linda",
       "xpos": -100.66819,
       "ypos": -36.53325,
       "number_of_authored_works": 2,
@@ -610,6 +686,7 @@
     },
     {
       "id": "Costas, R",
+      "fullname": "Costas, Rodrigo",
       "xpos": -64.92536,
       "ypos": -56.42531,
       "number_of_authored_works": 2,
@@ -618,6 +695,7 @@
     },
     {
       "id": "Noyons, E",
+      "fullname": "Noyons, Ed",
       "xpos": -96.88917,
       "ypos": -32.025467,
       "number_of_authored_works": 2,
@@ -625,7 +703,8 @@
       "show_label": false
     },
     {
-      "id": "Polley, De",
+      "id": "Polley, DE",
+      "fullname": "Polley, David E.",
       "xpos": 13.545551,
       "ypos": -34.845688,
       "number_of_authored_works": 2,
@@ -634,6 +713,7 @@
     },
     {
       "id": "Zeckzer, D",
+      "fullname": "Zeckzer, Dirk",
       "xpos": 10.625874,
       "ypos": -201.16817,
       "number_of_authored_works": 1,
@@ -642,6 +722,7 @@
     },
     {
       "id": "Schreiber, F",
+      "fullname": "Schreiber, Falk",
       "xpos": -31.32777,
       "ypos": -267.8637,
       "number_of_authored_works": 1,
@@ -650,6 +731,7 @@
     },
     {
       "id": "Kerren, A",
+      "fullname": "Kerren, Andreas",
       "xpos": 9.323444,
       "ypos": -205.33385,
       "number_of_authored_works": 1,
@@ -658,6 +740,7 @@
     },
     {
       "id": "Hagen, H",
+      "fullname": "Hagen, Hans",
       "xpos": 65.77889,
       "ypos": -169.5837,
       "number_of_authored_works": 1,
@@ -666,6 +749,7 @@
     },
     {
       "id": "Fang, S",
+      "fullname": "Fang, Shu",
       "xpos": 53.56612,
       "ypos": -66.15462,
       "number_of_authored_works": 1,
@@ -673,7 +757,8 @@
       "show_label": false
     },
     {
-      "id": "Chen, Yw",
+      "id": "Chen, YW",
+      "fullname": "Chen, Yunwei",
       "xpos": -171.32167,
       "ypos": -139.0207,
       "number_of_authored_works": 1,
@@ -682,6 +767,7 @@
     },
     {
       "id": "Skupin, A",
+      "fullname": "Skupin, Andre",
       "xpos": -231.63997,
       "ypos": -158.10448,
       "number_of_authored_works": 3,
@@ -689,7 +775,8 @@
       "show_label": false
     },
     {
-      "id": "Biberstine, Jr",
+      "id": "Biberstine, JR",
+      "fullname": "Biberstine, Joseph R.",
       "xpos": -162.6259,
       "ypos": -101.59572,
       "number_of_authored_works": 3,
@@ -698,6 +785,7 @@
     },
     {
       "id": "Mazloumian, A",
+      "fullname": "Mazloumian, Amin",
       "xpos": -122.4911,
       "ypos": -126.63875,
       "number_of_authored_works": 1,
@@ -706,6 +794,7 @@
     },
     {
       "id": "Lozano, S",
+      "fullname": "Lozano, Sergi",
       "xpos": 40.265354,
       "ypos": -151.52422,
       "number_of_authored_works": 1,
@@ -714,6 +803,7 @@
     },
     {
       "id": "Van Harmelen, F",
+      "fullname": "Van Harmelen, F",
       "xpos": 328.687,
       "ypos": 91.941895,
       "number_of_authored_works": 1,
@@ -722,6 +812,7 @@
     },
     {
       "id": "Kampis, G",
+      "fullname": "Kampis, G.",
       "xpos": 209.25189,
       "ypos": 82.047714,
       "number_of_authored_works": 1,
@@ -730,6 +821,7 @@
     },
     {
       "id": "Van Den Besselaar, P",
+      "fullname": "Van Den Besselaar, P",
       "xpos": -184.51167,
       "ypos": -169.66731,
       "number_of_authored_works": 4,
@@ -738,6 +830,7 @@
     },
     {
       "id": "Schultes, E",
+      "fullname": "Schultes, E.",
       "xpos": 205.4028,
       "ypos": 249.03264,
       "number_of_authored_works": 1,
@@ -746,6 +839,7 @@
     },
     {
       "id": "Goble, C",
+      "fullname": "Goble, C.",
       "xpos": 370.47113,
       "ypos": 187.97063,
       "number_of_authored_works": 1,
@@ -754,6 +848,7 @@
     },
     {
       "id": "Groth, P",
+      "fullname": "Groth, P.",
       "xpos": 182.62126,
       "ypos": 138.06964,
       "number_of_authored_works": 1,
@@ -762,6 +857,7 @@
     },
     {
       "id": "Mons, B",
+      "fullname": "Mons, B.",
       "xpos": 719.70807,
       "ypos": 569.17786,
       "number_of_authored_works": 2,
@@ -770,6 +866,7 @@
     },
     {
       "id": "Anderson, S",
+      "fullname": "Anderson, S.",
       "xpos": 306.5253,
       "ypos": -6.9276567,
       "number_of_authored_works": 1,
@@ -778,6 +875,7 @@
     },
     {
       "id": "Decker, S",
+      "fullname": "Decker, S.",
       "xpos": 223.34248,
       "ypos": 41.72016,
       "number_of_authored_works": 1,
@@ -786,6 +884,7 @@
     },
     {
       "id": "Hayes, C",
+      "fullname": "Hayes, C.",
       "xpos": 267.96716,
       "ypos": 158.95557,
       "number_of_authored_works": 1,
@@ -794,6 +893,7 @@
     },
     {
       "id": "Buecheler, T",
+      "fullname": "Buecheler, T.",
       "xpos": 155.60982,
       "ypos": 329.1017,
       "number_of_authored_works": 1,
@@ -801,7 +901,8 @@
       "show_label": false
     },
     {
-      "id": "Boyack, Kw",
+      "id": "Boyack, KW",
+      "fullname": "Boyack, Kevin W.",
       "xpos": -105.66926,
       "ypos": -112.30046,
       "number_of_authored_works": 9,
@@ -810,6 +911,7 @@
     },
     {
       "id": "Klavans, R",
+      "fullname": "Klavans, Richard",
       "xpos": -105.51197,
       "ypos": -111.004074,
       "number_of_authored_works": 5,
@@ -818,6 +920,7 @@
     },
     {
       "id": "Patek, M",
+      "fullname": "Patek, Michael",
       "xpos": -176.80336,
       "ypos": -37.05771,
       "number_of_authored_works": 2,
@@ -825,7 +928,8 @@
       "show_label": false
     },
     {
-      "id": "Zoss, Am",
+      "id": "Zoss, AM",
+      "fullname": "Zoss, Angela M.",
       "xpos": -111.54249,
       "ypos": -152.10832,
       "number_of_authored_works": 6,
@@ -834,6 +938,7 @@
     },
     {
       "id": "Morris, S",
+      "fullname": "Morris, Steven",
       "xpos": -72.6833,
       "ypos": 61.693253,
       "number_of_authored_works": 1,
@@ -842,6 +947,7 @@
     },
     {
       "id": "Glanzel, W",
+      "fullname": "Glanzel, Wolfgang",
       "xpos": -14.221142,
       "ypos": -1.9277484,
       "number_of_authored_works": 1,
@@ -849,7 +955,8 @@
       "show_label": false
     },
     {
-      "id": "Guo, Hn",
+      "id": "Guo, HN",
+      "fullname": "Guo, Hanning",
       "xpos": 32.35793,
       "ypos": -139.87685,
       "number_of_authored_works": 3,
@@ -858,6 +965,7 @@
     },
     {
       "id": "Weingart, S",
+      "fullname": "Weingart, Scott",
       "xpos": 46.34972,
       "ypos": -171.14342,
       "number_of_authored_works": 1,
@@ -866,6 +974,7 @@
     },
     {
       "id": "Newman, D",
+      "fullname": "Newman, David",
       "xpos": -80.19294,
       "ypos": -182.19658,
       "number_of_authored_works": 1,
@@ -873,7 +982,8 @@
       "show_label": false
     },
     {
-      "id": "Duhon, Rj",
+      "id": "Duhon, RJ",
+      "fullname": "Duhon, Russell J.",
       "xpos": -105.64085,
       "ypos": -112.92192,
       "number_of_authored_works": 5,
@@ -882,6 +992,7 @@
     },
     {
       "id": "Schijvenaars, B",
+      "fullname": "Schijvenaars, Bob",
       "xpos": -184.87709,
       "ypos": -190.98927,
       "number_of_authored_works": 1,
@@ -889,7 +1000,8 @@
       "show_label": false
     },
     {
-      "id": "Ma, Nal",
+      "id": "Ma, NAL",
+      "fullname": "Ma, Nianli",
       "xpos": -163.23912,
       "ypos": -84.44844,
       "number_of_authored_works": 1,
@@ -897,7 +1009,8 @@
       "show_label": false
     },
     {
-      "id": "Wagner, Cs",
+      "id": "Wagner, CS",
+      "fullname": "Wagner, Caroline S.",
       "xpos": -188.1241,
       "ypos": -219.90483,
       "number_of_authored_works": 1,
@@ -905,7 +1018,8 @@
       "show_label": false
     },
     {
-      "id": "Roessner, Jd",
+      "id": "Roessner, JD",
+      "fullname": "Roessner, J. David",
       "xpos": -401.22577,
       "ypos": -150.37782,
       "number_of_authored_works": 1,
@@ -914,6 +1028,7 @@
     },
     {
       "id": "Bobb, K",
+      "fullname": "Bobb, Kamau",
       "xpos": -355.49762,
       "ypos": -118.07002,
       "number_of_authored_works": 1,
@@ -921,7 +1036,8 @@
       "show_label": false
     },
     {
-      "id": "Klein, Jt",
+      "id": "Klein, JT",
+      "fullname": "Klein, Julie Thompson",
       "xpos": -173.4731,
       "ypos": -318.49295,
       "number_of_authored_works": 1,
@@ -930,6 +1046,7 @@
     },
     {
       "id": "Keyton, J",
+      "fullname": "Keyton, Joann",
       "xpos": -318.17157,
       "ypos": -167.45992,
       "number_of_authored_works": 3,
@@ -938,6 +1055,7 @@
     },
     {
       "id": "Rafols, I",
+      "fullname": "Rafols, Ismael",
       "xpos": -282.9215,
       "ypos": -157.40327,
       "number_of_authored_works": 1,
@@ -945,7 +1063,8 @@
       "show_label": false
     },
     {
-      "id": "Falk-krzesinski, Hj",
+      "id": "Falk-krzesinski, HJ",
+      "fullname": "Falk-krzesinski, HJ",
       "xpos": -474.7052,
       "ypos": -198.47157,
       "number_of_authored_works": 2,
@@ -954,6 +1073,7 @@
     },
     {
       "id": "Contractor, N",
+      "fullname": "Contractor, Noshir",
       "xpos": -239.4504,
       "ypos": -351.16876,
       "number_of_authored_works": 2,
@@ -961,7 +1081,8 @@
       "show_label": false
     },
     {
-      "id": "Fiore, Sm",
+      "id": "Fiore, SM",
+      "fullname": "Fiore, Stephen M.",
       "xpos": -203.8025,
       "ypos": -279.7819,
       "number_of_authored_works": 2,
@@ -969,7 +1090,8 @@
       "show_label": false
     },
     {
-      "id": "Hall, Kl",
+      "id": "Hall, KL",
+      "fullname": "Hall, Kara L.",
       "xpos": -330.06488,
       "ypos": -210.61424,
       "number_of_authored_works": 2,
@@ -978,6 +1100,7 @@
     },
     {
       "id": "Spring, B",
+      "fullname": "Spring, Bonnie",
       "xpos": -290.22858,
       "ypos": -219.18568,
       "number_of_authored_works": 2,
@@ -986,6 +1109,7 @@
     },
     {
       "id": "Stokols, D",
+      "fullname": "Stokols, Daniel",
       "xpos": -362.85114,
       "ypos": -344.06314,
       "number_of_authored_works": 2,
@@ -994,6 +1118,7 @@
     },
     {
       "id": "Trochim, W",
+      "fullname": "Trochim, William",
       "xpos": -317.1244,
       "ypos": -265.62704,
       "number_of_authored_works": 2,
@@ -1001,7 +1126,8 @@
       "show_label": false
     },
     {
-      "id": "Price, Ma",
+      "id": "Price, MA",
+      "fullname": "Price, Mark A.",
       "xpos": -33.027905,
       "ypos": -156.83565,
       "number_of_authored_works": 2,
@@ -1009,7 +1135,8 @@
       "show_label": false
     },
     {
-      "id": "Huang, Wx",
+      "id": "Huang, WX",
+      "fullname": "Huang, Weixia",
       "xpos": 28.774036,
       "ypos": -110.13362,
       "number_of_authored_works": 2,
@@ -1018,6 +1145,7 @@
     },
     {
       "id": "Linnemeier, M",
+      "fullname": "Linnemeier, Micah",
       "xpos": 70.55158,
       "ypos": -240.56737,
       "number_of_authored_works": 2,
@@ -1026,6 +1154,7 @@
     },
     {
       "id": "Phillips, P",
+      "fullname": "Phillips, Patrick",
       "xpos": 14.619312,
       "ypos": -155.84325,
       "number_of_authored_works": 2,
@@ -1033,7 +1162,8 @@
       "show_label": false
     },
     {
-      "id": "Ma, Nl",
+      "id": "Ma, NL",
+      "fullname": "Ma, Nianli",
       "xpos": 28.568378,
       "ypos": -85.7621,
       "number_of_authored_works": 2,
@@ -1042,6 +1172,7 @@
     },
     {
       "id": "Toma, I",
+      "fullname": "Toma, Ioan",
       "xpos": -401.4063,
       "ypos": 235.1396,
       "number_of_authored_works": 1,
@@ -1049,7 +1180,8 @@
       "show_label": false
     },
     {
-      "id": "Sun, Yy",
+      "id": "Sun, YY",
+      "fullname": "Sun, Yuyin",
       "xpos": -283.20343,
       "ypos": 124.34155,
       "number_of_authored_works": 1,
@@ -1058,6 +1190,7 @@
     },
     {
       "id": "Chen, B",
+      "fullname": "Chen, Bin",
       "xpos": -358.93988,
       "ypos": 122.01375,
       "number_of_authored_works": 1,
@@ -1066,6 +1199,7 @@
     },
     {
       "id": "Ding, L",
+      "fullname": "Ding, Li",
       "xpos": -326.51038,
       "ypos": 108.93668,
       "number_of_authored_works": 1,
@@ -1074,6 +1208,7 @@
     },
     {
       "id": "Wild, D",
+      "fullname": "Wild, David",
       "xpos": -334.08453,
       "ypos": 110.55393,
       "number_of_authored_works": 1,
@@ -1082,6 +1217,7 @@
     },
     {
       "id": "Wu, M",
+      "fullname": "Wu, Melanie",
       "xpos": -506.10437,
       "ypos": 2.510774,
       "number_of_authored_works": 1,
@@ -1090,6 +1226,7 @@
     },
     {
       "id": "Difranzo, D",
+      "fullname": "Difranzo, D",
       "xpos": -453.35883,
       "ypos": -49.04129,
       "number_of_authored_works": 1,
@@ -1097,7 +1234,8 @@
       "show_label": false
     },
     {
-      "id": "Fuenzalida, Ag",
+      "id": "Fuenzalida, AG",
+      "fullname": "Fuenzalida, Alvaro Graves",
       "xpos": -191.4217,
       "ypos": 154.7204,
       "number_of_authored_works": 1,
@@ -1105,7 +1243,8 @@
       "show_label": false
     },
     {
-      "id": "Li, Df",
+      "id": "Li, DF",
+      "fullname": "Li, Daifeng",
       "xpos": -268.66705,
       "ypos": 168.49483,
       "number_of_authored_works": 1,
@@ -1113,7 +1252,8 @@
       "show_label": false
     },
     {
-      "id": "Chen, Ss",
+      "id": "Chen, SS",
+      "fullname": "Chen, ShanShan",
       "xpos": -312.911,
       "ypos": 130.98003,
       "number_of_authored_works": 1,
@@ -1122,6 +1262,7 @@
     },
     {
       "id": "Sankaranarayanan, M",
+      "fullname": "Sankaranarayanan, Madhuvanthi",
       "xpos": -453.04907,
       "ypos": 121.88026,
       "number_of_authored_works": 1,
@@ -1130,6 +1271,7 @@
     },
     {
       "id": "Conover, M",
+      "fullname": "Conover, Michael",
       "xpos": -125.82752,
       "ypos": -25.9008,
       "number_of_authored_works": 1,
@@ -1138,6 +1280,7 @@
     },
     {
       "id": "Larowe, G",
+      "fullname": "Larowe, G",
       "xpos": 58.467716,
       "ypos": -21.616682,
       "number_of_authored_works": 2,
@@ -1146,6 +1289,7 @@
     },
     {
       "id": "Ambre, S",
+      "fullname": "Ambre, Sumeet",
       "xpos": 164.469,
       "ypos": 15.672761,
       "number_of_authored_works": 2,
@@ -1154,6 +1298,7 @@
     },
     {
       "id": "Burgoon, J",
+      "fullname": "Burgoon, John",
       "xpos": 100.07296,
       "ypos": 20.790438,
       "number_of_authored_works": 2,
@@ -1162,6 +1307,7 @@
     },
     {
       "id": "Ke, W",
+      "fullname": "Ke, Weimao",
       "xpos": 115.60401,
       "ypos": 46.063004,
       "number_of_authored_works": 2,
@@ -1169,7 +1315,8 @@
       "show_label": false
     },
     {
-      "id": "Huang, Bn",
+      "id": "Huang, BN",
+      "fullname": "Huang, Bonnie (Weixia)",
       "xpos": 0.48982632,
       "ypos": -237.15572,
       "number_of_authored_works": 1,
@@ -1177,7 +1324,8 @@
       "show_label": false
     },
     {
-      "id": "Ma, Nnl",
+      "id": "Ma, NNL",
+      "fullname": "Ma, Ninali",
       "xpos": 2.9120064,
       "ypos": -161.62187,
       "number_of_authored_works": 1,
@@ -1186,6 +1334,7 @@
     },
     {
       "id": "Zoss, A",
+      "fullname": "Zoss, Angela",
       "xpos": -51.267895,
       "ypos": -151.30183,
       "number_of_authored_works": 1,
@@ -1194,6 +1343,7 @@
     },
     {
       "id": "Bairoch, A",
+      "fullname": "Bairoch, Amos",
       "xpos": 640.0648,
       "ypos": 333.97845,
       "number_of_authored_works": 1,
@@ -1202,6 +1352,7 @@
     },
     {
       "id": "Ashburner, M",
+      "fullname": "Ashburner, Michael",
       "xpos": 826.57983,
       "ypos": 304.3374,
       "number_of_authored_works": 1,
@@ -1210,6 +1361,7 @@
     },
     {
       "id": "Chichester, C",
+      "fullname": "Chichester, Christine",
       "xpos": 790.24255,
       "ypos": 298.00644,
       "number_of_authored_works": 1,
@@ -1218,6 +1370,7 @@
     },
     {
       "id": "Van Mulligen, E",
+      "fullname": "Van Mulligen, E",
       "xpos": 543.7449,
       "ypos": 428.89365,
       "number_of_authored_works": 1,
@@ -1226,6 +1379,7 @@
     },
     {
       "id": "Weeber, M",
+      "fullname": "Weeber, Marc",
       "xpos": 939.4352,
       "ypos": 364.2565,
       "number_of_authored_works": 1,
@@ -1234,6 +1388,7 @@
     },
     {
       "id": "Den Dunnen, J",
+      "fullname": "Den Dunnen, J",
       "xpos": 800.0627,
       "ypos": 396.81564,
       "number_of_authored_works": 1,
@@ -1241,7 +1396,8 @@
       "show_label": false
     },
     {
-      "id": "Van Ommen, Gj",
+      "id": "Van Ommen, GJ",
+      "fullname": "Van Ommen, GJ",
       "xpos": 690.66406,
       "ypos": 367.5876,
       "number_of_authored_works": 1,
@@ -1250,6 +1406,7 @@
     },
     {
       "id": "Musen, M",
+      "fullname": "Musen, Mark",
       "xpos": 883.8951,
       "ypos": 241.2361,
       "number_of_authored_works": 1,
@@ -1258,6 +1415,7 @@
     },
     {
       "id": "Cockerill, M",
+      "fullname": "Cockerill, Matthew",
       "xpos": 573.9975,
       "ypos": 268.20444,
       "number_of_authored_works": 1,
@@ -1266,6 +1424,7 @@
     },
     {
       "id": "Hermjakob, H",
+      "fullname": "Hermjakob, Henning",
       "xpos": 889.0434,
       "ypos": 542.05,
       "number_of_authored_works": 1,
@@ -1274,6 +1433,7 @@
     },
     {
       "id": "Mons, A",
+      "fullname": "Mons, Albert",
       "xpos": 800.29315,
       "ypos": 491.38556,
       "number_of_authored_works": 1,
@@ -1282,6 +1442,7 @@
     },
     {
       "id": "Packer, A",
+      "fullname": "Packer, Abel",
       "xpos": 802.4633,
       "ypos": 197.35582,
       "number_of_authored_works": 1,
@@ -1290,6 +1451,7 @@
     },
     {
       "id": "Pacheco, R",
+      "fullname": "Pacheco, Roberto",
       "xpos": 720.23425,
       "ypos": 442.11758,
       "number_of_authored_works": 1,
@@ -1298,6 +1460,7 @@
     },
     {
       "id": "Lewis, S",
+      "fullname": "Lewis, Suzanna",
       "xpos": 705.36725,
       "ypos": 189.04744,
       "number_of_authored_works": 1,
@@ -1306,6 +1469,7 @@
     },
     {
       "id": "Berkeley, A",
+      "fullname": "Berkeley, Alfred",
       "xpos": 694.4625,
       "ypos": 317.33118,
       "number_of_authored_works": 1,
@@ -1314,6 +1478,7 @@
     },
     {
       "id": "Melton, W",
+      "fullname": "Melton, William",
       "xpos": 891.3842,
       "ypos": 421.22906,
       "number_of_authored_works": 1,
@@ -1322,6 +1487,7 @@
     },
     {
       "id": "Barris, N",
+      "fullname": "Barris, Nickolas",
       "xpos": 686.27325,
       "ypos": 276.1248,
       "number_of_authored_works": 1,
@@ -1330,6 +1496,7 @@
     },
     {
       "id": "Wales, J",
+      "fullname": "Wales, Jimmy",
       "xpos": 880.4554,
       "ypos": 360.55164,
       "number_of_authored_works": 1,
@@ -1338,6 +1505,7 @@
     },
     {
       "id": "Meijssen, G",
+      "fullname": "Meijssen, Gerard",
       "xpos": 634.8141,
       "ypos": 529.6455,
       "number_of_authored_works": 1,
@@ -1346,6 +1514,7 @@
     },
     {
       "id": "Moeller, E",
+      "fullname": "Moeller, Erik",
       "xpos": 970.0199,
       "ypos": 281.6501,
       "number_of_authored_works": 1,
@@ -1353,7 +1522,8 @@
       "show_label": false
     },
     {
-      "id": "Roes, Pj",
+      "id": "Roes, PJ",
+      "fullname": "Roes, Peter Jan",
       "xpos": 759.6709,
       "ypos": 384.5871,
       "number_of_authored_works": 1,
@@ -1362,6 +1532,7 @@
     },
     {
       "id": "Penumarthy, S",
+      "fullname": "Penumarthy, Shashikant",
       "xpos": -80.66126,
       "ypos": -154.46147,
       "number_of_authored_works": 6,
@@ -1369,7 +1540,8 @@
       "show_label": false
     },
     {
-      "id": "Herr, Bw",
+      "id": "Herr, BW",
+      "fullname": "Herr, Bruce W., II",
       "xpos": 12.733631,
       "ypos": -198.15242,
       "number_of_authored_works": 2,
@@ -1377,7 +1549,8 @@
       "show_label": false
     },
     {
-      "id": "Hardy, Ef",
+      "id": "Hardy, EF",
+      "fullname": "Hardy, Elisha F.",
       "xpos": -26.646496,
       "ypos": -5.7458024,
       "number_of_authored_works": 1,
@@ -1385,7 +1558,8 @@
       "show_label": false
     },
     {
-      "id": "Paley, Wb",
+      "id": "Paley, WB",
+      "fullname": "Paley, W. Bradford",
       "xpos": 113.38055,
       "ypos": -63.38327,
       "number_of_authored_works": 1,
@@ -1394,6 +1568,7 @@
     },
     {
       "id": "Hardy, E",
+      "fullname": "Hardy, Elisha",
       "xpos": 82.59498,
       "ypos": 34.71367,
       "number_of_authored_works": 1,
@@ -1402,6 +1577,7 @@
     },
     {
       "id": "Herr, B",
+      "fullname": "Herr, Bruce",
       "xpos": 39.160892,
       "ypos": 26.701754,
       "number_of_authored_works": 1,
@@ -1410,6 +1586,7 @@
     },
     {
       "id": "Holloway, T",
+      "fullname": "Holloway, Todd",
       "xpos": -197.58778,
       "ypos": 36.065765,
       "number_of_authored_works": 2,
@@ -1418,6 +1595,7 @@
     },
     {
       "id": "Neirynck, T",
+      "fullname": "Neirynck, Thomas",
       "xpos": -247.59065,
       "ypos": -93.78279,
       "number_of_authored_works": 1,
@@ -1426,6 +1604,7 @@
     },
     {
       "id": "Sanyal, S",
+      "fullname": "Sanyal, Soma",
       "xpos": -399.48828,
       "ypos": -23.521406,
       "number_of_authored_works": 1,
@@ -1433,7 +1612,8 @@
       "show_label": false
     },
     {
-      "id": "Mane, Kk",
+      "id": "Mane, KK",
+      "fullname": "Mane, Ketan K.",
       "xpos": -25.445904,
       "ypos": -84.53282,
       "number_of_authored_works": 4,
@@ -1442,6 +1622,7 @@
     },
     {
       "id": "Bozicevic, M",
+      "fullname": "Bozicevic, Miran",
       "xpos": -79.93839,
       "ypos": -278.00134,
       "number_of_authored_works": 1,
@@ -1449,7 +1630,8 @@
       "show_label": false
     },
     {
-      "id": "Ke, Wm",
+      "id": "Ke, WM",
+      "fullname": "Ke, Weimao",
       "xpos": -81.37711,
       "ypos": -79.7014,
       "number_of_authored_works": 4,
@@ -1458,6 +1640,7 @@
     },
     {
       "id": "Meiss, M",
+      "fullname": "Meiss, Mark",
       "xpos": -30.016582,
       "ypos": -116.619156,
       "number_of_authored_works": 1,
@@ -1465,7 +1648,8 @@
       "show_label": false
     },
     {
-      "id": "Janssen, Ma",
+      "id": "Janssen, MA",
+      "fullname": "Janssen, Marco A.",
       "xpos": -251.44392,
       "ypos": -227.81712,
       "number_of_authored_works": 1,
@@ -1473,7 +1657,8 @@
       "show_label": false
     },
     {
-      "id": "Schoon, Ml",
+      "id": "Schoon, ML",
+      "fullname": "Schoon, Michael L.",
       "xpos": -20.033092,
       "ypos": -132.08614,
       "number_of_authored_works": 1,
@@ -1482,6 +1667,7 @@
     },
     {
       "id": "Murray, C",
+      "fullname": "Murray, Colin",
       "xpos": -207.05998,
       "ypos": -125.99312,
       "number_of_authored_works": 1,
@@ -1490,6 +1676,7 @@
     },
     {
       "id": "Ragg, S",
+      "fullname": "Ragg, S",
       "xpos": 77.88892,
       "ypos": -437.64066,
       "number_of_authored_works": 1,
@@ -1497,7 +1684,8 @@
       "show_label": false
     },
     {
-      "id": "Rosenman, Mb",
+      "id": "Rosenman, MB",
+      "fullname": "Rosenman, MB",
       "xpos": 42.962864,
       "ypos": -279.9021,
       "number_of_authored_works": 1,
@@ -1505,7 +1693,8 @@
       "show_label": false
     },
     {
-      "id": "Doucette, Em",
+      "id": "Doucette, EM",
+      "fullname": "Doucette, EM",
       "xpos": -39.635265,
       "ypos": -331.309,
       "number_of_authored_works": 1,
@@ -1514,6 +1703,7 @@
     },
     {
       "id": "Yan, Z",
+      "fullname": "Yan, Z",
       "xpos": 176.72707,
       "ypos": -313.84882,
       "number_of_authored_works": 1,
@@ -1521,7 +1711,8 @@
       "show_label": false
     },
     {
-      "id": "Haydon, Jc",
+      "id": "Haydon, JC",
+      "fullname": "Haydon, JC",
       "xpos": 46.816547,
       "ypos": -509.05447,
       "number_of_authored_works": 1,
@@ -1529,7 +1720,8 @@
       "show_label": false
     },
     {
-      "id": "Paine, Jh",
+      "id": "Paine, JH",
+      "fullname": "Paine, JH",
       "xpos": 0.23918545,
       "ypos": -369.61575,
       "number_of_authored_works": 1,
@@ -1537,7 +1729,8 @@
       "show_label": false
     },
     {
-      "id": "Lee, Nd",
+      "id": "Lee, ND",
+      "fullname": "Lee, ND",
       "xpos": -197.64021,
       "ypos": -445.12857,
       "number_of_authored_works": 1,
@@ -1546,6 +1739,7 @@
     },
     {
       "id": "Vik, T",
+      "fullname": "Vik, T",
       "xpos": -94.36506,
       "ypos": -318.37735,
       "number_of_authored_works": 1,
@@ -1554,6 +1748,7 @@
     },
     {
       "id": "Mane, K",
+      "fullname": "Mane, K",
       "xpos": -79.7064,
       "ypos": -408.2455,
       "number_of_authored_works": 2,
@@ -1561,7 +1756,8 @@
       "show_label": false
     },
     {
-      "id": "Ord, Tj",
+      "id": "Ord, TJ",
+      "fullname": "Ord, TJ",
       "xpos": -154.47548,
       "ypos": -157.64882,
       "number_of_authored_works": 1,
@@ -1569,7 +1765,8 @@
       "show_label": false
     },
     {
-      "id": "Martins, Ep",
+      "id": "Martins, EP",
+      "fullname": "Martins, EP",
       "xpos": -184.57924,
       "ypos": -64.35887,
       "number_of_authored_works": 1,
@@ -1578,6 +1775,7 @@
     },
     {
       "id": "Thakur, S",
+      "fullname": "Thakur, S",
       "xpos": -41.05943,
       "ypos": -117.91548,
       "number_of_authored_works": 2,
@@ -1586,6 +1784,7 @@
     },
     {
       "id": "Dall'asta, L",
+      "fullname": "Dall'asta, L",
       "xpos": -317.55634,
       "ypos": -88.70613,
       "number_of_authored_works": 1,
@@ -1594,6 +1793,7 @@
     },
     {
       "id": "Navarro-prieto, R",
+      "fullname": "Navarro-prieto, R",
       "xpos": -35.93086,
       "ypos": -117.899826,
       "number_of_authored_works": 1,
@@ -1601,7 +1801,8 @@
       "show_label": false
     },
     {
-      "id": "Chen, Cm",
+      "id": "Chen, CM",
+      "fullname": "Chen, CM",
       "xpos": -170.78468,
       "ypos": -109.320724,
       "number_of_authored_works": 4,
@@ -1609,7 +1810,8 @@
       "show_label": false
     },
     {
-      "id": "Fletcher, Ghl",
+      "id": "Fletcher, GHL",
+      "fullname": "Fletcher, GHL",
       "xpos": 34.18424,
       "ypos": 1.2175457,
       "number_of_authored_works": 1,
@@ -1617,7 +1819,8 @@
       "show_label": false
     },
     {
-      "id": "Sheth, Ha",
+      "id": "Sheth, HA",
+      "fullname": "Sheth, HA",
       "xpos": -119.7085,
       "ypos": 125.92409,
       "number_of_authored_works": 1,
@@ -1626,6 +1829,7 @@
     },
     {
       "id": "Mahoui, M",
+      "fullname": "Mahoui, M",
       "xpos": -39.40864,
       "ypos": 162.18091,
       "number_of_authored_works": 1,
@@ -1634,6 +1838,7 @@
     },
     {
       "id": "Kulkarni, H",
+      "fullname": "Kulkarni, H",
       "xpos": 41.864643,
       "ypos": 80.7435,
       "number_of_authored_works": 1,
@@ -1641,7 +1846,8 @@
       "show_label": false
     },
     {
-      "id": "Li, Nh",
+      "id": "Li, NH",
+      "fullname": "Li, NH",
       "xpos": 14.779591,
       "ypos": 162.73904,
       "number_of_authored_works": 1,
@@ -1650,6 +1856,7 @@
     },
     {
       "id": "Ben-miled, Z",
+      "fullname": "Ben-miled, Z",
       "xpos": -75.53898,
       "ypos": 113.57162,
       "number_of_authored_works": 1,
@@ -1658,6 +1865,7 @@
     },
     {
       "id": "Kerney, C",
+      "fullname": "Kerney, C",
       "xpos": 14.9781685,
       "ypos": 88.71971,
       "number_of_authored_works": 1,
@@ -1665,7 +1873,8 @@
       "show_label": false
     },
     {
-      "id": "Devarco, Bj",
+      "id": "Devarco, BJ",
+      "fullname": "Devarco, BJ",
       "xpos": 38.324116,
       "ypos": -117.29726,
       "number_of_authored_works": 1,
@@ -1673,7 +1882,8 @@
       "show_label": false
     },
     {
-      "id": "Maru, Jt",
+      "id": "Maru, JT",
+      "fullname": "Maru, JT",
       "xpos": -165.99425,
       "ypos": -220.1949,
       "number_of_authored_works": 1,
@@ -1681,7 +1891,8 @@
       "show_label": false
     },
     {
-      "id": "Jones, Rj",
+      "id": "Jones, RJ",
+      "fullname": "Jones, RJ",
       "xpos": -81.59519,
       "ypos": -155.78743,
       "number_of_authored_works": 1,
@@ -1689,7 +1900,8 @@
       "show_label": false
     },
     {
-      "id": "Lee, Gj",
+      "id": "Lee, GJ",
+      "fullname": "Lee, GJ",
       "xpos": -86.02442,
       "ypos": -176.37999,
       "number_of_authored_works": 1,
@@ -1698,6 +1910,7 @@
     },
     {
       "id": "Ord, T",
+      "fullname": "Ord, T",
       "xpos": -143.77956,
       "ypos": -140.55138,
       "number_of_authored_works": 1,
@@ -1706,6 +1919,7 @@
     },
     {
       "id": "Martins, E",
+      "fullname": "Martins, E",
       "xpos": 244.83072,
       "ypos": -224.34453,
       "number_of_authored_works": 1,
@@ -1714,6 +1928,7 @@
     },
     {
       "id": "Mostafa, J",
+      "fullname": "Mostafa, J",
       "xpos": -123.55717,
       "ypos": 40.621307,
       "number_of_authored_works": 1,
@@ -1721,7 +1936,8 @@
       "show_label": false
     },
     {
-      "id": "Mccain, Kw",
+      "id": "Mccain, KW",
+      "fullname": "Mccain, KW",
       "xpos": 0.9980966,
       "ypos": -130.48586,
       "number_of_authored_works": 1,
@@ -1730,6 +1946,7 @@
     },
     {
       "id": "Rasmussen, E",
+      "fullname": "Rasmussen, E",
       "xpos": -1.009075,
       "ypos": -95.59126,
       "number_of_authored_works": 1,
@@ -1737,7 +1954,8 @@
       "show_label": false
     },
     {
-      "id": "Atkins, Hb",
+      "id": "Atkins, HB",
+      "fullname": "Atkins, HB",
       "xpos": 226.16365,
       "ypos": -130.49962,
       "number_of_authored_works": 1,
@@ -1745,7 +1963,8 @@
       "show_label": false
     },
     {
-      "id": "Lin, Sm",
+      "id": "Lin, SM",
+      "fullname": "Lin, SM",
       "xpos": -198.78206,
       "ypos": -162.64717,
       "number_of_authored_works": 1,
@@ -1753,7 +1972,8 @@
       "show_label": false
     },
     {
-      "id": "Hazlewood, Wr",
+      "id": "Hazlewood, WR",
+      "fullname": "Hazlewood, WR",
       "xpos": -279.35394,
       "ypos": -117.93828,
       "number_of_authored_works": 1,
@@ -1762,6 +1982,7 @@
     },
     {
       "id": "Feng, Y",
+      "fullname": "Feng, Y",
       "xpos": -71.791084,
       "ypos": -0.7287128,
       "number_of_authored_works": 1,
@@ -1769,7 +1990,8 @@
       "show_label": false
     },
     {
-      "id": "Lin, Yc",
+      "id": "Lin, YC",
+      "fullname": "Lin, YC",
       "xpos": 107.64837,
       "ypos": -126.71712,
       "number_of_authored_works": 1,
@@ -1777,7 +1999,8 @@
       "show_label": false
     },
     {
-      "id": "Zhou, Yz",
+      "id": "Zhou, YZ",
+      "fullname": "Zhou, YZ",
       "xpos": -199.65688,
       "ypos": -0.4694507,
       "number_of_authored_works": 1,
@@ -1786,6 +2009,7 @@
     },
     {
       "id": "Dolinsky, M",
+      "fullname": "Dolinsky, M",
       "xpos": -38.920055,
       "ypos": -26.419477,
       "number_of_authored_works": 1,
@@ -1794,6 +2018,7 @@
     },
     {
       "id": "Dillon, A",
+      "fullname": "Dillon, A",
       "xpos": -176.92531,
       "ypos": -109.85191,
       "number_of_authored_works": 1,
@@ -1803,37 +2028,37 @@
   ],
   "coauthorEdges": [
     {
-      "id": "Staudt, J|Weinberg, Ba",
+      "id": "Staudt, J|Weinberg, BA",
       "source": "Staudt, J",
-      "target": "Weinberg, Ba",
+      "target": "Weinberg, BA",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Weinberg, Ba|Yu, Hf",
-      "source": "Weinberg, Ba",
-      "target": "Yu, Hf",
+      "id": "Weinberg, BA|Yu, HF",
+      "source": "Weinberg, BA",
+      "target": "Yu, HF",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Light, Rp|Weinberg, Ba",
-      "source": "Light, Rp",
-      "target": "Weinberg, Ba",
+      "id": "Light, RP|Weinberg, BA",
+      "source": "Light, RP",
+      "target": "Weinberg, BA",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Marschke, G|Weinberg, Ba",
+      "id": "Marschke, G|Weinberg, BA",
       "source": "Marschke, G",
-      "target": "Weinberg, Ba",
+      "target": "Weinberg, BA",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Weinberg, Ba",
+      "id": "Borner, K|Weinberg, BA",
       "source": "Borner, K",
-      "target": "Weinberg, Ba",
+      "target": "Weinberg, BA",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -1845,16 +2070,16 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Yu, Hf",
+      "id": "Borner, K|Yu, HF",
       "source": "Borner, K",
-      "target": "Yu, Hf",
+      "target": "Yu, HF",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Light, Rp",
+      "id": "Borner, K|Light, RP",
       "source": "Borner, K",
-      "target": "Light, Rp",
+      "target": "Light, RP",
       "weight": 8,
       "number_of_coauthored_works": 8
     },
@@ -1873,233 +2098,233 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Marschke, G|Yu, Hf",
+      "id": "Marschke, G|Yu, HF",
       "source": "Marschke, G",
-      "target": "Yu, Hf",
+      "target": "Yu, HF",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Light, Rp|Marschke, G",
-      "source": "Light, Rp",
+      "id": "Light, RP|Marschke, G",
+      "source": "Light, RP",
       "target": "Marschke, G",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Light, Rp|Staudt, J",
-      "source": "Light, Rp",
+      "id": "Light, RP|Staudt, J",
+      "source": "Light, RP",
       "target": "Staudt, J",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Light, Rp|Yu, Hf",
-      "source": "Light, Rp",
-      "target": "Yu, Hf",
+      "id": "Light, RP|Yu, HF",
+      "source": "Light, RP",
+      "target": "Yu, HF",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Staudt, J|Yu, Hf",
+      "id": "Staudt, J|Yu, HF",
       "source": "Staudt, J",
-      "target": "Yu, Hf",
+      "target": "Yu, HF",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Shiffrin, Rm|Stigler, Sm",
-      "source": "Shiffrin, Rm",
-      "target": "Stigler, Sm",
+      "id": "Shiffrin, RM|Stigler, SM",
+      "source": "Shiffrin, RM",
+      "target": "Stigler, SM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Stigler, Sm",
+      "id": "Borner, K|Stigler, SM",
       "source": "Borner, K",
-      "target": "Stigler, Sm",
+      "target": "Stigler, SM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Shiffrin, Rm",
+      "id": "Borner, K|Shiffrin, RM",
       "source": "Borner, K",
-      "target": "Shiffrin, Rm",
+      "target": "Shiffrin, RM",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Barabasi, Al|Fortunato, S",
-      "source": "Barabasi, Al",
+      "id": "Barabasi, AL|Fortunato, S",
+      "source": "Barabasi, AL",
       "target": "Fortunato, S",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Barabasi, Al|Bergstrom, Ct",
-      "source": "Barabasi, Al",
-      "target": "Bergstrom, Ct",
+      "id": "Barabasi, AL|Bergstrom, CT",
+      "source": "Barabasi, AL",
+      "target": "Bergstrom, CT",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Barabasi, Al|Borner, K",
-      "source": "Barabasi, Al",
+      "id": "Barabasi, AL|Borner, K",
+      "source": "Barabasi, AL",
       "target": "Borner, K",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Barabasi, Al|Evans, Ja",
-      "source": "Barabasi, Al",
-      "target": "Evans, Ja",
+      "id": "Barabasi, AL|Evans, JA",
+      "source": "Barabasi, AL",
+      "target": "Evans, JA",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Barabasi, Al|Helbing, D",
-      "source": "Barabasi, Al",
+      "id": "Barabasi, AL|Helbing, D",
+      "source": "Barabasi, AL",
       "target": "Helbing, D",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Barabasi, Al|Milojevic, S",
-      "source": "Barabasi, Al",
+      "id": "Barabasi, AL|Milojevic, S",
+      "source": "Barabasi, AL",
       "target": "Milojevic, S",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Barabasi, Al|Petersen, Am",
-      "source": "Barabasi, Al",
-      "target": "Petersen, Am",
+      "id": "Barabasi, AL|Petersen, AM",
+      "source": "Barabasi, AL",
+      "target": "Petersen, AM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Barabasi, Al|Radicchi, F",
-      "source": "Barabasi, Al",
+      "id": "Barabasi, AL|Radicchi, F",
+      "source": "Barabasi, AL",
       "target": "Radicchi, F",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Barabasi, Al|Sinatra, R",
-      "source": "Barabasi, Al",
+      "id": "Barabasi, AL|Sinatra, R",
+      "source": "Barabasi, AL",
       "target": "Sinatra, R",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Barabasi, Al|Uzzi, B",
-      "source": "Barabasi, Al",
+      "id": "Barabasi, AL|Uzzi, B",
+      "source": "Barabasi, AL",
       "target": "Uzzi, B",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Barabasi, Al|Vespignani, A",
-      "source": "Barabasi, Al",
+      "id": "Barabasi, AL|Vespignani, A",
+      "source": "Barabasi, AL",
       "target": "Vespignani, A",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Barabasi, Al|Waltman, L",
-      "source": "Barabasi, Al",
+      "id": "Barabasi, AL|Waltman, L",
+      "source": "Barabasi, AL",
       "target": "Waltman, L",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Barabasi, Al|Wang, Ds",
-      "source": "Barabasi, Al",
-      "target": "Wang, Ds",
+      "id": "Barabasi, AL|Wang, DS",
+      "source": "Barabasi, AL",
+      "target": "Wang, DS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Fortunato, S|Wang, Ds",
+      "id": "Fortunato, S|Wang, DS",
       "source": "Fortunato, S",
-      "target": "Wang, Ds",
+      "target": "Wang, DS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Bergstrom, Ct|Wang, Ds",
-      "source": "Bergstrom, Ct",
-      "target": "Wang, Ds",
+      "id": "Bergstrom, CT|Wang, DS",
+      "source": "Bergstrom, CT",
+      "target": "Wang, DS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Wang, Ds",
+      "id": "Borner, K|Wang, DS",
       "source": "Borner, K",
-      "target": "Wang, Ds",
+      "target": "Wang, DS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Evans, Ja|Wang, Ds",
-      "source": "Evans, Ja",
-      "target": "Wang, Ds",
+      "id": "Evans, JA|Wang, DS",
+      "source": "Evans, JA",
+      "target": "Wang, DS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Helbing, D|Wang, Ds",
+      "id": "Helbing, D|Wang, DS",
       "source": "Helbing, D",
-      "target": "Wang, Ds",
+      "target": "Wang, DS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Milojevic, S|Wang, Ds",
+      "id": "Milojevic, S|Wang, DS",
       "source": "Milojevic, S",
-      "target": "Wang, Ds",
+      "target": "Wang, DS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Petersen, Am|Wang, Ds",
-      "source": "Petersen, Am",
-      "target": "Wang, Ds",
+      "id": "Petersen, AM|Wang, DS",
+      "source": "Petersen, AM",
+      "target": "Wang, DS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Radicchi, F|Wang, Ds",
+      "id": "Radicchi, F|Wang, DS",
       "source": "Radicchi, F",
-      "target": "Wang, Ds",
+      "target": "Wang, DS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Sinatra, R|Wang, Ds",
+      "id": "Sinatra, R|Wang, DS",
       "source": "Sinatra, R",
-      "target": "Wang, Ds",
+      "target": "Wang, DS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Uzzi, B|Wang, Ds",
+      "id": "Uzzi, B|Wang, DS",
       "source": "Uzzi, B",
-      "target": "Wang, Ds",
+      "target": "Wang, DS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Vespignani, A|Wang, Ds",
+      "id": "Vespignani, A|Wang, DS",
       "source": "Vespignani, A",
-      "target": "Wang, Ds",
+      "target": "Wang, DS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Waltman, L|Wang, Ds",
+      "id": "Waltman, L|Wang, DS",
       "source": "Waltman, L",
-      "target": "Wang, Ds",
+      "target": "Wang, DS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -2111,8 +2336,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Bergstrom, Ct|Waltman, L",
-      "source": "Bergstrom, Ct",
+      "id": "Bergstrom, CT|Waltman, L",
+      "source": "Bergstrom, CT",
       "target": "Waltman, L",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2125,8 +2350,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Evans, Ja|Waltman, L",
-      "source": "Evans, Ja",
+      "id": "Evans, JA|Waltman, L",
+      "source": "Evans, JA",
       "target": "Waltman, L",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2146,8 +2371,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Petersen, Am|Waltman, L",
-      "source": "Petersen, Am",
+      "id": "Petersen, AM|Waltman, L",
+      "source": "Petersen, AM",
       "target": "Waltman, L",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2188,8 +2413,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Bergstrom, Ct|Vespignani, A",
-      "source": "Bergstrom, Ct",
+      "id": "Bergstrom, CT|Vespignani, A",
+      "source": "Bergstrom, CT",
       "target": "Vespignani, A",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2202,8 +2427,8 @@
       "number_of_coauthored_works": 3
     },
     {
-      "id": "Evans, Ja|Vespignani, A",
-      "source": "Evans, Ja",
+      "id": "Evans, JA|Vespignani, A",
+      "source": "Evans, JA",
       "target": "Vespignani, A",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2223,8 +2448,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Petersen, Am|Vespignani, A",
-      "source": "Petersen, Am",
+      "id": "Petersen, AM|Vespignani, A",
+      "source": "Petersen, AM",
       "target": "Vespignani, A",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2258,8 +2483,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Bergstrom, Ct|Uzzi, B",
-      "source": "Bergstrom, Ct",
+      "id": "Bergstrom, CT|Uzzi, B",
+      "source": "Bergstrom, CT",
       "target": "Uzzi, B",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2272,8 +2497,8 @@
       "number_of_coauthored_works": 3
     },
     {
-      "id": "Evans, Ja|Uzzi, B",
-      "source": "Evans, Ja",
+      "id": "Evans, JA|Uzzi, B",
+      "source": "Evans, JA",
       "target": "Uzzi, B",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2293,8 +2518,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Petersen, Am|Uzzi, B",
-      "source": "Petersen, Am",
+      "id": "Petersen, AM|Uzzi, B",
+      "source": "Petersen, AM",
       "target": "Uzzi, B",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2321,8 +2546,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Bergstrom, Ct|Sinatra, R",
-      "source": "Bergstrom, Ct",
+      "id": "Bergstrom, CT|Sinatra, R",
+      "source": "Bergstrom, CT",
       "target": "Sinatra, R",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2335,8 +2560,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Evans, Ja|Sinatra, R",
-      "source": "Evans, Ja",
+      "id": "Evans, JA|Sinatra, R",
+      "source": "Evans, JA",
       "target": "Sinatra, R",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2356,8 +2581,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Petersen, Am|Sinatra, R",
-      "source": "Petersen, Am",
+      "id": "Petersen, AM|Sinatra, R",
+      "source": "Petersen, AM",
       "target": "Sinatra, R",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2377,8 +2602,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Bergstrom, Ct|Radicchi, F",
-      "source": "Bergstrom, Ct",
+      "id": "Bergstrom, CT|Radicchi, F",
+      "source": "Bergstrom, CT",
       "target": "Radicchi, F",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2391,8 +2616,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Evans, Ja|Radicchi, F",
-      "source": "Evans, Ja",
+      "id": "Evans, JA|Radicchi, F",
+      "source": "Evans, JA",
       "target": "Radicchi, F",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2412,51 +2637,51 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Petersen, Am|Radicchi, F",
-      "source": "Petersen, Am",
+      "id": "Petersen, AM|Radicchi, F",
+      "source": "Petersen, AM",
       "target": "Radicchi, F",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Fortunato, S|Petersen, Am",
+      "id": "Fortunato, S|Petersen, AM",
       "source": "Fortunato, S",
-      "target": "Petersen, Am",
+      "target": "Petersen, AM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Bergstrom, Ct|Petersen, Am",
-      "source": "Bergstrom, Ct",
-      "target": "Petersen, Am",
+      "id": "Bergstrom, CT|Petersen, AM",
+      "source": "Bergstrom, CT",
+      "target": "Petersen, AM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Petersen, Am",
+      "id": "Borner, K|Petersen, AM",
       "source": "Borner, K",
-      "target": "Petersen, Am",
+      "target": "Petersen, AM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Evans, Ja|Petersen, Am",
-      "source": "Evans, Ja",
-      "target": "Petersen, Am",
+      "id": "Evans, JA|Petersen, AM",
+      "source": "Evans, JA",
+      "target": "Petersen, AM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Helbing, D|Petersen, Am",
+      "id": "Helbing, D|Petersen, AM",
       "source": "Helbing, D",
-      "target": "Petersen, Am",
+      "target": "Petersen, AM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Milojevic, S|Petersen, Am",
+      "id": "Milojevic, S|Petersen, AM",
       "source": "Milojevic, S",
-      "target": "Petersen, Am",
+      "target": "Petersen, AM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -2468,8 +2693,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Bergstrom, Ct|Milojevic, S",
-      "source": "Bergstrom, Ct",
+      "id": "Bergstrom, CT|Milojevic, S",
+      "source": "Bergstrom, CT",
       "target": "Milojevic, S",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2482,8 +2707,8 @@
       "number_of_coauthored_works": 4
     },
     {
-      "id": "Evans, Ja|Milojevic, S",
-      "source": "Evans, Ja",
+      "id": "Evans, JA|Milojevic, S",
+      "source": "Evans, JA",
       "target": "Milojevic, S",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2503,8 +2728,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Bergstrom, Ct|Helbing, D",
-      "source": "Bergstrom, Ct",
+      "id": "Bergstrom, CT|Helbing, D",
+      "source": "Bergstrom, CT",
       "target": "Helbing, D",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2517,30 +2742,30 @@
       "number_of_coauthored_works": 3
     },
     {
-      "id": "Evans, Ja|Helbing, D",
-      "source": "Evans, Ja",
+      "id": "Evans, JA|Helbing, D",
+      "source": "Evans, JA",
       "target": "Helbing, D",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Evans, Ja|Fortunato, S",
-      "source": "Evans, Ja",
+      "id": "Evans, JA|Fortunato, S",
+      "source": "Evans, JA",
       "target": "Fortunato, S",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Bergstrom, Ct|Evans, Ja",
-      "source": "Bergstrom, Ct",
-      "target": "Evans, Ja",
+      "id": "Bergstrom, CT|Evans, JA",
+      "source": "Bergstrom, CT",
+      "target": "Evans, JA",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Evans, Ja",
+      "id": "Borner, K|Evans, JA",
       "source": "Borner, K",
-      "target": "Evans, Ja",
+      "target": "Evans, JA",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -2552,37 +2777,37 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Bergstrom, Ct|Borner, K",
-      "source": "Bergstrom, Ct",
+      "id": "Bergstrom, CT|Borner, K",
+      "source": "Bergstrom, CT",
       "target": "Borner, K",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Bergstrom, Ct|Fortunato, S",
-      "source": "Bergstrom, Ct",
+      "id": "Bergstrom, CT|Fortunato, S",
+      "source": "Bergstrom, CT",
       "target": "Fortunato, S",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Goldstone, Rl",
+      "id": "Borner, K|Goldstone, RL",
       "source": "Borner, K",
-      "target": "Goldstone, Rl",
+      "target": "Goldstone, RL",
       "weight": 3,
       "number_of_coauthored_works": 3
     },
     {
-      "id": "Goldstone, Rl|Simpson, Ah",
-      "source": "Goldstone, Rl",
-      "target": "Simpson, Ah",
+      "id": "Goldstone, RL|Simpson, AH",
+      "source": "Goldstone, RL",
+      "target": "Simpson, AH",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Bueckle, A|Goldstone, Rl",
+      "id": "Bueckle, A|Goldstone, RL",
       "source": "Bueckle, A",
-      "target": "Goldstone, Rl",
+      "target": "Goldstone, RL",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -2594,30 +2819,30 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Bueckle, A|Simpson, Ah",
+      "id": "Bueckle, A|Simpson, AH",
       "source": "Bueckle, A",
-      "target": "Simpson, Ah",
+      "target": "Simpson, AH",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Simpson, Ah",
+      "id": "Borner, K|Simpson, AH",
       "source": "Borner, K",
-      "target": "Simpson, Ah",
+      "target": "Simpson, AH",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Shen, L|Yao, Xh",
+      "id": "Shen, L|Yao, XH",
       "source": "Shen, L",
-      "target": "Yao, Xh",
+      "target": "Yao, XH",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Shen, L|Yan, Jw",
+      "id": "Shen, L|Yan, JW",
       "source": "Shen, L",
-      "target": "Yan, Jw",
+      "target": "Yan, JW",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -2636,51 +2861,51 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Saykin, Aj|Shen, L",
-      "source": "Saykin, Aj",
+      "id": "Saykin, AJ|Shen, L",
+      "source": "Saykin, AJ",
       "target": "Shen, L",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Saykin, Aj|Yao, Xh",
-      "source": "Saykin, Aj",
-      "target": "Yao, Xh",
+      "id": "Saykin, AJ|Yao, XH",
+      "source": "Saykin, AJ",
+      "target": "Yao, XH",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Saykin, Aj|Yan, Jw",
-      "source": "Saykin, Aj",
-      "target": "Yan, Jw",
+      "id": "Saykin, AJ|Yan, JW",
+      "source": "Saykin, AJ",
+      "target": "Yan, JW",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ginda, M|Saykin, Aj",
+      "id": "Ginda, M|Saykin, AJ",
       "source": "Ginda, M",
-      "target": "Saykin, Aj",
+      "target": "Saykin, AJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Saykin, Aj",
+      "id": "Borner, K|Saykin, AJ",
       "source": "Borner, K",
-      "target": "Saykin, Aj",
+      "target": "Saykin, AJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Yao, Xh",
+      "id": "Borner, K|Yao, XH",
       "source": "Borner, K",
-      "target": "Yao, Xh",
+      "target": "Yao, XH",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Yan, Jw",
+      "id": "Borner, K|Yan, JW",
       "source": "Borner, K",
-      "target": "Yan, Jw",
+      "target": "Yan, JW",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -2692,30 +2917,30 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ginda, M|Yao, Xh",
+      "id": "Ginda, M|Yao, XH",
       "source": "Ginda, M",
-      "target": "Yao, Xh",
+      "target": "Yao, XH",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ginda, M|Yan, Jw",
+      "id": "Ginda, M|Yan, JW",
       "source": "Ginda, M",
-      "target": "Yan, Jw",
+      "target": "Yan, JW",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Yan, Jw|Yao, Xh",
-      "source": "Yan, Jw",
-      "target": "Yao, Xh",
+      "id": "Yan, JW|Yao, XH",
+      "source": "Yan, JW",
+      "target": "Yao, XH",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Carpenter, Js",
+      "id": "Borner, K|Carpenter, JS",
       "source": "Borner, K",
-      "target": "Carpenter, Js",
+      "target": "Carpenter, JS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -2755,8 +2980,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Carpenter, Js|Hoteling, N",
-      "source": "Carpenter, Js",
+      "id": "Carpenter, JS|Hoteling, N",
+      "source": "Carpenter, JS",
       "target": "Hoteling, N",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2790,8 +3015,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Carpenter, Js|Pierce, T",
-      "source": "Carpenter, Js",
+      "id": "Carpenter, JS|Pierce, T",
+      "source": "Carpenter, JS",
       "target": "Pierce, T",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2818,8 +3043,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Carpenter, Js|Lepage, M",
-      "source": "Carpenter, Js",
+      "id": "Carpenter, JS|Lepage, M",
+      "source": "Carpenter, JS",
       "target": "Lepage, M",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2839,8 +3064,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Carpenter, Js|Harrison, B",
-      "source": "Carpenter, Js",
+      "id": "Carpenter, JS|Harrison, B",
+      "source": "Carpenter, JS",
       "target": "Harrison, B",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -2853,23 +3078,23 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Carpenter, Js|Laine, T",
-      "source": "Carpenter, Js",
+      "id": "Carpenter, JS|Laine, T",
+      "source": "Carpenter, JS",
       "target": "Laine, T",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Emmons, Sr",
+      "id": "Borner, K|Emmons, SR",
       "source": "Borner, K",
-      "target": "Emmons, Sr",
+      "target": "Emmons, SR",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Emmons, Sr|Light, Rp",
-      "source": "Emmons, Sr",
-      "target": "Light, Rp",
+      "id": "Emmons, SR|Light, RP",
+      "source": "Emmons, SR",
+      "target": "Light, RP",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -3336,9 +3561,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Osili, Uo",
+      "id": "Borner, K|Osili, UO",
       "source": "Borner, K",
-      "target": "Osili, Uo",
+      "target": "Osili, UO",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -3350,51 +3575,51 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Kong, Ch",
+      "id": "Borner, K|Kong, CH",
       "source": "Borner, K",
-      "target": "Kong, Ch",
+      "target": "Kong, CH",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Light, Rp|Osili, Uo",
-      "source": "Light, Rp",
-      "target": "Osili, Uo",
+      "id": "Light, RP|Osili, UO",
+      "source": "Light, RP",
+      "target": "Osili, UO",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ackerman, J|Light, Rp",
+      "id": "Ackerman, J|Light, RP",
       "source": "Ackerman, J",
-      "target": "Light, Rp",
+      "target": "Light, RP",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Kong, Ch|Light, Rp",
-      "source": "Kong, Ch",
-      "target": "Light, Rp",
+      "id": "Kong, CH|Light, RP",
+      "source": "Kong, CH",
+      "target": "Light, RP",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Kong, Ch|Osili, Uo",
-      "source": "Kong, Ch",
-      "target": "Osili, Uo",
+      "id": "Kong, CH|Osili, UO",
+      "source": "Kong, CH",
+      "target": "Osili, UO",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ackerman, J|Kong, Ch",
+      "id": "Ackerman, J|Kong, CH",
       "source": "Ackerman, J",
-      "target": "Kong, Ch",
+      "target": "Kong, CH",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ackerman, J|Osili, Uo",
+      "id": "Ackerman, J|Osili, UO",
       "source": "Ackerman, J",
-      "target": "Osili, Uo",
+      "target": "Osili, UO",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -3560,22 +3785,22 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Balliet, Rn|Heimlich, J",
-      "source": "Balliet, Rn",
+      "id": "Balliet, RN|Heimlich, J",
+      "source": "Balliet, RN",
       "target": "Heimlich, J",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Balliet, Rn|Borner, K",
-      "source": "Balliet, Rn",
+      "id": "Balliet, RN|Borner, K",
+      "source": "Balliet, RN",
       "target": "Borner, K",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Balliet, Rn|Maltese, A",
-      "source": "Balliet, Rn",
+      "id": "Balliet, RN|Maltese, A",
+      "source": "Balliet, RN",
       "target": "Maltese, A",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -3602,8 +3827,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Goldstone, Rl|Pestilli, F",
-      "source": "Goldstone, Rl",
+      "id": "Goldstone, RL|Pestilli, F",
+      "source": "Goldstone, RL",
       "target": "Pestilli, F",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -3623,22 +3848,22 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Kobourov, Sg",
+      "id": "Borner, K|Kobourov, SG",
       "source": "Borner, K",
-      "target": "Kobourov, Sg",
+      "target": "Kobourov, SG",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Kobourov, Sg|Saket, B",
-      "source": "Kobourov, Sg",
+      "id": "Kobourov, SG|Saket, B",
+      "source": "Kobourov, SG",
       "target": "Saket, B",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Kobourov, Sg|Scheidegger, C",
-      "source": "Kobourov, Sg",
+      "id": "Kobourov, SG|Scheidegger, C",
+      "source": "Kobourov, SG",
       "target": "Scheidegger, C",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -3693,23 +3918,23 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Light, Rp|Patel, K",
-      "source": "Light, Rp",
+      "id": "Light, RP|Patel, K",
+      "source": "Light, RP",
       "target": "Patel, K",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Govoni, S|Light, Rp",
+      "id": "Govoni, S|Light, RP",
       "source": "Govoni, S",
-      "target": "Light, Rp",
+      "target": "Light, RP",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Athavale, A|Light, Rp",
+      "id": "Athavale, A|Light, RP",
       "source": "Athavale, A",
-      "target": "Light, Rp",
+      "target": "Light, RP",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -3847,16 +4072,16 @@
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Borner, K|Polley, De",
+      "id": "Borner, K|Polley, DE",
       "source": "Borner, K",
-      "target": "Polley, De",
+      "target": "Polley, DE",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Light, Rp|Polley, De",
-      "source": "Light, Rp",
-      "target": "Polley, De",
+      "id": "Light, RP|Polley, DE",
+      "source": "Light, RP",
+      "target": "Polley, DE",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
@@ -3931,8 +4156,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Chen, Yw|Fang, S",
-      "source": "Chen, Yw",
+      "id": "Chen, YW|Fang, S",
+      "source": "Chen, YW",
       "target": "Fang, S",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -3945,9 +4170,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Chen, Yw",
+      "id": "Borner, K|Chen, YW",
       "source": "Borner, K",
-      "target": "Chen, Yw",
+      "target": "Chen, YW",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -3959,15 +4184,15 @@
       "number_of_coauthored_works": 3
     },
     {
-      "id": "Biberstine, Jr|Borner, K",
-      "source": "Biberstine, Jr",
+      "id": "Biberstine, JR|Borner, K",
+      "source": "Biberstine, JR",
       "target": "Borner, K",
       "weight": 3,
       "number_of_coauthored_works": 3
     },
     {
-      "id": "Biberstine, Jr|Skupin, A",
-      "source": "Biberstine, Jr",
+      "id": "Biberstine, JR|Skupin, A",
+      "source": "Biberstine, JR",
       "target": "Skupin, A",
       "weight": 2,
       "number_of_coauthored_works": 2
@@ -3987,22 +4212,22 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Light, Rp|Mazloumian, A",
-      "source": "Light, Rp",
+      "id": "Light, RP|Mazloumian, A",
+      "source": "Light, RP",
       "target": "Mazloumian, A",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Helbing, D|Light, Rp",
+      "id": "Helbing, D|Light, RP",
       "source": "Helbing, D",
-      "target": "Light, Rp",
+      "target": "Light, RP",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Light, Rp|Lozano, S",
-      "source": "Light, Rp",
+      "id": "Light, RP|Lozano, S",
+      "source": "Light, RP",
       "target": "Lozano, S",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -4568,50 +4793,50 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Boyack, Kw",
+      "id": "Borner, K|Boyack, KW",
       "source": "Borner, K",
-      "target": "Boyack, Kw",
+      "target": "Boyack, KW",
       "weight": 9,
       "number_of_coauthored_works": 9
     },
     {
-      "id": "Boyack, Kw|Klavans, R",
-      "source": "Boyack, Kw",
+      "id": "Boyack, KW|Klavans, R",
+      "source": "Boyack, KW",
       "target": "Klavans, R",
       "weight": 5,
       "number_of_coauthored_works": 5
     },
     {
-      "id": "Boyack, Kw|Patek, M",
-      "source": "Boyack, Kw",
+      "id": "Boyack, KW|Patek, M",
+      "source": "Boyack, KW",
       "target": "Patek, M",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Boyack, Kw|Zoss, Am",
-      "source": "Boyack, Kw",
-      "target": "Zoss, Am",
+      "id": "Boyack, KW|Zoss, AM",
+      "source": "Boyack, KW",
+      "target": "Zoss, AM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Biberstine, Jr|Boyack, Kw",
-      "source": "Biberstine, Jr",
-      "target": "Boyack, Kw",
+      "id": "Biberstine, JR|Boyack, KW",
+      "source": "Biberstine, JR",
+      "target": "Boyack, KW",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Boyack, Kw|Light, Rp",
-      "source": "Boyack, Kw",
-      "target": "Light, Rp",
+      "id": "Boyack, KW|Light, RP",
+      "source": "Boyack, KW",
+      "target": "Light, RP",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Boyack, Kw|Lariviere, V",
-      "source": "Boyack, Kw",
+      "id": "Boyack, KW|Lariviere, V",
+      "source": "Boyack, KW",
       "target": "Lariviere, V",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -4631,93 +4856,93 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Lariviere, V|Zoss, Am",
+      "id": "Lariviere, V|Zoss, AM",
       "source": "Lariviere, V",
-      "target": "Zoss, Am",
+      "target": "Zoss, AM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Biberstine, Jr|Lariviere, V",
-      "source": "Biberstine, Jr",
+      "id": "Biberstine, JR|Lariviere, V",
+      "source": "Biberstine, JR",
       "target": "Lariviere, V",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Lariviere, V|Light, Rp",
+      "id": "Lariviere, V|Light, RP",
       "source": "Lariviere, V",
-      "target": "Light, Rp",
+      "target": "Light, RP",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Klavans, R|Light, Rp",
+      "id": "Klavans, R|Light, RP",
       "source": "Klavans, R",
-      "target": "Light, Rp",
+      "target": "Light, RP",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Light, Rp|Patek, M",
-      "source": "Light, Rp",
+      "id": "Light, RP|Patek, M",
+      "source": "Light, RP",
       "target": "Patek, M",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Light, Rp|Zoss, Am",
-      "source": "Light, Rp",
-      "target": "Zoss, Am",
+      "id": "Light, RP|Zoss, AM",
+      "source": "Light, RP",
+      "target": "Zoss, AM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Biberstine, Jr|Light, Rp",
-      "source": "Biberstine, Jr",
-      "target": "Light, Rp",
+      "id": "Biberstine, JR|Light, RP",
+      "source": "Biberstine, JR",
+      "target": "Light, RP",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Biberstine, Jr|Klavans, R",
-      "source": "Biberstine, Jr",
+      "id": "Biberstine, JR|Klavans, R",
+      "source": "Biberstine, JR",
       "target": "Klavans, R",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Biberstine, Jr|Patek, M",
-      "source": "Biberstine, Jr",
+      "id": "Biberstine, JR|Patek, M",
+      "source": "Biberstine, JR",
       "target": "Patek, M",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Biberstine, Jr|Zoss, Am",
-      "source": "Biberstine, Jr",
-      "target": "Zoss, Am",
+      "id": "Biberstine, JR|Zoss, AM",
+      "source": "Biberstine, JR",
+      "target": "Zoss, AM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Zoss, Am",
+      "id": "Borner, K|Zoss, AM",
       "source": "Borner, K",
-      "target": "Zoss, Am",
+      "target": "Zoss, AM",
       "weight": 6,
       "number_of_coauthored_works": 6
     },
     {
-      "id": "Klavans, R|Zoss, Am",
+      "id": "Klavans, R|Zoss, AM",
       "source": "Klavans, R",
-      "target": "Zoss, Am",
+      "target": "Zoss, AM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Patek, M|Zoss, Am",
+      "id": "Patek, M|Zoss, AM",
       "source": "Patek, M",
-      "target": "Zoss, Am",
+      "target": "Zoss, AM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -4750,8 +4975,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Boyack, Kw|Morris, S",
-      "source": "Boyack, Kw",
+      "id": "Boyack, KW|Morris, S",
+      "source": "Boyack, KW",
       "target": "Morris, S",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -4764,8 +4989,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Boyack, Kw|Milojevic, S",
-      "source": "Boyack, Kw",
+      "id": "Boyack, KW|Milojevic, S",
+      "source": "Boyack, KW",
       "target": "Milojevic, S",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -4799,9 +5024,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Guo, Hn",
+      "id": "Borner, K|Guo, HN",
       "source": "Borner, K",
-      "target": "Guo, Hn",
+      "target": "Guo, HN",
       "weight": 3,
       "number_of_coauthored_works": 3
     },
@@ -4813,8 +5038,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Guo, Hn|Weingart, S",
-      "source": "Guo, Hn",
+      "id": "Guo, HN|Weingart, S",
+      "source": "Guo, HN",
       "target": "Weingart, S",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -4827,9 +5052,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Duhon, Rj",
+      "id": "Borner, K|Duhon, RJ",
       "source": "Borner, K",
-      "target": "Duhon, Rj",
+      "target": "Duhon, RJ",
       "weight": 5,
       "number_of_coauthored_works": 5
     },
@@ -4841,71 +5066,71 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Ma, Nal",
+      "id": "Borner, K|Ma, NAL",
       "source": "Borner, K",
-      "target": "Ma, Nal",
+      "target": "Ma, NAL",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Boyack, Kw|Ma, Nal",
-      "source": "Boyack, Kw",
-      "target": "Ma, Nal",
+      "id": "Boyack, KW|Ma, NAL",
+      "source": "Boyack, KW",
+      "target": "Ma, NAL",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ma, Nal|Newman, D",
-      "source": "Ma, Nal",
+      "id": "Ma, NAL|Newman, D",
+      "source": "Ma, NAL",
       "target": "Newman, D",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Duhon, Rj|Ma, Nal",
-      "source": "Duhon, Rj",
-      "target": "Ma, Nal",
+      "id": "Duhon, RJ|Ma, NAL",
+      "source": "Duhon, RJ",
+      "target": "Ma, NAL",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Klavans, R|Ma, Nal",
+      "id": "Klavans, R|Ma, NAL",
       "source": "Klavans, R",
-      "target": "Ma, Nal",
+      "target": "Ma, NAL",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ma, Nal|Patek, M",
-      "source": "Ma, Nal",
+      "id": "Ma, NAL|Patek, M",
+      "source": "Ma, NAL",
       "target": "Patek, M",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Biberstine, Jr|Ma, Nal",
-      "source": "Biberstine, Jr",
-      "target": "Ma, Nal",
+      "id": "Biberstine, JR|Ma, NAL",
+      "source": "Biberstine, JR",
+      "target": "Ma, NAL",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ma, Nal|Schijvenaars, B",
-      "source": "Ma, Nal",
+      "id": "Ma, NAL|Schijvenaars, B",
+      "source": "Ma, NAL",
       "target": "Schijvenaars, B",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ma, Nal|Skupin, A",
-      "source": "Ma, Nal",
+      "id": "Ma, NAL|Skupin, A",
+      "source": "Ma, NAL",
       "target": "Skupin, A",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Boyack, Kw|Skupin, A",
-      "source": "Boyack, Kw",
+      "id": "Boyack, KW|Skupin, A",
+      "source": "Boyack, KW",
       "target": "Skupin, A",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -4918,8 +5143,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Duhon, Rj|Skupin, A",
-      "source": "Duhon, Rj",
+      "id": "Duhon, RJ|Skupin, A",
+      "source": "Duhon, RJ",
       "target": "Skupin, A",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -4946,8 +5171,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Boyack, Kw|Schijvenaars, B",
-      "source": "Boyack, Kw",
+      "id": "Boyack, KW|Schijvenaars, B",
+      "source": "Boyack, KW",
       "target": "Schijvenaars, B",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -4960,8 +5185,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Duhon, Rj|Schijvenaars, B",
-      "source": "Duhon, Rj",
+      "id": "Duhon, RJ|Schijvenaars, B",
+      "source": "Duhon, RJ",
       "target": "Schijvenaars, B",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -4981,23 +5206,23 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Biberstine, Jr|Schijvenaars, B",
-      "source": "Biberstine, Jr",
+      "id": "Biberstine, JR|Schijvenaars, B",
+      "source": "Biberstine, JR",
       "target": "Schijvenaars, B",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Biberstine, Jr|Newman, D",
-      "source": "Biberstine, Jr",
+      "id": "Biberstine, JR|Newman, D",
+      "source": "Biberstine, JR",
       "target": "Newman, D",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Biberstine, Jr|Duhon, Rj",
-      "source": "Biberstine, Jr",
-      "target": "Duhon, Rj",
+      "id": "Biberstine, JR|Duhon, RJ",
+      "source": "Biberstine, JR",
+      "target": "Duhon, RJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -5009,8 +5234,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Duhon, Rj|Patek, M",
-      "source": "Duhon, Rj",
+      "id": "Duhon, RJ|Patek, M",
+      "source": "Duhon, RJ",
       "target": "Patek, M",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -5023,44 +5248,44 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Duhon, Rj|Klavans, R",
-      "source": "Duhon, Rj",
+      "id": "Duhon, RJ|Klavans, R",
+      "source": "Duhon, RJ",
       "target": "Klavans, R",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Boyack, Kw|Duhon, Rj",
-      "source": "Boyack, Kw",
-      "target": "Duhon, Rj",
+      "id": "Boyack, KW|Duhon, RJ",
+      "source": "Boyack, KW",
+      "target": "Duhon, RJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Duhon, Rj|Newman, D",
-      "source": "Duhon, Rj",
+      "id": "Duhon, RJ|Newman, D",
+      "source": "Duhon, RJ",
       "target": "Newman, D",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Boyack, Kw|Newman, D",
-      "source": "Boyack, Kw",
+      "id": "Boyack, KW|Newman, D",
+      "source": "Boyack, KW",
       "target": "Newman, D",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Wagner, Cs",
+      "id": "Borner, K|Wagner, CS",
       "source": "Borner, K",
-      "target": "Wagner, Cs",
+      "target": "Wagner, CS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Roessner, Jd",
+      "id": "Borner, K|Roessner, JD",
       "source": "Borner, K",
-      "target": "Roessner, Jd",
+      "target": "Roessner, JD",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -5072,9 +5297,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Klein, Jt",
+      "id": "Borner, K|Klein, JT",
       "source": "Borner, K",
-      "target": "Klein, Jt",
+      "target": "Klein, JT",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -5093,16 +5318,16 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Rafols, I|Wagner, Cs",
+      "id": "Rafols, I|Wagner, CS",
       "source": "Rafols, I",
-      "target": "Wagner, Cs",
+      "target": "Wagner, CS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Rafols, I|Roessner, Jd",
+      "id": "Rafols, I|Roessner, JD",
       "source": "Rafols, I",
-      "target": "Roessner, Jd",
+      "target": "Roessner, JD",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -5114,15 +5339,15 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Klein, Jt|Rafols, I",
-      "source": "Klein, Jt",
+      "id": "Klein, JT|Rafols, I",
+      "source": "Klein, JT",
       "target": "Rafols, I",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Boyack, Kw|Rafols, I",
-      "source": "Boyack, Kw",
+      "id": "Boyack, KW|Rafols, I",
+      "source": "Boyack, KW",
       "target": "Rafols, I",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -5135,16 +5360,16 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Keyton, J|Wagner, Cs",
+      "id": "Keyton, J|Wagner, CS",
       "source": "Keyton, J",
-      "target": "Wagner, Cs",
+      "target": "Wagner, CS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Keyton, J|Roessner, Jd",
+      "id": "Keyton, J|Roessner, JD",
       "source": "Keyton, J",
-      "target": "Roessner, Jd",
+      "target": "Roessner, JD",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -5156,92 +5381,92 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Keyton, J|Klein, Jt",
+      "id": "Keyton, J|Klein, JT",
       "source": "Keyton, J",
-      "target": "Klein, Jt",
+      "target": "Klein, JT",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Boyack, Kw|Keyton, J",
-      "source": "Boyack, Kw",
+      "id": "Boyack, KW|Keyton, J",
+      "source": "Boyack, KW",
       "target": "Keyton, J",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Boyack, Kw|Wagner, Cs",
-      "source": "Boyack, Kw",
-      "target": "Wagner, Cs",
+      "id": "Boyack, KW|Wagner, CS",
+      "source": "Boyack, KW",
+      "target": "Wagner, CS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Boyack, Kw|Roessner, Jd",
-      "source": "Boyack, Kw",
-      "target": "Roessner, Jd",
+      "id": "Boyack, KW|Roessner, JD",
+      "source": "Boyack, KW",
+      "target": "Roessner, JD",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Bobb, K|Boyack, Kw",
+      "id": "Bobb, K|Boyack, KW",
       "source": "Bobb, K",
-      "target": "Boyack, Kw",
+      "target": "Boyack, KW",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Boyack, Kw|Klein, Jt",
-      "source": "Boyack, Kw",
-      "target": "Klein, Jt",
+      "id": "Boyack, KW|Klein, JT",
+      "source": "Boyack, KW",
+      "target": "Klein, JT",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Klein, Jt|Wagner, Cs",
-      "source": "Klein, Jt",
-      "target": "Wagner, Cs",
+      "id": "Klein, JT|Wagner, CS",
+      "source": "Klein, JT",
+      "target": "Wagner, CS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Klein, Jt|Roessner, Jd",
-      "source": "Klein, Jt",
-      "target": "Roessner, Jd",
+      "id": "Klein, JT|Roessner, JD",
+      "source": "Klein, JT",
+      "target": "Roessner, JD",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Bobb, K|Klein, Jt",
+      "id": "Bobb, K|Klein, JT",
       "source": "Bobb, K",
-      "target": "Klein, Jt",
+      "target": "Klein, JT",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Bobb, K|Wagner, Cs",
+      "id": "Bobb, K|Wagner, CS",
       "source": "Bobb, K",
-      "target": "Wagner, Cs",
+      "target": "Wagner, CS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Bobb, K|Roessner, Jd",
+      "id": "Bobb, K|Roessner, JD",
       "source": "Bobb, K",
-      "target": "Roessner, Jd",
+      "target": "Roessner, JD",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Roessner, Jd|Wagner, Cs",
-      "source": "Roessner, Jd",
-      "target": "Wagner, Cs",
+      "id": "Roessner, JD|Wagner, CS",
+      "source": "Roessner, JD",
+      "target": "Wagner, CS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Falk-krzesinski, Hj|Uzzi, B",
-      "source": "Falk-krzesinski, Hj",
+      "id": "Falk-krzesinski, HJ|Uzzi, B",
+      "source": "Falk-krzesinski, HJ",
       "target": "Uzzi, B",
       "weight": 2,
       "number_of_coauthored_works": 2
@@ -5254,15 +5479,15 @@
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Fiore, Sm|Uzzi, B",
-      "source": "Fiore, Sm",
+      "id": "Fiore, SM|Uzzi, B",
+      "source": "Fiore, SM",
       "target": "Uzzi, B",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Hall, Kl|Uzzi, B",
-      "source": "Hall, Kl",
+      "id": "Hall, KL|Uzzi, B",
+      "source": "Hall, KL",
       "target": "Uzzi, B",
       "weight": 2,
       "number_of_coauthored_works": 2
@@ -5296,8 +5521,8 @@
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Falk-krzesinski, Hj|Trochim, W",
-      "source": "Falk-krzesinski, Hj",
+      "id": "Falk-krzesinski, HJ|Trochim, W",
+      "source": "Falk-krzesinski, HJ",
       "target": "Trochim, W",
       "weight": 2,
       "number_of_coauthored_works": 2
@@ -5317,15 +5542,15 @@
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Fiore, Sm|Trochim, W",
-      "source": "Fiore, Sm",
+      "id": "Fiore, SM|Trochim, W",
+      "source": "Fiore, SM",
       "target": "Trochim, W",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Hall, Kl|Trochim, W",
-      "source": "Hall, Kl",
+      "id": "Hall, KL|Trochim, W",
+      "source": "Hall, KL",
       "target": "Trochim, W",
       "weight": 2,
       "number_of_coauthored_works": 2
@@ -5352,8 +5577,8 @@
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Falk-krzesinski, Hj|Stokols, D",
-      "source": "Falk-krzesinski, Hj",
+      "id": "Falk-krzesinski, HJ|Stokols, D",
+      "source": "Falk-krzesinski, HJ",
       "target": "Stokols, D",
       "weight": 2,
       "number_of_coauthored_works": 2
@@ -5373,15 +5598,15 @@
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Fiore, Sm|Stokols, D",
-      "source": "Fiore, Sm",
+      "id": "Fiore, SM|Stokols, D",
+      "source": "Fiore, SM",
       "target": "Stokols, D",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Hall, Kl|Stokols, D",
-      "source": "Hall, Kl",
+      "id": "Hall, KL|Stokols, D",
+      "source": "Hall, KL",
       "target": "Stokols, D",
       "weight": 2,
       "number_of_coauthored_works": 2
@@ -5401,8 +5626,8 @@
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Falk-krzesinski, Hj|Spring, B",
-      "source": "Falk-krzesinski, Hj",
+      "id": "Falk-krzesinski, HJ|Spring, B",
+      "source": "Falk-krzesinski, HJ",
       "target": "Spring, B",
       "weight": 2,
       "number_of_coauthored_works": 2
@@ -5422,15 +5647,15 @@
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Fiore, Sm|Spring, B",
-      "source": "Fiore, Sm",
+      "id": "Fiore, SM|Spring, B",
+      "source": "Fiore, SM",
       "target": "Spring, B",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Hall, Kl|Spring, B",
-      "source": "Hall, Kl",
+      "id": "Hall, KL|Spring, B",
+      "source": "Hall, KL",
       "target": "Spring, B",
       "weight": 2,
       "number_of_coauthored_works": 2
@@ -5443,8 +5668,8 @@
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Falk-krzesinski, Hj|Keyton, J",
-      "source": "Falk-krzesinski, Hj",
+      "id": "Falk-krzesinski, HJ|Keyton, J",
+      "source": "Falk-krzesinski, HJ",
       "target": "Keyton, J",
       "weight": 2,
       "number_of_coauthored_works": 2
@@ -5457,72 +5682,72 @@
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Fiore, Sm|Keyton, J",
-      "source": "Fiore, Sm",
+      "id": "Fiore, SM|Keyton, J",
+      "source": "Fiore, SM",
       "target": "Keyton, J",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Hall, Kl|Keyton, J",
-      "source": "Hall, Kl",
+      "id": "Hall, KL|Keyton, J",
+      "source": "Hall, KL",
       "target": "Keyton, J",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Falk-krzesinski, Hj|Hall, Kl",
-      "source": "Falk-krzesinski, Hj",
-      "target": "Hall, Kl",
+      "id": "Falk-krzesinski, HJ|Hall, KL",
+      "source": "Falk-krzesinski, HJ",
+      "target": "Hall, KL",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Borner, K|Hall, Kl",
+      "id": "Borner, K|Hall, KL",
       "source": "Borner, K",
-      "target": "Hall, Kl",
+      "target": "Hall, KL",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Contractor, N|Hall, Kl",
+      "id": "Contractor, N|Hall, KL",
       "source": "Contractor, N",
-      "target": "Hall, Kl",
+      "target": "Hall, KL",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Fiore, Sm|Hall, Kl",
-      "source": "Fiore, Sm",
-      "target": "Hall, Kl",
+      "id": "Fiore, SM|Hall, KL",
+      "source": "Fiore, SM",
+      "target": "Hall, KL",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Falk-krzesinski, Hj|Fiore, Sm",
-      "source": "Falk-krzesinski, Hj",
-      "target": "Fiore, Sm",
+      "id": "Falk-krzesinski, HJ|Fiore, SM",
+      "source": "Falk-krzesinski, HJ",
+      "target": "Fiore, SM",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Borner, K|Fiore, Sm",
+      "id": "Borner, K|Fiore, SM",
       "source": "Borner, K",
-      "target": "Fiore, Sm",
+      "target": "Fiore, SM",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Contractor, N|Fiore, Sm",
+      "id": "Contractor, N|Fiore, SM",
       "source": "Contractor, N",
-      "target": "Fiore, Sm",
+      "target": "Fiore, SM",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Contractor, N|Falk-krzesinski, Hj",
+      "id": "Contractor, N|Falk-krzesinski, HJ",
       "source": "Contractor, N",
-      "target": "Falk-krzesinski, Hj",
+      "target": "Falk-krzesinski, HJ",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
@@ -5534,176 +5759,176 @@
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Borner, K|Falk-krzesinski, Hj",
+      "id": "Borner, K|Falk-krzesinski, HJ",
       "source": "Borner, K",
-      "target": "Falk-krzesinski, Hj",
+      "target": "Falk-krzesinski, HJ",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Borner, K|Price, Ma",
+      "id": "Borner, K|Price, MA",
       "source": "Borner, K",
-      "target": "Price, Ma",
+      "target": "Price, MA",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Huang, Wx|Price, Ma",
-      "source": "Huang, Wx",
-      "target": "Price, Ma",
+      "id": "Huang, WX|Price, MA",
+      "source": "Huang, WX",
+      "target": "Price, MA",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Linnemeier, M|Price, Ma",
+      "id": "Linnemeier, M|Price, MA",
       "source": "Linnemeier, M",
-      "target": "Price, Ma",
+      "target": "Price, MA",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Duhon, Rj|Price, Ma",
-      "source": "Duhon, Rj",
-      "target": "Price, Ma",
+      "id": "Duhon, RJ|Price, MA",
+      "source": "Duhon, RJ",
+      "target": "Price, MA",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Phillips, P|Price, Ma",
+      "id": "Phillips, P|Price, MA",
       "source": "Phillips, P",
-      "target": "Price, Ma",
+      "target": "Price, MA",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Ma, Nl|Price, Ma",
-      "source": "Ma, Nl",
-      "target": "Price, Ma",
+      "id": "Ma, NL|Price, MA",
+      "source": "Ma, NL",
+      "target": "Price, MA",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Price, Ma|Zoss, Am",
-      "source": "Price, Ma",
-      "target": "Zoss, Am",
+      "id": "Price, MA|Zoss, AM",
+      "source": "Price, MA",
+      "target": "Zoss, AM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Guo, Hn|Price, Ma",
-      "source": "Guo, Hn",
-      "target": "Price, Ma",
+      "id": "Guo, HN|Price, MA",
+      "source": "Guo, HN",
+      "target": "Price, MA",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Guo, Hn|Huang, Wx",
-      "source": "Guo, Hn",
-      "target": "Huang, Wx",
+      "id": "Guo, HN|Huang, WX",
+      "source": "Guo, HN",
+      "target": "Huang, WX",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Guo, Hn|Linnemeier, M",
-      "source": "Guo, Hn",
+      "id": "Guo, HN|Linnemeier, M",
+      "source": "Guo, HN",
       "target": "Linnemeier, M",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Duhon, Rj|Guo, Hn",
-      "source": "Duhon, Rj",
-      "target": "Guo, Hn",
+      "id": "Duhon, RJ|Guo, HN",
+      "source": "Duhon, RJ",
+      "target": "Guo, HN",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Guo, Hn|Phillips, P",
-      "source": "Guo, Hn",
+      "id": "Guo, HN|Phillips, P",
+      "source": "Guo, HN",
       "target": "Phillips, P",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Guo, Hn|Ma, Nl",
-      "source": "Guo, Hn",
-      "target": "Ma, Nl",
+      "id": "Guo, HN|Ma, NL",
+      "source": "Guo, HN",
+      "target": "Ma, NL",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Guo, Hn|Zoss, Am",
-      "source": "Guo, Hn",
-      "target": "Zoss, Am",
+      "id": "Guo, HN|Zoss, AM",
+      "source": "Guo, HN",
+      "target": "Zoss, AM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Huang, Wx|Zoss, Am",
-      "source": "Huang, Wx",
-      "target": "Zoss, Am",
+      "id": "Huang, WX|Zoss, AM",
+      "source": "Huang, WX",
+      "target": "Zoss, AM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Linnemeier, M|Zoss, Am",
+      "id": "Linnemeier, M|Zoss, AM",
       "source": "Linnemeier, M",
-      "target": "Zoss, Am",
+      "target": "Zoss, AM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Duhon, Rj|Zoss, Am",
-      "source": "Duhon, Rj",
-      "target": "Zoss, Am",
+      "id": "Duhon, RJ|Zoss, AM",
+      "source": "Duhon, RJ",
+      "target": "Zoss, AM",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Phillips, P|Zoss, Am",
+      "id": "Phillips, P|Zoss, AM",
       "source": "Phillips, P",
-      "target": "Zoss, Am",
+      "target": "Zoss, AM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ma, Nl|Zoss, Am",
-      "source": "Ma, Nl",
-      "target": "Zoss, Am",
+      "id": "Ma, NL|Zoss, AM",
+      "source": "Ma, NL",
+      "target": "Zoss, AM",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Borner, K|Ma, Nl",
+      "id": "Borner, K|Ma, NL",
       "source": "Borner, K",
-      "target": "Ma, Nl",
+      "target": "Ma, NL",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Huang, Wx|Ma, Nl",
-      "source": "Huang, Wx",
-      "target": "Ma, Nl",
+      "id": "Huang, WX|Ma, NL",
+      "source": "Huang, WX",
+      "target": "Ma, NL",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Linnemeier, M|Ma, Nl",
+      "id": "Linnemeier, M|Ma, NL",
       "source": "Linnemeier, M",
-      "target": "Ma, Nl",
+      "target": "Ma, NL",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Duhon, Rj|Ma, Nl",
-      "source": "Duhon, Rj",
-      "target": "Ma, Nl",
+      "id": "Duhon, RJ|Ma, NL",
+      "source": "Duhon, RJ",
+      "target": "Ma, NL",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Ma, Nl|Phillips, P",
-      "source": "Ma, Nl",
+      "id": "Ma, NL|Phillips, P",
+      "source": "Ma, NL",
       "target": "Phillips, P",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -5716,8 +5941,8 @@
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Huang, Wx|Phillips, P",
-      "source": "Huang, Wx",
+      "id": "Huang, WX|Phillips, P",
+      "source": "Huang, WX",
       "target": "Phillips, P",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -5730,22 +5955,22 @@
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Duhon, Rj|Phillips, P",
-      "source": "Duhon, Rj",
+      "id": "Duhon, RJ|Phillips, P",
+      "source": "Duhon, RJ",
       "target": "Phillips, P",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Duhon, Rj|Huang, Wx",
-      "source": "Duhon, Rj",
-      "target": "Huang, Wx",
+      "id": "Duhon, RJ|Huang, WX",
+      "source": "Duhon, RJ",
+      "target": "Huang, WX",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Duhon, Rj|Linnemeier, M",
-      "source": "Duhon, Rj",
+      "id": "Duhon, RJ|Linnemeier, M",
+      "source": "Duhon, RJ",
       "target": "Linnemeier, M",
       "weight": 2,
       "number_of_coauthored_works": 2
@@ -5758,16 +5983,16 @@
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Huang, Wx|Linnemeier, M",
-      "source": "Huang, Wx",
+      "id": "Huang, WX|Linnemeier, M",
+      "source": "Huang, WX",
       "target": "Linnemeier, M",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Huang, Wx",
+      "id": "Borner, K|Huang, WX",
       "source": "Borner, K",
-      "target": "Huang, Wx",
+      "target": "Huang, WX",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
@@ -5779,8 +6004,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Sun, Yy|Toma, I",
-      "source": "Sun, Yy",
+      "id": "Sun, YY|Toma, I",
+      "source": "Sun, YY",
       "target": "Toma, I",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -5828,15 +6053,15 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Fuenzalida, Ag|Toma, I",
-      "source": "Fuenzalida, Ag",
+      "id": "Fuenzalida, AG|Toma, I",
+      "source": "Fuenzalida, AG",
       "target": "Toma, I",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Li, Df|Toma, I",
-      "source": "Li, Df",
+      "id": "Li, DF|Toma, I",
+      "source": "Li, DF",
       "target": "Toma, I",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -5849,8 +6074,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Chen, Ss|Toma, I",
-      "source": "Chen, Ss",
+      "id": "Chen, SS|Toma, I",
+      "source": "Chen, SS",
       "target": "Toma, I",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -5870,9 +6095,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Sankaranarayanan, M|Sun, Yy",
+      "id": "Sankaranarayanan, M|Sun, YY",
       "source": "Sankaranarayanan, M",
-      "target": "Sun, Yy",
+      "target": "Sun, YY",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -5919,15 +6144,15 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Fuenzalida, Ag|Sankaranarayanan, M",
-      "source": "Fuenzalida, Ag",
+      "id": "Fuenzalida, AG|Sankaranarayanan, M",
+      "source": "Fuenzalida, AG",
       "target": "Sankaranarayanan, M",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Li, Df|Sankaranarayanan, M",
-      "source": "Li, Df",
+      "id": "Li, DF|Sankaranarayanan, M",
+      "source": "Li, DF",
       "target": "Sankaranarayanan, M",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -5940,85 +6165,85 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Chen, Ss|Sankaranarayanan, M",
-      "source": "Chen, Ss",
+      "id": "Chen, SS|Sankaranarayanan, M",
+      "source": "Chen, SS",
       "target": "Sankaranarayanan, M",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Chen, Ss|Ding, Y",
-      "source": "Chen, Ss",
+      "id": "Chen, SS|Ding, Y",
+      "source": "Chen, SS",
       "target": "Ding, Y",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Chen, Ss|Sun, Yy",
-      "source": "Chen, Ss",
-      "target": "Sun, Yy",
+      "id": "Chen, SS|Sun, YY",
+      "source": "Chen, SS",
+      "target": "Sun, YY",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Chen, B|Chen, Ss",
+      "id": "Chen, B|Chen, SS",
       "source": "Chen, B",
-      "target": "Chen, Ss",
+      "target": "Chen, SS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Chen, Ss",
+      "id": "Borner, K|Chen, SS",
       "source": "Borner, K",
-      "target": "Chen, Ss",
+      "target": "Chen, SS",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Chen, Ss|Ding, L",
-      "source": "Chen, Ss",
+      "id": "Chen, SS|Ding, L",
+      "source": "Chen, SS",
       "target": "Ding, L",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Chen, Ss|Wild, D",
-      "source": "Chen, Ss",
+      "id": "Chen, SS|Wild, D",
+      "source": "Chen, SS",
       "target": "Wild, D",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Chen, Ss|Wu, M",
-      "source": "Chen, Ss",
+      "id": "Chen, SS|Wu, M",
+      "source": "Chen, SS",
       "target": "Wu, M",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Chen, Ss|Difranzo, D",
-      "source": "Chen, Ss",
+      "id": "Chen, SS|Difranzo, D",
+      "source": "Chen, SS",
       "target": "Difranzo, D",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Chen, Ss|Fuenzalida, Ag",
-      "source": "Chen, Ss",
-      "target": "Fuenzalida, Ag",
+      "id": "Chen, SS|Fuenzalida, AG",
+      "source": "Chen, SS",
+      "target": "Fuenzalida, AG",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Chen, Ss|Li, Df",
-      "source": "Chen, Ss",
-      "target": "Li, Df",
+      "id": "Chen, SS|Li, DF",
+      "source": "Chen, SS",
+      "target": "Li, DF",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Chen, Ss|Milojevic, S",
-      "source": "Chen, Ss",
+      "id": "Chen, SS|Milojevic, S",
+      "source": "Chen, SS",
       "target": "Milojevic, S",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -6031,9 +6256,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Milojevic, S|Sun, Yy",
+      "id": "Milojevic, S|Sun, YY",
       "source": "Milojevic, S",
-      "target": "Sun, Yy",
+      "target": "Sun, YY",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -6073,135 +6298,135 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Fuenzalida, Ag|Milojevic, S",
-      "source": "Fuenzalida, Ag",
+      "id": "Fuenzalida, AG|Milojevic, S",
+      "source": "Fuenzalida, AG",
       "target": "Milojevic, S",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Li, Df|Milojevic, S",
-      "source": "Li, Df",
+      "id": "Li, DF|Milojevic, S",
+      "source": "Li, DF",
       "target": "Milojevic, S",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ding, Y|Li, Df",
+      "id": "Ding, Y|Li, DF",
       "source": "Ding, Y",
-      "target": "Li, Df",
+      "target": "Li, DF",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Li, Df|Sun, Yy",
-      "source": "Li, Df",
-      "target": "Sun, Yy",
+      "id": "Li, DF|Sun, YY",
+      "source": "Li, DF",
+      "target": "Sun, YY",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Chen, B|Li, Df",
+      "id": "Chen, B|Li, DF",
       "source": "Chen, B",
-      "target": "Li, Df",
+      "target": "Li, DF",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Li, Df",
+      "id": "Borner, K|Li, DF",
       "source": "Borner, K",
-      "target": "Li, Df",
+      "target": "Li, DF",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ding, L|Li, Df",
+      "id": "Ding, L|Li, DF",
       "source": "Ding, L",
-      "target": "Li, Df",
+      "target": "Li, DF",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Li, Df|Wild, D",
-      "source": "Li, Df",
+      "id": "Li, DF|Wild, D",
+      "source": "Li, DF",
       "target": "Wild, D",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Li, Df|Wu, M",
-      "source": "Li, Df",
+      "id": "Li, DF|Wu, M",
+      "source": "Li, DF",
       "target": "Wu, M",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Difranzo, D|Li, Df",
+      "id": "Difranzo, D|Li, DF",
       "source": "Difranzo, D",
-      "target": "Li, Df",
+      "target": "Li, DF",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Fuenzalida, Ag|Li, Df",
-      "source": "Fuenzalida, Ag",
-      "target": "Li, Df",
+      "id": "Fuenzalida, AG|Li, DF",
+      "source": "Fuenzalida, AG",
+      "target": "Li, DF",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ding, Y|Fuenzalida, Ag",
+      "id": "Ding, Y|Fuenzalida, AG",
       "source": "Ding, Y",
-      "target": "Fuenzalida, Ag",
+      "target": "Fuenzalida, AG",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Fuenzalida, Ag|Sun, Yy",
-      "source": "Fuenzalida, Ag",
-      "target": "Sun, Yy",
+      "id": "Fuenzalida, AG|Sun, YY",
+      "source": "Fuenzalida, AG",
+      "target": "Sun, YY",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Chen, B|Fuenzalida, Ag",
+      "id": "Chen, B|Fuenzalida, AG",
       "source": "Chen, B",
-      "target": "Fuenzalida, Ag",
+      "target": "Fuenzalida, AG",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Fuenzalida, Ag",
+      "id": "Borner, K|Fuenzalida, AG",
       "source": "Borner, K",
-      "target": "Fuenzalida, Ag",
+      "target": "Fuenzalida, AG",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ding, L|Fuenzalida, Ag",
+      "id": "Ding, L|Fuenzalida, AG",
       "source": "Ding, L",
-      "target": "Fuenzalida, Ag",
+      "target": "Fuenzalida, AG",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Fuenzalida, Ag|Wild, D",
-      "source": "Fuenzalida, Ag",
+      "id": "Fuenzalida, AG|Wild, D",
+      "source": "Fuenzalida, AG",
       "target": "Wild, D",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Fuenzalida, Ag|Wu, M",
-      "source": "Fuenzalida, Ag",
+      "id": "Fuenzalida, AG|Wu, M",
+      "source": "Fuenzalida, AG",
       "target": "Wu, M",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Difranzo, D|Fuenzalida, Ag",
+      "id": "Difranzo, D|Fuenzalida, AG",
       "source": "Difranzo, D",
-      "target": "Fuenzalida, Ag",
+      "target": "Fuenzalida, AG",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -6213,9 +6438,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Difranzo, D|Sun, Yy",
+      "id": "Difranzo, D|Sun, YY",
       "source": "Difranzo, D",
-      "target": "Sun, Yy",
+      "target": "Sun, YY",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -6262,8 +6487,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Sun, Yy|Wu, M",
-      "source": "Sun, Yy",
+      "id": "Sun, YY|Wu, M",
+      "source": "Sun, YY",
       "target": "Wu, M",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -6304,8 +6529,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Sun, Yy|Wild, D",
-      "source": "Sun, Yy",
+      "id": "Sun, YY|Wild, D",
+      "source": "Sun, YY",
       "target": "Wild, D",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -6339,9 +6564,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ding, L|Sun, Yy",
+      "id": "Ding, L|Sun, YY",
       "source": "Ding, L",
-      "target": "Sun, Yy",
+      "target": "Sun, YY",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -6360,9 +6585,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Sun, Yy",
+      "id": "Borner, K|Sun, YY",
       "source": "Borner, K",
-      "target": "Sun, Yy",
+      "target": "Sun, YY",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -6381,16 +6606,16 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Chen, B|Sun, Yy",
+      "id": "Chen, B|Sun, YY",
       "source": "Chen, B",
-      "target": "Sun, Yy",
+      "target": "Sun, YY",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ding, Y|Sun, Yy",
+      "id": "Ding, Y|Sun, YY",
       "source": "Ding, Y",
-      "target": "Sun, Yy",
+      "target": "Sun, YY",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -6402,9 +6627,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Conover, M|Zoss, Am",
+      "id": "Conover, M|Zoss, AM",
       "source": "Conover, M",
-      "target": "Zoss, Am",
+      "target": "Zoss, AM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -6479,43 +6704,43 @@
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Huang, Bn|Price, Ma",
-      "source": "Huang, Bn",
-      "target": "Price, Ma",
+      "id": "Huang, BN|Price, MA",
+      "source": "Huang, BN",
+      "target": "Price, MA",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ma, Nnl|Price, Ma",
-      "source": "Ma, Nnl",
-      "target": "Price, Ma",
+      "id": "Ma, NNL|Price, MA",
+      "source": "Ma, NNL",
+      "target": "Price, MA",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Price, Ma|Zoss, A",
-      "source": "Price, Ma",
+      "id": "Price, MA|Zoss, A",
+      "source": "Price, MA",
       "target": "Zoss, A",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Guo, Hn|Huang, Bn",
-      "source": "Guo, Hn",
-      "target": "Huang, Bn",
+      "id": "Guo, HN|Huang, BN",
+      "source": "Guo, HN",
+      "target": "Huang, BN",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Guo, Hn|Ma, Nnl",
-      "source": "Guo, Hn",
-      "target": "Ma, Nnl",
+      "id": "Guo, HN|Ma, NNL",
+      "source": "Guo, HN",
+      "target": "Ma, NNL",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Guo, Hn|Zoss, A",
-      "source": "Guo, Hn",
+      "id": "Guo, HN|Zoss, A",
+      "source": "Guo, HN",
       "target": "Zoss, A",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -6528,8 +6753,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Huang, Bn|Zoss, A",
-      "source": "Huang, Bn",
+      "id": "Huang, BN|Zoss, A",
+      "source": "Huang, BN",
       "target": "Zoss, A",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -6542,8 +6767,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Duhon, Rj|Zoss, A",
-      "source": "Duhon, Rj",
+      "id": "Duhon, RJ|Zoss, A",
+      "source": "Duhon, RJ",
       "target": "Zoss, A",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -6556,72 +6781,72 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ma, Nnl|Zoss, A",
-      "source": "Ma, Nnl",
+      "id": "Ma, NNL|Zoss, A",
+      "source": "Ma, NNL",
       "target": "Zoss, A",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Ma, Nnl",
+      "id": "Borner, K|Ma, NNL",
       "source": "Borner, K",
-      "target": "Ma, Nnl",
+      "target": "Ma, NNL",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Huang, Bn|Ma, Nnl",
-      "source": "Huang, Bn",
-      "target": "Ma, Nnl",
+      "id": "Huang, BN|Ma, NNL",
+      "source": "Huang, BN",
+      "target": "Ma, NNL",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Linnemeier, M|Ma, Nnl",
+      "id": "Linnemeier, M|Ma, NNL",
       "source": "Linnemeier, M",
-      "target": "Ma, Nnl",
+      "target": "Ma, NNL",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Duhon, Rj|Ma, Nnl",
-      "source": "Duhon, Rj",
-      "target": "Ma, Nnl",
+      "id": "Duhon, RJ|Ma, NNL",
+      "source": "Duhon, RJ",
+      "target": "Ma, NNL",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ma, Nnl|Phillips, P",
-      "source": "Ma, Nnl",
+      "id": "Ma, NNL|Phillips, P",
+      "source": "Ma, NNL",
       "target": "Phillips, P",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Huang, Bn|Phillips, P",
-      "source": "Huang, Bn",
+      "id": "Huang, BN|Phillips, P",
+      "source": "Huang, BN",
       "target": "Phillips, P",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Duhon, Rj|Huang, Bn",
-      "source": "Duhon, Rj",
-      "target": "Huang, Bn",
+      "id": "Duhon, RJ|Huang, BN",
+      "source": "Duhon, RJ",
+      "target": "Huang, BN",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Huang, Bn|Linnemeier, M",
-      "source": "Huang, Bn",
+      "id": "Huang, BN|Linnemeier, M",
+      "source": "Huang, BN",
       "target": "Linnemeier, M",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Huang, Bn",
+      "id": "Borner, K|Huang, BN",
       "source": "Borner, K",
-      "target": "Huang, Bn",
+      "target": "Huang, BN",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -6668,9 +6893,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Bairoch, A|Van Ommen, Gj",
+      "id": "Bairoch, A|Van Ommen, GJ",
       "source": "Bairoch, A",
-      "target": "Van Ommen, Gj",
+      "target": "Van Ommen, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -6766,9 +6991,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Bairoch, A|Roes, Pj",
+      "id": "Bairoch, A|Roes, PJ",
       "source": "Bairoch, A",
-      "target": "Roes, Pj",
+      "target": "Roes, PJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -6815,9 +7040,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Van Ommen, Gj",
+      "id": "Borner, K|Van Ommen, GJ",
       "source": "Borner, K",
-      "target": "Van Ommen, Gj",
+      "target": "Van Ommen, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -6913,149 +7138,149 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Roes, Pj",
+      "id": "Borner, K|Roes, PJ",
       "source": "Borner, K",
-      "target": "Roes, Pj",
+      "target": "Roes, PJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Mons, B|Roes, Pj",
+      "id": "Mons, B|Roes, PJ",
       "source": "Mons, B",
-      "target": "Roes, Pj",
+      "target": "Roes, PJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ashburner, M|Roes, Pj",
+      "id": "Ashburner, M|Roes, PJ",
       "source": "Ashburner, M",
-      "target": "Roes, Pj",
+      "target": "Roes, PJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Chichester, C|Roes, Pj",
+      "id": "Chichester, C|Roes, PJ",
       "source": "Chichester, C",
-      "target": "Roes, Pj",
+      "target": "Roes, PJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Roes, Pj|Van Mulligen, E",
-      "source": "Roes, Pj",
+      "id": "Roes, PJ|Van Mulligen, E",
+      "source": "Roes, PJ",
       "target": "Van Mulligen, E",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Roes, Pj|Weeber, M",
-      "source": "Roes, Pj",
+      "id": "Roes, PJ|Weeber, M",
+      "source": "Roes, PJ",
       "target": "Weeber, M",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Den Dunnen, J|Roes, Pj",
+      "id": "Den Dunnen, J|Roes, PJ",
       "source": "Den Dunnen, J",
-      "target": "Roes, Pj",
+      "target": "Roes, PJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Roes, Pj|Van Ommen, Gj",
-      "source": "Roes, Pj",
-      "target": "Van Ommen, Gj",
+      "id": "Roes, PJ|Van Ommen, GJ",
+      "source": "Roes, PJ",
+      "target": "Van Ommen, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Musen, M|Roes, Pj",
+      "id": "Musen, M|Roes, PJ",
       "source": "Musen, M",
-      "target": "Roes, Pj",
+      "target": "Roes, PJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Cockerill, M|Roes, Pj",
+      "id": "Cockerill, M|Roes, PJ",
       "source": "Cockerill, M",
-      "target": "Roes, Pj",
+      "target": "Roes, PJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Hermjakob, H|Roes, Pj",
+      "id": "Hermjakob, H|Roes, PJ",
       "source": "Hermjakob, H",
-      "target": "Roes, Pj",
+      "target": "Roes, PJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Mons, A|Roes, Pj",
+      "id": "Mons, A|Roes, PJ",
       "source": "Mons, A",
-      "target": "Roes, Pj",
+      "target": "Roes, PJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Packer, A|Roes, Pj",
+      "id": "Packer, A|Roes, PJ",
       "source": "Packer, A",
-      "target": "Roes, Pj",
+      "target": "Roes, PJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Pacheco, R|Roes, Pj",
+      "id": "Pacheco, R|Roes, PJ",
       "source": "Pacheco, R",
-      "target": "Roes, Pj",
+      "target": "Roes, PJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Lewis, S|Roes, Pj",
+      "id": "Lewis, S|Roes, PJ",
       "source": "Lewis, S",
-      "target": "Roes, Pj",
+      "target": "Roes, PJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Berkeley, A|Roes, Pj",
+      "id": "Berkeley, A|Roes, PJ",
       "source": "Berkeley, A",
-      "target": "Roes, Pj",
+      "target": "Roes, PJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Melton, W|Roes, Pj",
+      "id": "Melton, W|Roes, PJ",
       "source": "Melton, W",
-      "target": "Roes, Pj",
+      "target": "Roes, PJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Barris, N|Roes, Pj",
+      "id": "Barris, N|Roes, PJ",
       "source": "Barris, N",
-      "target": "Roes, Pj",
+      "target": "Roes, PJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Roes, Pj|Wales, J",
-      "source": "Roes, Pj",
+      "id": "Roes, PJ|Wales, J",
+      "source": "Roes, PJ",
       "target": "Wales, J",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Meijssen, G|Roes, Pj",
+      "id": "Meijssen, G|Roes, PJ",
       "source": "Meijssen, G",
-      "target": "Roes, Pj",
+      "target": "Roes, PJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Moeller, E|Roes, Pj",
+      "id": "Moeller, E|Roes, PJ",
       "source": "Moeller, E",
-      "target": "Roes, Pj",
+      "target": "Roes, PJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -7102,9 +7327,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Moeller, E|Van Ommen, Gj",
+      "id": "Moeller, E|Van Ommen, GJ",
       "source": "Moeller, E",
-      "target": "Van Ommen, Gj",
+      "target": "Van Ommen, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -7235,9 +7460,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Meijssen, G|Van Ommen, Gj",
+      "id": "Meijssen, G|Van Ommen, GJ",
       "source": "Meijssen, G",
-      "target": "Van Ommen, Gj",
+      "target": "Van Ommen, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -7361,8 +7586,8 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Van Ommen, Gj|Wales, J",
-      "source": "Van Ommen, Gj",
+      "id": "Van Ommen, GJ|Wales, J",
+      "source": "Van Ommen, GJ",
       "target": "Wales, J",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -7480,9 +7705,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Barris, N|Van Ommen, Gj",
+      "id": "Barris, N|Van Ommen, GJ",
       "source": "Barris, N",
-      "target": "Van Ommen, Gj",
+      "target": "Van Ommen, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -7592,9 +7817,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Melton, W|Van Ommen, Gj",
+      "id": "Melton, W|Van Ommen, GJ",
       "source": "Melton, W",
-      "target": "Van Ommen, Gj",
+      "target": "Van Ommen, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -7697,9 +7922,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Berkeley, A|Van Ommen, Gj",
+      "id": "Berkeley, A|Van Ommen, GJ",
       "source": "Berkeley, A",
-      "target": "Van Ommen, Gj",
+      "target": "Van Ommen, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -7795,9 +8020,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Lewis, S|Van Ommen, Gj",
+      "id": "Lewis, S|Van Ommen, GJ",
       "source": "Lewis, S",
-      "target": "Van Ommen, Gj",
+      "target": "Van Ommen, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -7886,9 +8111,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Pacheco, R|Van Ommen, Gj",
+      "id": "Pacheco, R|Van Ommen, GJ",
       "source": "Pacheco, R",
-      "target": "Van Ommen, Gj",
+      "target": "Van Ommen, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -7970,9 +8195,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Packer, A|Van Ommen, Gj",
+      "id": "Packer, A|Van Ommen, GJ",
       "source": "Packer, A",
-      "target": "Van Ommen, Gj",
+      "target": "Van Ommen, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -8047,9 +8272,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Mons, A|Van Ommen, Gj",
+      "id": "Mons, A|Van Ommen, GJ",
       "source": "Mons, A",
-      "target": "Van Ommen, Gj",
+      "target": "Van Ommen, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -8117,9 +8342,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Hermjakob, H|Van Ommen, Gj",
+      "id": "Hermjakob, H|Van Ommen, GJ",
       "source": "Hermjakob, H",
-      "target": "Van Ommen, Gj",
+      "target": "Van Ommen, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -8180,9 +8405,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Cockerill, M|Van Ommen, Gj",
+      "id": "Cockerill, M|Van Ommen, GJ",
       "source": "Cockerill, M",
-      "target": "Van Ommen, Gj",
+      "target": "Van Ommen, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -8236,51 +8461,51 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Musen, M|Van Ommen, Gj",
+      "id": "Musen, M|Van Ommen, GJ",
       "source": "Musen, M",
-      "target": "Van Ommen, Gj",
+      "target": "Van Ommen, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Mons, B|Van Ommen, Gj",
+      "id": "Mons, B|Van Ommen, GJ",
       "source": "Mons, B",
-      "target": "Van Ommen, Gj",
+      "target": "Van Ommen, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ashburner, M|Van Ommen, Gj",
+      "id": "Ashburner, M|Van Ommen, GJ",
       "source": "Ashburner, M",
-      "target": "Van Ommen, Gj",
+      "target": "Van Ommen, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Chichester, C|Van Ommen, Gj",
+      "id": "Chichester, C|Van Ommen, GJ",
       "source": "Chichester, C",
-      "target": "Van Ommen, Gj",
+      "target": "Van Ommen, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Van Mulligen, E|Van Ommen, Gj",
+      "id": "Van Mulligen, E|Van Ommen, GJ",
       "source": "Van Mulligen, E",
-      "target": "Van Ommen, Gj",
+      "target": "Van Ommen, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Van Ommen, Gj|Weeber, M",
-      "source": "Van Ommen, Gj",
+      "id": "Van Ommen, GJ|Weeber, M",
+      "source": "Van Ommen, GJ",
       "target": "Weeber, M",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Den Dunnen, J|Van Ommen, Gj",
+      "id": "Den Dunnen, J|Van Ommen, GJ",
       "source": "Den Dunnen, J",
-      "target": "Van Ommen, Gj",
+      "target": "Van Ommen, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -8390,15 +8615,15 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Herr, Bw|Penumarthy, S",
-      "source": "Herr, Bw",
+      "id": "Herr, BW|Penumarthy, S",
+      "source": "Herr, BW",
       "target": "Penumarthy, S",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Duhon, Rj|Penumarthy, S",
-      "source": "Duhon, Rj",
+      "id": "Duhon, RJ|Penumarthy, S",
+      "source": "Duhon, RJ",
       "target": "Penumarthy, S",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -8411,72 +8636,72 @@
       "number_of_coauthored_works": 6
     },
     {
-      "id": "Hardy, Ef|Penumarthy, S",
-      "source": "Hardy, Ef",
+      "id": "Hardy, EF|Penumarthy, S",
+      "source": "Hardy, EF",
       "target": "Penumarthy, S",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Hardy, Ef|Herr, Bw",
-      "source": "Hardy, Ef",
-      "target": "Herr, Bw",
+      "id": "Hardy, EF|Herr, BW",
+      "source": "Hardy, EF",
+      "target": "Herr, BW",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Duhon, Rj|Hardy, Ef",
-      "source": "Duhon, Rj",
-      "target": "Hardy, Ef",
+      "id": "Duhon, RJ|Hardy, EF",
+      "source": "Duhon, RJ",
+      "target": "Hardy, EF",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Hardy, Ef",
+      "id": "Borner, K|Hardy, EF",
       "source": "Borner, K",
-      "target": "Hardy, Ef",
+      "target": "Hardy, EF",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Herr, Bw",
+      "id": "Borner, K|Herr, BW",
       "source": "Borner, K",
-      "target": "Herr, Bw",
+      "target": "Herr, BW",
       "weight": 2,
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Duhon, Rj|Herr, Bw",
-      "source": "Duhon, Rj",
-      "target": "Herr, Bw",
+      "id": "Duhon, RJ|Herr, BW",
+      "source": "Duhon, RJ",
+      "target": "Herr, BW",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Paley, Wb",
+      "id": "Borner, K|Paley, WB",
       "source": "Borner, K",
-      "target": "Paley, Wb",
+      "target": "Paley, WB",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Hardy, E|Paley, Wb",
+      "id": "Hardy, E|Paley, WB",
       "source": "Hardy, E",
-      "target": "Paley, Wb",
+      "target": "Paley, WB",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Herr, B|Paley, Wb",
+      "id": "Herr, B|Paley, WB",
       "source": "Herr, B",
-      "target": "Paley, Wb",
+      "target": "Paley, WB",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Holloway, T|Paley, Wb",
+      "id": "Holloway, T|Paley, WB",
       "source": "Holloway, T",
-      "target": "Paley, Wb",
+      "target": "Paley, WB",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -8544,9 +8769,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Mane, Kk",
+      "id": "Borner, K|Mane, KK",
       "source": "Borner, K",
-      "target": "Mane, Kk",
+      "target": "Mane, KK",
       "weight": 4,
       "number_of_coauthored_works": 4
     },
@@ -8565,22 +8790,22 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Ke, Wm",
+      "id": "Borner, K|Ke, WM",
       "source": "Borner, K",
-      "target": "Ke, Wm",
+      "target": "Ke, WM",
       "weight": 4,
       "number_of_coauthored_works": 4
     },
     {
-      "id": "Ke, Wm|Penumarthy, S",
-      "source": "Ke, Wm",
+      "id": "Ke, WM|Penumarthy, S",
+      "source": "Ke, WM",
       "target": "Penumarthy, S",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ke, Wm|Meiss, M",
-      "source": "Ke, Wm",
+      "id": "Ke, WM|Meiss, M",
+      "source": "Ke, WM",
       "target": "Meiss, M",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -8600,37 +8825,37 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Janssen, Ma",
+      "id": "Borner, K|Janssen, MA",
       "source": "Borner, K",
-      "target": "Janssen, Ma",
+      "target": "Janssen, MA",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Schoon, Ml",
+      "id": "Borner, K|Schoon, ML",
       "source": "Borner, K",
-      "target": "Schoon, Ml",
+      "target": "Schoon, ML",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Janssen, Ma|Ke, Wm",
-      "source": "Janssen, Ma",
-      "target": "Ke, Wm",
+      "id": "Janssen, MA|Ke, WM",
+      "source": "Janssen, MA",
+      "target": "Ke, WM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ke, Wm|Schoon, Ml",
-      "source": "Ke, Wm",
-      "target": "Schoon, Ml",
+      "id": "Ke, WM|Schoon, ML",
+      "source": "Ke, WM",
+      "target": "Schoon, ML",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Janssen, Ma|Schoon, Ml",
-      "source": "Janssen, Ma",
-      "target": "Schoon, Ml",
+      "id": "Janssen, MA|Schoon, ML",
+      "source": "Janssen, MA",
+      "target": "Schoon, ML",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -8642,23 +8867,23 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ke, Wm|Murray, C",
-      "source": "Ke, Wm",
+      "id": "Ke, WM|Murray, C",
+      "source": "Ke, WM",
       "target": "Murray, C",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Huang, Wx|Penumarthy, S",
-      "source": "Huang, Wx",
+      "id": "Huang, WX|Penumarthy, S",
+      "source": "Huang, WX",
       "target": "Penumarthy, S",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Herr, Bw|Huang, Wx",
-      "source": "Herr, Bw",
-      "target": "Huang, Wx",
+      "id": "Herr, BW|Huang, WX",
+      "source": "Herr, BW",
+      "target": "Huang, WX",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -8670,16 +8895,16 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Rosenman, Mb",
+      "id": "Borner, K|Rosenman, MB",
       "source": "Borner, K",
-      "target": "Rosenman, Mb",
+      "target": "Rosenman, MB",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Doucette, Em",
+      "id": "Borner, K|Doucette, EM",
       "source": "Borner, K",
-      "target": "Doucette, Em",
+      "target": "Doucette, EM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -8691,23 +8916,23 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Haydon, Jc",
+      "id": "Borner, K|Haydon, JC",
       "source": "Borner, K",
-      "target": "Haydon, Jc",
+      "target": "Haydon, JC",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Paine, Jh",
+      "id": "Borner, K|Paine, JH",
       "source": "Borner, K",
-      "target": "Paine, Jh",
+      "target": "Paine, JH",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Lee, Nd",
+      "id": "Borner, K|Lee, ND",
       "source": "Borner, K",
-      "target": "Lee, Nd",
+      "target": "Lee, ND",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -8733,15 +8958,15 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Mane, K|Rosenman, Mb",
+      "id": "Mane, K|Rosenman, MB",
       "source": "Mane, K",
-      "target": "Rosenman, Mb",
+      "target": "Rosenman, MB",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Doucette, Em|Mane, K",
-      "source": "Doucette, Em",
+      "id": "Doucette, EM|Mane, K",
+      "source": "Doucette, EM",
       "target": "Mane, K",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -8754,22 +8979,22 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Haydon, Jc|Mane, K",
-      "source": "Haydon, Jc",
+      "id": "Haydon, JC|Mane, K",
+      "source": "Haydon, JC",
       "target": "Mane, K",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Mane, K|Paine, Jh",
+      "id": "Mane, K|Paine, JH",
       "source": "Mane, K",
-      "target": "Paine, Jh",
+      "target": "Paine, JH",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Lee, Nd|Mane, K",
-      "source": "Lee, Nd",
+      "id": "Lee, ND|Mane, K",
+      "source": "Lee, ND",
       "target": "Mane, K",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -8789,15 +9014,15 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Rosenman, Mb|Vik, T",
-      "source": "Rosenman, Mb",
+      "id": "Rosenman, MB|Vik, T",
+      "source": "Rosenman, MB",
       "target": "Vik, T",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Doucette, Em|Vik, T",
-      "source": "Doucette, Em",
+      "id": "Doucette, EM|Vik, T",
+      "source": "Doucette, EM",
       "target": "Vik, T",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -8810,127 +9035,127 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Haydon, Jc|Vik, T",
-      "source": "Haydon, Jc",
+      "id": "Haydon, JC|Vik, T",
+      "source": "Haydon, JC",
       "target": "Vik, T",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Paine, Jh|Vik, T",
-      "source": "Paine, Jh",
+      "id": "Paine, JH|Vik, T",
+      "source": "Paine, JH",
       "target": "Vik, T",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Lee, Nd|Vik, T",
-      "source": "Lee, Nd",
+      "id": "Lee, ND|Vik, T",
+      "source": "Lee, ND",
       "target": "Vik, T",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Lee, Nd|Ragg, S",
-      "source": "Lee, Nd",
+      "id": "Lee, ND|Ragg, S",
+      "source": "Lee, ND",
       "target": "Ragg, S",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Lee, Nd|Rosenman, Mb",
-      "source": "Lee, Nd",
-      "target": "Rosenman, Mb",
+      "id": "Lee, ND|Rosenman, MB",
+      "source": "Lee, ND",
+      "target": "Rosenman, MB",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Doucette, Em|Lee, Nd",
-      "source": "Doucette, Em",
-      "target": "Lee, Nd",
+      "id": "Doucette, EM|Lee, ND",
+      "source": "Doucette, EM",
+      "target": "Lee, ND",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Lee, Nd|Yan, Z",
-      "source": "Lee, Nd",
+      "id": "Lee, ND|Yan, Z",
+      "source": "Lee, ND",
       "target": "Yan, Z",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Haydon, Jc|Lee, Nd",
-      "source": "Haydon, Jc",
-      "target": "Lee, Nd",
+      "id": "Haydon, JC|Lee, ND",
+      "source": "Haydon, JC",
+      "target": "Lee, ND",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Lee, Nd|Paine, Jh",
-      "source": "Lee, Nd",
-      "target": "Paine, Jh",
+      "id": "Lee, ND|Paine, JH",
+      "source": "Lee, ND",
+      "target": "Paine, JH",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Paine, Jh|Ragg, S",
-      "source": "Paine, Jh",
+      "id": "Paine, JH|Ragg, S",
+      "source": "Paine, JH",
       "target": "Ragg, S",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Paine, Jh|Rosenman, Mb",
-      "source": "Paine, Jh",
-      "target": "Rosenman, Mb",
+      "id": "Paine, JH|Rosenman, MB",
+      "source": "Paine, JH",
+      "target": "Rosenman, MB",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Doucette, Em|Paine, Jh",
-      "source": "Doucette, Em",
-      "target": "Paine, Jh",
+      "id": "Doucette, EM|Paine, JH",
+      "source": "Doucette, EM",
+      "target": "Paine, JH",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Paine, Jh|Yan, Z",
-      "source": "Paine, Jh",
+      "id": "Paine, JH|Yan, Z",
+      "source": "Paine, JH",
       "target": "Yan, Z",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Haydon, Jc|Paine, Jh",
-      "source": "Haydon, Jc",
-      "target": "Paine, Jh",
+      "id": "Haydon, JC|Paine, JH",
+      "source": "Haydon, JC",
+      "target": "Paine, JH",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Haydon, Jc|Ragg, S",
-      "source": "Haydon, Jc",
+      "id": "Haydon, JC|Ragg, S",
+      "source": "Haydon, JC",
       "target": "Ragg, S",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Haydon, Jc|Rosenman, Mb",
-      "source": "Haydon, Jc",
-      "target": "Rosenman, Mb",
+      "id": "Haydon, JC|Rosenman, MB",
+      "source": "Haydon, JC",
+      "target": "Rosenman, MB",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Doucette, Em|Haydon, Jc",
-      "source": "Doucette, Em",
-      "target": "Haydon, Jc",
+      "id": "Doucette, EM|Haydon, JC",
+      "source": "Doucette, EM",
+      "target": "Haydon, JC",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Haydon, Jc|Yan, Z",
-      "source": "Haydon, Jc",
+      "id": "Haydon, JC|Yan, Z",
+      "source": "Haydon, JC",
       "target": "Yan, Z",
       "weight": 1,
       "number_of_coauthored_works": 1
@@ -8943,51 +9168,51 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Rosenman, Mb|Yan, Z",
-      "source": "Rosenman, Mb",
+      "id": "Rosenman, MB|Yan, Z",
+      "source": "Rosenman, MB",
       "target": "Yan, Z",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Doucette, Em|Yan, Z",
-      "source": "Doucette, Em",
+      "id": "Doucette, EM|Yan, Z",
+      "source": "Doucette, EM",
       "target": "Yan, Z",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Doucette, Em|Ragg, S",
-      "source": "Doucette, Em",
+      "id": "Doucette, EM|Ragg, S",
+      "source": "Doucette, EM",
       "target": "Ragg, S",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Doucette, Em|Rosenman, Mb",
-      "source": "Doucette, Em",
-      "target": "Rosenman, Mb",
+      "id": "Doucette, EM|Rosenman, MB",
+      "source": "Doucette, EM",
+      "target": "Rosenman, MB",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ragg, S|Rosenman, Mb",
+      "id": "Ragg, S|Rosenman, MB",
       "source": "Ragg, S",
-      "target": "Rosenman, Mb",
+      "target": "Rosenman, MB",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Ord, Tj",
+      "id": "Borner, K|Ord, TJ",
       "source": "Borner, K",
-      "target": "Ord, Tj",
+      "target": "Ord, TJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Martins, Ep",
+      "id": "Borner, K|Martins, EP",
       "source": "Borner, K",
-      "target": "Martins, Ep",
+      "target": "Martins, EP",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -8999,44 +9224,44 @@
       "number_of_coauthored_works": 2
     },
     {
-      "id": "Mane, Kk|Ord, Tj",
-      "source": "Mane, Kk",
-      "target": "Ord, Tj",
+      "id": "Mane, KK|Ord, TJ",
+      "source": "Mane, KK",
+      "target": "Ord, TJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Mane, Kk|Martins, Ep",
-      "source": "Mane, Kk",
-      "target": "Martins, Ep",
+      "id": "Mane, KK|Martins, EP",
+      "source": "Mane, KK",
+      "target": "Martins, EP",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Mane, Kk|Thakur, S",
-      "source": "Mane, Kk",
+      "id": "Mane, KK|Thakur, S",
+      "source": "Mane, KK",
       "target": "Thakur, S",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ord, Tj|Thakur, S",
-      "source": "Ord, Tj",
+      "id": "Ord, TJ|Thakur, S",
+      "source": "Ord, TJ",
       "target": "Thakur, S",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Martins, Ep|Thakur, S",
-      "source": "Martins, Ep",
+      "id": "Martins, EP|Thakur, S",
+      "source": "Martins, EP",
       "target": "Thakur, S",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Martins, Ep|Ord, Tj",
-      "source": "Martins, Ep",
-      "target": "Ord, Tj",
+      "id": "Martins, EP|Ord, TJ",
+      "source": "Martins, EP",
+      "target": "Ord, TJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -9048,16 +9273,16 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ke, Wm|Vespignani, A",
-      "source": "Ke, Wm",
+      "id": "Ke, WM|Vespignani, A",
+      "source": "Ke, WM",
       "target": "Vespignani, A",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Dall'asta, L|Ke, Wm",
+      "id": "Dall'asta, L|Ke, WM",
       "source": "Dall'asta, L",
-      "target": "Ke, Wm",
+      "target": "Ke, WM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -9076,30 +9301,30 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Chen, Cm",
+      "id": "Borner, K|Chen, CM",
       "source": "Borner, K",
-      "target": "Chen, Cm",
+      "target": "Chen, CM",
       "weight": 4,
       "number_of_coauthored_works": 4
     },
     {
-      "id": "Borner, K|Fletcher, Ghl",
+      "id": "Borner, K|Fletcher, GHL",
       "source": "Borner, K",
-      "target": "Fletcher, Ghl",
+      "target": "Fletcher, GHL",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Sheth, Ha",
+      "id": "Borner, K|Sheth, HA",
       "source": "Borner, K",
-      "target": "Sheth, Ha",
+      "target": "Sheth, HA",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Fletcher, Ghl|Sheth, Ha",
-      "source": "Fletcher, Ghl",
-      "target": "Sheth, Ha",
+      "id": "Fletcher, GHL|Sheth, HA",
+      "source": "Fletcher, GHL",
+      "target": "Sheth, HA",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -9118,9 +9343,9 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Li, Nh",
+      "id": "Borner, K|Li, NH",
       "source": "Borner, K",
-      "target": "Li, Nh",
+      "target": "Li, NH",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -9146,23 +9371,23 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Ben-miled, Z|Li, Nh",
+      "id": "Ben-miled, Z|Li, NH",
       "source": "Ben-miled, Z",
-      "target": "Li, Nh",
+      "target": "Li, NH",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Li, Nh|Mahoui, M",
-      "source": "Li, Nh",
+      "id": "Li, NH|Mahoui, M",
+      "source": "Li, NH",
       "target": "Mahoui, M",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Kulkarni, H|Li, Nh",
+      "id": "Kulkarni, H|Li, NH",
       "source": "Kulkarni, H",
-      "target": "Li, Nh",
+      "target": "Li, NH",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -9188,72 +9413,72 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Devarco, Bj|Kerney, C",
-      "source": "Devarco, Bj",
+      "id": "Devarco, BJ|Kerney, C",
+      "source": "Devarco, BJ",
       "target": "Kerney, C",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Devarco, Bj",
+      "id": "Borner, K|Devarco, BJ",
       "source": "Borner, K",
-      "target": "Devarco, Bj",
+      "target": "Devarco, BJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Devarco, Bj|Penumarthy, S",
-      "source": "Devarco, Bj",
+      "id": "Devarco, BJ|Penumarthy, S",
+      "source": "Devarco, BJ",
       "target": "Penumarthy, S",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Goldstone, Rl|Maru, Jt",
-      "source": "Goldstone, Rl",
-      "target": "Maru, Jt",
+      "id": "Goldstone, RL|Maru, JT",
+      "source": "Goldstone, RL",
+      "target": "Maru, JT",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Maru, Jt",
+      "id": "Borner, K|Maru, JT",
       "source": "Borner, K",
-      "target": "Maru, Jt",
+      "target": "Maru, JT",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Jones, Rj",
+      "id": "Borner, K|Jones, RJ",
       "source": "Borner, K",
-      "target": "Jones, Rj",
+      "target": "Jones, RJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Jones, Rj|Lee, Gj",
-      "source": "Jones, Rj",
-      "target": "Lee, Gj",
+      "id": "Jones, RJ|Lee, GJ",
+      "source": "Jones, RJ",
+      "target": "Lee, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Jones, Rj|Penumarthy, S",
-      "source": "Jones, Rj",
+      "id": "Jones, RJ|Penumarthy, S",
+      "source": "Jones, RJ",
       "target": "Penumarthy, S",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Lee, Gj|Penumarthy, S",
-      "source": "Lee, Gj",
+      "id": "Lee, GJ|Penumarthy, S",
+      "source": "Lee, GJ",
       "target": "Penumarthy, S",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Lee, Gj",
+      "id": "Borner, K|Lee, GJ",
       "source": "Borner, K",
-      "target": "Lee, Gj",
+      "target": "Lee, GJ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -9321,30 +9546,30 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Boyack, Kw|Chen, Cm",
-      "source": "Boyack, Kw",
-      "target": "Chen, Cm",
+      "id": "Boyack, KW|Chen, CM",
+      "source": "Boyack, KW",
+      "target": "Chen, CM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Mccain, Kw|Rasmussen, E",
-      "source": "Mccain, Kw",
+      "id": "Mccain, KW|Rasmussen, E",
+      "source": "Mccain, KW",
       "target": "Rasmussen, E",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Atkins, Hb|Mccain, Kw",
-      "source": "Atkins, Hb",
-      "target": "Mccain, Kw",
+      "id": "Atkins, HB|Mccain, KW",
+      "source": "Atkins, HB",
+      "target": "Mccain, KW",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Mccain, Kw",
+      "id": "Borner, K|Mccain, KW",
       "source": "Borner, K",
-      "target": "Mccain, Kw",
+      "target": "Mccain, KW",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -9356,37 +9581,37 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Atkins, Hb|Borner, K",
-      "source": "Atkins, Hb",
+      "id": "Atkins, HB|Borner, K",
+      "source": "Atkins, HB",
       "target": "Borner, K",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Atkins, Hb|Rasmussen, E",
-      "source": "Atkins, Hb",
+      "id": "Atkins, HB|Rasmussen, E",
+      "source": "Atkins, HB",
       "target": "Rasmussen, E",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Lin, Sm",
+      "id": "Borner, K|Lin, SM",
       "source": "Borner, K",
-      "target": "Lin, Sm",
+      "target": "Lin, SM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Hazlewood, Wr|Lin, Sm",
-      "source": "Hazlewood, Wr",
-      "target": "Lin, Sm",
+      "id": "Hazlewood, WR|Lin, SM",
+      "source": "Hazlewood, WR",
+      "target": "Lin, SM",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Hazlewood, Wr",
+      "id": "Borner, K|Hazlewood, WR",
       "source": "Borner, K",
-      "target": "Hazlewood, Wr",
+      "target": "Hazlewood, WR",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -9398,16 +9623,16 @@
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Lin, Yc",
+      "id": "Borner, K|Lin, YC",
       "source": "Borner, K",
-      "target": "Lin, Yc",
+      "target": "Lin, YC",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
     {
-      "id": "Borner, K|Zhou, Yz",
+      "id": "Borner, K|Zhou, YZ",
       "source": "Borner, K",
-      "target": "Zhou, Yz",
+      "target": "Zhou, YZ",
       "weight": 1,
       "number_of_coauthored_works": 1
     },
@@ -9445,6 +9670,14 @@
         "Borner, K",
         "Weinberg, BA"
       ],
+      "authorsFullname": [
+        "Staudt, Joseph",
+        "Yu, Huifeng",
+        "Light, Robert P.",
+        "Marschke, Gerald",
+        "Borner, Katy",
+        "Weinberg, Bruce A."
+      ],
       "year": 2018,
       "journalName": "PLOS ONE",
       "journalId": "14924",
@@ -9462,6 +9695,11 @@
         "Shiffrin, RM",
         "Borner, K",
         "Stigler, SM"
+      ],
+      "authorsFullname": [
+        "Shiffrin, Richard M.",
+        "Borner, Katy",
+        "Stigler, Stephen M."
       ],
       "year": 2018,
       "journalName": "P NATL ACAD SCI USA",
@@ -9635,6 +9873,22 @@
         "Waltman, L",
         "Wang, DS",
         "Barabasi, AL"
+      ],
+      "authorsFullname": [
+        "Fortunato, Santo",
+        "Bergstrom, Carl T.",
+        "Boerner, Katy",
+        "Evans, James A.",
+        "Helbing, Dirk",
+        "Milojevic, Stasa",
+        "Petersen, Alexander M.",
+        "Radicchi, Filippo",
+        "Sinatra, Roberta",
+        "Uzzi, Brian",
+        "Vespignani, Alessandro",
+        "Waltman, Ludo",
+        "Wang, Dashun",
+        "Barabasi, Albert-Laszlo"
       ],
       "year": 2018,
       "journalName": "SCIENCE",
@@ -9979,6 +10233,12 @@
         "Bueckle, A",
         "Goldstone, RL"
       ],
+      "authorsFullname": [
+        "Borner, Katy",
+        "Simpson, Adam H.",
+        "Bueckle, Andreas",
+        "Goldstone, Robert L."
+      ],
       "year": 2018,
       "journalName": "SCIENTOMETRICS",
       "journalId": "17373",
@@ -9999,6 +10259,14 @@
         "Borner, K",
         "Saykin, AJ",
         "Shen, L"
+      ],
+      "authorsFullname": [
+        "Yao, Xiaohui",
+        "Yan, Jingwen",
+        "Ginda, Michael",
+        "Borner, Katy",
+        "Saykin, Andrew J.",
+        "Shen, Li"
       ],
       "year": 2017,
       "journalName": "PLOS ONE",
@@ -10022,6 +10290,15 @@
         "Hoteling, N",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Carpenter, Janet S.",
+        "Laine, Tei",
+        "Harrison, Blake",
+        "LePage, Meghan",
+        "Pierce, Taran",
+        "Hoteling, Nathan",
+        "Borner, Katy"
+      ],
       "year": 2017,
       "journalName": "MENOPAUSE",
       "journalId": "12902",
@@ -10039,6 +10316,11 @@
         "Emmons, SR",
         "Light, RP",
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Emmons, Scott R.",
+        "Light, Robert P.",
+        "Borner, Katy"
       ],
       "year": 2017,
       "journalName": "J ASSOC INF SCI TECH",
@@ -10062,6 +10344,20 @@
         "Lawrence, J",
         "Reed, C"
       ],
+      "authorsFullname": [
+        "Murdock, Jaimie",
+        "Allen, Colin",
+        "Borner, Katy",
+        "Light, Robert",
+        "McAlister, Simon",
+        "Ravenscroft, Andrew",
+        "Rose, Robert",
+        "Rose, Doori",
+        "Otsuka, Jun",
+        "Bourget, David",
+        "Lawrence, John",
+        "Reed, Chris"
+      ],
       "year": 2017,
       "journalName": "PLOS ONE",
       "journalId": "14924",
@@ -10082,6 +10378,13 @@
         "Light, RP",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Osili, Una O.",
+        "Ackerman, Jacqueline",
+        "Kong, Chin Hua",
+        "Light, Robert P.",
+        "Borner, Katy"
+      ],
       "year": 2017,
       "journalName": "PLOS ONE",
       "journalId": "14924",
@@ -10100,6 +10403,12 @@
         "Edmonds, B",
         "Milojevic, S",
         "Scharnhorst, A"
+      ],
+      "authorsFullname": [
+        "Borner, Katy",
+        "Edmonds, Bruce",
+        "Milojevic, Stasa",
+        "Scharnhorst, Andrea"
       ],
       "year": 2017,
       "journalName": "SCIENTOMETRICS",
@@ -10121,6 +10430,13 @@
         "Ding, Y",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Bollen, Johan",
+        "Crandall, David",
+        "Junk, Damion",
+        "Ding, Ying",
+        "Boerner, Katy"
+      ],
       "year": 2017,
       "journalName": "SCIENTOMETRICS",
       "journalId": "17373",
@@ -10139,6 +10455,12 @@
         "Kobourov, S",
         "Gallant, M",
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Emmons, Scott",
+        "Kobourov, Stephen",
+        "Gallant, Mike",
+        "Borner, Katy"
       ],
       "year": 2016,
       "journalName": "PLOS ONE",
@@ -10159,6 +10481,12 @@
         "Balliet, RN",
         "Heimlich, J"
       ],
+      "authorsFullname": [
+        "Borner, Katy",
+        "Maltese, Adam",
+        "Balliet, Russell Nelson",
+        "Heimlich, Joe"
+      ],
       "year": 2016,
       "journalName": "INFORM VISUAL",
       "journalId": "8105",
@@ -10176,6 +10504,10 @@
         "Knepper, R",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Knepper, Richard",
+        "Borner, Katy"
+      ],
       "year": 2016,
       "journalName": "PLOS ONE",
       "journalId": "14924",
@@ -10191,6 +10523,9 @@
       "title": "Data-Driven Science Policy",
       "authors": [
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Borner, Katy"
       ],
       "year": 2016,
       "journalName": "ISSUES SCI TECHNOL",
@@ -10208,6 +10543,9 @@
       "authors": [
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Borner, Katy"
+      ],
       "year": 2016,
       "journalId": "undefined",
       "subdisciplines": []
@@ -10219,6 +10557,11 @@
         "Goldstone, RL",
         "Pestilli, F",
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Goldstone, Robert L.",
+        "Pestilli, Franco",
+        "Boerner, Katy"
       ],
       "year": 2015,
       "journalName": "TRENDS COGN SCI",
@@ -10239,6 +10582,12 @@
         "Kobourov, SG",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Saket, Bahador",
+        "Scheidegger, Carlos",
+        "Kobourov, Stephen G.",
+        "Boerner, Katy"
+      ],
       "year": 2015,
       "journalName": "COMPUT GRAPH FORUM",
       "journalId": "4200",
@@ -10256,6 +10605,11 @@
         "Lariviere, V",
         "Haustein, S",
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Lariviere, Vincent",
+        "Haustein, Stefanie",
+        "Boerner, Katy"
       ],
       "year": 2015,
       "journalName": "PLOS ONE",
@@ -10277,6 +10631,13 @@
         "Light, RP",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Patel, Kishor",
+        "Govoni, Sergio",
+        "Athavale, Ashwini",
+        "Light, Robert P.",
+        "Borner, Katy"
+      ],
       "year": 2015,
       "journalName": "PRO INT CONF SCI INF",
       "journalId": "undefined",
@@ -10289,6 +10650,11 @@
         "Jibu, M",
         "Osabe, Y",
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Jibu, Mari",
+        "Osabe, Yoshiyuki",
+        "Borner, Katy"
       ],
       "year": 2015,
       "journalName": "PRO INT CONF SCI INF",
@@ -10303,6 +10669,12 @@
         "Simonetto, P",
         "Kobourov, S",
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Saket, Bahador",
+        "Simonetto, Paolo",
+        "Kobourov, Stephen",
+        "Boerner, Katy"
       ],
       "year": 2014,
       "journalName": "IEEE T VIS COMPUT GR",
@@ -10324,6 +10696,13 @@
         "Borner, K",
         "Scharnhorst, A"
       ],
+      "authorsFullname": [
+        "Reijnhoudt, Linda",
+        "Costas, Rodrigo",
+        "Noyons, Ed",
+        "Borner, Katy",
+        "Scharnhorst, Andrea"
+      ],
       "year": 2014,
       "journalName": "SCIENTOMETRICS",
       "journalId": "17373",
@@ -10341,6 +10720,11 @@
         "Light, RP",
         "Polley, DE",
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Light, Robert P.",
+        "Polley, David E.",
+        "Boerner, Katy"
       ],
       "year": 2014,
       "journalName": "SCIENTOMETRICS",
@@ -10362,6 +10746,13 @@
         "Ding, Y",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Bollen, Johan",
+        "Crandall, David",
+        "Junk, Damion",
+        "Ding, Ying",
+        "Boerner, Katy"
+      ],
       "year": 2014,
       "journalName": "EMBO REP",
       "journalId": "5441",
@@ -10381,6 +10772,13 @@
         "Junk, D",
         "Ding, Y",
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Bollen, Johan",
+        "Crandall, David",
+        "Junk, Damion",
+        "Ding, Ying",
+        "Boerner, Katy"
       ],
       "year": 2014,
       "journalName": "EMBO REP",
@@ -10402,6 +10800,13 @@
         "Hagen, H",
         "Zeckzer, D"
       ],
+      "authorsFullname": [
+        "Schreiber, Falk",
+        "Kerren, Andreas",
+        "Boerner, Katy",
+        "Hagen, Hans",
+        "Zeckzer, Dirk"
+      ],
       "year": 2014,
       "journalName": "LECT NOTES COMPUT SC",
       "journalId": "12299",
@@ -10420,6 +10825,11 @@
         "Borner, K",
         "Fang, S"
       ],
+      "authorsFullname": [
+        "Chen, Yunwei",
+        "Boerner, Katy",
+        "Fang, Shu"
+      ],
       "year": 2013,
       "journalName": "SCIENTOMETRICS",
       "journalId": "17373",
@@ -10437,6 +10847,11 @@
         "Skupin, A",
         "Biberstine, JR",
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Skupin, Andre",
+        "Biberstine, Joseph R.",
+        "Boerner, Katy"
       ],
       "year": 2013,
       "journalName": "PLOS ONE",
@@ -10458,6 +10873,13 @@
         "Light, RP",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Mazloumian, Amin",
+        "Helbing, Dirk",
+        "Lozano, Sergi",
+        "Light, Robert P.",
+        "Boerner, Katy"
+      ],
       "year": 2013,
       "journalName": "SCI REP-UK",
       "journalId": "undefined",
@@ -10470,6 +10892,11 @@
         "Light, RP",
         "Polley, DE",
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Light, Robert P.",
+        "Polley, David E.",
+        "Boerner, Katy"
       ],
       "year": 2013,
       "journalName": "PRO INT CONF SCI INF",
@@ -10485,6 +10912,13 @@
         "Noyons, E",
         "Borner, K",
         "Scharnhorst, A"
+      ],
+      "authorsFullname": [
+        "Reijnhoudt, Linda",
+        "Costas, Rodrigo",
+        "Noyons, Ed",
+        "Borner, Katy",
+        "Scharnhorst, Andrea"
       ],
       "year": 2013,
       "journalName": "PRO INT CONF SCI INF",
@@ -10509,6 +10943,21 @@
         "Buecheler, T",
         "Helbing, D"
       ],
+      "authorsFullname": [
+        "van Harmelen, F.",
+        "Kampis, G.",
+        "Boerner, K.",
+        "van den Besselaar, P.",
+        "Schultes, E.",
+        "Goble, C.",
+        "Groth, P.",
+        "Mons, B.",
+        "Anderson, S.",
+        "Decker, S.",
+        "Hayes, C.",
+        "Buecheler, T.",
+        "Helbing, D."
+      ],
       "year": 2012,
       "journalName": "EUR PHYS J-SPEC TOP",
       "journalId": "6024",
@@ -10524,6 +10973,9 @@
       "title": "Visual Strategies: A Practical Guide to Graphics for Scientists and Engineers",
       "authors": [
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Boerner, Katy"
       ],
       "year": 2012,
       "journalName": "NATURE",
@@ -10852,6 +11304,16 @@
         "Lariviere, V",
         "Boyack, KW"
       ],
+      "authorsFullname": [
+        "Boerner, Katy",
+        "Klavans, Richard",
+        "Patek, Michael",
+        "Zoss, Angela M.",
+        "Biberstine, Joseph R.",
+        "Light, Robert P.",
+        "Lariviere, Vincent",
+        "Boyack, Kevin W."
+      ],
       "year": 2012,
       "journalName": "PLOS ONE",
       "journalId": "14924",
@@ -10868,6 +11330,10 @@
       "authors": [
         "Zoss, AM",
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Zoss, Angela M.",
+        "Boerner, Katy"
       ],
       "year": 2012,
       "journalName": "SCIENTOMETRICS",
@@ -10888,6 +11354,12 @@
         "Milojevic, S",
         "Morris, S"
       ],
+      "authorsFullname": [
+        "Boerner, Katy",
+        "Boyack, Kevin W.",
+        "Milojevic, Stasa",
+        "Morris, Steven"
+      ],
       "year": 2012,
       "journalName": "UNDERST COMPLEX SYST",
       "journalId": "undefined",
@@ -10900,6 +11372,11 @@
         "Scharnhorst, A",
         "Borner, K",
         "van den Besselaar, P"
+      ],
+      "authorsFullname": [
+        "Scharnhorst, Andrea",
+        "Borner, Katy",
+        "van den Besselaar, Peter"
       ],
       "year": 2012,
       "journalName": "UNDERST COMPLEX SYST",
@@ -10914,6 +11391,11 @@
         "Borner, K",
         "Scharnhorst, A"
       ],
+      "authorsFullname": [
+        "van den Besselaar, Peter",
+        "Boerner, Katy",
+        "Scharnhorst, Andrea"
+      ],
       "year": 2012,
       "journalName": "UNDERST COMPLEX SYST",
       "journalId": "undefined",
@@ -10927,6 +11409,12 @@
         "Glanzel, W",
         "Scharnhorst, A",
         "van den Besselaar, P"
+      ],
+      "authorsFullname": [
+        "Boerner, Katy",
+        "Glanzel, Wolfgang",
+        "Scharnhorst, Andrea",
+        "van den Besselaar, Peter"
       ],
       "year": 2011,
       "journalName": "SCIENTOMETRICS",
@@ -10945,6 +11433,11 @@
         "Guo, HN",
         "Weingart, S",
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Guo, Hanning",
+        "Weingart, Scott",
+        "Boerner, Katy"
       ],
       "year": 2011,
       "journalName": "SCIENTOMETRICS",
@@ -10971,6 +11464,18 @@
         "Ma, NAL",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Boyack, Kevin W.",
+        "Newman, David",
+        "Duhon, Russell J.",
+        "Klavans, Richard",
+        "Patek, Michael",
+        "Biberstine, Joseph R.",
+        "Schijvenaars, Bob",
+        "Skupin, Andre",
+        "Ma, Nianli",
+        "Boerner, Katy"
+      ],
       "year": 2011,
       "journalName": "PLOS ONE",
       "journalId": "14924",
@@ -10986,6 +11491,9 @@
       "title": "Plug-and-Play Macroscopes",
       "authors": [
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Boerner, Katy"
       ],
       "year": 2011,
       "journalName": "COMMUN ACM",
@@ -11004,6 +11512,10 @@
         "Zoss, AM",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Zoss, Angela M.",
+        "Boerner, Katy"
+      ],
       "year": 2011,
       "journalName": "PRO INT CONF SCI INF",
       "journalId": "undefined",
@@ -11021,6 +11533,16 @@
         "Keyton, J",
         "Rafols, I",
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Wagner, Caroline S.",
+        "Roessner, J. David",
+        "Bobb, Kamau",
+        "Klein, Julie Thompson",
+        "Boyack, Kevin W.",
+        "Keyton, Joann",
+        "Rafols, Ismael",
+        "Boerner, Katy"
       ],
       "year": 2011,
       "journalName": "J INFORMETR",
@@ -11047,6 +11569,18 @@
         "Trochim, W",
         "Uzzi, B"
       ],
+      "authorsFullname": [
+        "Falk-Krzesinski, Holly J.",
+        "Boerner, Katy",
+        "Contractor, Noshir",
+        "Fiore, Stephen M.",
+        "Hall, Kara L.",
+        "Keyton, Joann",
+        "Spring, Bonnie",
+        "Stokols, Daniel",
+        "Trochim, William",
+        "Uzzi, Brian"
+      ],
       "year": 2010,
       "journalName": "CTS-CLIN TRANSL SCI",
       "journalId": "4561",
@@ -11072,6 +11606,18 @@
         "Trochim, W",
         "Uzzi, B"
       ],
+      "authorsFullname": [
+        "Boerner, Katy",
+        "Contractor, Noshir",
+        "Falk-Krzesinski, Holly J.",
+        "Fiore, Stephen M.",
+        "Hall, Kara L.",
+        "Keyton, Joann",
+        "Spring, Bonnie",
+        "Stokols, Daniel",
+        "Trochim, William",
+        "Uzzi, Brian"
+      ],
       "year": 2010,
       "journalName": "SCI TRANSL MED",
       "journalId": "17348",
@@ -11095,6 +11641,17 @@
         "Zoss, AM",
         "Guo, HN",
         "Price, MA"
+      ],
+      "authorsFullname": [
+        "Boerner, Katy",
+        "Huang, Weixia",
+        "Linnemeier, Micah",
+        "Duhon, Russell J.",
+        "Phillips, Patrick",
+        "Ma, Nianli",
+        "Zoss, Angela M.",
+        "Guo, Hanning",
+        "Price, Mark A."
       ],
       "year": 2010,
       "journalName": "SCIENTOMETRICS",
@@ -11125,6 +11682,22 @@
         "Sankaranarayanan, M",
         "Toma, I"
       ],
+      "authorsFullname": [
+        "Ding, Ying",
+        "Sun, Yuyin",
+        "Chen, Bin",
+        "Borner, Katy",
+        "Ding, Li",
+        "Wild, David",
+        "Wu, Melanie",
+        "DiFranzo, Dominic",
+        "Fuenzalida, Alvaro Graves",
+        "Li, Daifeng",
+        "Milojevic, Stasa",
+        "Chen, ShanShan",
+        "Sankaranarayanan, Madhuvanthi",
+        "Toma, Ioan"
+      ],
       "year": 2010,
       "journalName": "LECT NOTES COMPUT SC",
       "journalId": "12299",
@@ -11142,6 +11715,11 @@
         "Zoss, AM",
         "Conover, M",
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Zoss, Angela M.",
+        "Conover, Michael",
+        "Boerner, Katy"
       ],
       "year": 2010,
       "journalName": "LECT NOTES COMPUT SC",
@@ -11162,6 +11740,12 @@
         "Duhon, RJ",
         "Zoss, AM"
       ],
+      "authorsFullname": [
+        "Boerner, Katy",
+        "Ma, Nianli",
+        "Duhon, Russell J.",
+        "Zoss, Angela M."
+      ],
       "year": 2009,
       "journalName": "IEEE INTELL SYST",
       "journalId": "7633",
@@ -11178,6 +11762,10 @@
       "authors": [
         "Borner, K",
         "Scharnhorst, A"
+      ],
+      "authorsFullname": [
+        "Borner, Katy",
+        "Scharnhorst, Andrea"
       ],
       "year": 2009,
       "journalName": "J INFORMETR",
@@ -11199,6 +11787,13 @@
         "Ke, W",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "LaRowe, Gavin",
+        "Ambre, Sumeet",
+        "Burgoon, John",
+        "Ke, Weimao",
+        "Boerner, Katy"
+      ],
       "year": 2009,
       "journalName": "SCIENTOMETRICS",
       "journalId": "17373",
@@ -11216,6 +11811,11 @@
         "Boyack, KW",
         "Borner, K",
         "Klavans, R"
+      ],
+      "authorsFullname": [
+        "Boyack, Kevin W.",
+        "Boerner, Katy",
+        "Klavans, Richard"
       ],
       "year": 2009,
       "journalName": "SCIENTOMETRICS",
@@ -11240,6 +11840,17 @@
         "Zoss, A",
         "Guo, HN",
         "Price, MA"
+      ],
+      "authorsFullname": [
+        "Boerner, Katy",
+        "Huang, Bonnie (Weixia)",
+        "Linnemeier, Micah",
+        "Duhon, Russell J.",
+        "Phillips, Patrick",
+        "Ma, Ninali",
+        "Zoss, Angela",
+        "Guo, Hanning",
+        "Price, Mark A."
       ],
       "year": 2009,
       "journalName": "PRO INT CONF SCI INF",
@@ -11274,6 +11885,31 @@
         "Borner, K",
         "Bairoch, A"
       ],
+      "authorsFullname": [
+        "Mons, Barend",
+        "Ashburner, Michael",
+        "Chichester, Christine",
+        "van Mulligen, Erik",
+        "Weeber, Marc",
+        "den Dunnen, Johan",
+        "van Ommen, Gert-Jan",
+        "Musen, Mark",
+        "Cockerill, Matthew",
+        "Hermjakob, Henning",
+        "Mons, Albert",
+        "Packer, Abel",
+        "Pacheco, Roberto",
+        "Lewis, Suzanna",
+        "Berkeley, Alfred",
+        "Melton, William",
+        "Barris, Nickolas",
+        "Wales, Jimmy",
+        "Meijssen, Gerard",
+        "Moeller, Erik",
+        "Roes, Peter Jan",
+        "Borner, Katy",
+        "Bairoch, Amos"
+      ],
       "year": 2008,
       "journalName": "GENOME BIOL",
       "journalId": "undefined",
@@ -11289,6 +11925,13 @@
         "Hardy, EF",
         "Penumarthy, S"
       ],
+      "authorsFullname": [
+        "Herr, Bruce W., II",
+        "Duhon, Russell J.",
+        "Boerner, Katy",
+        "Hardy, Elisha F.",
+        "Penumarthy, Shashikant"
+      ],
       "year": 2008,
       "journalName": "IEEE INT CONF INF VI",
       "journalId": "undefined",
@@ -11300,6 +11943,10 @@
       "authors": [
         "Skupin, A",
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Skupin, Andre",
+        "Borner, Katy"
       ],
       "year": 2007,
       "journalName": "ENVIRON PLANN B",
@@ -11316,6 +11963,9 @@
       "title": "Making sense of mankind's scholarly knowledge and expertise: collecting, interlinking, and organizing what we know and different approaches to mapping (network) science",
       "authors": [
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Borner, Katy"
       ],
       "year": 2007,
       "journalName": "ENVIRON PLANN B",
@@ -11337,6 +11987,13 @@
         "Holloway, T",
         "Paley, WB"
       ],
+      "authorsFullname": [
+        "Borner, Katy",
+        "Hardy, Elisha",
+        "Herr, Bruce",
+        "Holloway, Todd",
+        "Paley, W. Bradford"
+      ],
       "year": 2007,
       "journalName": "J INFORMETR",
       "journalId": "10572",
@@ -11354,6 +12011,10 @@
         "Neirynck, T",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Neirynck, Thomas",
+        "Boerner, Katy"
+      ],
       "year": 2007,
       "journalName": "IEEE INT CONF INF VI",
       "journalId": "undefined",
@@ -11366,6 +12027,11 @@
         "Borner, K",
         "Sanyal, S",
         "Vespignani, A"
+      ],
+      "authorsFullname": [
+        "Borner, Katy",
+        "Sanyal, Soma",
+        "Vespignani, Alessandro"
       ],
       "year": 2007,
       "journalName": "ANNU REV INFORM SCI",
@@ -11384,6 +12050,10 @@
         "Mane, KK",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Mane, Ketan K.",
+        "Boerner, Katy"
+      ],
       "year": 2007,
       "journalId": "undefined",
       "subdisciplines": []
@@ -11395,6 +12065,11 @@
         "Holloway, T",
         "Bozicevic, M",
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Holloway, Todd",
+        "Bozicevic, Miran",
+        "Borner, Katy"
       ],
       "year": 2007,
       "journalName": "COMPLEXITY",
@@ -11414,6 +12089,11 @@
         "Borner, K",
         "Klavans, R"
       ],
+      "authorsFullname": [
+        "Boyack, Kevin W.",
+        "Boerner, Katy",
+        "Klavans, Richard"
+      ],
       "year": 2007,
       "journalId": "undefined",
       "subdisciplines": []
@@ -11428,6 +12108,13 @@
         "Ke, W",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "LaRowe, Gavin",
+        "Ambre, Sumeet",
+        "Burgoon, John",
+        "Ke, Weimao",
+        "Boerner, Katy"
+      ],
       "year": 2007,
       "journalId": "undefined",
       "subdisciplines": []
@@ -11440,6 +12127,12 @@
         "Penumarthy, S",
         "Meiss, M",
         "Ke, WM"
+      ],
+      "authorsFullname": [
+        "Borner, Katy",
+        "Penumarthy, Shashikant",
+        "Meiss, Mark",
+        "Ke, Weimao"
       ],
       "year": 2006,
       "journalName": "SCIENTOMETRICS",
@@ -11460,6 +12153,12 @@
         "Ke, WM",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Janssen, Marco A.",
+        "Schoon, Michael L.",
+        "Ke, Weimao",
+        "Borner, Katy"
+      ],
       "year": 2006,
       "journalName": "GLOBAL ENVIRON CHANG",
       "journalId": "6895",
@@ -11478,6 +12177,11 @@
         "Ke, WM",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Murray, Colin",
+        "Ke, Weimao",
+        "Borner, Katy"
+      ],
       "year": 2006,
       "journalId": "undefined",
       "subdisciplines": []
@@ -11490,6 +12194,12 @@
         "Huang, WX",
         "Penumarthy, S",
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Herr, Bruce W.",
+        "Huang, Weixua",
+        "Penumarthy, Shashikant",
+        "Borner, Katy"
       ],
       "year": 2006,
       "journalName": "ANN NY ACAD SCI",
@@ -11515,6 +12225,10 @@
       "authors": [
         "Mane, KK",
         "Borner, K"
+      ],
+      "authorsFullname": [
+        "Mane, Ketan K.",
+        "Borner, Katy"
       ],
       "year": 2006,
       "journalName": "PROC SPIE",
@@ -11717,6 +12431,18 @@
         "Mane, K",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Ragg, S",
+        "Rosenman, MB",
+        "Doucette, EM",
+        "Yan, Z",
+        "Haydon, JC",
+        "Paine, JH",
+        "Lee, ND",
+        "Vik, T",
+        "Mane, K",
+        "Borner, K"
+      ],
       "year": 2005,
       "journalName": "BLOOD",
       "journalId": "2646",
@@ -11735,6 +12461,11 @@
         "Klavans, R",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Boyack, KW",
+        "Klavans, R",
+        "Borner, K"
+      ],
       "year": 2005,
       "journalName": "SCIENTOMETRICS",
       "journalId": "17373",
@@ -11749,6 +12480,13 @@
       "id": "WOS:000230036400017",
       "title": "Trends in animal behaviour research (1968-2002): ethoinformatics and the mining of library databases",
       "authors": [
+        "Ord, TJ",
+        "Martins, EP",
+        "Thakur, S",
+        "Mane, KK",
+        "Borner, K"
+      ],
+      "authorsFullname": [
         "Ord, TJ",
         "Martins, EP",
         "Thakur, S",
@@ -11774,6 +12512,12 @@
         "Ke, WM",
         "Vespignani, A"
       ],
+      "authorsFullname": [
+        "Borner, K",
+        "Dall'Asta, L",
+        "Ke, WM",
+        "Vespignani, A"
+      ],
       "year": 2005,
       "journalName": "COMPLEXITY",
       "journalId": "4128",
@@ -11791,6 +12535,10 @@
         "Borner, K",
         "Navarro-Prieto, R"
       ],
+      "authorsFullname": [
+        "Borner, K",
+        "Navarro-Prieto, R"
+      ],
       "year": 2005,
       "journalName": "PRESENCE-TELEOP VIRT",
       "journalId": "15143",
@@ -11805,6 +12553,10 @@
       "id": "WOS:000228559100007",
       "title": "From spatial proximity to semantic coherence: A quantitative approach to the study of group dynamics in collaborative virtual environments",
       "authors": [
+        "Chen, CM",
+        "Borner, K"
+      ],
+      "authorsFullname": [
         "Chen, CM",
         "Borner, K"
       ],
@@ -11826,6 +12578,11 @@
         "Sheth, HA",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Fletcher, GHL",
+        "Sheth, HA",
+        "Borner, K"
+      ],
       "year": 2005,
       "journalName": "LECT NOTES ARTIF INT",
       "journalId": "12299",
@@ -11840,6 +12597,13 @@
       "id": "WOS:000232263300012",
       "title": "Semantic correspondence in federated life science data integration systems",
       "authors": [
+        "Mahoui, M",
+        "Kulkarni, H",
+        "Li, NH",
+        "Ben-Miled, Z",
+        "Borner, K"
+      ],
+      "authorsFullname": [
         "Mahoui, M",
         "Kulkarni, H",
         "Li, NH",
@@ -11865,6 +12629,12 @@
         "DeVarco, BJ",
         "Kerney, C"
       ],
+      "authorsFullname": [
+        "Borner, K",
+        "Penumarthy, S",
+        "DeVarco, BJ",
+        "Kerney, C"
+      ],
       "year": 2005,
       "journalName": "LECT NOTES COMPUT SC",
       "journalId": "12299",
@@ -11882,6 +12652,10 @@
         "Borner, K",
         "Penumarthy, S"
       ],
+      "authorsFullname": [
+        "Borner, K",
+        "Penumarthy, S"
+      ],
       "year": 2005,
       "journalId": "undefined",
       "subdisciplines": []
@@ -11890,6 +12664,10 @@
       "id": "WOS:000220823000001",
       "title": "Mapping knowledge domains",
       "authors": [
+        "Shiffrin, RM",
+        "Borner, K"
+      ],
+      "authorsFullname": [
         "Shiffrin, RM",
         "Borner, K"
       ],
@@ -12055,6 +12833,11 @@
         "Maru, JT",
         "Goldstone, RL"
       ],
+      "authorsFullname": [
+        "Borner, K",
+        "Maru, JT",
+        "Goldstone, RL"
+      ],
       "year": 2004,
       "journalName": "P NATL ACAD SCI USA",
       "journalId": "15868",
@@ -12216,6 +12999,10 @@
         "Mane, KK",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Mane, KK",
+        "Borner, K"
+      ],
       "year": 2004,
       "journalName": "P NATL ACAD SCI USA",
       "journalId": "15868",
@@ -12374,6 +13161,12 @@
       "id": "WOS:000222769900003",
       "title": "Visualizing the VLearn3D 2002 Conference in space and time",
       "authors": [
+        "Borner, K",
+        "Lee, GJ",
+        "Penumarthy, S",
+        "Jones, RJ"
+      ],
+      "authorsFullname": [
         "Borner, K",
         "Lee, GJ",
         "Penumarthy, S",
@@ -12575,6 +13368,13 @@
         "Martins, E",
         "Ord, T"
       ],
+      "authorsFullname": [
+        "Thakur, S",
+        "Borner, K",
+        "Mane, K",
+        "Martins, E",
+        "Ord, T"
+      ],
       "year": 2004,
       "journalName": "P SOC PHOTO-OPT INS",
       "journalId": "15459",
@@ -12768,6 +13568,10 @@
         "Boyack, KW",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Boyack, KW",
+        "Borner, K"
+      ],
       "year": 2003,
       "journalName": "J AM SOC INF SCI TEC",
       "journalId": "11582",
@@ -12785,6 +13589,10 @@
         "Mostafa, J",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Mostafa, J",
+        "Borner, K"
+      ],
       "year": 2003,
       "journalId": "undefined",
       "subdisciplines": []
@@ -12793,6 +13601,11 @@
       "id": "WOS:000179918000006",
       "title": "Visualizing knowledge domains",
       "authors": [
+        "Borner, K",
+        "Chen, CM",
+        "Boyack, KW"
+      ],
+      "authorsFullname": [
         "Borner, K",
         "Chen, CM",
         "Boyack, KW"
@@ -12816,6 +13629,12 @@
         "Borner, K",
         "McCain, KW"
       ],
+      "authorsFullname": [
+        "Rasmussen, E",
+        "Atkins, HB",
+        "Borner, K",
+        "McCain, KW"
+      ],
       "year": 2002,
       "journalName": "P ASIST ANNU",
       "journalId": "15606",
@@ -12830,6 +13649,9 @@
       "id": "WOS:000180137200020",
       "title": "Twin worlds: Augmenting, evaluating, and studying three-dimensional digital cities and their evolving communities",
       "authors": [
+        "Borner, K"
+      ],
+      "authorsFullname": [
         "Borner, K"
       ],
       "year": 2002,
@@ -12850,6 +13672,11 @@
         "Hazlewood, WR",
         "Lin, SM"
       ],
+      "authorsFullname": [
+        "Borner, K",
+        "Hazlewood, WR",
+        "Lin, SM"
+      ],
       "year": 2002,
       "journalId": "undefined",
       "subdisciplines": []
@@ -12858,6 +13685,10 @@
       "id": "WOS:000181620100001",
       "title": "Visual interfaces to digital libraries: Motivation, utilization, and socio-technical challenges",
       "authors": [
+        "Borner, K",
+        "Chen, CM"
+      ],
+      "authorsFullname": [
         "Borner, K",
         "Chen, CM"
       ],
@@ -12878,6 +13709,10 @@
         "Chen, CM",
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Chen, CM",
+        "Borner, K"
+      ],
       "year": 2002,
       "journalName": "LECT NOTES COMPUT SC",
       "journalId": "12299",
@@ -12892,6 +13727,10 @@
       "id": "WOS:000176709300023",
       "title": "Using Semantic Treemaps to categorize and visualize bookmark files",
       "authors": [
+        "Feng, Y",
+        "Borner, K"
+      ],
+      "authorsFullname": [
         "Feng, Y",
         "Borner, K"
       ],
@@ -13087,6 +13926,9 @@
       "authors": [
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Borner, K"
+      ],
       "year": 2001,
       "journalName": "ARTIF INTELL REV",
       "journalId": "1960",
@@ -13104,6 +13946,10 @@
         "Borner, K",
         "Lin, YC"
       ],
+      "authorsFullname": [
+        "Borner, K",
+        "Lin, YC"
+      ],
       "year": 2001,
       "journalId": "undefined",
       "subdisciplines": []
@@ -13115,6 +13961,10 @@
         "Borner, K",
         "Zhou, YZ"
       ],
+      "authorsFullname": [
+        "Borner, K",
+        "Zhou, YZ"
+      ],
       "year": 2001,
       "journalId": "undefined",
       "subdisciplines": []
@@ -13123,6 +13973,11 @@
       "id": "WOS:000089401000013",
       "title": "LVis - Digital Library Visualizer",
       "authors": [
+        "Borner, K",
+        "Dillon, A",
+        "Dolinsky, M"
+      ],
+      "authorsFullname": [
         "Borner, K",
         "Dillon, A",
         "Dolinsky, M"
@@ -13143,6 +13998,9 @@
       "authors": [
         "Borner, K"
       ],
+      "authorsFullname": [
+        "Borner, K"
+      ],
       "year": 2000,
       "journalName": "IEEE INFOR VIS",
       "journalId": "15794",
@@ -13157,6 +14015,9 @@
       "id": "WOS:000086471500023",
       "title": "Visible threads: A smart VR interface to digital libraries",
       "authors": [
+        "Borner, K"
+      ],
+      "authorsFullname": [
         "Borner, K"
       ],
       "year": 2000,

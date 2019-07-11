@@ -9,6 +9,7 @@
     "build:lib": "ng build --prod cns-pubvis",
     "build:cli": "webpack --config projects/cns-pubvis/src/lib/loader/webpack.config.js",
     "build:demo": "ng build --prod --output-hashing=none --base-href=./",
+    "build:example-database": "dist/cns-pubvis/cns-pubvis-loader example/wos-extract.isi example/wos-extract.isi_author-disambiguation.csv example/wos-extract.isi_full-layout.gexf example/wos-extract.isi_database.json && cp example/wos-extract.isi_database.json src/assets/database.json",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
