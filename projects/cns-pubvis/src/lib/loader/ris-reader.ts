@@ -30,7 +30,7 @@ export const ISI_TAGS = {
   'ER': { endrecord: true },
   'default': { list: true },
 
-  'UT': { string: true, separator: ' ', remap: 'wosId'},
+  'UT': { string: true, separator: ' ', remap: 'id'},
   'TI': { string: true, separator: ' ', remap: 'title' },
   'SN': { string: true, separator: ' ', remap: 'issn' },
   'EI': { string: true, separator: ' ', remap: 'eissn' },
@@ -38,7 +38,8 @@ export const ISI_TAGS = {
   'JI': { string: true, separator: ' ', remap: 'journalFullname' },
   'AU': { list: true, remap: 'authors' },
   'AF': { list: true, remap: 'authorsFullname' },
-  'PY': { number: true, remap: 'publicationYear' },
+  'C1': { list: true, remap: 'authorsAddress' },
+  'PY': { number: true, remap: 'year' },
 
   'AB': { string: true, separator: ' ', remap: 'abstract' },
   'PT': { string: true, separator: ' ', remap: 'publicationType' },
