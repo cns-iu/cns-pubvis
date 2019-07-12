@@ -3,7 +3,7 @@ const fs = require('fs');
 import gexf from 'gexf';
 import { orderBy, zip } from 'lodash';
 import { parse } from 'papaparse';
-import { Operator, access, chain, combine, map } from '@ngx-dino/core';
+import { Operator, access, autoId, chain, combine, constant, map } from '@ngx-dino/core';
 import { issnLookup, journalNameLookup, journalIdSubdLookup } from '@ngx-dino/science-map';
 
 import { CoAuthorNetwork } from '../shared/coauthor-network';
@@ -34,7 +34,7 @@ function readGexfFile(gexfFile: string): any {
   return gexf.parse(readFile(gexfFile));
 }
 function readCSVFile(csvFile: string): any[] {
-  return parse(readFile(csvFile), {header: true}).data;
+  return parse(readFile(csvFile), {header: true, skipEmptyLines: true}).data;
 }
 
 function a(field: string): Operator<any, any> {
@@ -47,53 +47,122 @@ function NumberOrUndefined(value: string): number {
 function n(field: string): Operator<any, number> {
   return chain(a(field), map(NumberOrUndefined));
 }
-const toString = map((x) => '' + x);
+const toString = map((x) => x === undefined || x === '' ? undefined : '' + x);
 const normalizeAuthor = map<string, string>(author => {
   const a1 = (author || '').split(',');
-  return a1.slice(0, -1).join(',') + ',' + a1[a1.length - 1].toUpperCase();
+  if (a1.length > 1) {
+    return a1.slice(0, -1).join(',') + ',' + a1[a1.length - 1].toUpperCase();
+  } else {
+    return author;
+  }
 });
 
-const pubs: any[] = parseRISRecords(readFile(PUBS), ISI_TAGS);
+interface RawPublication {
+  id: string;
+  title: string;
+  year: string;
+  authors: string[];
+  authorsFullname: string[];
+  journalName: string;
+  journalFullname: string;
+  issn: string;
+  eissn: string;
+
+  journalId?: string;
+  subdisciplines?: any[];
+}
+
+const popAuthorSplit = chain(
+  a('Authors'),
+  map(s => {
+    return (s || '')
+      .replace('...', '').replace('…', '') // remove ...'s
+      .split(',') // split into authors
+      .map(x => x.trim()) // trim excess
+      .filter(x => x.length !== 0); // remove empty authors after processing
+  })
+);
+
+const popJournal = chain(
+  a('Source'),
+  map(s => (s || '').replace('...', '').replace('…', '').trim())
+);
+
+const popRecordProcessor = combine<any, RawPublication>({
+  'id': autoId('POP:', 1),
+  'title': a('Title'),
+  'year': n('Year'),
+  'authors': popAuthorSplit,
+  'authorsFullname': popAuthorSplit,
+  'journalName': popJournal,
+  'journalFullname': a('Source'),
+  'issn': a('ISSN'),
+  'eissn': constant('')
+});
+
+function parsePoPRecords(csvFile: string): RawPublication[] {
+  return readCSVFile(csvFile).map(popRecordProcessor.getter);
+}
+function parseISIRecords(isiFile: string): RawPublication[] {
+  return parseRISRecords(readFile(PUBS), ISI_TAGS);
+}
+
+let pubs: RawPublication[] = [];
+switch (PUBS.slice(-3)) {
+  case 'isi':
+    pubs = parseISIRecords(PUBS);
+    break;
+  case 'csv':
+    pubs = parsePoPRecords(PUBS);
+    break;
+}
 
 // SciMap here
 const journalReplacements = {};
 let badJournals: any = {};
 let journal2weights: any = {};
-let journal2journ_id: any = {};
+let journal2journalId: any = {};
 pubs.forEach((pub) => {
   const journal = journalReplacements[pub.journalName] || pub.journalName || pub.journalFullname;
   const isbn = (`${pub.issn} ${pub.eissn}`).trim().split(/\s+/g)
-    .map(s => chain(issnLookup, access('id'), toString).get(s)).filter(s => !!s);
-  if (!pub.journ_id) {
+    .map(s => chain(issnLookup, access('id'), toString).get(s)).filter(s => !!s && s !== 'undefined');
+  if (!pub.journalId) {
     if (isbn.length > 0) {
-      pub.journ_id = isbn[0];
-      journal2weights[pub.journ_id] = journalIdSubdLookup.get(pub.journ_id);
+      pub.journalId = isbn[0];
+      journal2weights[pub.journalId] = journalIdSubdLookup.get(pub.journalId);
     } else {
-      pub.journ_id = undefined;
+      pub.journalId = undefined;
     }
   }
-  if (!pub.journ_id) {
-    if (!journal2journ_id.hasOwnProperty(journal)) {
-      pub.journ_id = journal2journ_id[journal] = chain(journalNameLookup, access('id'), toString).get(journal);
-      if (pub.journ_id) {
-        journal2weights[pub.journ_id] = journalIdSubdLookup.get(pub.journ_id);
+  if (!pub.journalId) {
+    if (!journal2journalId.hasOwnProperty(journal)) {
+      pub.journalId = journal2journalId[journal] = chain(journalNameLookup, access('id'), toString).get(journal);
+      if (pub.journalId === 'undefined') {
+        pub.journalId = undefined;
+      }
+      if (pub.journalId) {
+        journal2weights[pub.journalId] = journalIdSubdLookup.get(pub.journalId);
       } else {
-        pub.journ_id = undefined;
+        pub.journalId = undefined;
       }
     } else {
-      pub.journ_id = journal2journ_id[journal];
+      pub.journalId = journal2journalId[journal];
     }
   }
-  if (!pub.journ_id) {
+  if (pub.journalId === 'undefined') {
+    pub.journalId = undefined;
+  }
+  if (!pub.journalId) {
     badJournals[`${pub.journalName}`] = (badJournals[`${pub.journalName}`] || 0) + 1;
   }
 
-  pub.subdisciplines = journal2weights[pub.journ_id] || [];
+  pub.subdisciplines = journal2weights[pub.journalId] || [];
 });
 
-journal2journ_id = null;
+journal2journalId = null;
 journal2weights = null;
 
+console.log('# Bad Journals: ' + Object.keys(badJournals).length);
 const WRITE_BAD_JOURNALS = true;
 if (WRITE_BAD_JOURNALS) {
   badJournals = Object.entries(badJournals);
@@ -117,23 +186,23 @@ if (fs.existsSync(AUTH_DISAMBIGUATION)) {
   }
 }
 const getAuthorsOp = map<any, string[]>(record => {
-  const remap = authorRemaps[record.wosId] || {};
+  const remap = authorRemaps[record.id] || {};
   return (record.authors || []).map(au => normalizeAuthor.get(remap[au] || au));
 });
 const getAuthorsFullnameOp = map<any, string[]>(record => {
-  const remap = fullnameRemaps[record.wosId] || {};
+  const remap = fullnameRemaps[record.id] || {};
   return (record.authorsFullname || []).map(au => remap[au] || au);
 });
 
 const pubsDBProcessor = combine({
-  'id': a('wosId'),
+  'id': a('id'),
   'title': a('title'),
   'authors': getAuthorsOp,
   'authorsFullname': getAuthorsFullnameOp,
-  'year': n('publicationYear'),
+  'year': n('year'),
 
   'journalName': a('journalName'),
-  'journalId': a('journ_id'),
+  'journalId': a('journalId'),
   'subdisciplines': a('subdisciplines')
 });
 const publications: any[] = pubs.map(pubsDBProcessor.getter);
