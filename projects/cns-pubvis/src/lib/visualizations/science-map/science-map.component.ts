@@ -81,7 +81,7 @@ export class ScienceMapComponent implements OnInit, OnChanges {
     const counts: { [key: string]: number } = {};
     pubs.forEach(pub => pub.authors.forEach(author => {
       counts[author] = (counts[author] || 0) + 1;
-    }));    
+    }));
 
     this.tableData = [];
     for (const name in counts) {
