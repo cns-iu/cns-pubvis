@@ -30,7 +30,7 @@
     "@ngx-dino/datatable": "^0.9.0",
     "@ngx-dino/legend": "^0.12.3",
     "@ngx-dino/network": "^0.15.1",
-    "@ngx-dino/science-map": "^0.10.0",
+    "@ngx-dino/science-map": "^0.10.1",
     "@types/d3-scale": "^2.0.1",
     "@types/papaparse": "^5.0.0",
     "core-js": "^3.1.4",
