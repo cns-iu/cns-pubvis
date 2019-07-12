@@ -39,7 +39,7 @@ export class ScienceMapComponent implements OnInit, OnChanges {
     });
 
     [
-      ['Name', 'name'], ['# Cited', 'count']
+      ['Name', 'name'], ['#Publications', 'count']
     ].forEach(([label, path]) => this.tableFields.push(this.makeTableAccessor(label, path)));
   }
 
@@ -82,6 +82,7 @@ export class ScienceMapComponent implements OnInit, OnChanges {
     pubs.forEach(pub => pub.authors.forEach(author => {
       counts[author] = (counts[author] || 0) + 1;
     }));
+    
 
     this.tableData = [];
     for (const name in counts) {
