@@ -1,14 +1,8 @@
-<dino-science-map #scienceMap
-  [tooltipTextField]="subdisciplineID"
-  [subdisciplineSizeField]="subdisciplineSize"
-  [subdisciplineIdField]="subdisciplineID"
-  [dataStream]="filteredSubdisciplines"
-  [nodeSizeRange]="[3, 12]"
-  [width]="width"
-  [height]="height"
-  [autoresize]="true"
-  [enableTooltip]="true"
-  (nodeClick)="setTableData($event.data); table.open()">
+<dino-science-map #scienceMap [subdisciplineSizeField]="subdisciplineSize"
+                  [subdisciplineIdField]="subdisciplineID" [dataStream]="filteredSubdisciplines"
+                  [nodeSizeRange]="[3, 12]" [width]="width" [height]="height" [autoresize]="true" [enableTooltip]="true"
+                  (nodeClick)="setTableData($event.data, $event.processed); table.open()">
 </dino-science-map>
-<cns-pubvis-bottom-sheet-table class="table" [data]="tableData" [idField]="tableFields[1]" [fields]="tableFields" [sort]="sort" #table>
+<cns-pubvis-bottom-sheet-table class="table" [title]="tableTitle" [data]="tableData" [idField]="tableFields[1]"
+                               [fields]="tableFields" [sort]="sort" #table>
 </cns-pubvis-bottom-sheet-table>

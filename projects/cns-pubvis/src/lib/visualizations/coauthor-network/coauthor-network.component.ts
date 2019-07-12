@@ -25,6 +25,7 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
   edgeStream: Observable<RawChangeSet>;
   fullTableData: Publication[] = [];
   tableData: Publication[] = [];
+  tableTitle = '';
 
   readonly nodeFields: any = {};
   readonly edgeFields: any = {};
@@ -97,6 +98,7 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
 
   setTableData(author: Author): void {
     this.fullTableData = this.database.findPublicationsForAuthor(author);
+    this.tableTitle = `${ author.fullname }'s Publications`;
     this.filterTableData();
   }
 

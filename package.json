@@ -29,7 +29,7 @@
     "@ngx-dino/core": "^0.10.0",
     "@ngx-dino/datatable": "^0.9.0",
     "@ngx-dino/legend": "^0.12.3",
-    "@ngx-dino/network": "^0.15.0",
+    "@ngx-dino/network": "^0.15.1",
     "@ngx-dino/science-map": "^0.10.0",
     "@types/d3-scale": "^2.0.1",
     "@types/papaparse": "^5.0.0",
@@ -52,10 +52,10 @@
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.801.0",
+    "@angular-devkit/build-angular": "^0.801.1",
     "@angular-devkit/build-ng-packagr": "~0.801.0",
     "@angular/cli": "~8.1.0",
-    "@angular/compiler-cli": "^8.1.0",
+    "@angular/compiler-cli": "^8.1.1",
     "@angular/language-service": "^8.1.0",
     "@types/jasmine": "^3.3.13",
     "@types/jasminewd2": "~2.0.3",

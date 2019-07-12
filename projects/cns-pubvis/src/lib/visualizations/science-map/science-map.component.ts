@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges } from '@angular/core';
-import { access, BoundField, chain, map, RawChangeSet, simpleField } from '@ngx-dino/core';
+import { access, BoundField, chain, map, NgxDinoEvent, RawChangeSet, simpleField } from '@ngx-dino/core';
 import { Observable, of } from 'rxjs';
 
 import { DatabaseService } from '../../shared/database.service';
@@ -27,6 +27,7 @@ export class ScienceMapComponent implements OnInit, OnChanges {
   fullTableData: Publication[] = [];
   tableData: { name: string, count: number }[] = [];
   tableFields: BoundField<any>[] = [];
+  tableTitle = '';
 
   sort = (a: any, b: any) => Number(b.content) - Number(a.content);
 
@@ -66,8 +67,9 @@ export class ScienceMapComponent implements OnInit, OnChanges {
     }).getBoundField();
   }
 
-  setTableData(subdiscipline: SubdisciplineWeight): void {
+  setTableData(subdiscipline: SubdisciplineWeight, { subdisciplineName }: { subdisciplineName: string }): void {
     this.fullTableData = this.database.findPublicationsForSubdiscipline(subdiscipline);
+    this.tableTitle = `Authors who published in ${ subdisciplineName }`;
     this.filterTableData();
   }
 
