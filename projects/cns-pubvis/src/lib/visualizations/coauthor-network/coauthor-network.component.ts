@@ -89,8 +89,8 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
   ngOnChanges(changes: SimpleChanges) {
     if (('filter' in changes) && this.filter) {
       const filter: Partial<Filter> = Object.assign({}, this.filter, {limit: this.numCoAuthors});
-      this.dataService.fetchData(filter).subscribe(undefined, undefined, () => {
-        this.filterUpdateComplete.emit(true);
+      this.dataService.fetchData(filter).subscribe({ complete: () =>
+        this.filterUpdateComplete.emit(true)
       });
       this.filterTableData();
     }

@@ -1,5 +1,6 @@
 import { Injectable, EventEmitter } from '@angular/core';
 import { combineLatest, Subscription } from 'rxjs';
+import { map as rxMap } from 'rxjs/operators';
 import { Map, Set } from 'immutable';
 
 import { Filter } from '../../../shared/filter';
@@ -27,9 +28,11 @@ export class StatisticsService {
     dataObservables.push(this.service.getPublications(filter));
 
     this.subscriptions.push(
-      combineLatest(dataObservables, (graph: any, pubs) => {
-        return [graph.authors, graph.coauthorEdges, pubs];
-      }).subscribe((data: DataTuple) => {
+      combineLatest(dataObservables).pipe(
+        rxMap((graph: any, pubs) => {
+          return [graph.authors, graph.coauthorEdges, pubs];
+        })
+      ).subscribe((data: DataTuple) => {
         this.statistics.emit(this.collectStatistics(data));
       })
     );

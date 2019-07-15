@@ -55,9 +55,9 @@ export class ScienceMapLegendComponent implements OnInit, OnChanges {
 
   ngOnChanges(changes: SimpleChanges) {
     if (('filter' in changes) && this.filter) {
-      this.dataService.fetchData(this.filter).subscribe(undefined, undefined,
-        () => this.filterUpdateComplete.emit(true)
-      );
+      this.dataService.fetchData(this.filter).subscribe({ complete: () =>
+        this.filterUpdateComplete.emit(true)
+      });
     }
   }
 }
