@@ -54,7 +54,9 @@ export class DatabaseService {
           const coauthors = {};
           for (const yr of years) {
             for (const authorId of Object.keys(a.coauthorsByYear[yr] || {})) {
-              coauthors[authorId] = true;
+              if (a.id !== authorId) {
+                coauthors[authorId] = true;
+              }
             }
           }
           a.coauthorCount = Object.keys(coauthors).length;
