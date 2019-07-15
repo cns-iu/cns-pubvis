@@ -1,6 +1,8 @@
 @import '~@angular/material/theming';
+
+// We now assume that lato is loaded via the app's styles.
 // @import '~typeface-lato';
-@import url('https://fonts.googleapis.com/css?family=Lato');
+// @import url('https://fonts.googleapis.com/css?family=Lato');
 
 $lato: 'Lato', sans-serif;
 
