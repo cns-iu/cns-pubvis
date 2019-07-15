@@ -27,6 +27,9 @@ export class Author {
   coauthors: { [authorId: string]: boolean };
   coauthorsByYear: { [year: number]: { [authorId: string]: boolean } };
 
+  hasHighlightedAffiliation: boolean;
+  affiliationsByYear: { [year: number]: { [affiliation: string]: boolean } };
+
   xpos?: number;
   ypos?: number;
 
@@ -40,11 +43,11 @@ export class Author {
   areaSize: number;
   @Operand<string>(access('coauthorCountColor'), false)
   color: string;
-  @Operand<string>(access('coauthorCountStrokeColor'), false)
+  @Operand<string>(map<any, string>(a => a.show_label ? 'black' : a.coauthorCountStrokeColor), false)
   strokeColor: string;
   @Operand<[number, number]>(combine([access('xpos'), access('ypos')]), true)
   position: [number, number];
-  @Operand<string>(constant('circle'), true)
+  @Operand<string>(chain(access('hasHighlightedAffiliation'), map(highlight => highlight ? 'circle' : 'triangle')), true)
   symbol: string;
   @Operand<number>(chain(
     access<number>('areaSize'),

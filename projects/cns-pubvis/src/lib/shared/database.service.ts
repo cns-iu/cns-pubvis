@@ -63,6 +63,18 @@ export class DatabaseService {
         }
         a.paperCount = paperCount;
         a.coauthorCount = coauthorCount;
+
+        const toHighlight = this.db.highlightedAffiliations;
+        a.hasHighlightedAffiliation = false;
+        for (const y of years) {
+          for (const aff of Object.keys(a.affiliationsByYear[y] || {})) {
+            for (const highlight of toHighlight) {
+              if (aff.indexOf(highlight) !== -1) {
+                a.hasHighlightedAffiliation = true;
+              }
+            }
+          }
+        }
       });
       filtered = filtered.filter(a => a.paperCount > 0);
     }
