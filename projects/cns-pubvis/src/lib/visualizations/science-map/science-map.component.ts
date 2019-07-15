@@ -12,7 +12,8 @@ import { subdisciplineIdField, subdisciplineSizeField } from '../shared/science-
 @Component({
   selector: 'cns-pubvis-science-map',
   templateUrl: './science-map.component.html',
-  styleUrls: ['./science-map.component.sass']
+  styleUrls: ['./science-map.component.sass'],
+  providers: [ScienceMapDataService]
 })
 export class ScienceMapComponent implements OnInit, OnChanges {
   @Input() filter: Partial<Filter> = {};
