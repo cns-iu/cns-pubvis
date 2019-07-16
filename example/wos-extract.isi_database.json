@@ -9678,7 +9678,31 @@
         "Borner, Katy",
         "Weinberg, Bruce A."
       ],
+      "authorsAffiliation": [
+        [
+          "Ohio State Univ, Columbus, OH 43210 USA."
+        ],
+        [
+          "SUNY Albany, Albany, NY 12222 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat Comp &engn, CNS, Bloomington, IN USA."
+        ],
+        [
+          "SUNY Albany, Albany, NY 12222 USA.",
+          "Natl Bur Econ Res, Cambridge, MA 02138 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat Comp &engn, CNS, Bloomington, IN USA.",
+          "Indiana Univ, Indiana Network Sci Inst, Bloomington, IN USA."
+        ],
+        [
+          "Ohio State Univ, Columbus, OH 43210 USA.",
+          "Natl Bur Econ Res, Cambridge, MA 02138 USA."
+        ]
+      ],
       "year": 2018,
+      "numCites": 0,
       "journalName": "PLOS ONE",
       "journalId": "14924",
       "subdisciplines": [
@@ -9701,7 +9725,19 @@
         "Borner, Katy",
         "Stigler, Stephen M."
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Dept Psychol & Brain Sci, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Department Intelligent Syst Engn, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Univ Chicago, Dept Stat, Chicago, IL 60637 USA."
+        ]
+      ],
       "year": 2018,
+      "numCites": 1,
       "journalName": "P NATL ACAD SCI USA",
       "journalId": "15868",
       "subdisciplines": [
@@ -9890,7 +9926,62 @@
         "Wang, Dashun",
         "Barabasi, Albert-Laszlo"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Informat Comp & Engn, Ctr Complex Networks & Syst Res, Bloomington, IN 47408 USA.",
+          "Indiana Univ, Network Sci Inst, Bloomington, IN 47408 USA."
+        ],
+        [
+          "Univ Washington, Dept Biol, Seattle, WA 98195 USA."
+        ],
+        [
+          "Indiana Univ, Network Sci Inst, Bloomington, IN 47408 USA.",
+          "Indiana Univ, Sch Informat Comp & Engn, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47408 USA."
+        ],
+        [
+          "Univ Chicago, Dept Sociol, Chicago, IL 60637 USA."
+        ],
+        [
+          "Swiss Fed Inst Technol, Computat Social Sci, Zurich, Switzerland."
+        ],
+        [
+          "Indiana Univ, Sch Informat Comp & Engn, Ctr Complex Networks & Syst Res, Bloomington, IN 47408 USA."
+        ],
+        [
+          "Univ Calif Merced, Sch Engn, Ernest & Julio Gallo Management Program, Merced, CA 95343 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat Comp & Engn, Ctr Complex Networks & Syst Res, Bloomington, IN 47408 USA."
+        ],
+        [
+          "Cent European Univ, Ctr Network Sci, H-1052 Budapest, Hungary.",
+          "Cent European Univ, Dept Math, H-1051 Budapest, Hungary.",
+          "Northeastern Univ, Inst Network Sci, Boston, MA 02115 USA."
+        ],
+        [
+          "Northeastern Univ, Kellogg Sch Management, Evanston, IL 60208 USA.",
+          "Northeastern Univ, Northwestern Inst Complex Syst, Evanston, IL 60208 USA."
+        ],
+        [
+          "Northeastern Univ, Inst Network Sci, Boston, MA 02115 USA.",
+          "Northeastern Univ, Lab Modeling Biol & Sociotech Syst, Boston, MA 02115 USA.",
+          "ISI Fdn, I-10133 Turin, Italy."
+        ],
+        [
+          "Leiden Univ, Ctr Sci & Technol Studies, Leiden, Netherlands."
+        ],
+        [
+          "Northeastern Univ, Kellogg Sch Management, Evanston, IL 60208 USA.",
+          "Northeastern Univ, Northwestern Inst Complex Syst, Evanston, IL 60208 USA."
+        ],
+        [
+          "Cent European Univ, Ctr Network Sci, H-1052 Budapest, Hungary.",
+          "Northeastern Univ, Inst Network Sci, Boston, MA 02115 USA.",
+          "Dana Farber Canc Inst, Ctr Canc Syst Biol, Boston, MA 02115 USA."
+        ]
+      ],
       "year": 2018,
+      "numCites": 3,
       "journalName": "SCIENCE",
       "journalId": "17311",
       "subdisciplines": [
@@ -10239,7 +10330,25 @@
         "Bueckle, Andreas",
         "Goldstone, Robert L."
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Cyberinfrastruct Network Sci Ctr, Sch Informat Comp & Engn, Bloomington, IN USA.",
+          "Indiana Univ, Network Sci Inst, Bloomington, IN USA.",
+          "Indiana Univ, Cognit Sci Program, Bloomington, IN USA."
+        ],
+        [
+          "Indiana Univ, Cyberinfrastruct Network Sci Ctr, Sch Informat Comp & Engn, Bloomington, IN USA."
+        ],
+        [
+          "Indiana Univ, Cyberinfrastruct Network Sci Ctr, Sch Informat Comp & Engn, Bloomington, IN USA."
+        ],
+        [
+          "Indiana Univ, Cognit Sci Program, Bloomington, IN USA.",
+          "Indiana Univ, Dept Psychol & Brain Sci, Bloomington, IN USA."
+        ]
+      ],
       "year": 2018,
+      "numCites": 1,
       "journalName": "SCIENTOMETRICS",
       "journalId": "17373",
       "subdisciplines": [
@@ -10268,7 +10377,37 @@
         "Saykin, Andrew J.",
         "Shen, Li"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Ctr Neuroimaging, Indianapolis, IN 46204 USA.",
+          "Indiana Univ, Network Sci Inst, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Sch Informat & Comp, Indianapolis, IN 46204 USA."
+        ],
+        [
+          "Indiana Univ, Ctr Neuroimaging, Indianapolis, IN 46204 USA.",
+          "Indiana Univ, Network Sci Inst, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Sch Informat & Comp, Indianapolis, IN 46204 USA."
+        ],
+        [
+          "Indiana Univ, Cyberinfrastruct Network Sci Ctr, Bloomington, IN USA.",
+          "Indiana Univ, Network Sci Inst, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Cyberinfrastruct Network Sci Ctr, Bloomington, IN USA.",
+          "Indiana Univ, Network Sci Inst, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Ctr Neuroimaging, Indianapolis, IN 46204 USA.",
+          "Indiana Univ, Network Sci Inst, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Ctr Neuroimaging, Indianapolis, IN 46204 USA.",
+          "Indiana Univ, Network Sci Inst, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Sch Informat & Comp, Indianapolis, IN 46204 USA."
+        ]
+      ],
       "year": 2017,
+      "numCites": 0,
       "journalName": "PLOS ONE",
       "journalId": "14924",
       "subdisciplines": [
@@ -10299,7 +10438,32 @@
         "Hoteling, Nathan",
         "Borner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Dept Sci Nursing Care, Sch Nursing, Indianapolis, IN 46204 USA."
+        ],
+        [
+          "Indiana Univ, Dept Informat & Lib Sci, Sch Informat & Comp, Bloomington, IN USA."
+        ],
+        [
+          "Indiana Univ, Dept Informat & Lib Sci, Sch Informat & Comp, Bloomington, IN USA."
+        ],
+        [
+          "Indiana Univ, Dept Informat & Lib Sci, Sch Informat & Comp, Bloomington, IN USA."
+        ],
+        [
+          "Ctr Dis Control & Prevent, Div Global Hlth Protect, Ctr Global Hlth, Atlanta, GA USA."
+        ],
+        [
+          "Indiana Univ, Dept Informat & Lib Sci, Sch Informat & Comp, Bloomington, IN USA."
+        ],
+        [
+          "Indiana Univ, Dept Informat & Lib Sci, Sch Informat & Comp, Bloomington, IN USA.",
+          "Indiana Univ, Network Sci Inst, Bloomington, IN USA."
+        ]
+      ],
       "year": 2017,
+      "numCites": 1,
       "journalName": "MENOPAUSE",
       "journalId": "12902",
       "subdisciplines": [
@@ -10322,7 +10486,20 @@
         "Light, Robert P.",
         "Borner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, CNS, SOIC, 1320 W 10th St, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, CNS, SOIC, 1320 W 10th St, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, CNS, SOIC, 1320 W 10th St, Bloomington, IN 47405 USA.",
+          "Indiana Univ, IUNI, 1320 W 10th St, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2017,
+      "numCites": 1,
       "journalName": "J ASSOC INF SCI TECH",
       "subdisciplines": []
     },
@@ -10357,7 +10534,53 @@
         "Lawrence, John",
         "Reed, Chris"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Program Cognit Sci, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN USA."
+        ],
+        [
+          "Indiana Univ, Program Cognit Sci, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Dept Hist & Philosophy Sci & Med, Bloomington, IN 47405 USA.",
+          "Univ Pittsburgh, Dept Hist & Philosophy Sci, Pittsburgh, PA 15260 USA."
+        ],
+        [
+          "Indiana Univ, Program Cognit Sci, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN USA.",
+          "Indiana Univ, Network Sci Inst IUNI, Bloomington, IN USA.",
+          "Univ Duisburg Essen, Dept Comp Sci & Appl Cognit Sci, User Ctr Social Media, Duisburg, Germany."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN USA."
+        ],
+        [
+          "Univ East London, Cass Sch Educ & Communities, Int Ctr Publ Pedag ICPuP, London, England."
+        ],
+        [
+          "Univ East London, Cass Sch Educ & Communities, Int Ctr Publ Pedag ICPuP, London, England."
+        ],
+        [
+          "Indiana Univ, Program Cognit Sci, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Dept Math, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Program Cognit Sci, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Kyoto Univ, Dept Philosophy, Kyoto, Japan."
+        ],
+        [
+          "Univ Western Ontario, Dept Philosophy, London, ON, Canada."
+        ],
+        [
+          "Univ Dundee, Ctr Argument Technol, Dundee, Scotland."
+        ],
+        [
+          "Univ Dundee, Ctr Argument Technol, Dundee, Scotland."
+        ]
+      ],
       "year": 2017,
+      "numCites": 0,
       "journalName": "PLOS ONE",
       "journalId": "14924",
       "subdisciplines": [
@@ -10384,7 +10607,26 @@
         "Light, Robert P.",
         "Borner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Lilly Family Sch Philanthropy, Indianapolis, IN 46204 USA."
+        ],
+        [
+          "Indiana Univ, Lilly Family Sch Philanthropy, Indianapolis, IN 46204 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Cyberinfrastruct Network Sci Ctr, Bloomington, IN USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Cyberinfrastruct Network Sci Ctr, Bloomington, IN USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Cyberinfrastruct Network Sci Ctr, Bloomington, IN USA.",
+          "Indiana Univ, Network Sci Inst, Bloomington, IN USA."
+        ]
+      ],
       "year": 2017,
+      "numCites": 1,
       "journalName": "PLOS ONE",
       "journalId": "14924",
       "subdisciplines": [
@@ -10409,7 +10651,23 @@
         "Milojevic, Stasa",
         "Scharnhorst, Andrea"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Bloomington, IN USA.",
+          "KNAW, Royal Netherlands Acad Arts & Sci, Amsterdam, Netherlands."
+        ],
+        [
+          "Manchester Metropolitan Univ, Ctr Policy Modelling, Manchester M15 6BH, Lancs, England."
+        ],
+        [
+          "Indiana Univ, Bloomington, IN USA."
+        ],
+        [
+          "KNAW, Royal Netherlands Acad Arts & Sci, Data Archiving & Networked Serv, Amsterdam, Netherlands."
+        ]
+      ],
       "year": 2017,
+      "numCites": 2,
       "journalName": "SCIENTOMETRICS",
       "journalId": "17373",
       "subdisciplines": [
@@ -10436,7 +10694,32 @@
         "Ding, Ying",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Network Inst, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Ctr Complex Network & Syst Res, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Ctr Complex Network & Syst Res, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Network Inst, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Dept Informat & Lib Sci, Bloomington, IN USA.",
+          "Indiana Univ, Network Inst, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Ctr Complex Network & Syst Res, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2017,
+      "numCites": 6,
       "journalName": "SCIENTOMETRICS",
       "journalId": "17373",
       "subdisciplines": [
@@ -10461,7 +10744,23 @@
         "Gallant, Mike",
         "Borner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Univ Arizona, Dept Comp Sci, Tucson, AZ 85721 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Indiana Univ Network Sci Inst, Bloomington, IN USA."
+        ]
+      ],
       "year": 2016,
+      "numCites": 15,
       "journalName": "PLOS ONE",
       "journalId": "14924",
       "subdisciplines": [
@@ -10486,7 +10785,22 @@
         "Balliet, Russell Nelson",
         "Heimlich, Joe"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Bloomington, IN USA."
+        ],
+        [
+          "Indiana Univ, Bloomington, IN USA."
+        ],
+        [
+          "Indiana Univ, Bloomington, IN USA."
+        ],
+        [
+          "COSI, Columbus, OH USA."
+        ]
+      ],
       "year": 2016,
+      "numCites": 5,
       "journalName": "INFORM VISUAL",
       "journalId": "8105",
       "subdisciplines": [
@@ -10507,7 +10821,17 @@
         "Knepper, Richard",
         "Borner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Dept Informat & Lib Sci, Bloomington, IN USA.",
+          "Indiana Univ, Indiana Network Sci Inst, Bloomington, IN USA."
+        ]
+      ],
       "year": 2016,
+      "numCites": 0,
       "journalName": "PLOS ONE",
       "journalId": "14924",
       "subdisciplines": [
@@ -10526,7 +10850,13 @@
       "authorsFullname": [
         "Borner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Informat & Comp, Dept Informat & Lib Sci, Informat Sci, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2016,
+      "numCites": 1,
       "journalName": "ISSUES SCI TECHNOL",
       "journalId": "9091",
       "subdisciplines": [
@@ -10545,7 +10875,16 @@
       "authorsFullname": [
         "Borner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Cyberinfrastruct Network Sci Ctr, SOIC, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Network Sci Inst, Bloomington, IN 47405 USA.",
+          "Univ Duisburg Essen, Dept Comp Sci & Appl Cognit Sci, Duisburg, Germany.",
+          "Royal Netherlands Acad Arts & Sci KNAW, Amsterdam, Netherlands."
+        ]
+      ],
       "year": 2016,
+      "numCites": 0,
       "subdisciplines": []
     },
     {
@@ -10561,7 +10900,25 @@
         "Pestilli, Franco",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Dept Psychol & Brain Sci, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Cognit Sci Program, Bloomington, IN USA."
+        ],
+        [
+          "Indiana Univ, Dept Psychol & Brain Sci, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Cognit Sci Program, Bloomington, IN USA.",
+          "Indiana Univ, Program Neurosci, Bloomington, IN USA.",
+          "Indiana Univ, Network Sci Inst, Bloomington, IN USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Dept Informat & Lib Sci, Bloomington, IN USA.",
+          "Indiana Univ, Cognit Sci Program, Bloomington, IN USA.",
+          "Indiana Univ, Network Sci Inst, Bloomington, IN USA."
+        ]
+      ],
       "year": 2015,
+      "numCites": 5,
       "journalName": "TRENDS COGN SCI",
       "journalId": "18875",
       "subdisciplines": [
@@ -10586,7 +10943,22 @@
         "Kobourov, Stephen G.",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Univ Arizona, Dept Comp Sci, Tucson, AZ 85721 USA."
+        ],
+        [
+          "Univ Arizona, Dept Comp Sci, Tucson, AZ 85721 USA."
+        ],
+        [
+          "Univ Arizona, Dept Comp Sci, Tucson, AZ 85721 USA."
+        ],
+        [
+          "Indiana Univ, Dept Informat & Lib Sci, Bloomington, IN USA."
+        ]
+      ],
       "year": 2015,
+      "numCites": 5,
       "journalName": "COMPUT GRAPH FORUM",
       "journalId": "4200",
       "subdisciplines": [
@@ -10609,7 +10981,20 @@
         "Haustein, Stefanie",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Univ Montreal, Ecole Bibliothecon & Sci Informat, Montreal, PQ, Canada.",
+          "Univ Quebec, Ctr Interuniv Rech Sci & Technol, Observ Sci & Technol, Montreal, PQ H3C 3P8, Canada."
+        ],
+        [
+          "Univ Montreal, Ecole Bibliothecon & Sci Informat, Montreal, PQ, Canada."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Cyberinfrastruct Network Sci Ctr, Bloomington, IN USA."
+        ]
+      ],
       "year": 2015,
+      "numCites": 12,
       "journalName": "PLOS ONE",
       "journalId": "14924",
       "subdisciplines": [
@@ -10636,7 +11021,25 @@
         "Light, Robert P.",
         "Borner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "ProQuest LLC, 7500 Old Georgetown Rd,Suite 1400, Bethesda, MD 20814 USA."
+        ],
+        [
+          "ProQuest LLC, 7500 Old Georgetown Rd,Suite 1400, Bethesda, MD 20814 USA."
+        ],
+        [
+          "ProQuest LLC, 7500 Old Georgetown Rd,Suite 1400, Bethesda, MD 20814 USA."
+        ],
+        [
+          "Indiana Univ, SOIC, CNS, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, SOIC, CNS, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2015,
+      "numCites": 0,
       "journalName": "PRO INT CONF SCI INF",
       "subdisciplines": []
     },
@@ -10653,7 +11056,21 @@
         "Osabe, Yoshiyuki",
         "Borner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "OECD, Paris, France.",
+          "Japan Sci & Technol Agcy, Tokyo, Japan."
+        ],
+        [
+          "Minist Econ Trade & Ind, Japan Patent Off, Tokyo, Japan."
+        ],
+        [
+          "Indiana Univ, SOIC, ILS, CNS, Bloomington, IN USA.",
+          "Indiana Univ, IUNI, Bloomington, IN USA."
+        ]
+      ],
       "year": 2015,
+      "numCites": 0,
       "journalName": "PRO INT CONF SCI INF",
       "subdisciplines": []
     },
@@ -10672,7 +11089,22 @@
         "Kobourov, Stephen",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Univ Arizona, Tucson, AZ 85721 USA."
+        ],
+        [
+          "Univ Arizona, Tucson, AZ 85721 USA."
+        ],
+        [
+          "Univ Arizona, Tucson, AZ 85721 USA."
+        ],
+        [
+          "Indiana Univ, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2014,
+      "numCites": 9,
       "journalName": "IEEE T VIS COMPUT GR",
       "journalId": "7790",
       "subdisciplines": [
@@ -10699,7 +11131,26 @@
         "Borner, Katy",
         "Scharnhorst, Andrea"
       ],
+      "authorsAffiliation": [
+        [
+          "Royal Netherlands Acad Arts & Sci KNAW, DANS, The Hague, Netherlands."
+        ],
+        [
+          "Leiden Univ, Ctr Sci & Technol Studies CWTS, Leiden, Netherlands."
+        ],
+        [
+          "Leiden Univ, Ctr Sci & Technol Studies CWTS, Leiden, Netherlands."
+        ],
+        [
+          "Royal Netherlands Acad Arts & Sci KNAW, DANS, The Hague, Netherlands.",
+          "Indiana Univ, Cyberinfrastruct Network Sci Ctr, Sch Informat & Comp, Bloomington, IN USA."
+        ],
+        [
+          "Royal Netherlands Acad Arts & Sci KNAW, DANS, The Hague, Netherlands."
+        ]
+      ],
       "year": 2014,
+      "numCites": 10,
       "journalName": "SCIENTOMETRICS",
       "journalId": "17373",
       "subdisciplines": [
@@ -10722,7 +11173,19 @@
         "Polley, David E.",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Informat & Comp, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2014,
+      "numCites": 13,
       "journalName": "SCIENTOMETRICS",
       "journalId": "17373",
       "subdisciplines": [
@@ -10749,7 +11212,25 @@
         "Ding, Ying",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2014,
+      "numCites": 0,
       "journalName": "EMBO REP",
       "journalId": "5441",
       "subdisciplines": [
@@ -10776,7 +11257,25 @@
         "Ding, Ying",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2014,
+      "numCites": 12,
       "journalName": "EMBO REP",
       "journalId": "5441",
       "subdisciplines": [
@@ -10803,7 +11302,25 @@
         "Hagen, Hans",
         "Zeckzer, Dirk"
       ],
+      "authorsAffiliation": [
+        [
+          "Univ Halle Wittenberg, Inst Comp Sci, Halle, Germany."
+        ],
+        [
+          "Linnaeus Univ, Fac Technol, Dept Comp Sci, S-35195 Vaxjo, Sweden."
+        ],
+        [
+          "Indiana Univ Bloomington, Dept Lib & Informat Sci, Bloomington, IN 47450 USA."
+        ],
+        [
+          "Univ Kaiserslautern, Dept Comp Sci, D-67663 Kaiserslautern, Germany."
+        ],
+        [
+          "Univ Leipzig, Inst Comp Sci, D-04109 Leipzig, Germany."
+        ]
+      ],
       "year": 2014,
+      "numCites": 2,
       "journalName": "LECT NOTES COMPUT SC",
       "journalId": "12299",
       "subdisciplines": [
@@ -10826,7 +11343,20 @@
         "Boerner, Katy",
         "Fang, Shu"
       ],
+      "authorsAffiliation": [
+        [
+          "Chinese Acad Sci, Chengdu Lib, Chengdu 610041, Peoples R China.",
+          "Univ Chinese Acad Sci, Beijing 100049, Peoples R China."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Chinese Acad Sci, Chengdu Lib, Chengdu 610041, Peoples R China."
+        ]
+      ],
       "year": 2013,
+      "numCites": 14,
       "journalName": "SCIENTOMETRICS",
       "journalId": "17373",
       "subdisciplines": [
@@ -10849,7 +11379,19 @@
         "Biberstine, Joseph R.",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "San Diego State Univ, Dept Geog, San Diego, CA 92182 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ]
+      ],
       "year": 2013,
+      "numCites": 22,
       "journalName": "PLOS ONE",
       "journalId": "14924",
       "subdisciplines": [
@@ -10876,7 +11418,26 @@
         "Light, Robert P.",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "ETH, Chair Sociol Particular Modeling & Simulat, CH-8092 Zurich, Switzerland."
+        ],
+        [
+          "ETH, Chair Sociol Particular Modeling & Simulat, CH-8092 Zurich, Switzerland."
+        ],
+        [
+          "ETH, Chair Sociol Particular Modeling & Simulat, CH-8092 Zurich, Switzerland.",
+          "Inst Catala Paleoecol Humana & Evolucio Social, IPHES, Tarragona 43007, Spain."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2013,
+      "numCites": 14,
       "journalName": "SCI REP-UK",
       "subdisciplines": []
     },
@@ -10893,7 +11454,19 @@
         "Polley, David E.",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ]
+      ],
       "year": 2013,
+      "numCites": 0,
       "journalName": "PRO INT CONF SCI INF",
       "subdisciplines": []
     },
@@ -10914,7 +11487,26 @@
         "Borner, Katy",
         "Scharnhorst, Andrea"
       ],
+      "authorsAffiliation": [
+        [
+          "Royal Netherlands Acad Arts & Sci KNAW, DANS, The Hague, Netherlands."
+        ],
+        [
+          "Leiden Univ, Ctr Sci & Technol Studies CWTS, Leiden, Netherlands."
+        ],
+        [
+          "Leiden Univ, Ctr Sci & Technol Studies CWTS, Leiden, Netherlands."
+        ],
+        [
+          "Royal Netherlands Acad Arts & Sci KNAW, DANS, The Hague, Netherlands.",
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Royal Netherlands Acad Arts & Sci KNAW, DANS, The Hague, Netherlands."
+        ]
+      ],
       "year": 2013,
+      "numCites": 0,
       "journalName": "PRO INT CONF SCI INF",
       "subdisciplines": []
     },
@@ -10951,7 +11543,54 @@
         "Buecheler, T.",
         "Helbing, D."
       ],
+      "authorsAffiliation": [
+        [
+          "Vrije Univ Amsterdam, AI Dept, Div Math & Comp Sci, Fac Sci, NL-1081 HV Amsterdam, Netherlands."
+        ],
+        [
+          "German Res Ctr Artificial Intelligence, D-67663 Kaiserslautern, Germany.",
+          "Eotvos Lorand Univ, Dept Hist & Philosophy Sci, Budapest, Hungary."
+        ],
+        [
+          "Indiana Univ, Cyberinfrastruct Network Sci Ctr, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Vrije Univ Amsterdam, Dept Org Sci, Fac Social Sci, Amsterdam, Netherlands."
+        ],
+        [
+          "Leiden Univ, Dept Human Genet, Med Ctr, NL-2300 RA Leiden, Netherlands.",
+          "Concept Web Alliance, Nijmegen, Netherlands."
+        ],
+        [
+          "Univ Manchester, Dept Comp Sci, Manchester M13 9PL, Lancs, England."
+        ],
+        [
+          "Vrije Univ Amsterdam, Knowledge Representat & Reasoning Grp, Artificial Intelligence Sect, Dept Comp Sci, NL-1081 HV Amsterdam, Netherlands."
+        ],
+        [
+          "Leiden Univ, Dept Human Genet, Med Ctr, NL-2300 RA Leiden, Netherlands.",
+          "Concept Web Alliance, Nijmegen, Netherlands.",
+          "Netherlands Bioinformat Ctr, Nijmegen, Netherlands.",
+          "Erasmus MC, Dept Med Informat, Rotterdam, Netherlands."
+        ],
+        [
+          "Univ Edinburgh, LFCS, Sch Informat, Edinburgh EH8 9YL, Midlothian, Scotland."
+        ],
+        [
+          "NUI Galway, Digital Enterprise Res Inst, Galway, Ireland."
+        ],
+        [
+          "NUI Galway, Digital Enterprise Res Inst, Galway, Ireland."
+        ],
+        [
+          "Univ Zurich, Artificial Intelligence Lab, Dept Informat, CH-8050 Zurich, Switzerland."
+        ],
+        [
+          "ETH, Chair Sociol Particular Modeling & Simulat, CH-8092 Zurich, Switzerland."
+        ]
+      ],
       "year": 2012,
+      "numCites": 6,
       "journalName": "EUR PHYS J-SPEC TOP",
       "journalId": "6024",
       "subdisciplines": [
@@ -10970,7 +11609,13 @@
       "authorsFullname": [
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ Bloomington, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2012,
+      "numCites": 2,
       "journalName": "NATURE",
       "journalId": "13439",
       "subdisciplines": [
@@ -11307,7 +11952,37 @@
         "Lariviere, Vincent",
         "Boyack, Kevin W."
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA.",
+          "Royal Netherlands Acad Arts & Sci KNAW, Amsterdam, Netherlands."
+        ],
+        [
+          "SciTech Strategies Inc, Berwyn, PA USA."
+        ],
+        [
+          "SciTech Strategies Inc, Berwyn, PA USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA.",
+          "Univ Montreal, Ecole Bibliothecon & Sci Informat, Montreal, PQ, Canada.",
+          "Univ Quebec, CIRST, OST, Montreal, PQ H3C 3P8, Canada."
+        ],
+        [
+          "SciTech Strategies Inc, Albuquerque, NM USA."
+        ]
+      ],
       "year": 2012,
+      "numCites": 58,
       "journalName": "PLOS ONE",
       "journalId": "14924",
       "subdisciplines": [
@@ -11328,7 +12003,16 @@
         "Zoss, Angela M.",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2012,
+      "numCites": 3,
       "journalName": "SCIENTOMETRICS",
       "journalId": "17373",
       "subdisciplines": [
@@ -11353,7 +12037,22 @@
         "Milojevic, Stasa",
         "Morris, Steven"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, SLIS, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47405 USA."
+        ],
+        [
+          "SciTech Strategies, Albuquerque, NM USA."
+        ],
+        [
+          "Indiana Univ, SLIS, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Baker Hughes, Houston, TX USA."
+        ]
+      ],
       "year": 2012,
+      "numCites": 13,
       "journalName": "UNDERST COMPLEX SYST",
       "subdisciplines": []
     },
@@ -11370,7 +12069,22 @@
         "Borner, Katy",
         "van den Besselaar, Peter"
       ],
+      "authorsAffiliation": [
+        [
+          "Royal Netherlands Acad Arts & Sci, Data Archiving Serv, NL-2593 HT The Hague, Netherlands.",
+          "Royal Netherlands Acad Arts & Sci, Networked Serv, NL-2593 HT The Hague, Netherlands.",
+          "Royal Netherlands Acad Arts & Sci, E Humanities Grp, NL-2593 HT The Hague, Netherlands."
+        ],
+        [
+          "Indiana Univ, Cyberinfrastruct Network Sci Ctr, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Vrije Univ Amsterdam, Dept Org Sci, Amsterdam, Netherlands.",
+          "Vrije Univ Amsterdam, Network Inst, Amsterdam, Netherlands."
+        ]
+      ],
       "year": 2012,
+      "numCites": 0,
       "journalName": "UNDERST COMPLEX SYST",
       "subdisciplines": []
     },
@@ -11387,7 +12101,21 @@
         "Boerner, Katy",
         "Scharnhorst, Andrea"
       ],
+      "authorsAffiliation": [
+        [
+          "Vrije Univ Amsterdam, Dept Org Sci, Amsterdam, Netherlands.",
+          "Vrije Univ Amsterdam, Network Inst, Amsterdam, Netherlands."
+        ],
+        [
+          "Indiana Univ, SLIS, Cyberinfrastruct Network Sci Ctr, Bloomington, IN USA."
+        ],
+        [
+          "Royal Netherlands Acad Arts & Sci, Data Archiving Serv, NL-2593 HT The Hague, Netherlands.",
+          "Royal Netherlands Acad Arts & Sci, Networked Serv, NL-2593 HT The Hague, Netherlands."
+        ]
+      ],
       "year": 2012,
+      "numCites": 4,
       "journalName": "UNDERST COMPLEX SYST",
       "subdisciplines": []
     },
@@ -11406,7 +12134,22 @@
         "Scharnhorst, Andrea",
         "van den Besselaar, Peter"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Bloomington, IN USA."
+        ],
+        [
+          "Katholieke Univ Leuven, Louvain, Belgium."
+        ],
+        [
+          "Royal Netherlands Acad Arts & Sci, Data Arch & Networked Serv & E Humanities Grp, Eindhoven, Netherlands."
+        ],
+        [
+          "Vrije Univ Amsterdam, Amsterdam, Netherlands."
+        ]
+      ],
       "year": 2011,
+      "numCites": 6,
       "journalName": "SCIENTOMETRICS",
       "journalId": "17373",
       "subdisciplines": [
@@ -11429,7 +12172,20 @@
         "Weingart, Scott",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Dalian Univ Technol, WISE Lab, Dalian, Peoples R China.",
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ]
+      ],
       "year": 2011,
+      "numCites": 28,
       "journalName": "SCIENTOMETRICS",
       "journalId": "17373",
       "subdisciplines": [
@@ -11466,7 +12222,41 @@
         "Ma, Nianli",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "SciTech Strategies Inc, Albuquerque, NM USA."
+        ],
+        [
+          "Univ Calif Irvine, Irvine, CA USA.",
+          "NICTA Victorian Res Lab, Melbourne, Australia."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47401 USA."
+        ],
+        [
+          "SciTech Strategies Inc, Berwyn, PA USA."
+        ],
+        [
+          "SciTech Strategies Inc, Berwyn, PA USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Collexis Inc, Geldermalsen, Netherlands."
+        ],
+        [
+          "San Diego State Univ, Dept Geog, San Diego, CA 92182 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47401 USA."
+        ]
+      ],
       "year": 2011,
+      "numCites": 75,
       "journalName": "PLOS ONE",
       "journalId": "14924",
       "subdisciplines": [
@@ -11485,7 +12275,15 @@
       "authorsFullname": [
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN USA.",
+          "Indiana Univ, Cyberinfrastruct Network Sci Ctr, Bloomington, IN USA."
+        ]
+      ],
       "year": 2011,
+      "numCites": 37,
       "journalName": "COMMUN ACM",
       "journalId": "4075",
       "subdisciplines": [
@@ -11506,7 +12304,16 @@
         "Zoss, Angela M.",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2011,
+      "numCites": 1,
       "journalName": "PRO INT CONF SCI INF",
       "subdisciplines": []
     },
@@ -11533,7 +12340,34 @@
         "Rafols, Ismael",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "SRI Int, Arlington, VA USA."
+        ],
+        [
+          "SRI Int, Arlington, VA USA."
+        ],
+        [
+          "SRI Int, Arlington, VA USA."
+        ],
+        [
+          "Wayne State Univ, Detroit, MI USA."
+        ],
+        [
+          "SciTech Strategies Inc, Albuquerque, NM USA."
+        ],
+        [
+          "N Carolina State Univ, Raleigh, NC 27695 USA."
+        ],
+        [
+          "Univ Sussex, Sci Policy Res Unit, Brighton, E Sussex, England."
+        ],
+        [
+          "Indiana Univ, Bloomington, IN USA."
+        ]
+      ],
       "year": 2011,
+      "numCites": 196,
       "journalName": "J INFORMETR",
       "journalId": "10572",
       "subdisciplines": [
@@ -11570,7 +12404,42 @@
         "Trochim, William",
         "Uzzi, Brian"
       ],
+      "authorsAffiliation": [
+        [
+          "Northwestern Univ, Clin & Translat Sci NUCATS Inst, Res Team Support, Chicago, IL 60611 USA."
+        ],
+        [
+          "Indiana Univ, SLIS, Cyberinfrastruct Network Sci Ctr, Bloomington, IL USA."
+        ],
+        [
+          "Northwestern Univ, Dept Ind Engn & Management Sci, Evanston, IL 60208 USA."
+        ],
+        [
+          "Univ Cent Florida, Dept Philosophy, Orlando, FL 32816 USA.",
+          "Univ Cent Florida, Inst Simulat & Training, Orlando, FL 32816 USA."
+        ],
+        [
+          "NCI, Div Canc Control & Populat Sci, Bethesda, MD 20892 USA."
+        ],
+        [
+          "N Carolina State Univ, Dept Commun, Raleigh, NC 27695 USA."
+        ],
+        [
+          "Northwestern Univ, Dept Prevent Med, Chicago, IL 60611 USA."
+        ],
+        [
+          "Univ Calif Irvine, Dept Planning Policy & Design, Irvine, CA USA.",
+          "Univ Calif Irvine, Dept Psychol & Social Behav, Irvine, CA USA."
+        ],
+        [
+          "Cornell Univ, Dept Policy Anal & Management, Ithaca, NY USA."
+        ],
+        [
+          "Northwestern Univ, Dept Management & Org, Kellogg Sch Management, Evanston, IL USA."
+        ]
+      ],
       "year": 2010,
+      "numCites": 51,
       "journalName": "CTS-CLIN TRANSL SCI",
       "journalId": "4561",
       "subdisciplines": [
@@ -11607,7 +12476,42 @@
         "Trochim, William",
         "Uzzi, Brian"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Northwestern Univ, Dept Ind Engn & Management Sci, Evanston, IL 60208 USA."
+        ],
+        [
+          "Northwestern Univ, NW Univ Clin & Translat Sci NUCATS Inst, Chicago, IL 60611 USA."
+        ],
+        [
+          "Univ Cent Florida, Dept Philosophy, Orlando, FL 32826 USA."
+        ],
+        [
+          "NCI, Div Canc Control & Populat Sci, Bethesda, MD 20850 USA."
+        ],
+        [
+          "N Carolina State Univ, Dept Commun, Raleigh, NC 27695 USA."
+        ],
+        [
+          "Northwestern Univ, Dept Prevent Med, Chicago, IL 60611 USA."
+        ],
+        [
+          "Univ Calif Irvine, Dept Planning Policy & Design, Irvine, CA 92697 USA.",
+          "Univ Calif Irvine, Dept Psychol & Social Behav, Irvine, CA 92697 USA."
+        ],
+        [
+          "Cornell Univ, Dept Policy Anal & Management, Ithaca, NY 14853 USA."
+        ],
+        [
+          "Northwestern Univ, Kellogg Sch Management, Evanston, IL 60208 USA.",
+          "Northwestern Univ, NW Inst Complex Syst, Evanston, IL 60208 USA."
+        ]
+      ],
       "year": 2010,
+      "numCites": 78,
       "journalName": "SCI TRANSL MED",
       "journalId": "17348",
       "subdisciplines": [
@@ -11642,7 +12546,37 @@
         "Guo, Hanning",
         "Price, Mark A."
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ]
+      ],
       "year": 2010,
+      "numCites": 17,
       "journalName": "SCIENTOMETRICS",
       "journalId": "17373",
       "subdisciplines": [
@@ -11687,7 +12621,52 @@
         "Sankaranarayanan, Madhuvanthi",
         "Toma, Ioan"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Comp & Informat, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Tetherless World Constellat, Rensselaer Polytech Inst, Troy, NY 12180 USA."
+        ],
+        [
+          "Indiana Univ, Sch Comp & Informat, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Comp & Informat, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Tetherless World Constellat, Rensselaer Polytech Inst, Troy, NY 12180 USA."
+        ],
+        [
+          "Tetherless World Constellat, Rensselaer Polytech Inst, Troy, NY 12180 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Comp & Informat, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Univ Innsbruck, Sch Comp Sci, A-6020 Innsbruck, Austria."
+        ]
+      ],
       "year": 2010,
+      "numCites": 5,
       "journalName": "LECT NOTES COMPUT SC",
       "journalId": "12299",
       "subdisciplines": [
@@ -11710,7 +12689,19 @@
         "Conover, Michael",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Informat & Comp, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2010,
+      "numCites": 0,
       "journalName": "LECT NOTES COMPUT SC",
       "journalId": "12299",
       "subdisciplines": [
@@ -11735,7 +12726,23 @@
         "Duhon, Russell J.",
         "Zoss, Angela M."
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Sch Informat, Core Fac Cognit Sci, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Biocomplex Inst, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47405 USA."
+        ],
+        [],
+        [
+          "Indiana Univ, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2009,
+      "numCites": 0,
       "journalName": "IEEE INTELL SYST",
       "journalId": "7633",
       "subdisciplines": [
@@ -11756,7 +12763,16 @@
         "Borner, Katy",
         "Scharnhorst, Andrea"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Wells Lib 021, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Royal Netherlands Acad Arts & Sci, Virtual Knowledge Studio Humanities & Social Sci, NL-1019 AT Amsterdam, Netherlands."
+        ]
+      ],
       "year": 2009,
+      "numCites": 33,
       "journalName": "J INFORMETR",
       "journalId": "10572",
       "subdisciplines": [
@@ -11783,7 +12799,25 @@
         "Ke, Weimao",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2009,
+      "numCites": 15,
       "journalName": "SCIENTOMETRICS",
       "journalId": "17373",
       "subdisciplines": [
@@ -11806,7 +12840,20 @@
         "Boerner, Katy",
         "Klavans, Richard"
       ],
+      "authorsAffiliation": [
+        [
+          "Sandia Natl Labs, Albuquerque, NM 87185 USA.",
+          "SciTech Strategies Inc, Berwyn, PA 19312 USA."
+        ],
+        [
+          "Indiana Univ, SLIS, Bloomington, IN 47405 USA."
+        ],
+        [
+          "SciTech Strategies Inc, Berwyn, PA 19312 USA."
+        ]
+      ],
       "year": 2009,
+      "numCites": 35,
       "journalName": "SCIENTOMETRICS",
       "journalId": "17373",
       "subdisciplines": [
@@ -11841,7 +12888,37 @@
         "Guo, Hanning",
         "Price, Mark A."
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ]
+      ],
       "year": 2009,
+      "numCites": 0,
       "journalName": "PRO INT CONF SCI INF",
       "subdisciplines": []
     },
@@ -11898,7 +12975,87 @@
         "Borner, Katy",
         "Bairoch, Amos"
       ],
+      "authorsAffiliation": [
+        [
+          "Erasmus MC, Dept Med Informat, NL-3015 GE Rotterdam, Netherlands.",
+          "Leiden Univ, Med Ctr, Ctr Med Syst Biol, Dept Human Genet, NL-2333 ZC Leiden, Netherlands.",
+          "Knewco Inc, Rockville, MD 20850 USA.",
+          "Open Progress Educ, NL-1315 BH AlmereAlmere, Netherlands."
+        ],
+        [
+          "EMBL European Bioinformat Inst, GO Consortium, Cambridge CB10 1SD, England.",
+          "Univ Cambridge, Dept Genet, Hinxton CB10 1SD, England."
+        ],
+        [
+          "Leiden Univ, Med Ctr, Ctr Med Syst Biol, Dept Human Genet, NL-2333 ZC Leiden, Netherlands.",
+          "Knewco Inc, Rockville, MD 20850 USA.",
+          "Univ Geneva, Swiss Prot Grp, Swiss Inst Bioinformat, CH-1211 Geneva 4, Switzerland.",
+          "Univ Geneva, Dept Struct Biol & Bioinformat, CH-1211 Geneva 4, Switzerland."
+        ],
+        [
+          "Erasmus MC, Dept Med Informat, NL-3015 GE Rotterdam, Netherlands.",
+          "Knewco Inc, Rockville, MD 20850 USA."
+        ],
+        [
+          "Knewco Inc, Rockville, MD 20850 USA."
+        ],
+        [
+          "Leiden Univ, Med Ctr, Ctr Med Syst Biol, Dept Human Genet, NL-2333 ZC Leiden, Netherlands."
+        ],
+        [
+          "Leiden Univ, Med Ctr, Ctr Med Syst Biol, Dept Human Genet, NL-2333 ZC Leiden, Netherlands."
+        ],
+        [
+          "NCBO, Stanford Med Informat, Stanford, CA 94305 USA."
+        ],
+        [
+          "BioMed Cent, London W1T 4LB, England."
+        ],
+        [],
+        [
+          "Knewco Inc, Rockville, MD 20850 USA."
+        ],
+        [
+          "BIREME PAHO WHO, SciELO, BR-04023901 Sao Paulo, Brazil."
+        ],
+        [
+          "Ist Stela, BR-88034050 Florianopolis, SC, Brazil."
+        ],
+        [
+          "EMBL European Bioinformat Inst, GO Consortium, Cambridge CB10 1SD, England.",
+          "Univ Cambridge, Dept Genet, Hinxton CB10 1SD, England."
+        ],
+        [
+          "Knewco Inc, Rockville, MD 20850 USA."
+        ],
+        [
+          "Knewco Inc, Rockville, MD 20850 USA."
+        ],
+        [
+          "Knewco Inc, Rockville, MD 20850 USA."
+        ],
+        [],
+        [
+          "Open Progress Educ, NL-1315 BH AlmereAlmere, Netherlands."
+        ],
+        [
+          "Open Progress Educ, NL-1315 BH AlmereAlmere, Netherlands."
+        ],
+        [
+          "Knewco Inc, Rockville, MD 20850 USA."
+        ],
+        [
+          "Univ Calif Berkeley, Lawrence Berkeley Lab, Berkeley Bioinformat Open Source Projects, Berkeley, CA 94720 USA.",
+          "WikiMedia Fdn, San Francisco, CA 94107 USA.",
+          "Indiana Univ, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Univ Geneva, Swiss Prot Grp, Swiss Inst Bioinformat, CH-1211 Geneva 4, Switzerland.",
+          "Univ Geneva, Dept Struct Biol & Bioinformat, CH-1211 Geneva 4, Switzerland."
+        ]
+      ],
       "year": 2008,
+      "numCites": 86,
       "journalName": "GENOME BIOL",
       "subdisciplines": []
     },
@@ -11919,7 +13076,25 @@
         "Hardy, Elisha F.",
         "Penumarthy, Shashikant"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Cyberinfrastruct Network Sci Ctr, Bloomington, IN 47401 USA."
+        ]
+      ],
       "year": 2008,
+      "numCites": 6,
       "journalName": "IEEE INT CONF INF VI",
       "subdisciplines": []
     },
@@ -11934,7 +13109,15 @@
         "Skupin, Andre",
         "Borner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "San Diego State Univ, San Diego, CA 92182 USA.",
+          "Indiana Univ, Bloomington, IN 47405 USA."
+        ],
+        []
+      ],
       "year": 2007,
+      "numCites": 2,
       "journalName": "ENVIRON PLANN B",
       "journalId": "5606",
       "subdisciplines": [
@@ -11953,7 +13136,13 @@
       "authorsFullname": [
         "Borner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2007,
+      "numCites": 10,
       "journalName": "ENVIRON PLANN B",
       "journalId": "5606",
       "subdisciplines": [
@@ -11980,7 +13169,23 @@
         "Holloway, Todd",
         "Paley, W. Bradford"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, SLIS, Wells Lib, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, SLIS, Wells Lib, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, SLIS, Wells Lib, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Dept Comp Sci, Bloomington, IN 47405 USA."
+        ],
+        []
+      ],
       "year": 2007,
+      "numCites": 3,
       "journalName": "J INFORMETR",
       "journalId": "10572",
       "subdisciplines": [
@@ -12001,7 +13206,16 @@
         "Neirynck, Thomas",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, 10th St & Jordan Ave, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, 10th St & Jordan Ave, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2007,
+      "numCites": 4,
       "journalName": "IEEE INT CONF INF VI",
       "subdisciplines": []
     },
@@ -12018,7 +13232,15 @@
         "Sanyal, Soma",
         "Vespignani, Alessandro"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        [],
+        []
+      ],
       "year": 2007,
+      "numCites": 127,
       "journalName": "ANNU REV INFORM SCI",
       "journalId": "1535",
       "subdisciplines": [
@@ -12039,7 +13261,16 @@
         "Mane, Ketan K.",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Los Alamos Natl Lab, Res Lib, POB 1663, Los Alamos, NM 87545 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2007,
+      "numCites": 0,
       "subdisciplines": []
     },
     {
@@ -12055,7 +13286,17 @@
         "Bozicevic, Miran",
         "Borner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Dept Comp Sci, Bloomington, IN 47405 USA.",
+          "Wikipedia Networks Team, Multimedia Inst, HR-10000 Zagreb, Croatia."
+        ],
+        [],
+        []
+      ],
       "year": 2007,
+      "numCites": 50,
       "journalName": "COMPLEXITY",
       "journalId": "4128",
       "subdisciplines": [
@@ -12078,7 +13319,19 @@
         "Boerner, Katy",
         "Klavans, Richard"
       ],
+      "authorsAffiliation": [
+        [
+          "Sandia Natl Labs, POB 5800,MS 1316, Albuquerque, NM 87185 USA."
+        ],
+        [
+          "Indiana Univ, SLIS, Bloomington, IN 47405 USA."
+        ],
+        [
+          "SciTech Strategies Inc, Berwyn, PA 19312 USA."
+        ]
+      ],
       "year": 2007,
+      "numCites": 7,
       "subdisciplines": []
     },
     {
@@ -12098,7 +13351,25 @@
         "Ke, Weimao",
         "Boerner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, 10th St & Jordan Ave, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, 10th St & Jordan Ave, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, 10th St & Jordan Ave, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, 10th St & Jordan Ave, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, 10th St & Jordan Ave, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2007,
+      "numCites": 2,
       "subdisciplines": []
     },
     {
@@ -12116,7 +13387,17 @@
         "Meiss, Mark",
         "Ke, Weimao"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Sch Informat, Bloomington, IN USA."
+        ],
+        [],
+        [],
+        []
+      ],
       "year": 2006,
+      "numCites": 33,
       "journalName": "SCIENTOMETRICS",
       "journalId": "17373",
       "subdisciplines": [
@@ -12141,7 +13422,20 @@
         "Ke, Weimao",
         "Borner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Arizona State Univ, Sch Human Evolut & Social Change, Tempe, AZ 85287 USA.",
+          "Arizona State Univ, Dept Comp Sci & Engn, Tempe, AZ 85287 USA.",
+          "Indiana Univ, Workshop Polit Theory & Policy Anal, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Sch Publ & Environm Affairs, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Sch Lib & Environm Sci, Bloomington, IN 47405 USA."
+        ],
+        [],
+        [],
+        []
+      ],
       "year": 2006,
+      "numCites": 189,
       "journalName": "GLOBAL ENVIRON CHANG",
       "journalId": "6895",
       "subdisciplines": [
@@ -12164,7 +13458,20 @@
         "Ke, Weimao",
         "Borner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Univ Sydney, Sydney, NSW 2006, Australia.",
+          "Natl ICT Australia, Alexandria, NSW 1435, Australia."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2006,
+      "numCites": 3,
       "subdisciplines": []
     },
     {
@@ -12182,7 +13489,16 @@
         "Penumarthy, Shashikant",
         "Borner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, SLIS, Bloomington, IN 47405 USA."
+        ],
+        [],
+        [],
+        []
+      ],
       "year": 2006,
+      "numCites": 7,
       "journalName": "ANN NY ACAD SCI",
       "journalId": "1470",
       "subdisciplines": [
@@ -12211,7 +13527,16 @@
         "Mane, Ketan K.",
         "Borner, Katy"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, 10th St & Jordan Ave, Bloomington, IN 47405 USA."
+        ],
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, 10th St & Jordan Ave, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2006,
+      "numCites": 0,
       "journalName": "PROC SPIE",
       "journalId": "15459",
       "subdisciplines": [
@@ -12424,7 +13749,23 @@
         "Mane, K",
         "Borner, K"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Med, Indianapolis, IN 46204 USA.",
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47401 USA."
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
       "year": 2005,
+      "numCites": 0,
       "journalName": "BLOOD",
       "journalId": "2646",
       "subdisciplines": [
@@ -12447,7 +13788,17 @@
         "Klavans, R",
         "Borner, K"
       ],
+      "authorsAffiliation": [
+        [
+          "Sandia Natl Labs, Albuquerque, NM 87185 USA.",
+          "SciTech Strategies Inc, Berwyn, PA USA.",
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN USA."
+        ],
+        [],
+        []
+      ],
       "year": 2005,
+      "numCites": 377,
       "journalName": "SCIENTOMETRICS",
       "journalId": "17373",
       "subdisciplines": [
@@ -12474,7 +13825,20 @@
         "Mane, KK",
         "Borner, K"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Dept Biol, Bloomington, IN USA.",
+          "Indiana Univ, Ctr Integrat Study Anim Behav, Bloomington, IN USA.",
+          "Indiana Univ, Dept Comp Sci, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47401 USA."
+        ],
+        [],
+        [],
+        [],
+        []
+      ],
       "year": 2005,
+      "numCites": 16,
       "journalName": "ANIM BEHAV",
       "journalId": "1304",
       "subdisciplines": [
@@ -12499,7 +13863,19 @@
         "Ke, WM",
         "Vespignani, A"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, SLIS, Bloomington, IN 47405 USA.",
+          "Univ Paris 11, Phys Theor Lab, F-91405 Orsay, France.",
+          "Indiana Univ, Sch Informat, Bloomington, IN 47406 USA.",
+          "Indiana Univ, Biocomplex Ctr, Bloomington, IN 47406 USA."
+        ],
+        [],
+        [],
+        []
+      ],
       "year": 2005,
+      "numCites": 86,
       "journalName": "COMPLEXITY",
       "journalId": "4128",
       "subdisciplines": [
@@ -12520,7 +13896,15 @@
         "Borner, K",
         "Navarro-Prieto, R"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Bloomington, IN 47405 USA.",
+          "Univ Oberta Catalunya, Barcelona, Spain."
+        ],
+        []
+      ],
       "year": 2005,
+      "numCites": 0,
       "journalName": "PRESENCE-TELEOP VIRT",
       "journalId": "15143",
       "subdisciplines": [
@@ -12541,7 +13925,15 @@
         "Chen, CM",
         "Borner, K"
       ],
+      "authorsAffiliation": [
+        [
+          "Drexel Univ, Coll Informat Sci & Technol, Philadelphia, PA 19104 USA.",
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        []
+      ],
       "year": 2005,
+      "numCites": 6,
       "journalName": "PRESENCE-TELEOP VIRT",
       "journalId": "15143",
       "subdisciplines": [
@@ -12564,7 +13956,17 @@
         "Sheth, HA",
         "Borner, K"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Dept Comp Sci, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Sch Informat, Bloomington, IN 47405 USA."
+        ],
+        [],
+        []
+      ],
       "year": 2005,
+      "numCites": 10,
       "journalName": "LECT NOTES ARTIF INT",
       "journalId": "12299",
       "subdisciplines": [
@@ -12591,7 +13993,19 @@
         "Ben-Miled, Z",
         "Borner, K"
       ],
+      "authorsAffiliation": [
+        [
+          "IUPUI, Sch Informat, Indianapolis, IN 46202 USA.",
+          "IUPUI, Dept Elect & Comp Engn, Indianapolis, IN 46202 USA.",
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        [],
+        [],
+        [],
+        []
+      ],
       "year": 2005,
+      "numCites": 0,
       "journalName": "LECT NOTES COMPUT SC",
       "journalId": "12299",
       "subdisciplines": [
@@ -12616,7 +14030,18 @@
         "DeVarco, BJ",
         "Kerney, C"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA.",
+          "MediaTertia, Santa Cruz, CA 95060 USA.",
+          "San Diego Cty Off Educ, San Diego, CA 92111 USA."
+        ],
+        [],
+        [],
+        []
+      ],
       "year": 2005,
+      "numCites": 0,
       "journalName": "LECT NOTES COMPUT SC",
       "journalId": "12299",
       "subdisciplines": [
@@ -12637,7 +14062,14 @@
         "Borner, K",
         "Penumarthy, S"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        []
+      ],
       "year": 2005,
+      "numCites": 0,
       "subdisciplines": []
     },
     {
@@ -12651,7 +14083,15 @@
         "Shiffrin, RM",
         "Borner, K"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Dept Psychol, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        []
+      ],
       "year": 2004,
+      "numCites": 106,
       "journalName": "P NATL ACAD SCI USA",
       "journalId": "15868",
       "subdisciplines": [
@@ -12818,7 +14258,17 @@
         "Maru, JT",
         "Goldstone, RL"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Dept Comp Sci, Bloomington, IN 47405 USA.",
+          "Indiana Univ, Dept Psychol, Bloomington, IN 47405 USA."
+        ],
+        [],
+        []
+      ],
       "year": 2004,
+      "numCites": 139,
       "journalName": "P NATL ACAD SCI USA",
       "journalId": "15868",
       "subdisciplines": [
@@ -12983,7 +14433,14 @@
         "Mane, KK",
         "Borner, K"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        []
+      ],
       "year": 2004,
+      "numCites": 82,
       "journalName": "P NATL ACAD SCI USA",
       "journalId": "15868",
       "subdisciplines": [
@@ -13152,7 +14609,16 @@
         "Penumarthy, S",
         "Jones, RJ"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        [],
+        [],
+        []
+      ],
       "year": 2004,
+      "numCites": 1,
       "journalName": "P SOC PHOTO-OPT INS",
       "journalId": "15459",
       "subdisciplines": [
@@ -13355,7 +14821,17 @@
         "Martins, E",
         "Ord, T"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Dept Comp Sci, Bloomington, IN 47405 USA."
+        ],
+        [],
+        [],
+        [],
+        []
+      ],
       "year": 2004,
+      "numCites": 0,
       "journalName": "P SOC PHOTO-OPT INS",
       "journalId": "15459",
       "subdisciplines": [
@@ -13552,7 +15028,15 @@
         "Boyack, KW",
         "Borner, K"
       ],
+      "authorsAffiliation": [
+        [
+          "Sandia Natl Labs, Albuquerque, NM 87185 USA.",
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        []
+      ],
       "year": 2003,
+      "numCites": 62,
       "journalName": "J AM SOC INF SCI TEC",
       "journalId": "11582",
       "subdisciplines": [
@@ -13573,7 +15057,14 @@
         "Mostafa, J",
         "Borner, K"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Bloomington, IN 47405 USA."
+        ],
+        []
+      ],
       "year": 2003,
+      "numCites": 0,
       "subdisciplines": []
     },
     {
@@ -13589,7 +15080,17 @@
         "Chen, CM",
         "Boyack, KW"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Bloomington, IN 47405 USA.",
+          "Drexel Univ, Coll Informat Sci & Technol, Philadelphia, PA 19104 USA.",
+          "Sandia Natl Labs, Albuquerque, NM 87185 USA."
+        ],
+        [],
+        []
+      ],
       "year": 2003,
+      "numCites": 421,
       "journalName": "ANNU REV INFORM SCI",
       "journalId": "1535",
       "subdisciplines": [
@@ -13614,7 +15115,19 @@
         "Borner, K",
         "McCain, KW"
       ],
+      "authorsAffiliation": [
+        [
+          "Univ Pittsburgh, Sch Informat Sci, Pittsburgh, PA 15260 USA.",
+          "Stanford Univ, Palo Alto, CA 94304 USA.",
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA.",
+          "Drexel Univ, Coll Informat Sci & Technol, Philadelphia, PA 19104 USA."
+        ],
+        [],
+        [],
+        []
+      ],
       "year": 2002,
+      "numCites": 0,
       "journalName": "P ASIST ANNU",
       "journalId": "15606",
       "subdisciplines": [
@@ -13633,7 +15146,13 @@
       "authorsFullname": [
         "Borner, K"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2002,
+      "numCites": 0,
       "journalName": "LECT NOTES COMPUT SC",
       "journalId": "12299",
       "subdisciplines": [
@@ -13656,7 +15175,15 @@
         "Hazlewood, WR",
         "Lin, SM"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, SLIS, Main Lib 019, Bloomington, IN 47405 USA."
+        ],
+        [],
+        []
+      ],
       "year": 2002,
+      "numCites": 3,
       "subdisciplines": []
     },
     {
@@ -13670,7 +15197,15 @@
         "Borner, K",
         "Chen, CM"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA.",
+          "Drexel Univ, Coll Informat Sci & Technol, Philadelphia, PA 19104 USA."
+        ],
+        []
+      ],
       "year": 2002,
+      "numCites": 7,
       "journalName": "LECT NOTES COMPUT SC",
       "journalId": "12299",
       "subdisciplines": [
@@ -13691,7 +15226,15 @@
         "Chen, CM",
         "Borner, K"
       ],
+      "authorsAffiliation": [
+        [
+          "Drexel Univ, Coll Informat Sci & Technol, Philadelphia, PA 19104 USA.",
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ],
+        []
+      ],
       "year": 2002,
+      "numCites": 2,
       "journalName": "LECT NOTES COMPUT SC",
       "journalId": "12299",
       "subdisciplines": [
@@ -13712,7 +15255,14 @@
         "Feng, Y",
         "Borner, K"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Dept Comp Sci, Bloomington, IN 47405 USA."
+        ],
+        []
+      ],
       "year": 2002,
+      "numCites": 2,
       "journalName": "PROC SPIE",
       "journalId": "15459",
       "subdisciplines": [
@@ -13907,7 +15457,13 @@
       "authorsFullname": [
         "Borner, K"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, SLIS, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2001,
+      "numCites": 5,
       "journalName": "ARTIF INTELL REV",
       "journalId": "1960",
       "subdisciplines": [
@@ -13928,7 +15484,14 @@
         "Borner, K",
         "Lin, YC"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, SLIS, Bloomington, IN 47405 USA."
+        ],
+        []
+      ],
       "year": 2001,
+      "numCites": 0,
       "subdisciplines": []
     },
     {
@@ -13942,7 +15505,14 @@
         "Borner, K",
         "Zhou, YZ"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, SLIS, Bloomington, IN 47405 USA."
+        ],
+        []
+      ],
       "year": 2001,
+      "numCites": 6,
       "subdisciplines": []
     },
     {
@@ -13958,7 +15528,15 @@
         "Dillon, A",
         "Dolinsky, M"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, SLIS, Bloomington, IN 47405 USA."
+        ],
+        [],
+        []
+      ],
       "year": 2000,
+      "numCites": 5,
       "journalName": "IEEE INFOR VIS",
       "journalId": "15794",
       "subdisciplines": [
@@ -13977,7 +15555,13 @@
       "authorsFullname": [
         "Borner, K"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2000,
+      "numCites": 3,
       "journalName": "IEEE INFOR VIS",
       "journalId": "15794",
       "subdisciplines": [
@@ -13996,7 +15580,13 @@
       "authorsFullname": [
         "Borner, K"
       ],
+      "authorsAffiliation": [
+        [
+          "Indiana Univ, Sch Lib & Informat Sci, Bloomington, IN 47405 USA."
+        ]
+      ],
       "year": 2000,
+      "numCites": 1,
       "journalName": "PROC SPIE",
       "journalId": "15459",
       "subdisciplines": [

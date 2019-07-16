@@ -12,7 +12,8 @@ import { subdisciplineIdField, subdisciplineSizeField } from '../shared/science-
 @Component({
   selector: 'cns-pubvis-science-map',
   templateUrl: './science-map.component.html',
-  styleUrls: ['./science-map.component.sass']
+  styleUrls: ['./science-map.component.sass'],
+  providers: [ScienceMapDataService]
 })
 export class ScienceMapComponent implements OnInit, OnChanges {
   @Input() filter: Partial<Filter> = {};
@@ -53,8 +54,8 @@ export class ScienceMapComponent implements OnInit, OnChanges {
   ngOnChanges(changes: SimpleChanges) {
     if ('filter' in changes) {
       const filter: Partial<Filter> = Object.assign({}, this.filter);
-      this.dataService.fetchData(filter).subscribe(undefined, undefined, () => {
-        this.filterUpdateComplete.emit(true);
+      this.dataService.fetchData(filter).subscribe({ complete: () =>
+        this.filterUpdateComplete.emit(true)
       });
       this.filterTableData();
     }

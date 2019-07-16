@@ -1,9 +1,10 @@
 import { Injectable, EventEmitter } from '@angular/core';
 import { combineLatest, Subscription } from 'rxjs';
+import { map as rxMap } from 'rxjs/operators';
 import { Map, Set } from 'immutable';
 
 import { Filter } from '../../../shared/filter';
-import { Author, CoAuthorEdge } from '../../../shared/author';
+import { Author, CoAuthorEdge, CoAuthorGraph } from '../../../shared/author';
 import { Publication } from '../../../shared/publication';
 import { DatabaseService } from '../../../shared/database.service';
 import { Statistics } from './statistics';
@@ -27,9 +28,12 @@ export class StatisticsService {
     dataObservables.push(this.service.getPublications(filter));
 
     this.subscriptions.push(
-      combineLatest(dataObservables, (graph: any, pubs) => {
-        return [graph.authors, graph.coauthorEdges, pubs];
-      }).subscribe((data: DataTuple) => {
+      combineLatest(dataObservables).pipe(
+        rxMap(([graph, pubs]) => {
+          const g = graph as CoAuthorGraph;
+          return [g.authors, g.coauthorEdges, pubs];
+        })
+      ).subscribe((data: DataTuple) => {
         this.statistics.emit(this.collectStatistics(data));
       })
     );
@@ -70,7 +74,7 @@ export class StatisticsService {
     // nAuthorsByYear
     const authorsByYear = Map<number, Set<string>>().withMutations((map) => {
       publications.forEach((pub) => {
-        map.updateIn([pub.year], (set: Set<String> = Set()) => {
+        map.updateIn([pub.year], (set: Set<string> = Set()) => {
           return set.union(pub.authors);
         });
       });

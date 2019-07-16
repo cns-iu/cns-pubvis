@@ -43,7 +43,9 @@ export const ISI_TAGS = {
 
   'AB': { string: true, separator: ' ', remap: 'abstract' },
   'PT': { string: true, separator: ' ', remap: 'publicationType' },
-  'IS': { number: true, remap: 'issue' }
+  'IS': { number: true, remap: 'issue' },
+
+  'TC': { number: true, remap: 'numCites' }
 };
 
 const LINE_PATTERN = new RegExp(/^([A-Z ][A-Z0-9 ]) *\-* *(.*)$/);

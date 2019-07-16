@@ -1,13 +1,16 @@
 const fs = require('fs');
 
-import gexf from 'gexf';
 import { orderBy, zip } from 'lodash';
-import { parse } from 'papaparse';
-import { Operator, access, autoId, chain, combine, constant, map } from '@ngx-dino/core';
-import { issnLookup, journalNameLookup, journalIdSubdLookup } from '@ngx-dino/science-map';
+import { combine, map } from '@ngx-dino/core';
 
 import { CoAuthorNetwork } from '../shared/coauthor-network';
-import { parseRISRecords, ISI_TAGS } from './ris-reader';
+import { Publication } from '../shared/publication';
+import { RawPublication } from './raw-publication';
+import { parsePoPRecords } from './pop-loader';
+import { parseISIRecords } from './isi-loader';
+import { normalizeAuthor, readCSVFile, a, n, writeJSON, readGexfFile, toString } from './utils';
+import { addScienceMappings } from './science-mapper';
+
 
 // FIXME: use a cmd line argument parser to make this cleaner
 const args = process.argv.slice(2);
@@ -21,91 +24,7 @@ const PUBS = args[0];
 const AUTH_DISAMBIGUATION = disambiguate ? args[1] : 'none';
 const COAUTH_GEXF = disambiguate ? args[2] : args[1];
 const DB_JSON = disambiguate ? args[3] : args[2];
-
 // const COAUTH_JSON = '../../raw-data/coauthor-network.json';
-
-function readFile(inputFile: string): string {
-  return fs.readFileSync(inputFile, 'utf8');
-}
-function writeJSON(outputFile: string, obj: any) {
-  fs.writeFileSync(outputFile, JSON.stringify(obj, null, 2), 'utf8');
-}
-function readGexfFile(gexfFile: string): any {
-  return gexf.parse(readFile(gexfFile));
-}
-function readCSVFile(csvFile: string): any[] {
-  return parse(readFile(csvFile), {header: true, skipEmptyLines: true}).data;
-}
-
-function a(field: string): Operator<any, any> {
-  return chain(access<any>(field, '-'), map<any, any>((val) => val === '-' ? undefined : val));
-}
-function NumberOrUndefined(value: string): number {
-  const numberValue = Number(value);
-  return isNaN(numberValue) ? undefined : numberValue;
-}
-function n(field: string): Operator<any, number> {
-  return chain(a(field), map(NumberOrUndefined));
-}
-const toString = map((x) => x === undefined || x === '' ? undefined : '' + x);
-const normalizeAuthor = map<string, string>(author => {
-  const a1 = (author || '').split(',');
-  if (a1.length > 1) {
-    return a1.slice(0, -1).join(',') + ',' + a1[a1.length - 1].toUpperCase();
-  } else {
-    return author;
-  }
-});
-
-interface RawPublication {
-  id: string;
-  title: string;
-  year: string;
-  authors: string[];
-  authorsFullname: string[];
-  journalName: string;
-  journalFullname: string;
-  issn: string;
-  eissn: string;
-
-  journalId?: string;
-  subdisciplines?: any[];
-}
-
-const popAuthorSplit = chain(
-  a('Authors'),
-  map(s => {
-    return (s || '')
-      .replace('...', '').replace('…', '') // remove ...'s
-      .split(',') // split into authors
-      .map(x => x.trim()) // trim excess
-      .filter(x => x.length !== 0); // remove empty authors after processing
-  })
-);
-
-const popJournal = chain(
-  a('Source'),
-  map(s => (s || '').replace('...', '').replace('…', '').trim())
-);
-
-const popRecordProcessor = combine<any, RawPublication>({
-  'id': autoId('POP:', 1),
-  'title': a('Title'),
-  'year': n('Year'),
-  'authors': popAuthorSplit,
-  'authorsFullname': popAuthorSplit,
-  'journalName': popJournal,
-  'journalFullname': a('Source'),
-  'issn': a('ISSN'),
-  'eissn': constant('')
-});
-
-function parsePoPRecords(csvFile: string): RawPublication[] {
-  return readCSVFile(csvFile).map(popRecordProcessor.getter);
-}
-function parseISIRecords(isiFile: string): RawPublication[] {
-  return parseRISRecords(readFile(PUBS), ISI_TAGS);
-}
 
 let pubs: RawPublication[] = [];
 switch (PUBS.slice(-3)) {
@@ -117,58 +36,7 @@ switch (PUBS.slice(-3)) {
     break;
 }
 
-// SciMap here
-const journalReplacements = {};
-let badJournals: any = {};
-let journal2weights: any = {};
-let journal2journalId: any = {};
-pubs.forEach((pub) => {
-  const journal = journalReplacements[pub.journalName] || pub.journalName || pub.journalFullname;
-  const isbn = (`${pub.issn} ${pub.eissn}`).trim().split(/\s+/g)
-    .map(s => chain(issnLookup, access('id'), toString).get(s)).filter(s => !!s && s !== 'undefined');
-  if (!pub.journalId) {
-    if (isbn.length > 0) {
-      pub.journalId = isbn[0];
-      journal2weights[pub.journalId] = journalIdSubdLookup.get(pub.journalId);
-    } else {
-      pub.journalId = undefined;
-    }
-  }
-  if (!pub.journalId) {
-    if (!journal2journalId.hasOwnProperty(journal)) {
-      pub.journalId = journal2journalId[journal] = chain(journalNameLookup, access('id'), toString).get(journal);
-      if (pub.journalId === 'undefined') {
-        pub.journalId = undefined;
-      }
-      if (pub.journalId) {
-        journal2weights[pub.journalId] = journalIdSubdLookup.get(pub.journalId);
-      } else {
-        pub.journalId = undefined;
-      }
-    } else {
-      pub.journalId = journal2journalId[journal];
-    }
-  }
-  if (pub.journalId === 'undefined') {
-    pub.journalId = undefined;
-  }
-  if (!pub.journalId) {
-    badJournals[`${pub.journalName}`] = (badJournals[`${pub.journalName}`] || 0) + 1;
-  }
-
-  pub.subdisciplines = journal2weights[pub.journalId] || [];
-});
-
-journal2journalId = null;
-journal2weights = null;
-
-console.log('# Bad Journals: ' + Object.keys(badJournals).length);
-const WRITE_BAD_JOURNALS = true;
-if (WRITE_BAD_JOURNALS) {
-  badJournals = Object.entries(badJournals);
-  badJournals.sort((a1, b1) => b1[1] - a1[1]);
-  fs.writeFileSync('/tmp/bad.csv', badJournals.map(t => `"${t[0]}", ${t[1]}`).join('\n'), 'utf8');
-}
+addScienceMappings(pubs);
 
 const authorRemaps = {};
 const fullnameRemaps = {};
@@ -194,18 +62,20 @@ const getAuthorsFullnameOp = map<any, string[]>(record => {
   return (record.authorsFullname || []).map(au => remap[au] || au);
 });
 
-const pubsDBProcessor = combine({
+const pubsDBProcessor = combine<any, Publication>({
   'id': a('id'),
   'title': a('title'),
   'authors': getAuthorsOp,
   'authorsFullname': getAuthorsFullnameOp,
+  'authorsAffiliation': a('authorsAffiliation'),
   'year': n('year'),
+  'numCites': n('numCites'),
 
   'journalName': a('journalName'),
   'journalId': a('journalId'),
   'subdisciplines': a('subdisciplines')
 });
-const publications: any[] = pubs.map(pubsDBProcessor.getter);
+const publications: Publication[] = pubs.map(pubsDBProcessor.getter);
 
 const author2fullname = {};
 orderBy(publications, 'year', 'desc').forEach(pub => {

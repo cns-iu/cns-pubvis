@@ -11,7 +11,7 @@ export class CoAuthorNetwork {
   readonly coauthorEdgeStats = new CoAuthorEdgeStats();
 
   constructor(private publications: Publication[], private authorMetadata: { [id: string]: any } = {},
-      private edgeMetadata: { [id: string]: Partial<CoAuthorEdge> } = null) {
+      private edgeMetadata: { [id: string]: Partial<CoAuthorEdge> } = null, private highlightedAffiliations: string[] = []) {
     this.buildGraph();
   }
 
@@ -34,12 +34,25 @@ export class CoAuthorNetwork {
         author.paperCount++;
         author.paperCountsByYear[year] = (author.paperCountsByYear[year] || 0) + 1;
         author.coauthorsByYear[year] = (author.coauthorsByYear[year] || {});
+        author.affiliationsByYear[year] = (author.affiliationsByYear[year] || {});
 
         pub.authors.forEach((authorId) => {
           author.coauthors[authorId] = true;
           author.coauthorsByYear[year][authorId] = true;
         });
       }
+
+      pub.authorsAffiliation.forEach((affiliations, index) => {
+        affiliations.forEach((affiliation: string) => {
+          authors[index].affiliationsByYear[year][affiliation] = true;
+          this.highlightedAffiliations.forEach(highlight => {
+            if (affiliation.indexOf(highlight) !== -1) {
+              authors[index].hasHighlightedAffiliation = true;
+            }
+          });
+        });
+      });
+
       for (const edge of edges) {
         edge.count++;
         edge.countsByYear[year] = (edge.countsByYear[year] || 0) + 1;
@@ -75,6 +88,8 @@ export class CoAuthorNetwork {
         coauthorCount: 0,
         coauthors: {},
         coauthorsByYear: {},
+
+        affiliationsByYear: {},
 
         globalStats: this.authorStats
       }, this.authorMetadata[id]));

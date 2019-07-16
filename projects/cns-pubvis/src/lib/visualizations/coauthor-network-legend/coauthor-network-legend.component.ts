@@ -11,7 +11,8 @@ import { colorRange, strokeSizeRange, radiusSizeRange } from '../../encoding';
 @Component({
   selector: 'cns-pubvis-coauthor-network-legend',
   templateUrl: './coauthor-network-legend.component.html',
-  styleUrls: ['./coauthor-network-legend.component.scss']
+  styleUrls: ['./coauthor-network-legend.component.scss'],
+  providers: [CoauthorNetworkDataService]
 })
 export class CoauthorNetworkLegendComponent implements OnInit, OnChanges {
   @Input() filter: Partial<Filter> = {};
@@ -45,8 +46,8 @@ export class CoauthorNetworkLegendComponent implements OnInit, OnChanges {
   ngOnChanges(changes: SimpleChanges) {
     if (('filter' in changes) && this.filter) {
       const filter: Partial<Filter> = Object.assign({}, this.filter, {limit: this.numCoAuthors});
-      this.dataService.fetchData(filter).subscribe(undefined, undefined, () => {
-        this.filterUpdateComplete.emit(true);
+      this.dataService.fetchData(filter).subscribe({ complete: () =>
+        this.filterUpdateComplete.emit(true)
       });
     }
   }

@@ -48,21 +48,31 @@ export class DatabaseService {
         years.push(yr);
       }
       filtered.forEach((a) => {
-        const paperCount = years.reduce((acc, y) => (a.paperCountsByYear[y] || 0) + acc, 0);
-        let coauthorCount = 0;
-        if (paperCount > 0) {
+        a.paperCount = years.reduce((acc, y) => (a.paperCountsByYear[y] || 0) + acc, 0);
+        a.coauthorCount = 0;
+        if (a.paperCount > 0) {
           const coauthors = {};
           for (const yr of years) {
-            for (const authorId in (a.coauthorsByYear || {})) {
-              if (!coauthors.hasOwnProperty(authorId)) {
+            for (const authorId of Object.keys(a.coauthorsByYear[yr] || {})) {
+              if (a.id !== authorId) {
                 coauthors[authorId] = true;
-                coauthorCount++;
+              }
+            }
+          }
+          a.coauthorCount = Object.keys(coauthors).length;
+        }
+
+        a.hasHighlightedAffiliation = false;
+        const toHighlight = this.db.highlightedAffiliations;
+        for (const y of years) {
+          for (const aff of Object.keys(a.affiliationsByYear[y] || {})) {
+            for (const highlight of toHighlight) {
+              if (aff.indexOf(highlight) !== -1) {
+                a.hasHighlightedAffiliation = true;
               }
             }
           }
         }
-        a.paperCount = paperCount;
-        a.coauthorCount = coauthorCount;
       });
       filtered = filtered.filter(a => a.paperCount > 0);
     }
