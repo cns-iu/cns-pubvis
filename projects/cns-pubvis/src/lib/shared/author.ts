@@ -1,9 +1,17 @@
-import { Operand, chain, combine, constant, map, access } from '@ngx-dino/core';
+import { access, chain, combine, constant, map, Operand } from '@ngx-dino/core';
+
 import {
-  areaSizeScaleNormQuantitative, strokeSizeScaleNormQuantitative, fontSizeScaleNormQuantitative,
-  greyScaleNormQuantitative, greyScaleNormQuantitativeStroke,
-  colorScaleNormQuantitative, colorScaleNormQuantitativeStroke,
-  norm0to100, formatNumber, formatYear, formatFullname
+  areaSizeLogScaleNormQuantitative,
+  areaSizeScaleNormQuantitative,
+  colorScaleNormQuantitative,
+  colorScaleNormQuantitativeStroke,
+  fontSizeScaleNormQuantitative,
+  formatFullname,
+  formatNumber,
+  greyScaleNormQuantitative,
+  greyScaleNormQuantitativeStroke,
+  norm0to100,
+  strokeSizeScaleNormQuantitative,
 } from '../encoding';
 
 export class AuthorStats {
@@ -66,7 +74,7 @@ export class Author {
   paperCountNorm: number;
   @Operand<string>(chain(access('paperCount'), formatNumber), false)
   paperCountLabel: string;
-  @Operand<number>(chain(access('paperCountNorm'), areaSizeScaleNormQuantitative), false)
+  @Operand<number>(chain(access('paperCountNorm'), areaSizeLogScaleNormQuantitative), false)
   paperCountAreaSize: number;
   @Operand<number>(chain(access('paperCountNorm'), fontSizeScaleNormQuantitative), false)
   paperCountFontSize: number;

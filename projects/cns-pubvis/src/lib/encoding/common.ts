@@ -1,8 +1,8 @@
-import { Operator, access, chain, combine, map } from '@ngx-dino/core';
-import { startCase, lowerCase } from 'lodash';
+import { access, chain, combine, map, Operator } from '@ngx-dino/core';
+import { lowerCase, startCase } from 'lodash';
 
-import { SizeScale } from './size-scale';
 import { ColorScale } from './color-scale';
+import { SizeScale } from './size-scale';
 
 export function norm0to100(field: string, maxField: string, minField?: string): Operator<any, number> {
   if (!minField) {
@@ -43,7 +43,9 @@ export const greyScaleNormQuantitativeStroke = greyScale.quantitativeStrokeColor
 export const areaSizeRange = [8, 550];
 export const radiusSizeRange = areaSizeRange.map(a => Math.ceil(Math.sqrt(a) / 2));
 export const areaSizeScale = new SizeScale(areaSizeRange[0], areaSizeRange[1], 3, 'linear'); // TBD TODO
+export const areaSizeLogScale = new SizeScale(areaSizeRange[0], areaSizeRange[1], 3, 'log');
 export const areaSizeScaleNormQuantitative = areaSizeScale.quantitative([1, 100]);
+export const areaSizeLogScaleNormQuantitative = areaSizeLogScale.quantitative([1, 100]);
 
 export const strokeSizeRange = [0.5, 8];
 export const strokeSizeScale = new SizeScale(strokeSizeRange[0], strokeSizeRange[1], 0.5, 'linear'); // TBD TODO
