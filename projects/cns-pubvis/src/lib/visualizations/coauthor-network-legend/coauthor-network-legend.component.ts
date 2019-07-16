@@ -1,7 +1,7 @@
 import { Component, EventEmitter, Input, OnInit, OnChanges, SimpleChanges, Output } from '@angular/core';
 import { Observable, of } from 'rxjs';
 
-import { BoundField, RawChangeSet, access, simpleField } from '@ngx-dino/core';
+import { BoundField, RawChangeSet, access, simpleField, DataType } from '@ngx-dino/core';
 
 import { Filter } from '../../shared/filter';
 
@@ -22,8 +22,6 @@ export class CoauthorNetworkLegendComponent implements OnInit, OnChanges {
   edgeStream: Observable<RawChangeSet<any>>;
 
   edgeSizeRange: number[] = strokeSizeRange;
-  nodeColorRange = colorRange;
-  nodeSizeRange = radiusSizeRange;
 
   readonly nodeFields: any = {};
   readonly edgeFields: any = {};
@@ -32,13 +30,13 @@ export class CoauthorNetworkLegendComponent implements OnInit, OnChanges {
     this.dataService.nodeStream.subscribe(e => this.nodeStream = of(e));
     this.dataService.edgeStream.subscribe(e => this.edgeStream = of(e));
 
-    ['id', 'coauthorCount', 'paperCount'].forEach(path => this.nodeFields[path] = this.accessor(path));
+    ['id', 'coauthorCount', 'paperCount', 'areaSize', 'color'].forEach(path => this.nodeFields[path] = this.accessor(path));
     ['id', 'count'].forEach(path => this.edgeFields[path] = this.accessor(path));
   }
 
   accessor<T = any>(field: string): BoundField<T> {
     return simpleField<T>({
-      bfieldId: field, label: field, operator: access(field)
+      bfieldId: field, label: field, operator: access(field), dataType: DataType.Number
     }).getBoundField(field);
   }
 

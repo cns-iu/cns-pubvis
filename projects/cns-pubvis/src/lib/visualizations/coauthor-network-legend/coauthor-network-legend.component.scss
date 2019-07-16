@@ -1,8 +1,28 @@
-.title {
-  margin-left: 8px;
+.legend-group {
+  margin: 10px 8px;
+
+  .title {
+    font-weight: bold;
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
 }
-.value {
-  margin-left: 8px;
-  text-indent: 0px;
-  font-size: 15px;
+
+::ng-deep .dino-area-size-legend {
+  margin: 8px 16px;
+}
+
+::ng-deep .quantitative-legend-wrapper {
+  display: unset !important;
+
+  .quantitative-legend-container {
+    margin: 8px 0px;
+  }
+
+  .gradient-bar {
+    width: 50px !important;
+    height: 180px !important;
+  }
 }
