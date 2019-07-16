@@ -33,6 +33,10 @@ export const formatFullname = map<string, string>(s => {
 export const colorRange = ['#EB5757', '#b71c1c'];
 export const colorScale = new ColorScale(colorRange[0], colorRange[1], '#b3b3b3', -51);
 export const colorScaleNormQuantitative = colorScale.quantitative([1, 100]);
+export const colorLogScaleNormQuantitive = chain(
+  new SizeScale(1, 100, 0, 'log').quantitative([1, 100]),
+  colorScaleNormQuantitative
+);
 export const colorScaleNormQuantitativeStroke = colorScale.quantitativeStrokeColor([1, 100]);
 
 export const greyRange = ['#bdbdbd', '#000000'];

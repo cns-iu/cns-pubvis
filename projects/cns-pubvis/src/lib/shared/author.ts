@@ -3,6 +3,7 @@ import { access, chain, combine, constant, map, Operand } from '@ngx-dino/core';
 import {
   areaSizeLogScaleNormQuantitative,
   areaSizeScaleNormQuantitative,
+  colorLogScaleNormQuantitive,
   colorScaleNormQuantitative,
   colorScaleNormQuantitativeStroke,
   fontSizeScaleNormQuantitative,
@@ -94,7 +95,7 @@ export class Author {
   coauthorCountAreaSize: number;
   @Operand<number>(chain(access('coauthorCountNorm'), fontSizeScaleNormQuantitative), false)
   coauthorCountFontSize: number;
-  @Operand<string>(chain(access('coauthorCountNorm'), colorScaleNormQuantitative), false)
+  @Operand<string>(chain(access('coauthorCountNorm'), colorLogScaleNormQuantitive), false)
   coauthorCountColor: string;
   @Operand<string>(chain(access('coauthorCountNorm'), colorScaleNormQuantitativeStroke), false)
   coauthorCountStrokeColor: string;
