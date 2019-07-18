@@ -13,6 +13,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { CNSPubVisComponent } from './cns-pubvis/cns-pubvis.component';
+import { HomeModule } from './home/home.module';
 import { LightThemeComponent } from './light-theme/light-theme.component';
 import { DatabaseService } from './shared/database.service';
 import { VisualizationsModule } from './visualizations/visualizations.module';
@@ -32,7 +33,8 @@ import { VisualizationsModule } from './visualizations/visualizations.module';
     MatTabsModule,
     MatListModule,
     MatChipsModule,
-    VisualizationsModule
+    VisualizationsModule,
+    HomeModule
   ],
   declarations: [CNSPubVisComponent, LightThemeComponent],
   exports: [CNSPubVisComponent],

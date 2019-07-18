@@ -40,6 +40,8 @@ export class Author {
   hasHighlightedAffiliation: boolean;
   affiliationsByYear: { [year: number]: { [affiliation: string]: boolean } };
 
+  show_label: boolean;
+
   xpos?: number;
   ypos?: number;
 

@@ -1,0 +1,33 @@
+<div class="cns-pubvis-home container">
+  <div class="content-wrapper">
+    <ng-content></ng-content>
+  </div>
+
+  <h2 class="title coauthor-network">Co-Author Network</h2>
+  <p class="description coauthor-network">
+    Description goes here!
+  </p>
+
+  <br />
+
+  <h2 class="title science-map">Science Map</h2>
+  <p class="description science-map">
+    The UCSD map of science and classification system was computed using
+    paper-level data from about 25,000 journals from Elsevier's Scopus and and
+    Thomson Reuters' Web of Science (WoS) for the years 2001-2010. The UCSD map
+    of science assigns the 25,000 journals to 554 subdisciplines that are further
+    aggregated into 13 main disciplines of science. In the map, each discipline
+    has a distinct color (green for 'Biology', brown for 'Earth Sciences', etc.)
+    and a label. (Sub)disciplines that are similar closer to one another on the
+    map. (Sub)disciplines that are especially similar are connected by grey lines.
+    The details of how this map was created are published in PLOS One.
+    DOI: <a href="https://doi.org/10.1371/journal.pone.0039464">10.1371/journal.pone.0039464</a>
+  </p>
+
+  <br />
+  <hr />
+
+  <dino-datatable class="table" [dataStream]="authors" [idField]="authorIdField" [fields]="authorFields"
+                  [sort]="authorSort">
+  </dino-datatable>
+</div>
