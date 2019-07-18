@@ -59,10 +59,13 @@ export class StatisticsService {
 
     // Network statistics
     const coauthorDegreeCounts = Map<string, number>().withMutations((map) => {
-      coauthorsEdges.forEach((edge) => {
-        map.updateIn([edge.author1.id], (count = 0) => count + 1);
-        map.updateIn([edge.author2.id], (count = 0) => count + 1);
+      authors.forEach((author) => {
+        map.set(author.id, author.coauthorCount);
       });
+      // coauthorsEdges.forEach((edge) => {
+      //   map.updateIn([edge.author1.id], (count = 0) => count + 1);
+      //   map.updateIn([edge.author2.id], (count = 0) => count + 1);
+      // });
     });
 
     result.avgDegree = coauthorDegreeCounts
