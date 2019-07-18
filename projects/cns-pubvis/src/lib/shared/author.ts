@@ -3,7 +3,7 @@ import { access, chain, combine, constant, map, Operand } from '@ngx-dino/core';
 import {
   areaSizeLogScaleNormQuantitative,
   areaSizeScaleNormQuantitative,
-  colorLogScaleNormQuantitive,
+  colorLogScaleNormQuantitative,
   colorScaleNormQuantitative,
   colorScaleNormQuantitativeStroke,
   fontSizeScaleNormQuantitative,
@@ -11,8 +11,9 @@ import {
   formatNumber,
   greyScaleNormQuantitative,
   greyScaleNormQuantitativeStroke,
-  norm0to100,
+  norm1to100,
   strokeSizeScaleNormQuantitative,
+  colorLogScaleNormQuantitativeStroke,
 } from '../encoding';
 
 export class AuthorStats {
@@ -48,7 +49,7 @@ export class Author {
     Object.assign(this, data);
   }
 
-  @Operand<number>(access('paperCountAreaSize'), false)
+  @Operand<number>(access('paperCountLogAreaSize'), false)
   areaSize: number;
   @Operand<string>(access('coauthorCountColor'), false)
   color: string;
@@ -74,12 +75,14 @@ export class Author {
   @Operand<string>(map<any, string>(s => s.show_label ? 'right' : ''), true)
   labelPosition: string;
 
-  @Operand<number>(norm0to100('paperCount', 'globalStats.paperCountMax'), false)
+  @Operand<number>(norm1to100('paperCount', 'globalStats.paperCountMax'), false)
   paperCountNorm: number;
   @Operand<string>(chain(access('paperCount'), formatNumber), false)
   paperCountLabel: string;
-  @Operand<number>(chain(access('paperCountNorm'), areaSizeLogScaleNormQuantitative), false)
+  @Operand<number>(chain(access('paperCountNorm'), areaSizeScaleNormQuantitative), false)
   paperCountAreaSize: number;
+  @Operand<number>(chain(access('paperCountNorm'), areaSizeLogScaleNormQuantitative), false)
+  paperCountLogAreaSize: number;
   @Operand<number>(chain(access('paperCountNorm'), fontSizeScaleNormQuantitative), false)
   paperCountFontSize: number;
   @Operand<string>(chain(access('paperCountNorm'), colorScaleNormQuantitative), false)
@@ -87,7 +90,7 @@ export class Author {
   @Operand<string>(chain(access('paperCountNorm'), colorScaleNormQuantitativeStroke), false)
   paperCountStrokeColor: string;
 
-  @Operand<number>(norm0to100('coauthorCount', 'globalStats.coauthorCountMax'), false)
+  @Operand<number>(norm1to100('coauthorCount', 'globalStats.coauthorCountMax'), false)
   coauthorCountNorm: number;
   @Operand<string>(chain(access('coauthorCount'), formatNumber), false)
   coauthorCountLabel: string;
@@ -95,10 +98,14 @@ export class Author {
   coauthorCountAreaSize: number;
   @Operand<number>(chain(access('coauthorCountNorm'), fontSizeScaleNormQuantitative), false)
   coauthorCountFontSize: number;
-  @Operand<string>(chain(access('coauthorCountNorm'), colorLogScaleNormQuantitive), false)
+  @Operand<string>(chain(access('coauthorCountNorm'), colorScaleNormQuantitative), false)
   coauthorCountColor: string;
+  @Operand<string>(chain(access('coauthorCountNorm'), colorLogScaleNormQuantitative), false)
+  coauthorCountLogColor: string;
   @Operand<string>(chain(access('coauthorCountNorm'), colorScaleNormQuantitativeStroke), false)
   coauthorCountStrokeColor: string;
+  @Operand<string>(chain(access('coauthorCountNorm'), colorLogScaleNormQuantitativeStroke), false)
+  coauthorCountLogStrokeColor: string;
 }
 
 export class CoAuthorEdgeStats {
@@ -144,7 +151,7 @@ export class CoAuthorEdge {
   strokeWidth: number;
 
 
-  @Operand<number>(norm0to100('count', 'globalStats.countMax'), false)
+  @Operand<number>(norm1to100('count', 'globalStats.countMax'), false)
   countNorm: number;
   @Operand<string>(chain(access('count'), formatNumber), false)
   countLabel: string;

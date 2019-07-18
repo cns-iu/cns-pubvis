@@ -1,14 +1,11 @@
 import { Component, EventEmitter, Input, Output, OnInit, OnChanges, SimpleChanges } from '@angular/core';
-
-import { Observable } from 'rxjs';
-
+import { Observable, of } from 'rxjs';
 import { BoundField, RawChangeSet } from '@ngx-dino/core';
 
 import { Filter } from '../../shared/filter';
-
-import { subdisciplineIdField, subdisciplineSizeField } from '../shared/science-map/science-map-fields';
-import { ScienceMapDataService } from '../shared/science-map/science-map-data.service';
 import { SubdisciplineWeight } from '../../shared/subdiscipline-weight';
+import { ScienceMapDataService } from '../shared/science-map/science-map-data.service';
+import { subdisciplineIdField, subdisciplineSizeField } from '../shared/science-map/science-map-fields';
 
 @Component({
   selector: 'cns-pubvis-science-map-legend',
@@ -27,7 +24,9 @@ export class ScienceMapLegendComponent implements OnInit, OnChanges {
   nodeLabelToColor: any;
 
   constructor(private dataService: ScienceMapDataService) {
-    this.filteredSubdisciplines = dataService.filteredSubdisciplines;
+    this.dataService.filteredSubdisciplines.asObservable().subscribe((changes) => {
+      this.filteredSubdisciplines = of(changes);
+    });
     dataService.unmappedSubdisciplines.asObservable().subscribe(s => this.unmappedSubdisciplines = s);
   }
 

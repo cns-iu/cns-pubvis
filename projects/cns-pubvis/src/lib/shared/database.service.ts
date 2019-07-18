@@ -52,14 +52,16 @@ export class DatabaseService {
         a.coauthorCount = 0;
         if (a.paperCount > 0) {
           const coauthors = {};
+          let coauthorCount = 0;
           for (const yr of years) {
             for (const authorId of Object.keys(a.coauthorsByYear[yr] || {})) {
-              if (a.id !== authorId) {
+              if (a.id !== authorId && !coauthors[authorId]) {
                 coauthors[authorId] = true;
+                coauthorCount++;
               }
             }
           }
-          a.coauthorCount = Object.keys(coauthors).length;
+          a.coauthorCount = coauthorCount;
         }
 
         a.hasHighlightedAffiliation = false;

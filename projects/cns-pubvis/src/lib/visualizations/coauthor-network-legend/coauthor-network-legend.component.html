@@ -4,14 +4,14 @@
   <dino-color-hue-legend
     [dataStream]="nodeStream"
     [idField]="nodeFields.id"
-    [inputField]="nodeFields.paperCount"
+    [inputField]="nodeFields.coauthorCount"
     [colorField]="nodeFields.color">
   </dino-color-hue-legend>
 </div>
 
 <div class="legend-group">
   <div class="title">Node Size</div>
-  <div class="subtitle">#Publications</div>
+  <div class="subtitle">#Publications (Log Scaled)</div>
   <dino-area-size-legend class="legend"
     [dataStream]="nodeStream"
     [idField]="nodeFields.id"

@@ -2,8 +2,8 @@ import { Author, AuthorStats, CoAuthorEdge, CoAuthorEdgeStats } from './author';
 import { Publication } from './publication';
 
 export class CoAuthorNetwork {
-  readonly authors: Author[] = [];
-  readonly coauthorEdges: CoAuthorEdge[] = [];
+  authors: Author[] = [];
+  coauthorEdges: CoAuthorEdge[] = [];
 
   private id2author: { [id: string]: Author } = {};
   private id2edge: { [id: string]: CoAuthorEdge } = {};
@@ -23,6 +23,9 @@ export class CoAuthorNetwork {
       const a1 = this.getAuthor(edge.source), a2 = this.getAuthor(edge.target);
       this.getEdge(a1, a2);
     });
+
+    // Remove publications with no year.
+    this.publications = this.publications.filter(p => !!p.year);
 
     for (const pub of this.publications) {
       const year = pub.year;
@@ -58,6 +61,20 @@ export class CoAuthorNetwork {
         edge.countsByYear[year] = (edge.countsByYear[year] || 0) + 1;
       }
     }
+
+    // Remove authors with no papers. This can happen when authors are normalized.
+    this.authors = this.authors.filter(a => {
+      if (a.paperCount === 0) {
+        delete this.id2author[a.id];
+      }
+      return a.paperCount > 0;
+    });
+
+    // Remove edges with a missing author. This can happen when authors are normalized.
+    this.coauthorEdges = this.coauthorEdges.filter(e => {
+      return this.id2author[e.author1.id] && this.id2author[e.author2.id];
+    });
+
     this.authors.sort((a, b) => b.paperCount - a.paperCount);
     for (const author of this.authors) {
       author.coauthorCount = 0;

@@ -1,4 +1,3 @@
-import { NumberSymbol } from '@angular/common';
 import { Operator, map, lookup } from '@ngx-dino/core';
 import { scaleLinear, scaleLog } from 'd3-scale';
 
@@ -29,19 +28,24 @@ export class SizeScale {
   quantitative(domain: number[]): Operator<number, number> {
     return map<number, number>(this.getQuantitativeSizeFunction(domain));
   }
-  getQuantitativeSizeFunction(domain: number[]): (number) => number {
+  getQuantitativeSizeFunction(domain: number[]): (n: number) => number {
+    let scaleFunction: (n: number) => number;
     switch (this.quantitativeScaleType) {
-      default:
-      case 'linear' : return scaleLinear<number, number>()
-        .domain(domain).range([this.start, this.end]);
-
       case 'log':
         if (domain[0] === 0) {
           domain[0] = 1e-6;
         }
-        return scaleLog<number, number>()
-        .domain(domain).range([this.start, this.end]);
+        scaleFunction = scaleLog<number, number>()
+          .domain(domain).range([this.start, this.end]);
+        break;
+      case 'linear':
+      default:
+        scaleFunction = scaleLinear<number, number>()
+          .domain(domain).range([this.start, this.end]);
+        break;
     }
+
+    return (n) => n < domain[0] ? this.outOfDomainSize : scaleFunction(n);
   }
 }
 
