@@ -45,7 +45,7 @@ export class FilterComponent implements OnInit {
   ngOnInit() {
     this.service.getDistinct('year').pipe(map((years: string[]) => {
       const sortedYears = years.map(Number)
-        .filter((year) => year !== 0)
+        .filter((year) => !!year)
         .sort((y1, y2) => y1 - y2);
       return [sortedYears[0], sortedYears[sortedYears.length - 1]];
     })).subscribe(([min, max]) => {

@@ -23,7 +23,15 @@ function createStringCompare(path: string): (o1: any, o2: any) => number {
   return (o1, o2) => {
     const s1: string = get(o1, path);
     const s2: string = get(o2, path);
-    return s1.localeCompare(s2);
+    if (s1 && s2) {
+      return s1.localeCompare(s2);
+    } if (!s1 && !s2) {
+      return 0;
+    } else if (!s1) {
+      return -1;
+    } else {
+      return 1;
+    }
   };
 }
 
@@ -42,7 +50,7 @@ export class HomeComponent implements OnChanges {
   );
   authorIdField = createFields([['id']])[0];
   authorFields = createFields([
-    ['label', 'PI', DataType.String],
+    ['label', 'Author', DataType.String],
     ['paperCount', '# Publications', DataType.Number]
   ]);
   authorSort = createStringCompare('id');
