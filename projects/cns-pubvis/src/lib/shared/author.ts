@@ -55,7 +55,7 @@ export class Author {
   areaSize: number;
   @Operand<string>(access('coauthorCountColor'), false)
   color: string;
-  @Operand<string>(map<any, string>(a => a.show_label ? 'black' : a.coauthorCountStrokeColor), false)
+  @Operand<string>(map<any, string>(a => a.show_label ? '#000000' : a.coauthorCountStrokeColor), false)
   strokeColor: string;
   @Operand<[number, number]>(combine([access('xpos'), access('ypos')]), true)
   position: [number, number];

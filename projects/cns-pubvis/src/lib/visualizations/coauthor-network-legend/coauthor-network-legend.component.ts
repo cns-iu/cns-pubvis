@@ -1,18 +1,16 @@
 import { Component, EventEmitter, Input, OnInit, OnChanges, SimpleChanges, Output } from '@angular/core';
 import { Observable, of } from 'rxjs';
-
 import { BoundField, RawChangeSet, access, simpleField, DataType } from '@ngx-dino/core';
 
 import { Filter } from '../../shared/filter';
-
 import { CoauthorNetworkDataService } from '../shared/coauthor-network/coauthor-network-data.service';
-import { colorRange, strokeSizeRange, radiusSizeRange } from '../../encoding';
+import { strokeSizeRange } from '../../encoding';
+
 
 @Component({
   selector: 'cns-pubvis-coauthor-network-legend',
   templateUrl: './coauthor-network-legend.component.html',
-  styleUrls: ['./coauthor-network-legend.component.scss'],
-  providers: [CoauthorNetworkDataService]
+  styleUrls: ['./coauthor-network-legend.component.scss']
 })
 export class CoauthorNetworkLegendComponent implements OnInit, OnChanges {
   @Input() filter: Partial<Filter> = {};
@@ -28,7 +26,10 @@ export class CoauthorNetworkLegendComponent implements OnInit, OnChanges {
   readonly edgeFields: any = {};
 
   constructor(private dataService: CoauthorNetworkDataService) {
-    this.dataService.nodeStream.subscribe(e => this.nodeStream = of(e));
+    this.dataService.nodeStream.subscribe(e => {
+      e = RawChangeSet.fromArray(e.insert.filter(a => a.paperCount > 0));
+      this.nodeStream = of(e);
+    });
     this.dataService.edgeStream.subscribe(e => this.edgeStream = of(e));
 
     ['id', 'coauthorCount', 'paperCount', 'areaSize', 'color'].forEach(path => this.nodeFields[path] = this.accessor(path));

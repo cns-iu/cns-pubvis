@@ -5,7 +5,6 @@ import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { DatatableModule } from '@ngx-dino/datatable';
 import { LegendModule } from '@ngx-dino/legend';
-import { NetworkModule } from '@ngx-dino/network';
 import { ScienceMapModule } from '@ngx-dino/science-map';
 import { NouisliderModule } from 'ng2-nouislider';
 
@@ -19,6 +18,7 @@ import { CoauthorNetworkDataService } from './shared/coauthor-network/coauthor-n
 import { ScienceMapDataService } from './shared/science-map/science-map-data.service';
 import { StatisticsService } from './shared/statistics/statistics.service';
 import { StatisticsComponent } from './statistics/statistics.component';
+import { NetworkMapModule } from '../network-map/network-map.module';
 
 
 @NgModule({
@@ -29,9 +29,9 @@ import { StatisticsComponent } from './statistics/statistics.component';
     MatIconModule,
     NouisliderModule,
     DatatableModule,
-    NetworkModule,
     ScienceMapModule,
     LegendModule,
+    NetworkMapModule
   ],
   exports: [
     FilterComponent,

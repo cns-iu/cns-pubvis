@@ -1,0 +1,68 @@
+<div #tooltipElement class="tooltip"></div>
+<mgl-map
+  [style]="style"
+  [zoom]="[2]"
+  [center]="[0, 0]"
+  [renderWorldCopies]="false"
+  (load)="onMapLoad($event)">
+
+  <!-- Controls -->
+  <mgl-control
+    mglNavigation
+    [showCompass]="true"
+    [showZoom]="true">
+  </mgl-control>
+  <mgl-control
+    mglFullscreen>
+  </mgl-control>
+
+  <!-- Soures -->
+  <mgl-geojson-source
+    id="nodes"
+    [data]="nodesGeoJson">
+  </mgl-geojson-source>
+  <mgl-geojson-source
+    id="edges"
+    [maxzoom]="6"
+    [data]="edgesGeoJson">
+  </mgl-geojson-source>
+
+  <!-- Layers -->
+  <mgl-layer
+    id="edges"
+    source="edges"
+    type="line"
+    [paint]="{
+      'line-color': ['get', 'stroke'],
+      'line-width': ['get', 'strokeWidth'],
+      'line-opacity': ['-', 1, ['get', 'transparency']]
+    }"
+    (click)="edgeClicked($event)">
+  </mgl-layer>
+  <mgl-layer
+    id="nodes"
+    source="nodes"
+    type="symbol"
+    [paint]="{
+      'text-color': '#000'
+    }"
+    [layout]="{
+      'icon-image': ['get', 'icon'],
+      'icon-allow-overlap': true,
+      'symbol-sort-key': ['get', 'size'],
+      'text-field': ['case', ['==', ['get', 'labelPosition'], ''], '', ['get', 'label']],
+      'text-justify': 'auto',
+      'text-variable-anchor': ['top', 'bottom', 'left', 'right'],
+      'text-radial-offset': 1,
+      'text-optional': true,
+      'text-size': 14,
+      'text-allow-overlap': true,
+      'text-font': [
+        'Roboto Regular'
+      ]
+    }"
+    (click)="nodeClicked($event)"
+    (mouseEnter)="onMouseEnter($event)"
+    (mouseLeave)="onMouseLeave($event)">
+  </mgl-layer>
+</mgl-map>

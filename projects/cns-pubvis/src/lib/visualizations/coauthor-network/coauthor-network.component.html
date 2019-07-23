@@ -1,15 +1,34 @@
-<dino-network [autoresize]="true" [nodeStream]="nodeStream" [nodeIdField]="nodeFields.id"
-              [nodePositionField]="nodeFields.position" [nodeSymbolField]="nodeFields.symbol"
-              [nodeColorField]="nodeFields.color" [nodeSizeField]="nodeFields.areaSize"
-              [nodeStrokeField]="nodeFields.strokeColor" [nodeStrokeWidthField]="nodeFields.strokeWidth"
-              [nodeTooltipField]="nodeFields.tooltip" [nodeLabelField]="nodeFields.label"
-              [nodeLabelPositionField]="nodeFields.labelPosition" [nodeTransparencyField]="nodeFields.transparency"
-              [strokeTransparencyField]="nodeFields.strokeTransparency" [nodePulseField]="nodeFields.pulse"
-              [edgeStream]="edgeStream" [edgeIdField]="edgeFields.id" [edgeSourceField]="edgeFields.sourcePosition"
-              [edgeTargetField]="edgeFields.targetPosition" [edgeStrokeField]="edgeFields.color"
-              [edgeStrokeWidthField]="edgeFields.strokeWidth" [edgeTransparencyField]="edgeFields.transparency"
-              (nodeClick)="setTableData($event.data); table.open()">
-</dino-network>
-<cns-pubvis-bottom-sheet-table class="table" [title]="tableTitle" [data]="tableData" [idField]="tableFields[2]"
-                               [fields]="tableFields" [sort]="sort" #table>
+<cns-pubvis-network-map
+  [nodeStream]="nodeStream"
+  [nodeIdField]="nodeFields.id"
+  [nodePositionField]="nodeFields.position"
+  [nodeSymbolField]="nodeFields.symbol"
+  [nodeColorField]="nodeFields.color"
+  [nodeSizeField]="nodeFields.areaSize"
+  [nodeStrokeField]="nodeFields.strokeColor"
+  [nodeStrokeWidthField]="nodeFields.strokeWidth"
+  [nodeTooltipField]="nodeFields.tooltip"
+  [nodeLabelField]="nodeFields.label"
+  [nodeLabelPositionField]="nodeFields.labelPosition"
+  [nodeTransparencyField]="nodeFields.transparency"
+  [strokeTransparencyField]="nodeFields.strokeTransparency"
+  [nodePulseField]="nodeFields.pulse"
+
+  [edgeStream]="edgeStream"
+  [edgeIdField]="edgeFields.id"
+  [edgeSourceField]="edgeFields.sourcePosition"
+  [edgeTargetField]="edgeFields.targetPosition"
+  [edgeStrokeField]="edgeFields.color"
+  [edgeStrokeWidthField]="edgeFields.strokeWidth"
+  [edgeTransparencyField]="edgeFields.transparency"
+  (nodeClick)="setTableData($event.data); table.open()">
+</cns-pubvis-network-map>
+<cns-pubvis-bottom-sheet-table
+  class="table"
+  [title]="tableTitle"
+  [data]="tableData"
+  [idField]="tableFields[2]"
+  [fields]="tableFields"
+  [sort]="sort"
+  #table>
 </cns-pubvis-bottom-sheet-table>

@@ -12,8 +12,7 @@ import { CoauthorNetworkDataService } from '../shared/coauthor-network/coauthor-
 @Component({
   selector: 'cns-pubvis-coauthor-network',
   templateUrl: './coauthor-network.component.html',
-  styleUrls: ['./coauthor-network.component.sass'],
-  providers: [CoauthorNetworkDataService]
+  styleUrls: ['./coauthor-network.component.sass']
 })
 export class CoauthorNetworkComponent implements OnInit, OnChanges {
   @Input() filter: Partial<Filter> = {};
@@ -88,7 +87,6 @@ export class CoauthorNetworkComponent implements OnInit, OnChanges {
   ngOnChanges(changes: SimpleChanges) {
     if (('filter' in changes) && this.filter) {
       const filter: Partial<Filter> = Object.assign({}, this.filter, {limit: this.numCoAuthors});
-      console.log(JSON.stringify(filter));
       this.dataService.fetchData(filter).subscribe({ complete: () =>
         this.filterUpdateComplete.emit(true)
       });
