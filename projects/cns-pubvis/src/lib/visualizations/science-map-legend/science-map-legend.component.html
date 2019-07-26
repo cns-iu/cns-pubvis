@@ -1,11 +1,15 @@
-<dino-color-legend
-    title="Node Color"
-    encoding="Disciplines"
-    margin="16px 0 16px 8px"
-    legendType="qualitative"
-
-    [colorMapping]="nodeLabelToColor">
-</dino-color-legend>
+<div class="legend-group">
+  <div class="title">Node Color</div>
+  <div class="subtitle">Disciplines</div>
+  <div class="legend">
+    <dino-color-legend
+      title=""
+      encoding=""
+      legendType="qualitative"
+      [colorMapping]="nodeLabelToColor">
+    </dino-color-legend>
+  </div>
+</div>
 
 <dino-node-size-legend
     title="Node Size"
@@ -18,5 +22,5 @@
     [nodeSizeRange]="[0.5, 14]">
 </dino-node-size-legend>
 
-<div class="title"># Not Science-Mapped</div>
-<div class="value">{{unmappedSubdisciplines?.weight | number}} Publications</div>
+<div class="sm-title"># Not Science-Mapped</div>
+<div class="sm-value">{{unmappedSubdisciplines?.weight | number}} Publications</div>

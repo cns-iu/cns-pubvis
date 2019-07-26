@@ -1,7 +1,43 @@
-.title {
+.legend-group {
+  margin: 16px 8px;
+
+  .title {
+    font-weight: bold;
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+
+  .legend {
+    margin: 8px 16px;
+  }
+
+  .legend-row {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    line-height: 1.5rem;
+
+    .mark {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .label {
+      margin-left: .5rem;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+  }
+}
+
+.sm-title {
   margin-left: 8px;
 }
-.value {
+.sm-value {
   margin-left: 8px;
   text-indent: 0px;
   font-size: 15px;
