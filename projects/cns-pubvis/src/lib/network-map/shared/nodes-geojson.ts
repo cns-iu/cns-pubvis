@@ -1,10 +1,10 @@
 import { idSymbol } from '@ngx-dino/core';
-import { Node, BuiltinSymbolTypes } from '@ngx-dino/network';
+import { Node } from '@ngx-dino/network';
 import { FeatureCollection, Geometry, Feature } from 'geojson';
 import { pick, round } from 'lodash';
 
 import { Cartesian2dProjection } from './cartesian-2d-projection';
-import { IconConfig } from './data-driven-icons';
+import { IconConfig, BuiltinSymbolTypes } from './data-driven-icon';
 
 
 export class NodesGeojson implements FeatureCollection<Geometry> {

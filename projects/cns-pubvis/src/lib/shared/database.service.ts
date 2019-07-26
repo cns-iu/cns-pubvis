@@ -131,10 +131,11 @@ export class DatabaseService {
     return this.getPublications(filter).pipe(map((publications) => {
       const weights = sumAgg<Publication>(publications, 'subdisciplines', 'subd_id', 'weight');
       const results: SubdisciplineWeight[] = [];
-      for (const subd_id in weights) {
-        if (weights.hasOwnProperty(subd_id)) {
-          results.push({subd_id: <number>(<any>subd_id), weight: weights[subd_id]});
-        }
+      for (let subd_id = -1; subd_id < 555; subd_id++) {
+        weights[subd_id] = weights[subd_id] || 0.0001;
+      }
+      for (const subd_id of Object.keys(weights)) {
+        results.push({subd_id: Number(subd_id), weight: weights[subd_id]});
       }
       return results;
     }), delay(1));

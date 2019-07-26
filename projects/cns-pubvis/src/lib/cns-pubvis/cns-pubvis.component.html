@@ -14,17 +14,19 @@
       class="sidenav"
       mode="side"
       [(opened)]="openState">
-      <p class="sidenavTitle">Filters</p>
+      <p class="sidenavTitle">Publication Year Range</p>
       <hr>
       <cns-pubvis-filter (filterChange)="filter = $event"></cns-pubvis-filter>
 
       <div [hidden]="tabIndex === 0 || tabIndex === 3" class="sidenavLegend">
         <p class="sidenavTitle">Legend</p>
         <hr>
-        <cns-pubvis-coauthor-network-legend *ngIf="tabIndex === 1" [filter]="filter">
-        </cns-pubvis-coauthor-network-legend>
-        <cns-pubvis-science-map-legend *ngIf="tabIndex === 2" [filter]="filter">
-        </cns-pubvis-science-map-legend>
+        <p class="legends">
+          <cns-pubvis-coauthor-network-legend *ngIf="tabIndex === 1" [filter]="filter">
+          </cns-pubvis-coauthor-network-legend>
+          <cns-pubvis-science-map-legend *ngIf="tabIndex === 2" [filter]="filter">
+          </cns-pubvis-science-map-legend>
+        </p>
       </div>
     </mat-sidenav>
 

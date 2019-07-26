@@ -1,2 +1,42 @@
 <img class="loading" *ngIf="!dataLoaded" src="assets/loading.png" />
-<cns-pubvis [title]="title" theme="light-theme" *ngIf="dataLoaded"></cns-pubvis>
+<cns-pubvis [title]="title" theme="light-theme" *ngIf="dataLoaded">
+  <h2 class="title coauthor-network">Co-Author Network</h2>
+  <p class="description coauthor-network">
+    The co-author network was created from a list of publications.
+    Each author is shown as either a circle or a triangle based on whether
+    they had an affiliation with one of the selected organizations during
+    the time period selected. The size of the author's symbol is based on
+    the number of publications they had during that time period. The color
+    is based on the number of co-authors they had during that time period.
+    Their symbol is labeled if they are one of the selected authors to highlight.
+    Each line represents a co-author relationship where they have
+    published at least one paper together during the selected time period. The
+    thickness of the line is based on the number of publications they authored
+    together during the selected time period.
+  </p>
+
+  <br />
+
+  <h2 class="title science-map">Science Map</h2>
+  <p class="description science-map">
+    The UCSD map of science and classification system was computed using
+    paper-level data from about 25,000 journals from Elsevier's Scopus and and
+    Thomson Reuters' Web of Science (WoS) for the years 2001-2010. The UCSD map
+    of science assigns the 25,000 journals to 554 subdisciplines that are further
+    aggregated into 13 main disciplines of science. In the map, each discipline
+    has a distinct color (green for 'Biology', brown for 'Earth Sciences', etc.)
+    and a label. (Sub)disciplines that are similar closer to one another on the
+    map. (Sub)disciplines that are especially similar are connected by grey lines.
+    <br/><br/>
+    The details of how this map was created are published in PLOS One.
+    DOI: <a href="https://doi.org/10.1371/journal.pone.0039464">10.1371/journal.pone.0039464</a>
+  </p>
+
+  <br />
+
+  <h2 class="title statistics">Statistics</h2>
+  <p class="description statistics">
+    Sample statistics about the publications, authors, and co-authorship are presented.
+    The statistics update to reflect the time period selected.
+  </p>
+</cns-pubvis>

@@ -1,6 +1,6 @@
 {
     "name": "cns-pubvis",
-    "version": "0.7.0",
+    "version": "0.8.0",
     "description": "CNS Publications Visualizer",
     "homepage": "https://github.com/cns-iu/cns-pubvis",
     "bugs": "https://github.com/cns-iu/cns-puvis/issues",
@@ -14,7 +14,8 @@
         "visualization",
         "typescript",
         "d3",
-        "vega",
+        "mapbox",
+        "ngx-dino",
         "publications",
         "wos"
     ],
@@ -28,7 +29,7 @@
         "cns-pubvis-loader": "./cns-pubvis-loader"
     },
     "peerDependencies": {
-        "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
-        "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+        "@angular/common": "^8.0.0",
+        "@angular/core": "^8.0.0"
     }
 }

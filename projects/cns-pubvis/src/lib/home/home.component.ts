@@ -1,11 +1,12 @@
 import { Component, EventEmitter, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
-import { access, BoundField, DataType, simpleField } from '@ngx-dino/core';
+import { access, BoundField, DataType, simpleField, RawChangeSet } from '@ngx-dino/core';
 import { get } from 'lodash';
+import { ReplaySubject, of, Observable } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
 
 import { DatabaseService } from '../shared/database.service';
 import { Filter } from '../shared/filter';
-import { ReplaySubject } from 'rxjs';
+
 
 function createFields(spec: [string, string?, DataType?][]): BoundField<any>[] {
   return spec.map(([path, label, type]) => {
@@ -25,7 +26,7 @@ function createStringCompare(path: string): (o1: any, o2: any) => number {
     const s2: string = get(o2, path);
     if (s1 && s2) {
       return s1.localeCompare(s2);
-    } if (!s1 && !s2) {
+    } else if (!s1 && !s2) {
       return 0;
     } else if (!s1) {
       return -1;
@@ -40,22 +41,28 @@ function createStringCompare(path: string): (o1: any, o2: any) => number {
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnChanges {
+export class HomeComponent implements OnInit, OnChanges {
   @Input() filter: Partial<Filter>;
   private filterEvents = new ReplaySubject<Partial<Filter>>(1);
 
-  authors = this.filterEvents.pipe(
-    switchMap(f => this.database.getAuthors(f)),
-    map(authors => authors.filter(a => a.show_label))
-  );
+  authors: Observable<RawChangeSet>;
   authorIdField = createFields([['id']])[0];
   authorFields = createFields([
     ['label', 'Author', DataType.String],
     ['paperCount', '# Publications', DataType.Number]
   ]);
-  authorSort = createStringCompare('id');
+  authorSort = createStringCompare('0'); // YUCK.
 
   constructor(private database: DatabaseService) { }
+
+  ngOnInit(): void {
+    this.filterEvents.pipe(
+      switchMap(f => this.database.getAuthors(f)),
+      map(authors => authors.filter(a => a.show_label))
+    ).subscribe((authors) =>
+      this.authors = of(RawChangeSet.fromArray(authors))
+    );
+  }
 
   ngOnChanges(changes: SimpleChanges) {
     if ('filter' in changes) {

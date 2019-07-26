@@ -1,6 +1,6 @@
 <dino-science-map #scienceMap [subdisciplineSizeField]="subdisciplineSize"
                   [subdisciplineIdField]="subdisciplineID" [dataStream]="filteredSubdisciplines"
-                  [nodeSizeRange]="[3, 12]" [width]="width" [height]="height" [autoresize]="true" [enableTooltip]="true"
+                  [nodeSizeRange]="[0.5, 14]" [width]="width" [height]="height" [autoresize]="true" [enableTooltip]="true"
                   (nodeClick)="setTableData($event.data, $event.processed); table.open()">
 </dino-science-map>
 <cns-pubvis-bottom-sheet-table class="table" [title]="tableTitle" [data]="tableData" [idField]="tableFields[1]"

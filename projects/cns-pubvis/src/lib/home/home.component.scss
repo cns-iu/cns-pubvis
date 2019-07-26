@@ -1,3 +1,7 @@
 .cns-pubvis-home.container {
   margin: 1rem;
 }
+
+::ng-deep .cns-pubvis-home .datatable {
+  max-height: calc(50vh - 64px) !important;
+}
