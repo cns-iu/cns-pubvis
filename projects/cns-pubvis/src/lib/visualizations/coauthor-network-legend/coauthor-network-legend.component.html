@@ -1,50 +1,58 @@
 <div class="legend-group">
   <div class="title">Node Shape</div>
   <div class="subtitle">Affiliation</div>
-  <div class="legend-row">
-    <div class="mark">
-      <img title="circle" alt="circle" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAABDUlEQVRYhe3VT0pCURSA8d8CIsSoVTRwExLhPEhFXEEQQvOkDQTSgyD3ULgPB65DQtxAg/Mclui9Lxzcb3Lgce/j4/y7FAqFwukyRoUVFnWsMPpPiQG2eEcX17io4039fYP7pkWe8IyzPefOMcVjkyKvB96ZYZJbZCAycgxT9DO62Npfmt9o4TuXyFg0ZQpzDNNVYly7if+4Ff2TzEqMbQodLDO4WIg9ksIlPjO4nFZmKrFZU+jJ1DMj6dP0IXZVFjZixR9DG+tcIsSjNz3y7gvuMrogHr1D6/6Gh9wiOyYiQ60959oiI42J7OiLt2YuNmsHV3XsiWZda6A0fzEUZVviq44zGaemUCgUcvMDFRouerbLXTQAAAAASUVORK5CYII=">
+  <div class="legend">
+    <div class="legend-row">
+      <div class="mark">
+        <img title="circle" alt="circle" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAABDUlEQVRYhe3VT0pCURSA8d8CIsSoVTRwExLhPEhFXEEQQvOkDQTSgyD3ULgPB65DQtxAg/Mclui9Lxzcb3Lgce/j4/y7FAqFwukyRoUVFnWsMPpPiQG2eEcX17io4039fYP7pkWe8IyzPefOMcVjkyKvB96ZYZJbZCAycgxT9DO62Npfmt9o4TuXyFg0ZQpzDNNVYly7if+4Ff2TzEqMbQodLDO4WIg9ksIlPjO4nFZmKrFZU+jJ1DMj6dP0IXZVFjZixR9DG+tcIsSjNz3y7gvuMrogHr1D6/6Gh9wiOyYiQ60959oiI42J7OiLt2YuNmsHV3XsiWZda6A0fzEUZVviq44zGaemUCgUcvMDFRouerbLXTQAAAAASUVORK5CYII=">
+      </div>
+      <!-- FIXME: make generic/configurable -->
+      <div class="label">Indiana University</div>
     </div>
-    <!-- FIXME: make generic/configurable -->
-    <div class="label">Indiana University</div>
-  </div>
-  <div class="legend-row">
-    <div class="mark">
-      <img title="triangle" alt="triangle" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAABIUlEQVRYhe3Uz0ZEYRjH8U9kal8RkUi0SN1AEZFIRNQFTERE1K5FWlf6Q0RdQDGKRKJE3UBpEYlERLUvIi06bYbRzJxz5kTny+N9vc/ze3xXLyn/hAzWgjNxFnAanInSgOfg/oL6BF3sYjS4j2EnKZEenOe9XaA7ARdX6Mx768JlpUXGsVWgt41sBV28o6ZArxZvlRJZwswvM7NYjFukBfdFzj6gOT4VDjFY5OwQDuISGcBRiZlj9Mfg4g6tJWbacBu1yDRWysyuYyoqkWp8hNzxiaoIXGxiIuSOSWyEFenAddglATdoD7PgDL2RqNCHk3LDI8hFJPLDPobLCT6hMVoXTXgsNTSPZdTFUKuYK1Ykgz28xlg5319GSkpKSsqf4AtaXkB3RXpLHgAAAABJRU5ErkJggg==">
+    <div class="legend-row">
+      <div class="mark">
+        <img title="triangle" alt="triangle" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAABIUlEQVRYhe3Uz0ZEYRjH8U9kal8RkUi0SN1AEZFIRNQFTERE1K5FWlf6Q0RdQDGKRKJE3UBpEYlERLUvIi06bYbRzJxz5kTny+N9vc/ze3xXLyn/hAzWgjNxFnAanInSgOfg/oL6BF3sYjS4j2EnKZEenOe9XaA7ARdX6Mx768JlpUXGsVWgt41sBV28o6ZArxZvlRJZwswvM7NYjFukBfdFzj6gOT4VDjFY5OwQDuISGcBRiZlj9Mfg4g6tJWbacBu1yDRWysyuYyoqkWp8hNzxiaoIXGxiIuSOSWyEFenAddglATdoD7PgDL2RqNCHk3LDI8hFJPLDPobLCT6hMVoXTXgsNTSPZdTFUKuYK1Ykgz28xlg5319GSkpKSsqf4AtaXkB3RXpLHgAAAABJRU5ErkJggg==">
+      </div>
+      <div class="label">Other Organizations</div>
     </div>
-    <div class="label">Other Organizations</div>
   </div>
 </div>
 
 <div class="legend-group">
   <div class="title">Node Color</div>
   <div class="subtitle">#Co-Authors</div>
-  <dino-color-hue-legend
-    [dataStream]="nodeStream"
-    [idField]="nodeFields.id"
-    [inputField]="nodeFields.coauthorCount"
-    [colorField]="nodeFields.color">
-  </dino-color-hue-legend>
+  <div class="legend">
+    <dino-color-hue-legend
+      [dataStream]="nodeStream"
+      [idField]="nodeFields.id"
+      [inputField]="nodeFields.coauthorCount"
+      [colorField]="nodeFields.color">
+    </dino-color-hue-legend>
+  </div>
 </div>
 
 <div class="legend-group">
   <div class="title">Node Size</div>
   <div class="subtitle">#Publications (Log Scaled)</div>
-  <dino-area-size-legend class="legend"
-    [dataStream]="nodeStream"
-    [idField]="nodeFields.id"
-    [inputField]="nodeFields.paperCount"
-    [areaSizeField]="nodeFields.areaSize">
-  </dino-area-size-legend>
+  <div class="legend">
+    <dino-area-size-legend
+      [dataStream]="nodeStream"
+      [idField]="nodeFields.id"
+      [inputField]="nodeFields.paperCount"
+      [areaSizeField]="nodeFields.areaSize">
+    </dino-area-size-legend>
+  </div>
 </div>
 
-<dino-edge-size-legend
-  title="Edge Size"
-  encoding="#Joint Publications"
-  margin="10px 0 10px 8px"
-
-  [dataStream]="edgeStream"
-  [edgeIdField]="edgeFields.id"
-  [edgeSizeField]="edgeFields.count"
-  [edgeSizeRange]="edgeSizeRange">
-</dino-edge-size-legend>
+<div class="legend-group">
+  <div class="title">Edge Size</div>
+  <div class="subtitle">#Joint Publications</div>
+  <div class="legend">
+    <dino-stroke-width-legend
+      [dataStream]="edgeStream"
+      [idField]="edgeFields.id"
+      [inputField]="edgeFields.count"
+      [strokeWidthField]="edgeFields.strokeWidth">
+    </dino-stroke-width-legend>
+  </div>
+</div>

@@ -33,7 +33,7 @@ export class CoauthorNetworkLegendComponent implements OnInit, OnChanges {
     this.dataService.edgeStream.subscribe(e => this.edgeStream = of(e));
 
     ['id', 'coauthorCount', 'paperCount', 'areaSize', 'color'].forEach(path => this.nodeFields[path] = this.accessor(path));
-    ['id', 'count'].forEach(path => this.edgeFields[path] = this.accessor(path));
+    ['id', 'count', 'strokeWidth'].forEach(path => this.edgeFields[path] = this.accessor(path));
   }
 
   accessor<T = any>(field: string): BoundField<T> {

@@ -9,6 +9,10 @@
     font-size: 15px;
   }
 
+  .legend {
+    margin: 8px 16px;
+  }
+
   .legend-row {
     display: flex;
     flex-flow: row nowrap;
@@ -28,10 +32,6 @@
       overflow: hidden;
     }
   }
-}
-
-::ng-deep .dino-area-size-legend {
-  margin: 8px 16px;
 }
 
 ::ng-deep .quantitative-legend-wrapper {
